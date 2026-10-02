@@ -546,7 +546,7 @@ def formular_oferta(doc, L):
       align="j")
     P(doc, "Data: ", None, before=8)
     P(doc, f"{FIRMA['admin']}, în calitate de administrator, legal autorizat să semnez oferta pentru și în numele "
-           f"{FIRMA['denumire']}.", align="j")
+           f"{FIRMA['denumire']}", align="j")
     P(doc, "OPERATOR ECONOMIC", after=0)
     P(doc, B(FIRMA["denumire"]), after=0)
     P(doc, "Semnătura autorizată și ștampila")
@@ -858,7 +858,7 @@ def genereaza_xlsx(cheie):
     gr.cell(k, 1, "Valoare executată pe săptămână (lei)").font = bold
     for w in range(sapt):
         col = openpyxl.utils.get_column_letter(3 + w)
-        gr.cell(k, 3 + w, f"=SUMPRODUCT($B$5:$B${k - 1},{col}5:{col}{k - 1})").number_format = LEI
+        gr.cell(k, 3 + w, "=" + "+".join(f"$B${i}*N({col}{i})" for i in range(5, k))).number_format = LEI
     gr.column_dimensions["A"].width = 55
     gr.column_dimensions["B"].width = 16
 
