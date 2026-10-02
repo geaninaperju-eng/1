@@ -4,11 +4,12 @@
 Model: dosarul „Lucrări acoperiș hala producție S.D.F. Onești” (ADV1550112), depus pe 01.10.2026.
 Ieșire: output/*.docx și output/*.xlsx
 
-Datele care depind de caietul de sarcini (cantități F3, durată, cod CPV, ora limită,
-persoane cu funcții de decizie) se tipăresc ca spații de completat, evidențiate cu galben.
+Datele din anunț și din caietul de sarcini (nr. anunț, CPV, oră, durată, garanție, articolele și
+cantitățile F3) sunt completate; prețurile și ce rămâne de verificat sunt evidențiate cu galben.
 """
-import copy
+import re
 import sys
+import zipfile
 from pathlib import Path
 
 import openpyxl
@@ -44,6 +45,16 @@ EXPERIENTA = [
      "05.03.2024 – 04.04.2024", "PV de recepție nr. 2453 / 04.04.2024"),
 ]
 
+
+def B(text):
+    return (text, {"b": True})
+
+
+def Y(text):
+    """Text propus, de verificat – evidențiat cu galben."""
+    return (text, {"y": True})
+
+
 LICITATII = {
     "dofteana": {
         "fisier": "Parc_Dofteana",
@@ -51,39 +62,217 @@ LICITATII = {
         "autoritate": "REGIA NAȚIONALĂ A PĂDURILOR – ROMSILVA prin DIRECȚIA SILVICĂ BACĂU",
         "autoritate_scurt": "Direcția Silvică Bacău",
         "email_depunere": "anunturi.seap@bacau.rosilva.ro",
-        "nr_anunt": None,
+        "nr_anunt": "ADV1549806",
         "data_anunt": "01.10.2026",
         "termen": "07.10.2026",
-        "ora": None,
-        "cpv": None,
-        "valoare": 252390.00,
-        "amplasament": "Clădirea din Parcul Dofteana, comuna Dofteana, județul Bacău (Direcția Silvică Bacău)",
+        "ora": "10:00",
+        "cpv": "45261910-6 – Reparare de acoperișuri",
+        "valoare": 252389.69,
+        "amplasament": "Clădirea Parc Dofteana, Ocolul Silvic Tg. Ocna, localitatea Dofteana, județul Bacău",
         "procedura": "cumpărare directă",
-        "durata": None,
+        "durata": "60 (șaizeci) de zile calendaristice de la ordinul de începere (2 luni, conform caietului de "
+                  "sarcini și art. 5.1 din contract), dar nu mai târziu de 31.12.2026",
+        "garantie": "24",
         "catalog": True,
         "decizie": "Pădureanu Leonard – Director, Bitir Ioan – Director Tehnic, Tabacaru Ion – Director Economic",
         "experienta": False,
         "acces": False,
+        "vizita": False,
+        "lucrari": [
+            "demontarea învelitorii existente din țiglă ceramică, cu recuperarea materialului, a sistemului pluvial, a "
+            "instalației de paratrăsnet, a șorțurilor, capacelor și tubulaturii ceramice a coșurilor, a lambriului de la "
+            "intradosul streașinii și a elementelor din lemn degradate (astereală, șipci, contrașipci, pazii), precum și "
+            "a firidei electrice în vederea repoziționării;",
+            "reparații locale la căpriori și grinzi prin eclisare și completare de secțiune, reparații și consolidări "
+            "locale la lucarne, terasă și elementele decorative din lemn;",
+            "curățarea vopselei vechi de pe elementele din lemn prin sablare laser, chituire, tratament de profunzime, "
+            "impregnare și vopsire cu lazură opacă microporoasă în 2 straturi;",
+            "înlocuirea generală a asterelei din scândură de rășinoase de 25 mm, montarea șipcilor 50×50 mm și a "
+            "contrașipcilor 30×50 mm, tratate fungicid/insecticid;",
+            "montarea foliei anticondens de minimum 120 g/mp și a învelitorii noi din țiglă ceramică Creaton "
+            "Melodie/Balance, roșu cupru angobat (sau echivalent), cu accesoriile de fixare, conform NP 069-2014;",
+            "coamă ventilată din țiglă ceramică, dolii, șorțuri de streașină, de fronton și de racord la perete (lucarne) "
+            "din tablă prevopsită de 0,50 mm și opritori de zăpadă;",
+            "lambriu și pazii din lemn de larice termotratat clasa A la intradosul streașinii, prinse cu șuruburi inox;",
+            "refacerea instalației de paratrăsnet (I 7-2011, SR EN 62305), cu buletin PRAM, și repoziționarea firidei "
+            "electrice, de către electrician autorizat ANRE;",
+            "sistem pluvial din tablă prevopsită: jgheab 125 mm, burlan Ø90 mm, colțuri, racorduri, prelungitoare, coturi, "
+            "coliere și descărcare liberă la sol;",
+            "coșuri de fum (4 buc., cca. 31,90 mp): reparații cu cărămidă plină și mortar CT29, refacerea rosturilor, "
+            "hidrofobizare, tubulatură inox AISI 304 Ø180 mm, coronamente și șorțuri de coș din tablă prevopsită;",
+            "transportul și manipularea materialelor pe șantier și evacuarea deșeurilor din demontări, colectate selectiv "
+            "(OUG 92/2021, HG 856/2002).",
+        ],
+        "etape": [
+            "Etapa 1 – Predarea amplasamentului, constatarea stării elementelor existente, mostre și fișe tehnice pentru "
+            "țiglă, accesorii și tinichigerie, supuse aprobării beneficiarului înainte de montaj.",
+            "Etapa 2 – Demontări pe tronsoane: învelitoare cu recuperarea țiglei, sistem pluvial, paratrăsnet, șorțuri și "
+            "tubulatură coșuri, lambriu, elemente din lemn degradate, firida electrică.",
+            "Etapa 3 – Verificarea structurii din lemn după decopertare; reparații prin eclisare, consolidări la lucarne și "
+            "terasă (orice situație neprevăzută se comunică beneficiarului înainte de intervenție).",
+            "Etapa 4 – Sablare laser, chituire, tratament și vopsire a elementelor din lemn păstrate.",
+            "Etapa 5 – Astereală nouă, folie anticondens, șipci și contrașipci, țiglă ceramică, coamă ventilată.",
+            "Etapa 6 – Tinichigerie (dolii, șorțuri de streașină, fronton și racord), opritori de zăpadă.",
+            "Etapa 7 – Coșuri de fum: reparații zidărie, rosturi, hidrofobizare, tubulatură inox, coronamente și șorțuri.",
+            "Etapa 8 – Lambriu și pazii din larice termotratat; sistem pluvial.",
+            "Etapa 9 – Paratrăsnet și firida electrică; măsurători PRAM; curățenie, evacuarea deșeurilor, recepție.",
+        ],
+        "materiale": [
+            "țiglă ceramică ", Y("Creaton Melodie/Balance, roșu cupru angobat (sau echivalent)"),
+            ", cu piese speciale, coamă, capete de coamă și bandă de coamă ventilată din aceeași gamă; folie anticondens "
+            "minimum 120 g/mp; tablă prevopsită de minimum 0,50 mm, finisaj mat, pentru dolii, șorțuri și coronamente; "
+            "sistem pluvial din tablă prevopsită (jgheab 125 mm, burlan Ø90 mm); cherestea de rășinoase uscată tehnic și "
+            "tratată; lambriu și pazii din larice termotratat clasa A; tubulatură inox AISI 304 Ø180 mm; conductor OL-Zn Ø8 mm "
+            "pentru paratrăsnet.",
+        ],
+        "f3": [
+            ("02 Demontări", [
+                ("DEM001", "Demontare învelitoare țiglă ceramică existentă, cu recuperarea materialului", "mp", 600),
+                ("DEM002", "Demontare sistem pluvial existent (jgheaburi, burlane, cârlige, brățări)", "ml", 175.82),
+                ("DEM003", "Demontare instalație paratrăsnet existentă inclusiv console și elemente de fixare", "LS", 1),
+                ("DEM004", "Demontare șorțuri, capace și elemente metalice aferente coșurilor de fum", "buc", 4),
+                ("DEM005", "Demontare tubulatură ceramică existentă coș fum", "ml", 40),
+                ("DEM006", "Demontare lambriu intrados streașină existent", "mp", 155),
+                ("DEM007", "Demontare elemente lemn degradate (astereală, șipci, contrașipci, pazii)", "mp", 600),
+                ("DEM008", "Demontare firidă electrică și elemente suport existente pentru repoziționare", "buc", 1),
+                ("DEM09", "Transportul manual al materialelor, în spații libere și neaccidentate, prin purtat direct pe "
+                          "primii 10 m distanță orizontală, cu încărcătura de cel mult 50 kg, la o distanță de cel mult 60 m",
+                 "t", 19),
+            ]),
+            ("03 Reparații suport lemn", [
+                ("REP001", "Reparații locale căpriori și grinzi lemn existente prin eclisare și completare secțiune în pod",
+                 "mc", 1),
+                ("REP002", "Reparații locale lucarne, terasă existentă, elemente decor lemn (include și consolidări "
+                           "structură de lemn)", "buc", 4),
+                ("REP003", "Curățare strat vechi de vopsea de pe elemente lemn prin sablare laser", "ora", 200),
+                ("REP004", "Chituire, tratament de profunzime, impregnare și vopsire lemn exterior vechi după curățare laser",
+                 "mp", 50),
+            ]),
+            ("04 Înlocuire învelitoare", [
+                ("ACS001", "Înlocuire generală astereală existentă din scândură rășinoase de 25 mm", "mp", 600),
+                ("ACS002", "Montaj șipci 50×50 mm și contrașipci rășinoase 30×50 mm", "mp", 600),
+                ("ACS004", "Montaj folie anticondens 120 g/mp", "mp", 600),
+                ("ACS005", "Montaj țiglă ceramică inclusiv accesorii de fixare", "mp", 600),
+                ("ACS006", "Montaj coamă ventilată din țiglă ceramică", "ml", 92.18),
+                ("ACS007", "Montaj dolie din tablă prevopsită", "ml", 26.63),
+                ("ACS008", "Montaj șorț streașină din tablă prevopsită", "ml", 110),
+                ("ACS009", "Montaj șorț fronton din tablă prevopsită", "ml", 9.80),
+                ("ACS010", "Montaj opritori de zăpadă pentru țigla ceramică", "ml", 70),
+                ("ACS012", "Montaj șorț de racord la perete (lucarne)", "ml", 25.40),
+            ]),
+            ("05 Montaj intrados streașină, pazii din lemn", [
+                ("ACS001", "Montaj lambriu lemn – larice termotratat, clasa A", "mp", 155),
+                ("ACS003", "Montaj pazie lemn – larice termotratat, clasa A", "ml", 105),
+            ]),
+            ("06 Lucrări la instalații electrice și de protecție la trăsnet", [
+                ("ACS012", "Refacere instalație paratrăsnet acoperiș", "LS", 1),
+                ("ACS013", "Repoziționare firidă electrică și adaptare suport", "buc", 1),
+            ]),
+            ("07 Tinichigerie și pluvial", [
+                ("TIN001", "Montaj jgheab 125 mm RAL 8019", "ml", 116.01),
+                ("TIN002", "Montaj burlan 90 mm / 3 m", "ml", 60),
+                ("TIN003", "Montaj colț exterior jgheab 90 grade 125", "buc", 5),
+                ("TIN004", "Montaj racord jgheab-burlan 125/90", "buc", 12),
+                ("TIN005", "Montaj prelungitor intermediar burlan 90 (lungime produs 1 m / 1,2 m)", "buc", 12),
+                ("TIN006", "Montaj coturi burlan 60 grade", "buc", 24),
+                ("TIN007", "Montaj cot evacuare burlan", "buc", 12),
+                ("TIN008", "Montaj coliere burlan 90", "buc", 24),
+                ("TIN009", "Descărcare ape pluviale liber la sol", "buc", 12),
+            ]),
+            ("08 Coșuri de fum", [
+                ("COS000", "Reparații și curățare exterioară coșuri de fum existente", "mp", 31.90),
+                ("COS001", "Conservare finisaj original coș fum, refacere rosturi și hidrofobizare", "mp", 31.90),
+                ("COS002", "Montaj tubulatură coș fum inox", "buc", 4),
+                ("COS003", "Confecționare coronament coș din tablă 0,50 mm RAL 7016, ieșire 40 cm față de coș", "buc", 4),
+                ("COS004", "Montaj șorțuri coș – set complet față, laterale, spate", "buc", 4),
+            ]),
+        ],
+        "note_f3": "Sursa: F3 din documentația de atribuire (Deviz nr. 8076/1/22.07.2026, devizele 02–08). F3-ul "
+                   "original are și resursele pe fiecare articol (material, manoperă, utilaj, transport); C6–C9 se "
+                   "completează din aceleași liste. Culorile din F3 (jgheab RAL 8019, șorț streașină RAL 8017, "
+                   "coronament RAL 7016) diferă de caietul de sarcini (roșu cupru) – de clarificat.",
     },
     "c4": {
         "fisier": "Cazarma_3589_Pav_C4",
         "titlu": "Lucrări de reparații acoperiș pav. C4, cazarma 3589 București",
-        "autoritate": None,  # unitatea militară care administrează cazarma 3589
-        "autoritate_scurt": None,
-        "email_depunere": None,
-        "nr_anunt": None,
+        "autoritate": "INSTITUTUL NAȚIONAL DE CERCETARE-DEZVOLTARE MEDICO-MILITARĂ „CANTACUZINO”",
+        "autoritate_scurt": "INCDMM „Cantacuzino”",
+        "email_depunere": "office.cantacuzino@mapn.ro",
+        "nr_anunt": "ADV1550471",
         "data_anunt": "30.09.2026",
         "termen": "05.10.2026",
-        "ora": None,
-        "cpv": None,
-        "valoare": 77677.00,
-        "amplasament": "Pavilionul C4 din cazarma 3589, municipiul București",
+        "ora": "14:00",
+        "cpv": "45453000-7 – Lucrări de reparații generale și de renovare",
+        "valoare": 77677.10,
+        "amplasament": "Pavilionul C4 din cazarma 3589, INCDMM „Cantacuzino”, Splaiul Independenței nr. 103, sector 5, "
+                       "București",
         "procedura": "cumpărare directă",
-        "durata": None,
+        "durata": "45 (patruzeci și cinci) de zile calendaristice de la data emiterii ordinului de începere",
+        "garantie": "36",
         "catalog": True,
-        "decizie": None,
+        "decizie": Y("de completat – anunțul nu le nominalizează; documentația este aprobată de Col. medic "
+                     "Conf. Univ. Dr. Cătălin-Gabriel Smarandache (comandant) și avizată de Col. Mihai-Andrei "
+                     "Părăușanu (director administrativ) – cereți lista la bap@cantacuzino.ro"),
         "experienta": True,
         "acces": True,
+        "vizita": True,
+        "lucrari": [
+            "desfacerea învelitorii din olane / țigle solzi sau profilate pe șipci, inclusiv desfacerea șipcilor doliilor "
+            "(480 mp), cu sortarea materialelor recuperabile;",
+            "învelitoare nouă din țiglă solzi sau olane, cu coame așezate pe șipci de lemn, inclusiv doliile, paziile și "
+            "șorțurile (480 mp), cu verificarea și înlocuirea foliei anticondens unde este cazul;",
+            "reparații la învelitoarea din țigle profilate, cu țigle și coame în mortar de ciment, la acoperiș fără "
+            "astereală (65 mp);",
+            "jgheaburi din tablă zincată 0,5 mm, semirotunde D=12,5 cm, executate pe șantier, cu colțuri, capace și ștuț "
+            "de racord (70 m);",
+            "panouri parazăpezi din metal cu ancore prinse în căpriori (70 buc.);",
+            "etanșarea / fixarea protecțiilor din tablă la îmbinări cu inele din bandă de aluminiu 1×20 mm (60 m);",
+            "plasă metalică de protecție pe cadru de oțel, cu ușă din plasă (64 mp);",
+            "manipularea materialelor cu macaraua (35 t) și schelă metalică de susținere 3–6 m la parter (64 mp);",
+            "gestionarea deșeurilor rezultate (depozitare, sortare și evacuare).",
+        ],
+        "etape": [
+            "Etapa 1 – Vizita la amplasament (obligatorie înainte de ofertare), predarea amplasamentului, aprobarea listei "
+            "nominale de acces în cazarmă.",
+            "Etapa 2 – Montarea schelei, a sistemelor de siguranță și a jgheaburilor de evacuare a molozului.",
+            "Etapa 3 – Desfacerea tinichigeriei și a învelitorii, de la coamă spre streașină, pe fâșii; sortarea țiglelor "
+            "recuperabile; coborârea molozului în siguranță (fără aruncare de pe acoperiș).",
+            "Etapa 4 – Verificarea și repararea foliei anticondens, șipci noi, montarea țiglelor de la streașină spre coamă, "
+            "cu fixare mecanică perimetrală; dolii din tablă zincată de minimum 0,5 mm.",
+            "Etapa 5 – Reparațiile la zona fără astereală: înlocuirea țiglelor profilate rupte, coame în mortar M100.",
+            "Etapa 6 – Jgheaburi semirotunde D=12,5 cm cu pantă de 2–5 mm/m, cârlige la 60–80 cm, îmbinări cositorite.",
+            "Etapa 7 – Parazăpezi pe rândul 2–3 de țigle, ancorate în căpriori; inele de etanșare din bandă Al.",
+            "Etapa 8 – Plasa metalică de protecție pe cadru de oțel, cu ușă; curățenie, evacuarea deșeurilor, recepție.",
+        ],
+        "materiale": [
+            "țiglă solzi / olane ", Y("compatibile cu învelitoarea existentă (model și culoare de stabilit la vizită)"),
+            ", coame, folie anticondens, șipci de rășinoase tratate; tablă zincată la cald de 0,5 mm pentru jgheaburi și "
+            "dolii, aliaj Staniu-Plumb LP30 pentru lipituri; parazăpezi din oțel galvanizat la cald; bandă de aluminiu "
+            "1×20 mm; mortar de ciment-var M100; plasă metalică și profile din oțel pentru cadru.",
+        ],
+        "f3": [
+            ("Pavilion C4 – antemăsurătoare (Anexa 1)", [
+                ("RPCT26B1", "Desfacerea învelitorilor din olane, țigle solzi sau profilate pe șipci, incl. desfacerea "
+                             "șipcilor doliilor", "mp", 480),
+                ("RPCI01C", "Învelitori din țiglă solzi sau olane, coame așezate pe șipci de lemn, inclusiv doliile, "
+                            "paziile, șorțurile", "mp", 480),
+                ("RPCI05XB", "Reparații la învelitori de țigle profilate cu țigle și coame din mortar de ciment la "
+                             "acoperiș fără astereală", "mp", 65),
+                ("RCSI18A", "Jgheaburi tablă zincată 0,5 mm, semirotunde, D=12,5 cm, exec. pe șantier, incl. "
+                            "colțuri/capace/ștuț racord", "m", 70),
+                ("RPDE13A", "Montarea panourilor de parazăpezi din metal, cu ancore", "buc", 70),
+                ("RPIZD31B", "Etanșarea sau fixarea protecțiilor din tablă la îmbinări sau a izolației cu inele din "
+                             "bandă Al 1×20 mm", "m", 60),
+                ("W1C11B1", "Plasă metalică de protecție pe cadru de oțel, ușă din plasă – montare", "mp", 64),
+                ("TRB22E6B", "Manipulat materiale și elemente prefabricate cu macara turn, greutatea sarcinii la "
+                             "fiecare transport = 0,5–1 t", "tonă", 35),
+                ("CB41B1", "Susțineri din schelă metalică, sarcina 1000 daN/mp, cu înălțimea de 3–6 m, la parter",
+                 "mp", 64),
+            ]),
+        ],
+        "note_f3": "Sursa: Antemăsurătoarea pav. C4 (Anexa 1, întocmit ing. Iulia Păunescu) din documentația anunțului "
+                   "ADV1550471. Specificațiile tehnice (Anexa 2) cer: termen de execuție 45 de zile calendaristice, "
+                   "garanție 36 de luni, vizitarea obligatorie a amplasamentului.",
     },
 }
 
@@ -139,15 +328,6 @@ def P(doc, *parts, align=None, size=None, after=None, before=None):
     if before is not None:
         par.paragraph_format.space_before = Pt(before)
     return par
-
-
-def B(text):
-    return (text, {"b": True})
-
-
-def Y(text):
-    """Text propus, de verificat – evidențiat cu galben."""
-    return (text, {"y": True})
 
 
 def bullet(doc, *parts):
@@ -259,36 +439,23 @@ def propunere_tehnica(doc, L):
         ["Ofertant", f"{FIRMA['denumire']}, CUI {FIRMA['cui']}, {FIRMA['rc']}"],
         ["Amplasament", L["amplasament"]],
         ["Obiect", [f"Execuția lucrărilor „{L['titlu']}”, conform caietului de sarcini și listei de cantități F3"]],
-        ["Durata de execuție ofertată", [L["durata"] if L["durata"] else None,
-                                         " zile lucrătoare de la ordinul de începere, în limita duratei din caietul de sarcini"]],
+        ["Durata de execuție ofertată", [L["durata"]]],
         ["Începerea lucrărilor", "În maximum 72 de ore de la emiterea ordinului de începere"],
-        ["Garanția lucrărilor", [Y("24"), " de luni calendaristice de la recepția la terminarea lucrărilor"]],
+        ["Garanția lucrărilor", [L["garantie"], " de luni calendaristice de la recepția la terminarea lucrărilor"]],
         ["Distanța sediu – amplasament", [Y(L["distanta"])]],
     ], widths=[5, 12])
 
     P(doc, B("2. Obiectul lucrărilor"))
     P(doc, "Ne angajăm să executăm integral lucrările prevăzute în caietul de sarcini și în lista de cantități F3. "
            "Lucrările cuprind, în principal:", align="j")
-    for t in [
-        "desfacerea învelitorii existente, a elementelor de tinichigerie și a sistemului pluvial degradat, cu sortarea "
-        "materialelor recuperabile și predarea lor beneficiarului, pe bază de proces-verbal;",
-        "verificarea structurii de rezistență a acoperișului (șarpantă, astereală, rigle) și înlocuirea elementelor din "
-        "lemn degradate, cu lemn de rășinoase de calitate conform ST 014-1996;",
-        "ignifugarea și tratarea antiseptică a elementelor din lemn noi și a celor păstrate;",
-        "montarea foliei anticondens și a învelitorii noi din tablă tip țiglă, fixată cu șuruburi autoforante cu garnitură;",
-        "lucrări de tinichigerie: coame cu profile de etanșare, borduri de fronton și de streașină, dolii și "
-        "racordări la coșuri și calcane, opritori de zăpadă;",
-        "montarea sistemului de colectare și evacuare a apelor pluviale (jgheaburi, burlane și accesorii);",
-        "transportul materialelor și evacuarea molozului și a deșeurilor la depozite autorizate.",
-    ]:
+    for t in L["lucrari"]:
         bullet(doc, t)
-    P(doc, Y("Lista de mai sus se aliniază la articolele din F3 după primirea caietului de sarcini."), size=9)
-
+    
     P(doc, B("3. Organizarea de șantier"), before=6)
     for t in [
         "delimitarea și semnalizarea zonei de lucru și a zonei de depozitare a materialelor, stabilite împreună cu "
         "reprezentantul beneficiarului, astfel încât activitatea din clădire să fie afectată cât mai puțin;",
-        "depozitarea materialelor pe suporți, ferite de umezeală, tabla fiind păstrată în ambalajul original până la montaj;",
+        "depozitarea materialelor pe paleți și suporți, ferite de umezeală și de lovituri, în ambalajul original până la montaj;",
         "schele, sisteme de acces la înălțime și protecții colective (balustrade, plase, linii de ancorare);",
         "acoperirea provizorie cu prelate a zonelor descoperite, la sfârșitul fiecărei zile și în caz de precipitații;",
         "colectarea molozului în containere sau zone delimitate și evacuarea lui periodică.",
@@ -301,26 +468,14 @@ def propunere_tehnica(doc, L):
     P(doc, B("4. Tehnologia de execuție"), before=6)
     P(doc, "Lucrările se execută pe tronsoane, astfel încât suprafața descoperită simultan să poată fi închisă în aceeași zi.",
       align="j")
-    for t in [
-        "Etapa 1 – Predarea amplasamentului, trasarea și constatarea stării elementelor existente, consemnate în "
-        "procesul-verbal de predare-primire a amplasamentului.",
-        "Etapa 2 – Desfacerea învelitoarei existente, a tinichigeriei și a jgheaburilor, pe tronsoane.",
-        "Etapa 3 – Remedierea structurii din lemn: înlocuirea căpriorilor, a asterelei și a riglelor degradate, "
-        "verificarea pantelor și a planeității.",
-        "Etapa 4 – Ignifugarea elementelor din lemn, conform fișei tehnice a produsului.",
-        "Etapa 5 – Montarea foliei anticondens și a tablei tip țiglă, de la streașină spre coamă.",
-        "Etapa 6 – Tinichigeria (coame, borduri, dolii, racorduri) și opritorii de zăpadă.",
-        "Etapa 7 – Sistemul pluvial: cârlige, jgheaburi cu pantă spre racorduri, burlane cu coliere, etanșarea îmbinărilor.",
-        "Etapa 8 – Curățenia generală, evacuarea molozului, verificarea etanșeității și notificarea scrisă a "
-        "beneficiarului pentru recepție.",
-    ]:
+    for t in L["etape"]:
         bullet(doc, t)
 
     P(doc, B("5. Resurse umane"), before=6)
     table(doc, ["Funcție / meserie", "Număr", "Observații"], [
         ["Șef de echipă / conducător tehnic al lucrării", "1", "Răspunde de execuție și calitate"],
         ["Dulgheri", Y("3"), "Structură lemn, astereală, rigle"],
-        ["Montatori învelitori metalice / tinichigii", Y("3"), "Învelitoare, tinichigerie, sistem pluvial"],
+        ["Montatori acoperiș / tinichigii", Y("3"), "Învelitoare, tinichigerie, sistem pluvial"],
         ["Muncitori necalificați", Y("2"), "Desfaceri, manipulare materiale, curățenie"],
         ["Conducător auto", "1", "Transport materiale și moloz"],
     ], widths=[7, 2, 8])
@@ -337,11 +492,9 @@ def propunere_tehnica(doc, L):
 
     P(doc, B("7. Materiale"), before=6)
     P(doc, "Materialele respectă standardele și normele în vigoare în România și sunt însoțite de certificat de calitate "
-           "sau declarație de performanță, certificat de garanție și, după caz, agrement tehnic. Învelitoarea, "
-           "tinichigeria și sistemul pluvial sunt din gama BILKA: ",
-      Y("tablă tip țiglă CLASIC mat 0,50 mm, culoare RAL ____"),
-      ", coame, borduri și opritori de zăpadă mat 0,50 mm, jgheab 125 mm și burlan 90 mm colorate. "
-      "Specificațiile care indică o anumită marcă se consideră însoțite de mențiunea „sau echivalent”.", align="j")
+           "sau declarație de performanță, certificat de garanție și, după caz, agrement tehnic. Principalele materiale: ",
+      *L["materiale"],
+      " Specificațiile care indică o anumită marcă se consideră însoțite de mențiunea „sau echivalent”.", align="j")
 
     P(doc, B("8. Asigurarea calității și recepția"), before=6)
     for t in ["verificarea materialelor la livrare, pe baza documentelor de însoțire;",
@@ -372,11 +525,11 @@ def formular_oferta(doc, L):
     P(doc, f"Titlul contractului: „{L['titlu']}”", after=8)
     P(doc, f"1. Examinând documentația de atribuire, subsemnații, reprezentanți ai ofertantului {FIRMA['denumire']}, "
            f"declarăm că, în conformitate cu prevederile și cerințele cuprinse în documentația mai sus menționată, vom "
-           f"executa „{L['titlu']}” pentru suma de ", None, " lei fără T.V.A., la care se adaugă T.V.A. în valoare de ",
-      None, " lei, în conformitate cu anexa la formularul de ofertă.", align="j")
+           f"executa „{L['titlu']}” pentru suma de ", suma(L, "total"), " lei fără T.V.A., la care se adaugă T.V.A. în "
+      "valoare de ", suma(L, "tva"), " lei, în conformitate cu anexa la formularul de ofertă.", align="j")
     P(doc, "2. Ne angajăm ca, în cazul în care oferta noastră este stabilită câștigătoare, să începem lucrările cât mai "
            "curând posibil după primirea ordinului de începere și să terminăm lucrările în ",
-      L["durata"], " zile lucrătoare.", align="j")
+      L["durata"], ".", align="j")
     P(doc, "3. Ne angajăm să menținem această ofertă valabilă pentru o durată de ", Y("90 (nouăzeci)"),
       " de zile, respectiv până la data de ", None, ", și ea va rămâne obligatorie pentru noi și poate fi acceptată "
       "oricând înainte de expirarea perioadei de valabilitate.", align="j")
@@ -393,19 +546,41 @@ def formular_oferta(doc, L):
       align="j")
     P(doc, "Data: ", None, before=8)
     P(doc, f"{FIRMA['admin']}, în calitate de administrator, legal autorizat să semnez oferta pentru și în numele "
-           f"{FIRMA['denumire']}.", align="j")
+           f"{FIRMA['denumire']}", align="j")
     P(doc, "OPERATOR ECONOMIC", after=0)
     P(doc, B(FIRMA["denumire"]), after=0)
     P(doc, "Semnătura autorizată și ștampila")
+
+
+def suma(L, cheie):
+    c = L.get("calc")
+    if not c:
+        return None
+    v = c["total"] + c["tva"] if cheie == "total_tva" else c[cheie]
+    return lei(v)
+
+
+def capitole(L):
+    return [cap for cap, _ in L["f3"]] if len(L["f3"]) > 1 else []
+
+
+def suma_cap(L, cap):
+    """Valoarea capitolului cu CAM, indirecte și profit repartizate proporțional (ca în foaia Grafic)."""
+    c = L.get("calc")
+    if not c:
+        return None
+    directe = sum(sum(v.values()) for cp, *_, v in c["linii"] if cp == cap)
+    return lei(round(directe / c["directe"] * c["total"], 2))
 
 
 def anexa_oferta(doc, L):
     P(doc, B("ANEXA LA FORMULARUL DE OFERTĂ"), align="c", size=13, after=10)
     P(doc, f"Titlul contractului: „{L['titlu']}”", after=8)
     table(doc, ["Denumire", "Valoare lei (fără T.V.A.)"], [
-        [f"{L['titlu']} – total general deviz ofertă", None],
-        ["T.V.A. 21%", None],
-        ["Total cu T.V.A.", None],
+        *[[cap, suma_cap(L, cap)] for cap in capitole(L)],
+        [B("Total general deviz ofertă"), [B(suma(L, "total"))] if L.get("calc") else None],
+        ["T.V.A. 21%", suma(L, "tva")],
+        [B("Total cu T.V.A."), [B(suma(L, "total_tva"))] if L.get("calc") else None],
     ], widths=[12, 5])
     P(doc, f"Valoarea estimată de autoritatea contractantă: {lei(L['valoare'])} lei fără T.V.A. Oferta nu o poate depăși.",
       size=9)
@@ -540,6 +715,8 @@ def genereaza_docx(cheie):
                  "Lista lucrărilor similare executate, cu documente constatatoare",
                  "Lista nominală a personalului și a autovehiculelor pentru acces în cazarmă"]
         sectiuni += [decl_164_165_167, experienta, lista_personal]
+    if L.get("vizita"):
+        opis.insert(3, "Confirmarea vizitării amplasamentului (obligatorie – fără ea oferta nu este luată în considerare)")
     scrisoare(doc, L, opis)
     for s in sectiuni:
         page_break(doc)
@@ -548,55 +725,180 @@ def genereaza_docx(cheie):
     OUT.mkdir(exist_ok=True)
     path = OUT / f"Dosar_oferta_BILZI_{L['fisier']}.docx"
     doc.save(path)
+    compacteaza_docx(path)
     return path
+
+
+def compacteaza_docx(path):
+    """Scoate din șablonul python-docx părțile nefolosite (stylesWithEffects, miniatura), ca fișierul să fie mic."""
+    scoase = ("word/stylesWithEffects.xml", "docProps/thumbnail.jpeg")
+    with zipfile.ZipFile(path) as z:
+        parti = {n: z.read(n) for n in z.namelist() if n not in scoase}
+    for n in ("[Content_Types].xml", "_rels/.rels", "word/_rels/document.xml.rels"):
+        x = parti[n].decode("utf-8")
+        x = re.sub(r'<Override[^>]*(stylesWithEffects|thumbnail)[^>]*/>', "", x)
+        x = re.sub(r'<Relationship[^>]*(stylesWithEffects|thumbnail)[^>]*/>', "", x)
+        parti[n] = x.encode("utf-8")
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+        for n, data in parti.items():
+            z.writestr(n, data)
 
 
 # ---------------------------------------------------------------- propunere financiară (xlsx)
 
 GALBEN = PatternFill("solid", fgColor="FFFF00")
+GRI = PatternFill("solid", fgColor="D9E2F3")
+SUBTOTAL = PatternFill("solid", fgColor="EDEDED")
+LEI = '#,##0.00'
 
 
-def genereaza_xlsx(cheie, model):
-    """Pornește de la foaia de calcul Onești (formule F3→Analiza→C6–C9→Grafic) și o pregătește
-    pentru noua licitație: titluri, valoare estimată, cantități F3 golite (de completat din caietul de sarcini)."""
+def genereaza_xlsx(cheie):
+    """F3 cu articolele și cantitățile din documentația de atribuire; prețurile unitare (galben) se completează,
+    totalurile, TVA-ul și graficul de execuție se calculează din formule."""
     L = LICITATII[cheie]
-    wb = openpyxl.load_workbook(model)
-    titlu_vechi = "Lucrări acoperiș hala producție S.D.F. Onești"
-    benef = L["autoritate_scurt"] or "____________"
-    for ws in wb:
-        for row in ws.iter_rows():
-            for c in row:
-                if isinstance(c.value, str) and not c.value.startswith("="):
-                    v = c.value
-                    v = v.replace(f"Obiectiv: {titlu_vechi} – Beneficiar: R.N.P. Romsilva, Direcția Silvică Bacău",
-                                  f"Obiectiv: {L['titlu']} – Beneficiar: {benef}")
-                    v = v.replace(titlu_vechi, L["titlu"])
-                    v = v.replace("(Romsilva – DS Bacău, ADV1550112)", f"({benef})")
-                    v = v.replace("05.10.2026, ora 09:00", f"{L['termen']}, ora ____")
-                    v = v.replace("anunturi.seap@bacau.rosilva.ro", L["email_depunere"] or "____________")
-                    v = v.replace("199.506,08", lei(L["valoare"]))
-                    c.value = v
-    f3 = wb["F3"]
-    f3["N48"] = L["valoare"]
-    for r in range(7, 38):
-        if f3.cell(r, 5).value is not None:
-            f3.cell(r, 5).value = None
-            f3.cell(r, 5).fill = GALBEN
-    f3["C51"] = ("Cantitățile (coloana E) se copiază din F3-ul anexat la caietul de sarcini. Articolele, consumurile din "
-                 "Analiza și prețurile se ajustează după F3 – articolele actuale sunt cele de la Onești.")
-    f3["C51"].font = Font(bold=True, color="C00000")
-    f3["C52"] = "Atenție: verificați dacă F3 conține desfacerea învelitorii existente și evacuarea molozului."
-    f3["E43"] = 0.25
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "F3"
+    bold = Font(bold=True)
+    ws["A1"] = FIRMA["denumire"]
+    ws["A1"].font = bold
+    ws["A2"] = f"Obiectiv: {L['titlu']} – Beneficiar: {L['autoritate_scurt']}"
+    ws["A3"] = "FORMULAR F3 – Lista cu cantitățile de lucrări pe categorii de lucrări (cu prețuri)"
+    ws["A3"].font = Font(bold=True, size=13)
+    hdr = ["Nr.", "Cod articol", "Capitol de lucrări", "U.M.", "Cantitate", "Preț unitar fără TVA (lei)",
+           "Total fără TVA (lei)"]
+    for c, h in enumerate(hdr, 1):
+        cell = ws.cell(5, c, h)
+        cell.font = bold
+        cell.fill = GRI
+    r = 6
+    subtotaluri, capitole = [], []
+    for cap, articole in L["f3"]:
+        ws.cell(r, 1, cap).font = bold
+        r += 1
+        first = r
+        for n, (cod, den, um, cant) in enumerate(articole, 1):
+            ws.cell(r, 1, n)
+            ws.cell(r, 2, cod)
+            ws.cell(r, 3, den)
+            ws.cell(r, 4, um)
+            ws.cell(r, 5, cant).number_format = '#,##0.00'
+            ws.cell(r, 6).fill = GALBEN
+            ws.cell(r, 6).number_format = LEI
+            ws.cell(r, 7, f"=ROUND(E{r}*F{r},2)").number_format = LEI
+            r += 1
+        ws.cell(r, 3, f"Total {cap}").font = bold
+        ws.cell(r, 7, f"=SUM(G{first}:G{r - 1})").number_format = LEI
+        for c in range(1, 8):
+            ws.cell(r, c).fill = SUBTOTAL
+        subtotaluri.append(f"G{r}")
+        capitole.append((cap, f"F3!G{r}"))
+        r += 2
+    tot = r
+    ws.cell(r, 3, "TOTAL GENERAL fără TVA").font = bold
+    ws.cell(r, 7, "=" + "+".join(subtotaluri)).number_format = LEI
+    ws.cell(r + 1, 3, "TVA 21%")
+    ws.cell(r + 1, 7, f"=ROUND(G{r}*0.21,2)").number_format = LEI
+    ws.cell(r + 2, 3, "TOTAL GENERAL cu TVA").font = bold
+    ws.cell(r + 2, 7, f"=G{r}+G{r + 1}").number_format = LEI
+    ws.cell(r + 4, 3, "Valoarea estimată de autoritatea contractantă (fără TVA) – oferta nu o poate depăși")
+    ws.cell(r + 4, 7, L["valoare"]).number_format = LEI
+    ws.cell(r + 5, 3, "Diferență față de valoarea estimată (trebuie să fie ≥ 0)")
+    ws.cell(r + 5, 7, f"=G{r + 4}-G{tot}").number_format = LEI
+    ws.cell(r + 7, 1, "Notă: " + L["note_f3"]).font = Font(italic=True, size=9)
+    ws.cell(r + 8, 1, "Prețurile unitare includ materialele, manopera, utilajele, transportul, cheltuielile indirecte și "
+                      "profitul. Se completează doar celulele galbene.").font = Font(italic=True, size=9)
+    ws.cell(r + 10, 1, f"Data: ____________        {FIRMA['admin']} – administrator, semnătura și ștampila")
+    for col, w in zip("ABCDEFG", [6, 11, 70, 7, 11, 16, 18]):
+        ws.column_dimensions[col].width = w
+    for row in ws.iter_rows(min_row=6, max_row=r, max_col=3):
+        row[2].alignment = openpyxl.styles.Alignment(wrap_text=True, vertical="top")
+
+    # Anexa la formularul de ofertă
+    an = wb.create_sheet("Anexa oferta")
+    an["A1"] = "ANEXA LA FORMULARUL DE OFERTĂ"
+    an["A1"].font = Font(bold=True, size=13)
+    an["A2"] = f"Titlul contractului: „{L['titlu']}”"
+    an["A4"], an["B4"] = "Denumire", "Valoare lei (fără TVA)"
+    an["A4"].font = an["B4"].font = bold
+    for k, (cap, ref) in enumerate(capitole, 5):
+        an.cell(k, 1, cap)
+        an.cell(k, 2, f"={ref}").number_format = LEI
+    k = 5 + len(capitole)
+    an.cell(k, 1, "TOTAL fără TVA").font = bold
+    an.cell(k, 2, f"=F3!G{tot}").number_format = LEI
+    an.cell(k + 1, 1, "TVA 21%")
+    an.cell(k + 1, 2, f"=F3!G{tot + 1}").number_format = LEI
+    an.cell(k + 2, 1, "TOTAL cu TVA").font = bold
+    an.cell(k + 2, 2, f"=F3!G{tot + 2}").number_format = LEI
+    an.column_dimensions["A"].width = 70
+    an.column_dimensions["B"].width = 22
+
+    # Grafic de execuție fizic și valoric (procente pe săptămâni, de completat)
+    gr = wb.create_sheet("Grafic")
+    sapt = L["saptamani"]
+    gr["A1"] = "GRAFIC DE EXECUȚIE FIZIC ȘI VALORIC"
+    gr["A1"].font = Font(bold=True, size=13)
+    gr["A2"] = f"Durata: {L['durata']}. În celulele galbene se trece procentul din capitol executat în fiecare săptămână."
+    gr.cell(4, 1, "Capitol").font = bold
+    gr.cell(4, 2, "Valoare (lei)").font = bold
+    for w in range(sapt):
+        gr.cell(4, 3 + w, f"S{w + 1}").font = bold
+    gr.cell(4, 3 + sapt, "Total %").font = bold
+    for k, (cap, ref) in enumerate(capitole, 5):
+        gr.cell(k, 1, cap)
+        gr.cell(k, 2, f"={ref}").number_format = LEI
+        for w in range(sapt):
+            gr.cell(k, 3 + w).fill = GALBEN
+            gr.cell(k, 3 + w).number_format = '0%'
+        c0 = openpyxl.utils.get_column_letter(3)
+        c1 = openpyxl.utils.get_column_letter(2 + sapt)
+        gr.cell(k, 3 + sapt, f"=SUM({c0}{k}:{c1}{k})").number_format = '0%'
+    k = 5 + len(capitole)
+    gr.cell(k, 1, "Valoare executată pe săptămână (lei)").font = bold
+    for w in range(sapt):
+        col = openpyxl.utils.get_column_letter(3 + w)
+        gr.cell(k, 3 + w, "=" + "+".join(f"$B${i}*N({col}{i})" for i in range(5, k))).number_format = LEI
+    gr.column_dimensions["A"].width = 55
+    gr.column_dimensions["B"].width = 16
+
+    OUT.mkdir(exist_ok=True)
     path = OUT / f"Propunere_financiara_BILZI_{L['fisier']}.xlsx"
     wb.save(path)
     return path
 
 
 if __name__ == "__main__":
-    model = Path(sys.argv[1]) if len(sys.argv) > 1 else None
     LICITATII["dofteana"]["distanta"] = "cca. 190 km (Buzău – Focșani – Onești – Dofteana)"
     LICITATII["c4"]["distanta"] = "cca. 115 km (Buzău – București)"
+    LICITATII["dofteana"]["saptamani"] = 9
+    LICITATII["c4"]["saptamani"] = 7
+    import oferta_financiara as ofin
+    import analize_bilzi
+    LICITATII["c4"]["analize"] = analize_bilzi.C4
+    LICITATII["dofteana"]["analize"] = analize_bilzi.scaleaza_manopera(
+        analize_bilzi.DOFTEANA, LICITATII["dofteana"]["f3"], analize_bilzi.TINTE_MANOPERA_DOFTEANA)
+    LICITATII["c4"]["durata_scurt"] = "45 zile calendaristice (7 săptămâni)"
+    LICITATII["dofteana"]["durata_scurt"] = "60 zile calendaristice (9 săptămâni)"
+    # repartizarea procentuală pe săptămâni, pe capitole (în ordinea din F3)
+    LICITATII["c4"]["grafic"] = [[0.15, 0.20, 0.20, 0.20, 0.15, 0.10, 0.0]]
+    LICITATII["dofteana"]["grafic"] = [
+        [0.40, 0.40, 0.20, 0, 0, 0, 0, 0, 0],          # demontări
+        [0, 0.25, 0.35, 0.30, 0.10, 0, 0, 0, 0],       # reparații lemn
+        [0, 0, 0.15, 0.20, 0.20, 0.20, 0.15, 0.10, 0],  # învelitoare
+        [0, 0, 0, 0, 0, 0.30, 0.40, 0.30, 0],          # lambriu, pazii
+        [0.20, 0, 0, 0, 0, 0, 0, 0.40, 0.40],          # paratrăsnet, firidă
+        [0, 0, 0, 0, 0, 0, 0.40, 0.40, 0.20],          # tinichigerie, pluvial
+        [0, 0, 0.20, 0.30, 0.30, 0.20, 0, 0, 0],       # coșuri
+    ]
+    resurse = ofin.citeste_resurse()
+    OUT.mkdir(exist_ok=True)
     for k in LICITATII:
+        L = LICITATII[k]
+        adaos, calc = ofin.alege_adaos(L, resurse, indirecte=L.get("indirecte", 0.05))
+        L["calc"] = calc
+        p = ofin.genereaza(L, FIRMA, resurse, OUT / f"Propunere_financiara_BILZI_{L['fisier']}.xlsx", adaos,
+                           L.get("indirecte", 0.05), calc)
         print(genereaza_docx(k))
-        if model:
-            print(genereaza_xlsx(k, model))
+        print(p, f"adaos {adaos:.1%}", f"total {calc['total']:,.2f} / estimat {L['valoare']:,.2f}",
+              f"= {calc['total'] / L['valoare']:.1%}", "directe", round(calc['directe']))
