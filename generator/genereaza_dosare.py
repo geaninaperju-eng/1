@@ -414,7 +414,14 @@ def doc_nota_estimativa(d, nr):
       "a contractului s-a stabilit pe baza bugetului indicativ aprobat prin contractul de finanțare și a ofertelor de preț care au stat la baza "
       "fundamentării cererii de finanțare, după cum urmează:", align="j")
     of = a.get("oferte_comparative") or []
-    rows = [[str(i), o.get("furnizor"), o.get("nr_data_oferta"), lei(o.get("valoare_lei_fara_tva") or (o.get("valoare_fara_tva") if (o.get("moneda") or "lei").lower() in ("lei", "ron") else None)) or (f"{lei(o.get('valoare_fara_tva'))} {o.get('moneda')}" if o.get("valoare_fara_tva") else None)] for i, o in enumerate(of, 1)]
+    curs = d["proiect"].get("curs_eur")
+    rows = []
+    for i, o in enumerate(of, 1):
+        v = _ofv(o, curs)
+        eur = (o.get("moneda") or "").lower() in ("eur", "euro")
+        txt = (f"{lei(v)} lei" + (f" ({lei(o['valoare_fara_tva'])} EUR)" if eur else "")) if v else \
+            (f"{lei(o['valoare_fara_tva'])} {o.get('moneda') or ''}".strip() if o.get("valoare_fara_tva") else None)
+        rows.append([str(i), o.get("furnizor"), o.get("nr_data_oferta"), txt])
     if not rows:
         rows = [[str(i), None, None, None] for i in (1, 2, 3)]
     table(doc, ["Nr.", "Operator economic", "Ofertă nr./data", "Valoare fără TVA"], rows, widths=[1.2, 7.5, 4, 4])
@@ -428,12 +435,17 @@ def doc_nota_estimativa(d, nr):
     return doc
 
 
-def _ofv(o):
-    """Valoarea ofertei în lei (sau None)."""
+def _ofv(o, curs=None):
+    """Valoarea ofertei în lei (sau None). Ofertele în EUR se convertesc la `curs`, dacă există."""
     if o.get("valoare_lei_fara_tva") is not None:
         return float(o["valoare_lei_fara_tva"])
-    if (o.get("moneda") or "lei").lower() in ("lei", "ron") and o.get("valoare_fara_tva") is not None:
+    if o.get("valoare_fara_tva") is None:
+        return None
+    moneda = (o.get("moneda") or "lei").lower()
+    if moneda in ("lei", "ron"):
         return float(o["valoare_fara_tva"])
+    if moneda in ("eur", "euro") and curs:
+        return round(float(o["valoare_fara_tva"]) * float(curs), 2)
     return None
 
 
@@ -474,24 +486,28 @@ def doc_analiza(d, nr):
         P(doc, "• ", o.get("furnizor"), " – Oferta nr. ", o.get("nr_data_oferta"), ";")
     if not of:
         P(doc, "• Ofertele de preț nr. ________ (se completează cu cel puțin o ofertă / sursă de preț pentru același tip de produs/serviciu/lucrare).")
+    curs = pr.get("curs_eur")
+    if curs and any((o.get("moneda") or "").lower() in ("eur", "euro") and o.get("valoare_lei_fara_tva") is None for o in of):
+        P(doc, f"Ofertele exprimate în euro au fost transformate în lei la cursul de {str(curs).replace('.', ',')} lei/euro, "
+          "utilizat la întocmirea cererii de finanțare (curs InforEuro). Valorile sunt fără TVA.", align="j")
     P(doc, B("IV. Analiza comparativă (lei, fără TVA)"))
     val_ref = a.get("valoare_contract_fara_tva") or a.get("valoare_estimata_fara_tva")
     rows = []
     for o in of:
-        v = _ofv(o)
+        v = _ofv(o, curs)
         dif = None
         if v and val_ref:
             dd = float(val_ref) - v
             sign = "−" if dd < 0 else "+"
             dif = f"{sign}{lei(abs(dd))} lei ({sign}{lei(abs(dd) / v * 100)}%)"
-        val_txt = lei(v) if v else (f"{lei(o['valoare_fara_tva'])} {o.get('moneda')}" if o.get("valoare_fara_tva") else None)
+        val_txt = (lei(v) + (f" ({lei(o['valoare_fara_tva'])} EUR)" if (o.get("moneda") or "").lower() in ("eur", "euro") else "")) if v else (f"{lei(o['valoare_fara_tva'])} {o.get('moneda')}" if o.get("valoare_fara_tva") else None)
         rows.append([[o.get("furnizor"), " – Oferta nr. ", o.get("nr_data_oferta")], val_txt, dif])
     if not rows:
         rows = [[None, None, None] for _ in range(3)]
     table(doc, ["Operator economic / ofertă", "Valoare ofertă (lei fără TVA)", "Diferență valoare analizată față de ofertă"], rows, widths=[8.5, 4, 4.5])
     P(doc, "Valoare analizată: ", B(lei(val_ref) or None), B(" lei fără TVA"),
       (" (valoarea contractului)" if a.get("valoare_contract_fara_tva") else " (valoarea estimată)"), ".", before=4)
-    vs = [_ofv(o) for o in of if _ofv(o)]
+    vs = [_ofv(o, curs) for o in of if _ofv(o, curs)]
     if vs and val_ref:
         mn = min(vs)
         ok = float(val_ref) <= mn
@@ -675,6 +691,18 @@ def genereaza(d, out_root):
         files.append(p)
 
     save(doc_fisa_naveta(d, "00"), "00", "Fisa naveta - Formular 1")
+    obs = d.get("observatii") or []
+    if isinstance(obs, str):
+        obs = [obs]
+    doc = new_doc()
+    P(doc, B("DE VERIFICAT ÎNAINTE DE DEPUNERE"), " (document intern – nu se include în dosar)", size=12)
+    P(doc, d["uat"].get("denumire"), " – ", obiect(d), after=8)
+    for o in obs:
+        P(doc, "☐ ", o, align="j")
+    P(doc, "☐ Completați câmpurile evidențiate cu galben (numere de înregistrare, date, valori lipsă).", align="j")
+    P(doc, "☐ Atașați documentele marcate cu * în opis, numerotați filele și completați opisul.", align="j")
+    p = folder / "_DE VERIFICAT.docx"
+    doc.save(p)
     save(doc_opis(d, "00a"), "00a", "Opis documentatie")
     for nr, den, src in lista_documente(d):
         fn = GENERATORS.get(den)
