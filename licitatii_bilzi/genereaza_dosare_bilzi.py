@@ -525,8 +525,8 @@ def formular_oferta(doc, L):
     P(doc, f"Titlul contractului: „{L['titlu']}”", after=8)
     P(doc, f"1. Examinând documentația de atribuire, subsemnații, reprezentanți ai ofertantului {FIRMA['denumire']}, "
            f"declarăm că, în conformitate cu prevederile și cerințele cuprinse în documentația mai sus menționată, vom "
-           f"executa „{L['titlu']}” pentru suma de ", None, " lei fără T.V.A., la care se adaugă T.V.A. în valoare de ",
-      None, " lei, în conformitate cu anexa la formularul de ofertă.", align="j")
+           f"executa „{L['titlu']}” pentru suma de ", suma(L, "total"), " lei fără T.V.A., la care se adaugă T.V.A. în "
+      "valoare de ", suma(L, "tva"), " lei, în conformitate cu anexa la formularul de ofertă.", align="j")
     P(doc, "2. Ne angajăm ca, în cazul în care oferta noastră este stabilită câștigătoare, să începem lucrările cât mai "
            "curând posibil după primirea ordinului de începere și să terminăm lucrările în ",
       L["durata"], ".", align="j")
@@ -552,13 +552,35 @@ def formular_oferta(doc, L):
     P(doc, "Semnătura autorizată și ștampila")
 
 
+def suma(L, cheie):
+    c = L.get("calc")
+    if not c:
+        return None
+    v = c["total"] + c["tva"] if cheie == "total_tva" else c[cheie]
+    return lei(v)
+
+
+def capitole(L):
+    return [cap for cap, _ in L["f3"]] if len(L["f3"]) > 1 else []
+
+
+def suma_cap(L, cap):
+    """Valoarea capitolului cu CAM, indirecte și profit repartizate proporțional (ca în foaia Grafic)."""
+    c = L.get("calc")
+    if not c:
+        return None
+    directe = sum(sum(v.values()) for cp, *_, v in c["linii"] if cp == cap)
+    return lei(round(directe / c["directe"] * c["total"], 2))
+
+
 def anexa_oferta(doc, L):
     P(doc, B("ANEXA LA FORMULARUL DE OFERTĂ"), align="c", size=13, after=10)
     P(doc, f"Titlul contractului: „{L['titlu']}”", after=8)
     table(doc, ["Denumire", "Valoare lei (fără T.V.A.)"], [
-        [f"{L['titlu']} – total general deviz ofertă", None],
-        ["T.V.A. 21%", None],
-        ["Total cu T.V.A.", None],
+        *[[cap, suma_cap(L, cap)] for cap in capitole(L)],
+        [B("Total general deviz ofertă"), [B(suma(L, "total"))] if L.get("calc") else None],
+        ["T.V.A. 21%", suma(L, "tva")],
+        [B("Total cu T.V.A."), [B(suma(L, "total_tva"))] if L.get("calc") else None],
     ], widths=[12, 5])
     P(doc, f"Valoarea estimată de autoritatea contractantă: {lei(L['valoare'])} lei fără T.V.A. Oferta nu o poate depăși.",
       size=9)
@@ -692,9 +714,9 @@ def genereaza_docx(cheie):
         opis += ["Declarație privind neîncadrarea în art. 164, 165 și 167 din Legea nr. 98/2016",
                  "Lista lucrărilor similare executate, cu documente constatatoare",
                  "Lista nominală a personalului și a autovehiculelor pentru acces în cazarmă"]
+        sectiuni += [decl_164_165_167, experienta, lista_personal]
     if L.get("vizita"):
         opis.insert(3, "Confirmarea vizitării amplasamentului (obligatorie – fără ea oferta nu este luată în considerare)")
-        sectiuni += [decl_164_165_167, experienta, lista_personal]
     scrisoare(doc, L, opis)
     for s in sectiuni:
         page_break(doc)
@@ -851,6 +873,32 @@ if __name__ == "__main__":
     LICITATII["c4"]["distanta"] = "cca. 115 km (Buzău – București)"
     LICITATII["dofteana"]["saptamani"] = 9
     LICITATII["c4"]["saptamani"] = 7
+    import oferta_financiara as ofin
+    import analize_bilzi
+    LICITATII["c4"]["analize"] = analize_bilzi.C4
+    LICITATII["dofteana"]["analize"] = analize_bilzi.scaleaza_manopera(
+        analize_bilzi.DOFTEANA, LICITATII["dofteana"]["f3"], analize_bilzi.TINTE_MANOPERA_DOFTEANA)
+    LICITATII["c4"]["durata_scurt"] = "45 zile calendaristice (7 săptămâni)"
+    LICITATII["dofteana"]["durata_scurt"] = "60 zile calendaristice (9 săptămâni)"
+    # repartizarea procentuală pe săptămâni, pe capitole (în ordinea din F3)
+    LICITATII["c4"]["grafic"] = [[0.15, 0.20, 0.20, 0.20, 0.15, 0.10, 0.0]]
+    LICITATII["dofteana"]["grafic"] = [
+        [0.40, 0.40, 0.20, 0, 0, 0, 0, 0, 0],          # demontări
+        [0, 0.25, 0.35, 0.30, 0.10, 0, 0, 0, 0],       # reparații lemn
+        [0, 0, 0.15, 0.20, 0.20, 0.20, 0.15, 0.10, 0],  # învelitoare
+        [0, 0, 0, 0, 0, 0.30, 0.40, 0.30, 0],          # lambriu, pazii
+        [0.20, 0, 0, 0, 0, 0, 0, 0.40, 0.40],          # paratrăsnet, firidă
+        [0, 0, 0, 0, 0, 0, 0.40, 0.40, 0.20],          # tinichigerie, pluvial
+        [0, 0, 0.20, 0.30, 0.30, 0.20, 0, 0, 0],       # coșuri
+    ]
+    resurse = ofin.citeste_resurse()
+    OUT.mkdir(exist_ok=True)
     for k in LICITATII:
+        L = LICITATII[k]
+        adaos, calc = ofin.alege_adaos(L, resurse, indirecte=L.get("indirecte", 0.05))
+        L["calc"] = calc
+        p = ofin.genereaza(L, FIRMA, resurse, OUT / f"Propunere_financiara_BILZI_{L['fisier']}.xlsx", adaos,
+                           L.get("indirecte", 0.05), calc)
         print(genereaza_docx(k))
-        print(genereaza_xlsx(k))
+        print(p, f"adaos {adaos:.1%}", f"total {calc['total']:,.2f} / estimat {L['valoare']:,.2f}",
+              f"= {calc['total'] / L['valoare']:.1%}", "directe", round(calc['directe']))
