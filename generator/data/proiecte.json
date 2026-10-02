@@ -1,0 +1,3214 @@
+[
+ {
+  "id": "bozioru-consultanta",
+  "folder": "01 BOZIORU",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Bozioru",
+   "denumire_beneficiar": "UAT COMUNA BOZIORU",
+   "judet": "Buzău",
+   "adresa": "Sat Bozioru, Str. Principală nr. 41, Com. Bozioru, Jud. Buzău, CP 127075",
+   "cif": "4154339",
+   "telefon": "0238/708036",
+   "email": "primariabozioru@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "SPĂTARU MARIAN",
+   "consilier_achizitii": "Stanciuc Robert-Alexandru",
+   "contabil": "Chircu Ortensiu"
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI TRACTOR PENTRU DOTAREA SERVICIULUI VOLUNTAR PENTRU SITUAȚII DE URGENȚĂ BOZIORU",
+   "nr_cerere_finantare": "F 36020808222621003504",
+   "nr_contract_finantare": "C 36020808222621003504",
+   "data_contract_finantare": "22.07.2026",
+   "gal": "GAL Colinele Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "2378/24.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul implementării proiectului",
+   "cpv": "79400000-8 Consultanță în afaceri și în management și servicii conexe",
+   "valoare_estimata_fara_tva": 28500.0,
+   "buget_aprobat_fara_tva": 28521.69,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect",
+   "procedura": "directa",
+   "cod_seap": "DA40954332",
+   "data_seap": "06.08.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": "2599/07.08.2026",
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": "max. 24 luni de la semnare, dar nu mai târziu de 30.06.2027",
+   "specificatii_tehnice": [
+    "Planificarea și monitorizarea activităților de implementare a proiectului",
+    "Monitorizarea procedurilor de achiziție și a contractelor",
+    "Întocmirea cererilor de plată și a dosarelor de acte adiționale",
+    "Răspunsuri la solicitările de clarificări AFIR",
+    "1 consultant x 190 ore x 150 lei/oră = 28.500 lei fără TVA (ofertă revizuită)"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CREDINVEST CONSULTING S.R.L.",
+     "nr_data_oferta": "71/29.07.2026",
+     "valoare_fara_tva": 28500.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "SC AMACHIO CONSULTING S.R.L.",
+     "nr_data_oferta": "129/29.07.2026",
+     "valoare_fara_tva": 30000.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "SC ACTIV EXPERT CONSULTANTA SI SERVICII S.R.L.",
+     "nr_data_oferta": "80/28.07.2026",
+     "valoare_fara_tva": 35000.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Există deja un dosar de avizare consultanță cu raport de verificare v2 – reconciliați cu acesta înainte de depunere.",
+   "CPV: SEAP/contract 79400000-8 vs. PAP 79411000-8 – de corelat.",
+   "SEAP DA40954332 (inițiat 06.08.2026, finalizat 07.08.2026): „Finanțare prin fonduri comunitare: NU”, „FEADR 2021-2027”, descrierea menționează lucrări – de corectat/justificat.",
+   "Contractul 2599/07.08.2026: preambul „furnizare de produse”, lipsește art. 19 – de verificat.",
+   "Oferta CREDINVEST 71/29.07.2026 include 9.000 lei pentru elaborare CF; folosiți oferta revizuită (doar management, 28.500 lei).",
+   "Referatul de necesitate 2579/05.08.2026 este ulterior ofertelor (28-29.07.2026) – de verificat cronologia.",
+   "Ofertele AMACHIO și ACTIV EXPERT nu sunt semnate.",
+   "Posibilă relație Oprea Elena (ACTIV EXPERT) – Oprea Mirela (secretar general/manager proiect) – verificați conflictul de interese.",
+   "Nr./data analizei rezonabilității necompletate (trebuie între 05.08 și 06.08.2026).",
+   "Data CF 22.07.2026 identificată doar din adresa de înaintare; avizare GAL PAP: 96/27.07.2026."
+  ]
+ },
+ {
+  "id": "tisau-consultanta",
+  "folder": "02 TISAU",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Tisău",
+   "denumire_beneficiar": "UAT COMUNA TISĂU",
+   "judet": "Buzău",
+   "adresa": "Sat Izvoru, Str. Principală nr. 6, Com. Tisău, Jud. Buzău, CP 127610",
+   "cif": "4055734",
+   "telefon": "0238/797560",
+   "email": "registratura@comunatisau.ro",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "MIHAI CRISTIAN-IONEL",
+   "consilier_achizitii": "Petre Cristinel-Bogdan",
+   "contabil": "Sandu Cosmin"
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNEI NACELE PENTRU DOTAREA SERVICIULUI DE ILUMINAT PUBLIC COMUNA TISAU",
+   "nr_cerere_finantare": "F 36020808222621003551",
+   "nr_contract_finantare": "C 36020808222621003551",
+   "data_contract_finantare": "21.07.2026",
+   "gal": "GAL Colinele Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "4459/22.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": "79411000-8 Servicii generale de consultanță în management",
+   "valoare_estimata_fara_tva": 34525.72,
+   "buget_aprobat_fara_tva": 34525.72,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect",
+   "procedura": "directa",
+   "cod_seap": "DA40909455",
+   "data_seap": "30.07.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 34500.0,
+   "termen": "max. 24 luni, dar nu mai târziu de 30.06.2027",
+   "specificatii_tehnice": [
+    "Planificarea și monitorizarea activităților de implementare a proiectului",
+    "Monitorizarea procedurilor de achiziție și a contractelor",
+    "Întocmirea cererilor de plată și a dosarelor de acte adiționale",
+    "Răspunsuri la solicitările de clarificări AFIR"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CREDINVEST CONSULTING S.R.L.",
+     "nr_data_oferta": "103/15.12.2025",
+     "valoare_fara_tva": 34500.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Nr./data contractului CREDINVEST neidentificate (în Drive există doar draftul nesemnat „1.2. Contract servicii management Tisau.doc”) – de completat.",
+   "Oferta 103/15.12.2025 din CF cuprinde 8.000 lei elaborare CF + 26.500 lei management – verificați dacă valoarea contractată (34.500 lei) include și elaborarea CF.",
+   "Există și oferta CREDINVEST 68/29.07.2026 (valoare neextrasă) – probabil oferta din procedura curentă; lipsesc oferte comparative de la alți operatori.",
+   "CPV din SEAP DA40909455 neverificat (PAP: 79411000-8).",
+   "Cod poștal: 127610 (SEAP/oferte) vs. 127614 (contract de finanțare).",
+   "PAP nr. 4459/22.07.2026; graficul GAL indică „90 / 23.07.2026” (probabil avizarea GAL)."
+  ]
+ },
+ {
+  "id": "tisau-nacela",
+  "folder": "02 TISAU",
+  "dosar": "Dosar achizitie nacela",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Tisău",
+   "denumire_beneficiar": "UAT COMUNA TISĂU",
+   "judet": "Buzău",
+   "adresa": "Sat Izvoru, Str. Principală nr. 6, Com. Tisău, Jud. Buzău, CP 127610",
+   "cif": "4055734",
+   "telefon": "0238/797560",
+   "email": "registratura@comunatisau.ro",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "MIHAI CRISTIAN-IONEL",
+   "consilier_achizitii": "Petre Cristinel-Bogdan",
+   "contabil": "Sandu Cosmin"
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNEI NACELE PENTRU DOTAREA SERVICIULUI DE ILUMINAT PUBLIC COMUNA TISAU",
+   "nr_cerere_finantare": "F 36020808222621003551",
+   "nr_contract_finantare": "C 36020808222621003551",
+   "data_contract_finantare": "21.07.2026",
+   "gal": "GAL Colinele Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "4459/22.07.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Furnizare nacelă tractabilă pentru dotarea serviciului de iluminat public – Niftylift 150T Bi-Energy cu Traction Drive, 1 buc",
+   "cpv": "42418000-9 Utilaje de ridicare, de manipulare, de încărcare sau de descărcare",
+   "valoare_estimata_fara_tva": 262485.2,
+   "buget_aprobat_fara_tva": 262485.2,
+   "linie_bugetara": "cap. 4.4 – Utilaje fără montaj",
+   "procedura": "directa",
+   "cod_seap": "DA41190410",
+   "data_seap": "16.09.2026",
+   "furnizor": {
+    "denumire": "S.C. UTILBEN S.R.L.",
+    "cui": "18643343"
+   },
+   "contract_nr_data": "5655/15.09.2026",
+   "valoare_contract_fara_tva": 259079.2,
+   "termen": "livrare în max. 12 săptămâni de la semnarea contractului",
+   "specificatii_tehnice": [
+    "Nacelă tractabilă, 1 buc – înălțime de lucru 12-14,7 m, înălțime platformă 10,9-12,7 m",
+    "Regim lateral 5,6-8 m, sarcină coș 215-225 kg",
+    "Proțap cu șasiu și 2 roți, coș cu bare, blocare brațe, comenzi duble",
+    "Stabilizatori, pompă manuală de avarie",
+    "Bi-energie (baterie + motor termic), sistem de tracțiune",
+    "Livrat: Niftylift 150T – 14,70 m lucru, 7,55 m lateral, 225 kg, garanție 12 luni"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "UTILBEN (antet UTILAJE IMPORT S.R.L., RO29327559) – Niftylift 150T + bi-energy (4.000 EUR) + sistem tracțiune (4.900 EUR)",
+     "nr_data_oferta": "208268/08.12.2025",
+     "valoare_fara_tva": 51000.0,
+     "moneda": "EUR"
+    },
+    {
+     "furnizor": "TTA UTILAJE INDUSTRIALE S.R.L., RO24690358 – Snorkel TL37J + bi-energie (4.500 EUR) + friction drive (5.500 EUR)",
+     "nr_data_oferta": "10721/08.12.2025",
+     "valoare_fara_tva": 51500.0,
+     "moneda": "EUR"
+    },
+    {
+     "furnizor": "MATECO S.R.L., RO17310790 – Niftylift N170 + Bi Energy benzină (3.918 EUR) + tracțiune (4.798 EUR)",
+     "nr_data_oferta": "fără nr./27.01.2026",
+     "valoare_fara_tva": 50881.0,
+     "moneda": "EUR"
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță pentru managementul proiectului",
+    "cpv": "79411000-8 Servicii generale de consultanță în management",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Achiziție directă SEAP DA40909455/30.07.2026 (nr./data contract de completat)",
+    "valoare_fara_tva": 34500.0,
+    "pozitie_pap": "II.2.1",
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Ofertele din CF sunt în EUR fără opțiuni: UTILBEN + tracțiune 4.900 + bi-energy 4.000 EUR; TTA + bi-energie 4.500 + friction drive 5.500 EUR; MATECO + Bi Energy 4.957/3.918 + tracțiune 4.798 EUR – completați valoarea în lei la cursul din CF.",
+   "Oferta UTILBEN din CF poartă antet UTILAJE IMPORT S.R.L. (RO29327559), iar contractantul e UTILBEN S.R.L. (CUI 18643343) – de verificat.",
+   "Procedura: RET UTILAJE desemnat inițial a refuzat semnarea (adresa 115/07.09.2026), VECTRA EXIM neconformă, UTILBEN următoarea ofertă conformă (raport final 5653/15.09.2026) – atașați documentele.",
+   "Contract 5655/15.09.2026 semnat electronic 16.09.2026; SEAP DA41190410 inițiat/finalizat 16.09.2026 – cronologia contract/SEAP de explicat.",
+   "Contractul menționează „motor benzină” în obiect și „motor diesel” la recepție; CF cerea bi-energie baterie+diesel, livrat motor Honda benzină – neconcordanțe de clarificat.",
+   "Referatul de necesitate are nr. 5654/15.09.2026 (același nr. ca adresa de invitație la semnare) – de verificat.",
+   "Nr./data contractului de consultanță (achiziție anterioară) lipsesc.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract.",
+   "Analiza compară configurația din contract (Bi-Energy + Traction Drive) cu ofertele din CF plus aceleași opțiuni; la MATECO s-a luat varianta Bi Energy benzină (3.918 EUR) – dacă nacela livrată e diesel, varianta MATECO devine 51.920 EUR. Clarificați benzină/diesel în contract."
+  ]
+ },
+ {
+  "id": "odaile-consultanta",
+  "folder": "03 ODAILE",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Odăile",
+   "denumire_beneficiar": "UAT COMUNA ODĂILE",
+   "judet": "Buzău",
+   "adresa": "Sat Odăile, Str. Principală, Com. Odăile, Jud. Buzău, CP 127395",
+   "cif": "4593911",
+   "telefon": "0238/525494",
+   "email": "primariaodailebz@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "GRAMA TACHE-CRISTACHE",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI TRACTOR PENTRU DOTAREA SERVICIULUI PUBLIC DE POMPIERI VOLUNTARI COMUNA ODAILE",
+   "nr_cerere_finantare": "F 36020808222621003616",
+   "nr_contract_finantare": "C 36020808222621003616",
+   "data_contract_finantare": "20.07.2026",
+   "gal": "GAL Colinele Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "1197/21.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță în managementul proiectului",
+   "cpv": "79400000-8 Consultanță în afaceri și în management și servicii conexe",
+   "valoare_estimata_fara_tva": 26885.62,
+   "buget_aprobat_fara_tva": 26885.62,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect",
+   "procedura": "directa",
+   "cod_seap": "DA40907952",
+   "data_seap": "29.07.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Coordonarea implementării proiectului DR-36 și gestionarea bugetului",
+    "Monitorizarea achizițiilor și a contractelor",
+    "Întocmirea cererilor de plată și a actelor adiționale"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CREDINVEST CONSULTING S.R.L. (oferta din CF)",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": 28500.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "ATENȚIE: valoarea achiziției (28.500 lei) depășește valoarea din PAP/buget 3.7.1 (26.885,62 lei) – de clarificat/justificat (diferența neeligibilă).",
+   "Nr./data contractului CREDINVEST neidentificate (există doar draftul „1.2. Contract servicii management com. Odaile.doc”).",
+   "Achiziția DA40904712/29.07.2026 (descriere eronată – C.A. Rosetti/fotovoltaic, PNDR) a fost refuzată și reluată prin DA40907952 – menționați în dosar.",
+   "CPV: SEAP 79400000-8 vs. PAP 79411000-8.",
+   "Oferta CREDINVEST din CF: nr./dată neextrase; lipsesc oferte comparative de la alți operatori.",
+   "Consilier achiziții și contabil neidentificați; nr. stradal al primăriei lipsă.",
+   "Titlul proiectului diferă între grafic, CF și notificarea AFIR – folosiți titlul din contractul de finanțare.",
+   "Bugetul din CF (total 338.907 lei / eligibil 253.010 lei) diferă de PAP – verificați Anexa III.2 la CF."
+  ]
+ },
+ {
+  "id": "odaile-tractor",
+  "folder": "03 ODAILE",
+  "dosar": "Dosar achizitie tractor",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Odăile",
+   "denumire_beneficiar": "UAT COMUNA ODĂILE",
+   "judet": "Buzău",
+   "adresa": "Sat Odăile, Str. Principală, Com. Odăile, Jud. Buzău, CP 127395",
+   "cif": "4593911",
+   "telefon": "0238/525494",
+   "email": "primariaodailebz@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "GRAMA TACHE-CRISTACHE",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI TRACTOR PENTRU DOTAREA SERVICIULUI PUBLIC DE POMPIERI VOLUNTARI COMUNA ODAILE",
+   "nr_cerere_finantare": "F 36020808222621003616",
+   "nr_contract_finantare": "C 36020808222621003616",
+   "data_contract_finantare": "20.07.2026",
+   "gal": "GAL Colinele Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "1197/21.07.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Furnizare tractor și accesorii – tractor 4x4 65-75 CP, tiranți frontali în 3 puncte, lamă de zăpadă 2,6 m",
+   "cpv": "16700000-2 Tractoare",
+   "valoare_estimata_fara_tva": 251781.92,
+   "buget_aprobat_fara_tva": 251781.92,
+   "linie_bugetara": "cap. 4.4 – Utilaje fără montaj",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 24.08.2026",
+   "specificatii_tehnice": [
+    "Tractor 65-75 CP, 4x4 cu diferențial blocabil electrohidraulic, motor Tier V 4 cilindri, cuplu 220-276 Nm",
+    "Transmisie Creep, Power Shuttle 18-20/18-20 viteze, PTO independent",
+    "Capacitate ridicare tiranți 2.800-3.000 kg, 3 prize hidraulice dublă acțiune",
+    "Cabină cu aer condiționat, lungime 4.000-4.300 mm",
+    "Tiranți frontali în 3 puncte",
+    "Lamă de zăpadă 260 cm cu prindere în 3 puncte"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "AGRI COSAD UTILAJE AGRICOLE, CIF RO40017052 (oferta din CF)",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": 49400.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "KEIRON LOGISTICS S.R.L. – Magazia lu' Costică (oferta din CF)",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": null,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "UNIWERK ROMÂNIA (oferta din CF)",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": null,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "KEIRON LOGISTICS S.R.L. – Magazia lu' Costică (ofertă actualizată)",
+     "nr_data_oferta": "CAS8151/27.08.2026",
+     "valoare_fara_tva": 235334.59,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "VIITORULAZI S.R.L., CIF RO37441987",
+     "nr_data_oferta": "3680/26.08.2026",
+     "valoare_fara_tva": 52240.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "AGRI COSAD UTILAJE AGRICOLE, CIF RO40017052",
+     "nr_data_oferta": "10/26.08.2026",
+     "valoare_fara_tva": 49400.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță în managementul proiectului",
+    "cpv": "79400000-8 Consultanță în afaceri și în management și servicii conexe",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Achiziție directă SEAP DA40907952/29.07.2026 (nr./data contract de completat)",
+    "valoare_fara_tva": 28500.0,
+    "pozitie_pap": "II.2.1",
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Achiziție neinițiată în SEAP (termen grafic 24.08.2026 depășit) – cod SEAP, furnizor, contract și valoare contract de completat după atribuire.",
+   "Ofertele din CF (AGRI COSAD, KEIRON, UNIWERK, ian. 2026): nr./date și valorile KEIRON/UNIWERK neextrase din tabelul comparativ CF (curs CF 5,0929).",
+   "Oferta VIITORULAZI 3680/26.08.2026 e adresată eronat „Primăria Bozioru – dlui Primar Grama” – solicitați reemiterea.",
+   "Tabelul comparativ din CF indică „2 buc” tractor – probabil eroare, de verificat.",
+   "Nr./data contractului de consultanță (achiziție anterioară) lipsesc; valoarea 28.500 lei depășește PAP (26.885,62 lei).",
+   "Consilier achiziții și contabil neidentificați.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ },
+ {
+  "id": "smeeni-consultanta",
+  "folder": "04 SMEENI",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Smeeni",
+   "denumire_beneficiar": "UAT COMUNA SMEENI",
+   "judet": "Buzău",
+   "adresa": "Sat Smeeni, Str. Republicii nr. 96, Com. Smeeni, Jud. Buzău, CP 127595",
+   "cif": "4154380",
+   "telefon": "0238/732549",
+   "email": "primaria.smeeni@gmail.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "ANDREI ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIE ECHIPAMENTE PENTRU DOTAREA SERVICIULUI PUBLIC DE SALUBRIZARE AL COMUNEI SMEENI",
+   "nr_cerere_finantare": "F 36020808218621003749",
+   "nr_contract_finantare": "C 36020808218621003749",
+   "data_contract_finantare": null,
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "8030/11.08.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": "79411000-8 Servicii generale de consultanță în management",
+   "valoare_estimata_fara_tva": 28506.4,
+   "buget_aprobat_fara_tva": 28506.4,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": "____/01.09.2026",
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": "max. 24 luni, dar nu mai târziu de 30.08.2028",
+   "specificatii_tehnice": [
+    "Planificarea și monitorizarea activităților de implementare a proiectului",
+    "Monitorizarea procedurilor de achiziție și a contractelor",
+    "Întocmirea cererilor de plată și a dosarelor de acte adiționale",
+    "Răspunsuri la solicitările de clarificări AFIR"
+   ],
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "ATENȚIE: achiziția directă de consultanță NU apare în SEAP – trebuie publicată/verificată în SEAP (cod DA și dată) înainte de depunerea dosarului.",
+   "Contract CREDINVEST datat 01.09.2026, nr. necompletat – de completat.",
+   "Nu există oferte comparative identificate – adăugați cel puțin o ofertă/sursă de preț pentru analiza rezonabilității.",
+   "Data contractului de finanțare neidentificată; avizarea GAL a PAP 8030/11.08.2026 neindicată în grafic.",
+   "Consilier achiziții și contabil neidentificați; adresa (Str. Republicii nr. 96) preluată din oferta Activ Travandi – de confirmat; CRFIR dedus după județ."
+  ]
+ },
+ {
+  "id": "smeeni-rasturnator",
+  "folder": "04 SMEENI",
+  "dosar": "Dosar achizitie rasturnator compost",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Smeeni",
+   "denumire_beneficiar": "UAT COMUNA SMEENI",
+   "judet": "Buzău",
+   "adresa": "Sat Smeeni, Str. Republicii nr. 96, Com. Smeeni, Jud. Buzău, CP 127595",
+   "cif": "4154380",
+   "telefon": "0238/732549",
+   "email": "primaria.smeeni@gmail.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "ANDREI ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIE ECHIPAMENTE PENTRU DOTAREA SERVICIULUI PUBLIC DE SALUBRIZARE AL COMUNEI SMEENI",
+   "nr_cerere_finantare": "F 36020808218621003749",
+   "nr_contract_finantare": "C 36020808218621003749",
+   "data_contract_finantare": null,
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "8030/11.08.2026"
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Furnizare răsturnător de compost – 1 buc",
+   "cpv": "16160000-4 Diverse echipamente de grădinărit",
+   "valoare_estimata_fara_tva": 211680.3,
+   "buget_aprobat_fara_tva": 211680.3,
+   "linie_bugetara": null,
+   "procedura": "directa",
+   "cod_seap": "DA41178750",
+   "data_seap": "14.09.2026",
+   "furnizor": {
+    "denumire": "S.C. ETU FARM S.R.L.",
+    "cui": "RO26712223"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 214740.0,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Răsturnător de compost, 1 buc",
+    "Lățime brazdă 3-5 m, înălțime brazdă 1,5-2 m",
+    "Dimensiuni utilaj: lungime 4,5-6,5 m, lățime 4-6 m, înălțime 1-2 m",
+    "Putere necesară 75-100 kW",
+    "Capacitate 1.000-1.500 m³/oră, viteză de lucru 300-400 m/oră"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "ACTIV TRAVANDI S.R.L., CUI 23910510 – Caravaggi Rivo 280D",
+     "nr_data_oferta": "135/09.12.2025",
+     "valoare_fara_tva": 236178.51,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță pentru managementul proiectului",
+    "cpv": "79411000-8 Servicii generale de consultanță în management",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract de prestări servicii nr. ____/01.09.2026",
+    "valoare_fara_tva": 28500.0,
+    "pozitie_pap": "II.2.1",
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "ATENȚIE: valoarea contractului ETU FARM (214.740 lei fără TVA) depășește valoarea din PAP/buget (211.680,30 lei) – diferența de justificat/neeligibilă.",
+   "Contractul de furnizare este în draft, fără nr./dată – de completat după semnare; termenul de livrare de completat.",
+   "Linia bugetară exactă (4.3/4.4) neconfirmată – de completat din bugetul indicativ.",
+   "Model ofertat conform graficului: A.TOM 3300 – verificați corespondența cu specificațiile din CF.",
+   "O singură ofertă comparativă identificată (Activ Travandi); celelalte oferte din CF de identificat.",
+   "Achiziția anterioară (consultanța) nu apare în SEAP și nu are nr. de contract.",
+   "Consilier achiziții și contabil neidentificați; data contractului de finanțare neidentificată."
+  ]
+ },
+ {
+  "id": "florica-consultanta",
+  "folder": "05 FLORICA",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Florica",
+   "denumire_beneficiar": "UAT COMUNA FLORICA",
+   "judet": "Buzău",
+   "adresa": "Sat Florica, Com. Florica, Jud. Buzău, CP 127377",
+   "cif": "17521291",
+   "telefon": "0238/782750",
+   "email": "primaria.florica@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "ZAHARIA ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "AMENAJARE LOC DE JOACA PENTRU COPII GRADINITA COMUNA FLORICA, JUDETUL BUZAU",
+   "nr_cerere_finantare": "F 36020808218621003740",
+   "nr_contract_finantare": "C 36020808218621003740",
+   "data_contract_finantare": null,
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 28521.69,
+   "buget_aprobat_fara_tva": 28521.69,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 30.09.2026",
+   "specificatii_tehnice": [
+    "Planificarea și monitorizarea activităților de implementare a proiectului",
+    "Monitorizarea procedurilor de achiziție și a contractelor",
+    "Întocmirea cererilor de plată și a dosarelor de acte adiționale",
+    "Răspunsuri la solicitările de clarificări AFIR"
+   ],
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de elaborare studiu de fezabilitate",
+    "cpv": null,
+    "furnizor": "INTCO CONSULTING & MANAGEMENT S.R.L.",
+    "document": "Achiziție directă SEAP DA39760129/03.02.2026",
+    "valoare_fara_tva": 6000.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Achiziție neinițiată în SEAP – cod SEAP, furnizor, contract și valoare contract de completat după atribuire (devizul prevede CREDINVEST, 28.500 lei).",
+   "Nu există oferte de preț identificate – necesare pentru nota estimativă și analiza rezonabilității.",
+   "SF anterior DA39760129 INTCO 6.000 lei diferă de oferta INTCO (5.000 SF + 1.500 studiu geotehnic) – de verificat.",
+   "PAP Florica nu a putut fi citit (PDF dinamic) – nr./dată PAP, poziție, CPV și procedură de completat din PAP.",
+   "Data contractului de finanțare neidentificată (notificare contractare 1285/27.07.2026).",
+   "Consilier achiziții și contabil neidentificați."
+  ]
+ },
+ {
+  "id": "florica-proiectare",
+  "folder": "05 FLORICA",
+  "dosar": "Dosar achizitie servicii proiectare",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Florica",
+   "denumire_beneficiar": "UAT COMUNA FLORICA",
+   "judet": "Buzău",
+   "adresa": "Sat Florica, Com. Florica, Jud. Buzău, CP 127377",
+   "cif": "17521291",
+   "telefon": "0238/782750",
+   "email": "primaria.florica@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "ZAHARIA ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "AMENAJARE LOC DE JOACA PENTRU COPII GRADINITA COMUNA FLORICA, JUDETUL BUZAU",
+   "nr_cerere_finantare": "F 36020808218621003740",
+   "nr_contract_finantare": "C 36020808218621003740",
+   "data_contract_finantare": null,
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de proiectare faza PT + DE, documentații pentru avize, verificare tehnică și asistență tehnică din partea proiectantului",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 7003.01,
+   "buget_aprobat_fara_tva": 7003.01,
+   "linie_bugetara": "cap. 3.5.4 + 3.5.5 + 3.5.6 + 3.8.1 – Proiectare și asistență tehnică proiectant",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Documentații tehnice pentru obținerea avizelor (3.5.4) – 499,48 lei",
+    "Verificarea tehnică de calitate a proiectului (3.5.5) – 499,49 lei",
+    "Proiect tehnic și detalii de execuție (3.5.6) – 5.005,06 lei",
+    "Asistență tehnică din partea proiectantului pe durata execuției (3.8.1) – 998,98 lei"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "METTCOS – proiectare",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": null,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de elaborare studiu de fezabilitate",
+    "cpv": null,
+    "furnizor": "INTCO CONSULTING & MANAGEMENT S.R.L.",
+    "document": "Achiziție directă SEAP DA39760129/03.02.2026",
+    "valoare_fara_tva": 6000.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Dosar separat față de consultanță: graficul GAL grupează serviciile (37.527,74 lei = 28.521,69 consultanță + 9.006,05 proiectare/asistență); dirigenția (2.003,04 lei) e tratată în dosar separat – confirmați împărțirea cu PAP.",
+   "Achiziție neinițiată în SEAP – cod SEAP, furnizor, contract de completat după atribuire.",
+   "Oferta METTCOS (fișier „Oferta Mettcos Proiectare fLORICA.pdf”) necitită – nr./dată/valoare de completat.",
+   "Cap. 3.1 Studii (2.497,43 lei) – verificați dacă studiul geotehnic a fost deja achiziționat.",
+   "PAP Florica nu a putut fi citit (PDF dinamic) – nr./dată PAP, poziție, CPV și procedură de completat din PAP.",
+   "Data contractului de finanțare neidentificată (notificare contractare 1285/27.07.2026).",
+   "Consilier achiziții și contabil neidentificați."
+  ]
+ },
+ {
+  "id": "florica-dirigentie",
+  "folder": "05 FLORICA",
+  "dosar": "Dosar achizitie servicii dirigentie de santier",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Florica",
+   "denumire_beneficiar": "UAT COMUNA FLORICA",
+   "judet": "Buzău",
+   "adresa": "Sat Florica, Com. Florica, Jud. Buzău, CP 127377",
+   "cif": "17521291",
+   "telefon": "0238/782750",
+   "email": "primaria.florica@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "ZAHARIA ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "AMENAJARE LOC DE JOACA PENTRU COPII GRADINITA COMUNA FLORICA, JUDETUL BUZAU",
+   "nr_cerere_finantare": "F 36020808218621003740",
+   "nr_contract_finantare": "C 36020808218621003740",
+   "data_contract_finantare": null,
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de dirigenție de șantier pentru lucrările de amenajare loc de joacă",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 2003.04,
+   "buget_aprobat_fara_tva": 2003.04,
+   "linie_bugetara": "cap. 3.8.2 – Dirigenție de șantier",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Urmărirea execuției lucrărilor de amenajare a locului de joacă de către diriginte de șantier autorizat",
+    "Participare la recepția la terminarea lucrărilor"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "ALEX ORA CONSTRUCT – dirigenție",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": null,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de elaborare studiu de fezabilitate",
+    "cpv": null,
+    "furnizor": "INTCO CONSULTING & MANAGEMENT S.R.L.",
+    "document": "Achiziție directă SEAP DA39760129/03.02.2026",
+    "valoare_fara_tva": 6000.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Achiziție neinițiată în SEAP – cod SEAP, furnizor, contract de completat după atribuire.",
+   "Oferta ALEX ORA CONSTRUCT necitită – nr./dată/valoare de completat.",
+   "Dacă dirigenția se achiziționează împreună cu proiectarea, comasați cu dosarul florica-proiectare.",
+   "PAP Florica nu a putut fi citit (PDF dinamic) – nr./dată PAP, poziție, CPV și procedură de completat din PAP.",
+   "Data contractului de finanțare neidentificată (notificare contractare 1285/27.07.2026).",
+   "Consilier achiziții și contabil neidentificați."
+  ]
+ },
+ {
+  "id": "florica-lucrari",
+  "folder": "05 FLORICA",
+  "dosar": "Dosar achizitie lucrari loc de joaca",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Florica",
+   "denumire_beneficiar": "UAT COMUNA FLORICA",
+   "judet": "Buzău",
+   "adresa": "Sat Florica, Com. Florica, Jud. Buzău, CP 127377",
+   "cif": "17521291",
+   "telefon": "0238/782750",
+   "email": "primaria.florica@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "ZAHARIA ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "AMENAJARE LOC DE JOACA PENTRU COPII GRADINITA COMUNA FLORICA, JUDETUL BUZAU",
+   "nr_cerere_finantare": "F 36020808218621003740",
+   "nr_contract_finantare": "C 36020808218621003740",
+   "data_contract_finantare": null,
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "lucrari",
+   "obiect": "Execuție lucrări „Amenajare loc de joacă pentru copii grădiniță comuna Florica”",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 232031.82,
+   "buget_aprobat_fara_tva": 232031.82,
+   "linie_bugetara": "cap. 4.1 + 4.2 + 4.3 + 4.5 + 5.1.1 – Construcții, montaj, echipamente, dotări, organizare de șantier",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 31.10.2026",
+   "specificatii_tehnice": [
+    "Complex de joacă cu min. 3 coborâri (6.200x5.700x4.200 mm), min. 8 utilizatori, 3-14 ani, SR EN 1176",
+    "Balansoar 2 persoane cu figurine; leagăn dublu cu figurine",
+    "Echipamente pe arc (căluț/elefant)",
+    "Foișor din lemn 4x3 m",
+    "Bănci de parc lemn/metal, coșuri de gunoi min. 40 l, masă cu 6 scaune",
+    "Lucrări de construcții și montaj conform devizului general (cap. 4.1 – 135.111,07 lei)"
+   ],
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de elaborare studiu de fezabilitate",
+    "cpv": null,
+    "furnizor": "INTCO CONSULTING & MANAGEMENT S.R.L.",
+    "document": "Achiziție directă SEAP DA39760129/03.02.2026",
+    "valoare_fara_tva": 6000.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Achiziție neinițiată în SEAP – procedură, cod SEAP, executant, contract și valoare contract de completat după atribuire.",
+   "Procedura „directa” presupusă după valoare – confirmați cu PAP; CPV lipsă (de preluat din PAP).",
+   "Nu există încă proiect tehnic/deviz pe obiect și nici oferte de execuție – necesare pentru nota estimativă și analiza rezonabilității.",
+   "Valoarea estimată 232.031,82 lei = cap. 4 (231.532,33) + 5.1.1 (499,49); verificați dacă 5.2 Taxe (1.411,81 lei) rămâne în afara contractului.",
+   "Adăugați la achizițiile anterioare consultanța, proiectarea și dirigenția, după atribuire.",
+   "PAP Florica nu a putut fi citit (PDF dinamic) – nr./dată PAP, poziție, CPV și procedură de completat din PAP.",
+   "Data contractului de finanțare neidentificată (notificare contractare 1285/27.07.2026).",
+   "Consilier achiziții și contabil neidentificați."
+  ]
+ },
+ {
+  "id": "galbinasi-nacela",
+  "folder": "06 GALBINASI",
+  "dosar": "Dosar achizitie nacela",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Gălbinași",
+   "denumire_beneficiar": "UAT COMUNA GĂLBINAȘI",
+   "judet": "Buzău",
+   "adresa": "Sat Gălbinași, Str. Profesor Tudor Gheorghe nr. 5, Com. Gălbinași, Jud. Buzău, CP 127240",
+   "cif": "3724440",
+   "telefon": "0371/425064",
+   "email": "primariagalbinasi@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "DRAGOMIR DUMITRU",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNEI NACELE PENTRU DOTAREA SERVICIULUI DE ILUMINAT PUBLIC COMUNA GALBINASI",
+   "nr_cerere_finantare": "F 36020808218621003751",
+   "nr_contract_finantare": "C 36020808218621003751",
+   "data_contract_finantare": "15.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "6927/20.07.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Achiziție nacelă de lucru la înălțime pe autoșasiu",
+   "cpv": "42418000-9 Utilaje de ridicat și de manipulat",
+   "valoare_estimata_fara_tva": 443421.6,
+   "buget_aprobat_fara_tva": 443421.6,
+   "linie_bugetara": "cap. 4.5 – Dotări (87.000 EUR, din care eligibil 244.493,50 lei)",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: inițiere 31.08.2026, atribuire 04.12.2026",
+   "specificatii_tehnice": [
+    "Nacelă articulat-telescopică montată pe autoșasiu 3,5 t, motor diesel",
+    "Înălțime de lucru 10–15 m; înălțime platformă 8–14 m",
+    "Extindere laterală 6,50 m/200 kg sau 8,00 m/80 kg",
+    "Coș aluminiu ~1400x700x1100 mm, capacitate 150–200 kg, rotație coș 60°+60°",
+    "Rotație turelă 360°, stabilizatori verticali în gabarit",
+    "Cabină cu AC, telematică 5 ani; punere în funcțiune inclusă"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "UTILBEN S.R.L. (CUI RO18643343) – Multitel 145 ALU",
+     "nr_data_oferta": "ID 208234/08.12.2025",
+     "valoare_fara_tva": 87000.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 443030.1
+    },
+    {
+     "furnizor": "KSM UTILAJE S.R.L. (CUI 18481861) – Eurosfilo 14/2/9 HQ pe Iveco Daily",
+     "nr_data_oferta": "cod 0D3F7EB5CA/03.12.2025",
+     "valoare_fara_tva": 89850.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "ITALIA STAR",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": null,
+     "moneda": null,
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță pentru managementul proiectului",
+    "cpv": "79411000-8",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract de servicii nedatat/nesemnat (draft); achiziția directă nu apare în SEAP",
+    "valoare_fara_tva": 28500.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Procedură SIMPLIFICATĂ: valoarea estimată 443.421,60 lei (87.000 EUR) depășește pragul de 270.120 lei fără TVA pentru achiziția directă de produse. Procedura nu este încă inițiată în SEAP (cod, furnizor, contract – de completat după atribuire).",
+   "A 3-a ofertă (ITALIA STAR) lipsește din Drive și tabelul comparativ are formule stricate (#NAME?) – de procurat oferta (număr/dată/valoare).",
+   "Diferență valoare PAP 443.421,60 lei (curs 5,0968) vs. CF 443.030,10 lei (87.000 EUR × 5,0923).",
+   "CPV 42418000-9 provine din PAP (denumire trunchiată); CF nu conține CPV – de confirmat.",
+   "Centralizator: consultanța CREDINVEST (28.500 lei) are doar contract draft nedatat/nesemnat și nu apare în SEAP – de regularizat înainte.",
+   "Oferta UTILBEN conține și varianta Multitel 160 ALU R la 89.800 EUR; KSM fără echivalent în lei.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat.",
+   "Nr./dată de înregistrare a contractului de finanțare necompletate în PDF (semnat AFIR 14.07.2026, beneficiar 15.07.2026).",
+   "PAP nr. 6927/20.07.2026 (UAT), avizat GAL 87/21.07.2026.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ },
+ {
+  "id": "galbinasi-consultanta",
+  "folder": "06 GALBINASI",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Gălbinași",
+   "denumire_beneficiar": "UAT COMUNA GĂLBINAȘI",
+   "judet": "Buzău",
+   "adresa": "Sat Gălbinași, Str. Profesor Tudor Gheorghe nr. 5, Com. Gălbinași, Jud. Buzău, CP 127240",
+   "cif": "3724440",
+   "telefon": "0371/425064",
+   "email": "primariagalbinasi@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "DRAGOMIR DUMITRU",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNEI NACELE PENTRU DOTAREA SERVICIULUI DE ILUMINAT PUBLIC COMUNA GALBINASI",
+   "nr_cerere_finantare": "F 36020808218621003751",
+   "nr_contract_finantare": "C 36020808218621003751",
+   "data_contract_finantare": "15.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "6927/20.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": "79411000-8 Servicii generale de consultanță în management",
+   "valoare_estimata_fara_tva": 28526.78,
+   "buget_aprobat_fara_tva": 28526.78,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (din care eligibil 7.334,80 lei)",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": "max. 24 luni, dar nu mai târziu de 30.06.2027 (PAP: inițiere 27.07.2026, atribuire 31.07.2026)",
+   "specificatii_tehnice": [
+    "Management de proiect DR-36 LEADER: planificarea activităților și monitorizarea implementării",
+    "Monitorizarea achizițiilor; întocmirea cererilor de plată",
+    "Acte adiționale și răspunsuri la clarificări AFIR",
+    "Durată max. 24 luni, dar nu mai târziu de 30.06.2027"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CREDINVEST CONSULTING S.R.L.",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": 28500.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "ATENȚIE: achiziția directă de consultanță NU apare în SEAP (grafic GAL) – lipsește codul DA; contractul CREDINVEST (28.500 + TVA 5.985 = 34.485 lei) este draft, nedatat și nesemnat. De inițiat/regularizat în SEAP și de semnat contractul.",
+   "Oferta CREDINVEST („1.1. Oferta CredInvest consultanta Galbinasi.pdf”) – nr./dată necitite; oferte comparative suplimentare negăsite.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat.",
+   "Nr./dată de înregistrare a contractului de finanțare necompletate în PDF (semnat AFIR 14.07.2026, beneficiar 15.07.2026).",
+   "PAP nr. 6927/20.07.2026 (UAT), avizat GAL 87/21.07.2026."
+  ]
+ },
+ {
+  "id": "glodeanu-silistea-ess",
+  "folder": "07 GLODEANU-SILISTEA",
+  "dosar": "Dosar achizitie sistem stocare energie",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Glodeanu-Siliștea",
+   "denumire_beneficiar": "UAT COMUNA GLODEANU-SILIȘTEA",
+   "judet": "Buzău",
+   "adresa": "Sat Glodeanu-Siliștea, Str. Principală nr. 88, Com. Glodeanu-Siliștea, Jud. Buzău, CP 127260",
+   "cif": "4088219",
+   "telefon": "0238/558168",
+   "email": "primariaglsilistea@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "POPESCU GABRIEL",
+   "consilier_achizitii": "Barboșelu Valentina",
+   "contabil": "Avrigeanu Marian"
+  },
+  "proiect": {
+   "titlu": "IMPLEMENTAREA UNUI SISTEM DE STOCARE A ENERGIEI ELECTRICE (ESS) PENTRU PARCUL FOTOVOLTAIC EXISTENT DIN COMUNA GLODEANU SILIȘTEA, JUDEȚUL BUZĂU, ÎN VEDEREA ALIMENTĂRII INFRASTRUCTURII PUBLICE LOCALE",
+   "nr_cerere_finantare": "F 36020808218621003743",
+   "nr_contract_finantare": "C 36020808218621003743",
+   "data_contract_finantare": "09.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "4378/14.07.2026"
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Furnizare, montaj și punere în funcțiune sistem de stocare a energiei electrice (ESS) 215 kWh / 100 kW, containerizat",
+   "cpv": "31440000-2 Baterii",
+   "valoare_estimata_fara_tva": 244085.21,
+   "buget_aprobat_fara_tva": 244294.72,
+   "linie_bugetara": "cap. 4.3 – Utilaje, echipamente tehnologice și funcționale care necesită montaj (222.585,21 lei) + cap. 4.2 – Montaj utilaje (21.500,00 lei)",
+   "procedura": "directa",
+   "cod_seap": "DA41070882",
+   "data_seap": "28.08.2026",
+   "furnizor": {
+    "denumire": "NEXT LEVEL BUSINESS S.R.L.",
+    "cui": "RO31945829"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 244085.21,
+   "termen": "livrare max. 15 zile + montaj 30 zile (max. 45 zile)",
+   "specificatii_tehnice": [
+    "ESS all-in-one containerizat, montaj la sol (ofertat iPotisEdge OmniCube-A215-100K)",
+    "Baterii LiFePO4 215,04 kWh, 280 Ah, 768 V DC; DoD ≥90%, ≥6.000 cicluri",
+    "PCS bidirecțional 100 kW AC 400 V/50 Hz, BMS + EMS, racord PV 100 kW (2 MPPT), EPS on/off-grid",
+    "Stingere incendiu cu aerosol, IP54, răcire aer forțat, monitorizare Modbus TCP/cloud",
+    "Include transport DDP, montaj, cablaje, protecții, SPD, împământare, PRAM, PIF, instruire",
+    "Garanție 120 luni echipamente și montaj"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "IMPULS CONSTRUCT S.R.L.",
+     "nr_data_oferta": "06.08.2026",
+     "valoare_fara_tva": 271748.64,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "HANS & CO CREATIVE SOCIETY S.R.L.",
+     "nr_data_oferta": "06.08.2026",
+     "valoare_fara_tva": 283110.29,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță pentru managementul proiectului",
+    "cpv": "79411000-8",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Achiziție directă SEAP DA40910659/30.07.2026 (nr. contract neidentificat)",
+    "valoare_fara_tva": 28500.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Există deja în Drive arhiva „Achizitii-Glodeanu Silistea.zip” (ID 1pqt0-3L21MszJBbnIXeI53PLQTQMMEJP) – dosarul generat TREBUIE comparat cu aceasta înainte de depunere (fișiere neîmpachetate în folderele 1pD2GTTdfzud_tzpRAJsYbV_3FrfeNIIG, 1KyKjqB5Yhq9lODqMb5otyD9wFiP0vinl, 1EDeRhTC4XGtUCBpQZXzOhewA-Cup3RSc).",
+   "Contractul de furnizare cu montaj este doar DRAFT (nr./dată necompletate); DA41070882 era în stare „Ofertare” la data extrasului – de completat nr./data contractului.",
+   "Oferta câștigătoare NEXT LEVEL nr. 228/06.08.2026 (244.085,21 lei) nu e trecută la oferte comparative (este oferta din procedură); de atașat ca ofertă detaliată.",
+   "Nota de corelare 01.09.2026: SEAP afișează tip contract „Lucrări” deși PAP/CPV = produse; termen plată 15 zile (SEAP) vs 60 zile (ofertă); termene de livrare contradictorii în ofertă (60+30 vs 3–15+30 zile); garanție de bună execuție 5% (12.204,26 lei) neprevăzută în SEAP.",
+   "Specificația din CF cerea IP55 și 167 A AC – oferta are IP54; de verificat conformitatea.",
+   "Bugetul aprobat 244.294,72 lei (47.931 EUR × 5,0968, PAP) vs valoarea liniilor 4.3+4.2 din referat 244.085,21 lei.",
+   "Antetul referatului 06 existent conține greșit „Primăria comunei Cochirleanca”.",
+   "Ofertele comparative IMPULS și HANS au doar dată (06.08.2026), fără număr.",
+   "Adresă inconsecventă: str. Principală nr. 88 (SEAP/referat, folosit aici) vs nr. 52 (CF); SEAP indică tel. 0238/558377 și e-mail primglsilistea@yahoo.com – de confirmat.",
+   "PAP nr. 4378/14.07.2026 (UAT), avizat GAL 86/21.07.2026."
+  ]
+ },
+ {
+  "id": "glodeanu-silistea-consultanta",
+  "folder": "07 GLODEANU-SILISTEA",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Glodeanu-Siliștea",
+   "denumire_beneficiar": "UAT COMUNA GLODEANU-SILIȘTEA",
+   "judet": "Buzău",
+   "adresa": "Sat Glodeanu-Siliștea, Str. Principală nr. 88, Com. Glodeanu-Siliștea, Jud. Buzău, CP 127260",
+   "cif": "4088219",
+   "telefon": "0238/558168",
+   "email": "primariaglsilistea@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "POPESCU GABRIEL",
+   "consilier_achizitii": "Barboșelu Valentina",
+   "contabil": "Avrigeanu Marian"
+  },
+  "proiect": {
+   "titlu": "IMPLEMENTAREA UNUI SISTEM DE STOCARE A ENERGIEI ELECTRICE (ESS) PENTRU PARCUL FOTOVOLTAIC EXISTENT DIN COMUNA GLODEANU SILIȘTEA, JUDEȚUL BUZĂU, ÎN VEDEREA ALIMENTĂRII INFRASTRUCTURII PUBLICE LOCALE",
+   "nr_cerere_finantare": "F 36020808218621003743",
+   "nr_contract_finantare": "C 36020808218621003743",
+   "data_contract_finantare": "09.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "4378/14.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": "79411000-8 Servicii generale de consultanță în management",
+   "valoare_estimata_fara_tva": 28526.79,
+   "buget_aprobat_fara_tva": 28526.79,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (din care eligibil 7.324,10 lei)",
+   "procedura": "directa",
+   "cod_seap": "DA40910659",
+   "data_seap": "30.07.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": "12–36 luni (durata implementării proiectului)",
+   "specificatii_tehnice": [
+    "Management proiect FEADR DR-36 LEADER: coordonare, buget, anexe",
+    "Monitorizarea achizițiilor și a contractelor",
+    "Cereri de plată, acte adiționale, răspunsuri la clarificări",
+    "Durată 12–36 luni; plata la 15 zile"
+   ],
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Există deja în Drive arhiva „Achizitii-Glodeanu Silistea.zip” (ID 1pqt0-3L21MszJBbnIXeI53PLQTQMMEJP) – dosarul generat TREBUIE comparat cu aceasta înainte de depunere (fișiere neîmpachetate în folderele 1pD2GTTdfzud_tzpRAJsYbV_3FrfeNIIG, 1KyKjqB5Yhq9lODqMb5otyD9wFiP0vinl, 1EDeRhTC4XGtUCBpQZXzOhewA-Cup3RSc).",
+   "Dosarul de consultanță a fost deja refăcut la 01.10.2026 (Achizitie_consultanta_Glodeanu_Silistea_corectat*.zip) – de comparat și cu acesta.",
+   "Nr./data contractului CREDINVEST neidentificate – de completat.",
+   "CPV: PAP 79411000-8 vs SEAP 79400000-8; dată: grafic GAL 24.07.2026 vs SEAP 30.07.2026.",
+   "DA40909732 și DA40910014 (30.07.2026) – condiții refuzate, reluate prin DA40910659.",
+   "Nicio ofertă comparativă găsită pentru consultanță (de atașat oferta CREDINVEST din CF și eventual alte oferte).",
+   "Adresă inconsecventă: str. Principală nr. 88 (SEAP/referat, folosit aici) vs nr. 52 (CF); SEAP indică tel. 0238/558377 și e-mail primglsilistea@yahoo.com – de confirmat.",
+   "PAP nr. 4378/14.07.2026 (UAT), avizat GAL 86/21.07.2026."
+  ]
+ },
+ {
+  "id": "luciu-dotari",
+  "folder": "08 LUCIU",
+  "dosar": "Dosar achizitie dotari camin cultural",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Luciu",
+   "denumire_beneficiar": "UAT COMUNA LUCIU",
+   "judet": "Buzău",
+   "adresa": "Sat Luciu, Com. Luciu, Jud. Buzău, CP 127315",
+   "cif": "3724458",
+   "telefon": "0238/539301",
+   "email": "primaria_luciu@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "FRĂȚILĂ MIRCEA",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "DOTARE CĂMIN CULTURAL, SAT CARAGELE, COMUNA LUCIU, JUDEȚUL BUZĂU",
+   "nr_cerere_finantare": "F 36020808218621003745",
+   "nr_contract_finantare": "C 36020808218621003745",
+   "data_contract_finantare": "30.06.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "2404/14.07.2026"
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Dotări cămin cultural sat Caragele (mobilier, sistem de sonorizare, echipamente IT și de proiecție)",
+   "cpv": "39516000-2 Articole de mobilier",
+   "valoare_estimata_fara_tva": 244498.59,
+   "buget_aprobat_fara_tva": 244498.59,
+   "linie_bugetara": "cap. 4.5 – Dotări",
+   "procedura": "directa",
+   "cod_seap": "DA41294711",
+   "data_seap": "30.09.2026",
+   "furnizor": {
+    "denumire": "S.C. ROMVITRINE S.R.L.",
+    "cui": "RO6201810"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 244310.38,
+   "termen": "conform PAP: inițiere 27.07.2026, atribuire 14.08.2026",
+   "specificatii_tehnice": [
+    "18 birouri cadru metalic, blat HPL 12 mm, 2000x600x735 mm; 1 pupitru; 3 corpuri depozitare 900x500x900",
+    "110 scaune tapițate; 10 scaune ergonomice rotative cu tetieră",
+    "Lambriu PAL 110 cm înălțime, 30 ml",
+    "Sonorizare: 2 boxe HK Audio Linear 5 MKII 112 XA, 2 subwoofere 118 Sub A, stative, mixer Allen&Heath ZED-6FX, cabluri XLR",
+    "Sistem wireless Sennheiser XSW 1-825 Dual",
+    "Laptop Lenovo IdeaPad 1 (Ryzen 7, 8 GB, 512 GB); videoproiector Epson CO-W01 3000 lm cu suport tavan",
+    "Ecran proiecție motorizat 300x220 cm, 4:3"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "S.C. ROMVITRINE S.R.L.",
+     "nr_data_oferta": "25.02.2026",
+     "valoare_fara_tva": 244310.38,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "S.C. HVM PERFECTCARE S.R.L. (CIF RO36325640)",
+     "nr_data_oferta": "27/23.02.2026",
+     "valoare_fara_tva": 254015.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "S.C. POHO FOLDERS S.R.L.",
+     "nr_data_oferta": "ref. 096/24.04.2026",
+     "valoare_fara_tva": 269458.5,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță pentru managementul proiectului",
+    "cpv": "79411000-8",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Achiziție directă SEAP DA40972208/11.08.2026 (nr. contract neidentificat)",
+    "valoare_fara_tva": 28500.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Contractul de furnizare ROMVITRINE (rev. 16.09.2026) nu are număr/dată – de completat; extrasul SEAP DA41294711/30.09.2026 nu a fost găsit în Drive.",
+   "Termenele din PAP (atribuire 14.08.2026) sunt depășite – de verificat actualizarea graficului/PAP; termenul de livrare din contract nu a fost extras.",
+   "Garanție de bună execuție 10% = 24.431,04 lei (contract).",
+   "Oferta ROMVITRINE 25.02.2026 (din CF) are aceeași valoare ca valoarea contractului; listarea din oferte conforme arată 34.498/36.498 lei la sonorizare (OCR) – contractul folosește 36.498 lei.",
+   "Oferta ROMVITRINE fără număr de înregistrare; HVM antet „1/23/2026”.",
+   "CPV 39516000-2 (trunchiat în PAP) – de verificat dacă acoperă și sonorizarea/IT sau sunt necesare CPV suplimentare.",
+   "ATENȚIE: DA41067406 (28.08.2026, ROMVITRINE, mobilier 204.738 lei) este altă achiziție, nu cea din proiect – nu se include.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat.",
+   "Adresa UAT fără stradă/număr în surse – de completat.",
+   "Nr./dată de înregistrare a contractului de finanțare lipsesc din PDF.",
+   "PAP nr. 2404/14.07.2026 (UAT), avizat GAL 88/21.07.2026."
+  ]
+ },
+ {
+  "id": "luciu-consultanta",
+  "folder": "08 LUCIU",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Luciu",
+   "denumire_beneficiar": "UAT COMUNA LUCIU",
+   "judet": "Buzău",
+   "adresa": "Sat Luciu, Com. Luciu, Jud. Buzău, CP 127315",
+   "cif": "3724458",
+   "telefon": "0238/539301",
+   "email": "primaria_luciu@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "FRĂȚILĂ MIRCEA",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "DOTARE CĂMIN CULTURAL, SAT CARAGELE, COMUNA LUCIU, JUDEȚUL BUZĂU",
+   "nr_cerere_finantare": "F 36020808218621003745",
+   "nr_contract_finantare": "C 36020808218621003745",
+   "data_contract_finantare": "30.06.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "2404/14.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": "79411000-8 Servicii generale de consultanță în management",
+   "valoare_estimata_fara_tva": 28521.7,
+   "buget_aprobat_fara_tva": 28521.7,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (din care eligibil 7.334,29 lei)",
+   "procedura": "directa",
+   "cod_seap": "DA40972208",
+   "data_seap": "11.08.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": null,
+   "specificatii_tehnice": [],
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Nr./data contractului CREDINVEST, oferta, specificațiile și termenul serviciilor nu au fost găsite – de completat.",
+   "Nicio ofertă comparativă găsită pentru consultanță.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat.",
+   "Adresa UAT fără stradă/număr în surse – de completat.",
+   "Nr./dată de înregistrare a contractului de finanțare lipsesc din PDF.",
+   "PAP nr. 2404/14.07.2026 (UAT), avizat GAL 88/21.07.2026."
+  ]
+ },
+ {
+  "id": "scutelnici-p1-buldoexcavator",
+  "folder": "09.1 SCUTELNICI P1",
+  "dosar": "Dosar achizitie buldoexcavator",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Scutelnici",
+   "denumire_beneficiar": "UAT COMUNA SCUTELNICI",
+   "judet": "Buzău",
+   "adresa": "Sat Scutelnici, Str. Primăriei nr. 1, Com. Scutelnici, Jud. Buzău, CP 127575",
+   "cif": "4234004",
+   "telefon": "0238/783511",
+   "email": "primariascutelnici@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "RUSEN CONSTANTIN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI BULDOEXCAVATOR PENTRU DOTAREA SERVICIULUI VOLUNTAR PENTRU SITUAȚII DE URGENȚĂ COMUNA SCUTELNICI",
+   "nr_cerere_finantare": "F 36020808218621003746",
+   "nr_contract_finantare": "C 36020808218621003746",
+   "data_contract_finantare": "10.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "1603/14.07.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Achiziție buldoexcavator nou pentru dotarea SVSU",
+   "cpv": "43262000-7 Utilaje excavatoare",
+   "valoare_estimata_fara_tva": 432616.39,
+   "buget_aprobat_fara_tva": 432616.39,
+   "linie_bugetara": "cap. 4.4 – Utilaje fără montaj și echipamente de transport (84.880 EUR, din care eligibil 247.500,61 lei)",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "livrare max. 30 zile; PAP: inițiere 28.08.2026, atribuire 30.11.2026",
+   "specificatii_tehnice": [
+    "Buldoexcavator nou, motor diesel Stage V, 70–100 CP, 2.800–4.500 cmc, 4–6 cilindri, cuplu 400–600 Nm",
+    "Transmisie manuală/semiautomată/automată, 4–6 trepte înainte / 2–4 înapoi, tracțiune 2x4/4x4 selectabilă, 30–45 km/h",
+    "Adâncime de săpare 5.500–6.500 mm; înălțime de ridicare 3.200–4.000 mm",
+    "Sarcină punte față 7.000–9.000 kg, spate 10.000–13.000 kg; direcție hidrostatică cu prioritate",
+    "Pompă hidraulică 140–180 l/min, 220–260 bar; frâne hidraulice cu discuri",
+    "Cabină închisă ROPS/FOPS cu încălzire, ventilație și AC"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "Terra România Utilaje de Construcții S.R.L. – JCB 3CX 14L5WM",
+     "nr_data_oferta": "17.12.2025",
+     "valoare_fara_tva": 84880.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 432616.38
+    },
+    {
+     "furnizor": "Bergerat Monnoyeur S.R.L. – CAT 428",
+     "nr_data_oferta": "Q-20240209-840159-V1/05.02.2026",
+     "valoare_fara_tva": 96500.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "S.C. MEM IMPEX S.R.L. – Venieri VF 10.23E",
+     "nr_data_oferta": "nedatată",
+     "valoare_fara_tva": 125832.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță pentru managementul proiectului",
+    "cpv": "79411000-8",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Achiziție directă SEAP DA40911175/30.07.2026 (nr. contract neidentificat)",
+    "valoare_fara_tva": 28500.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Procedură SIMPLIFICATĂ (valoare 432.616,39 lei > pragul de 270.120 lei pentru achiziția directă de produse); neinițiată în SEAP – cod, furnizor, contract de completat după atribuire.",
+   "Etapa I (documente premergătoare) depusă la OJFIR Buzău; fișa de verificare 29.09.2026 cere CV-urile semnate și datate ale membrilor comisiei de evaluare – răspuns la clarificare necesar.",
+   "Linie bugetară: CF cap. 4.4 vs lista de verificare OJFIR cap. 4.3 – de clarificat.",
+   "Valoare eligibilă: CF 50.327 EUR vs contract de finanțare 50.016 EUR / 254.921,54 lei – se folosește contractul.",
+   "Oferta MEM IMPEX nedatată; ofertele Bergerat și MEM fără echivalent lei; originalele în „2. Oferte conforme_s.pdf”.",
+   "CF citit este versiunea 17.03.2026 – pot exista versiuni ulterioare.",
+   "PAP nr. 1603/14.07.2026 (UAT), avizat GAL 83/20.07.2026.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ },
+ {
+  "id": "scutelnici-p1-consultanta",
+  "folder": "09.1 SCUTELNICI P1",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Scutelnici",
+   "denumire_beneficiar": "UAT COMUNA SCUTELNICI",
+   "judet": "Buzău",
+   "adresa": "Sat Scutelnici, Str. Primăriei nr. 1, Com. Scutelnici, Jud. Buzău, CP 127575",
+   "cif": "4234004",
+   "telefon": "0238/783511",
+   "email": "primariascutelnici@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "RUSEN CONSTANTIN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI BULDOEXCAVATOR PENTRU DOTAREA SERVICIULUI VOLUNTAR PENTRU SITUAȚII DE URGENȚĂ COMUNA SCUTELNICI",
+   "nr_cerere_finantare": "F 36020808218621003746",
+   "nr_contract_finantare": "C 36020808218621003746",
+   "data_contract_finantare": "10.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "1603/14.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": "79411000-8 Servicii generale de consultanță în management",
+   "valoare_estimata_fara_tva": 28521.69,
+   "buget_aprobat_fara_tva": 28521.69,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (din care eligibil 7.420,93 lei)",
+   "procedura": "directa",
+   "cod_seap": "DA40911175",
+   "data_seap": "30.07.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": null,
+   "specificatii_tehnice": [],
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Nr./data contractului CREDINVEST, oferta, specificațiile și termenul serviciilor nu au fost găsite – de completat.",
+   "Nicio ofertă comparativă găsită pentru consultanță.",
+   "PAP nr. 1603/14.07.2026 (UAT), avizat GAL 83/20.07.2026.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat."
+  ]
+ },
+ {
+  "id": "scutelnici-p2-echipamente-medicale",
+  "folder": "09.2 SCUTELNICI P2",
+  "dosar": "Dosar achizitie echipamente medicale",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Scutelnici",
+   "denumire_beneficiar": "UAT COMUNA SCUTELNICI",
+   "judet": "Buzău",
+   "adresa": "Sat Scutelnici, Str. Primăriei nr. 1, Com. Scutelnici, Jud. Buzău, CP 127575",
+   "cif": "4234004",
+   "telefon": "0238/783511",
+   "email": "primariascutelnici@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "RUSEN CONSTANTIN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "DOTAREA CABINETULUI MEDICAL DIN COMUNA SCUTELNICI, JUDETUL BUZAU",
+   "nr_cerere_finantare": "F 36020809618621002613",
+   "nr_contract_finantare": "C 36020809618621002613",
+   "data_contract_finantare": "24.06.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "1602/14.07.2026"
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Diverse echipamente și aparatură medicală pentru dotarea cabinetului medical (23 poziții)",
+   "cpv": "33100000-1 Echipamente medicale",
+   "valoare_estimata_fara_tva": 147424.94,
+   "buget_aprobat_fara_tva": 147424.94,
+   "linie_bugetara": "cap. 4.5 – Dotări",
+   "procedura": "directa",
+   "cod_seap": "DA41164393",
+   "data_seap": "11.09.2026",
+   "furnizor": {
+    "denumire": "S.C. SPEQTUS ENTERPRISE S.R.L.",
+    "cui": "RO43110660"
+   },
+   "contract_nr_data": "2175/16.09.2026",
+   "valoare_contract_fara_tva": 147055.2,
+   "termen": "livrare max. 15 zile de la ordinul de livrare (emis după avizarea AFIR/OJFIR Buzău)",
+   "specificatii_tehnice": [
+    "Diagnostic: EKG 12 derivații, Holter ECG 72 h, spirometru, monitor multiparametru 15\", ecograf portabil cu sondă convexă",
+    "Analizor HbA1c cu kit teste, tensiometru profesional automat, aparat ABI, stetoscop digital, pulsoximetru pediatric",
+    "Urgență: defibrilator, geanta doctorului echipată",
+    "Mobilier medical: pat examinare 3 secțiuni, masă examinare electrică, scaun donator, cărucior tratament, cărucior și geantă ecograf, suport rolă hârtie",
+    "Cântar medical cu stadimetru 0–200 kg, scaun cu rotile bariatric 225 kg, lampă germicidă UV 2x30 W"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "SPEQTUS ENTERPRISE S.R.L. (Golden Protect) – ofertă pe repere (CF)",
+     "nr_data_oferta": "18.11.2025",
+     "valoare_fara_tva": null,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "Creative & Innovative Management S.R.L. (CreativeMed) – toate cele 23 poziții",
+     "nr_data_oferta": "CM_0156/05.07.2025",
+     "valoare_fara_tva": 153345.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "D&G Group S.R.L. – ofertă parțială (analizor HbA1c 300 EUR + 100 teste 1.300 lei)",
+     "nr_data_oferta": "223/18.11.2025",
+     "valoare_fara_tva": null,
+     "moneda": null,
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "PROMED SOLUTION MD S.R.L. – ofertă parțială (4 poziții, 21.708 lei)",
+     "nr_data_oferta": "OFCL2195/19.11.2025",
+     "valoare_fara_tva": null,
+     "moneda": null,
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță pentru managementul proiectului",
+    "cpv": "79411000-8",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Achiziție directă SEAP DA40911131/30.07.2026 (nr. contract neidentificat)",
+    "valoare_fara_tva": 21500.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "De verificat conformitatea ofertei câștigătoare (GP-2026-0904-SCUTELNICI, 08.09.2026) cu lista aprobată: tabelul comparativ 04.09.2026 semnala la oferta din 02.09.2026 poziții lipsă, tensiometru inferior (oscilometric, fără ABI/AFIB), cântar mecanic vs „electronic cu IMC”.",
+   "Mai multe versiuni de contract în Drive (refăcut, completat, 29.09.2026) – s-a folosit versiunea nr. 2175/16.09.2026; de confirmat versiunea semnată.",
+   "Extrasul SEAP DA41164393 nu a fost găsit ca fișier separat; DA41056915 (26.08.2026) – ofertă refuzată, reluată prin DA41164393.",
+   "Oferta SPEQTUS din CF este pe repere, fără total – valoare de completat; ofertele D&G și PROMED sunt parțiale (doar câteva poziții) – nu acoperă întregul obiect.",
+   "Oferta comercială SPEQTUS datată „07.11.2026” (probabil 07.11.2025) – de verificat.",
+   "PAP nr. 1602/14.07.2026 (UAT), avizat GAL 82/20.07.2026; intervenție L809/L811 – incluziune socială și sănătate.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat."
+  ]
+ },
+ {
+  "id": "scutelnici-p2-consultanta",
+  "folder": "09.2 SCUTELNICI P2",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Scutelnici",
+   "denumire_beneficiar": "UAT COMUNA SCUTELNICI",
+   "judet": "Buzău",
+   "adresa": "Sat Scutelnici, Str. Primăriei nr. 1, Com. Scutelnici, Jud. Buzău, CP 127575",
+   "cif": "4234004",
+   "telefon": "0238/783511",
+   "email": "primariascutelnici@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "RUSEN CONSTANTIN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "DOTAREA CABINETULUI MEDICAL DIN COMUNA SCUTELNICI, JUDETUL BUZAU",
+   "nr_cerere_finantare": "F 36020809618621002613",
+   "nr_contract_finantare": "C 36020809618621002613",
+   "data_contract_finantare": "24.06.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "1602/14.07.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță (elaborare cerere de finanțare și managementul proiectului)",
+   "cpv": "79411000-8 Servicii generale de consultanță în management",
+   "valoare_estimata_fara_tva": 21559.47,
+   "buget_aprobat_fara_tva": 21559.47,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (din care eligibil 4.418,92 lei)",
+   "procedura": "directa",
+   "cod_seap": "DA40911131",
+   "data_seap": "30.07.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 21500.0,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Elaborarea cererii de finanțare (2.500 lei)",
+    "Managementul proiectului pe durata implementării (19.001,82 lei)"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CREDINVEST CONSULTING S.R.L.",
+     "nr_data_oferta": "87/24.11.2025",
+     "valoare_fara_tva": 21501.82,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Nr./data contractului CREDINVEST și termenul serviciilor nu au fost găsite – de completat.",
+   "Oferta CREDINVEST 87/24.11.2025 = 21.501,82 lei vs valoare atribuită 21.500 lei; nicio altă ofertă comparativă.",
+   "PAP nr. 1602/14.07.2026 (UAT), avizat GAL 82/20.07.2026.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat."
+  ]
+ },
+ {
+  "id": "ca-rosetti-lucrari-fotovoltaice",
+  "folder": "10 C.A. ROSETTI",
+  "dosar": "Dosar achizitie lucrari sistem fotovoltaic",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna C.A. Rosetti",
+   "denumire_beneficiar": "UAT COMUNA C.A. ROSETTI",
+   "judet": "Buzău",
+   "adresa": "Sat C.A. Rosetti, Com. C.A. Rosetti, Jud. Buzău, CP 127120",
+   "cif": "3662681",
+   "telefon": "0238/731001",
+   "email": "primaria_carosetti@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "CRĂCIUN COSTEL",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "CREȘTEREA EFICIENȚEI ENERGETICE ȘI REDUCEREA COSTURILOR CU ENERGIA ELECTRICĂ PRIN REALIZAREA UNUI SISTEM FOTOVOLTAIC PENTRU AUTOCONSUM AFERENT STATIEI DE POMPARE A APEI POTABILE DIN COMUNA C.A. ROSETTI, JUDEȚUL BUZĂU",
+   "nr_cerere_finantare": "F 36020808218621003741",
+   "nr_contract_finantare": "C 36020808218621003741",
+   "data_contract_finantare": "03.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "5235/01.09.2026"
+  },
+  "achizitie": {
+   "tip": "lucrari",
+   "obiect": "Proiectare și execuție lucrări – parc fotovoltaic 60 kWp cu stocare în baterii pentru stația de pompare a apei potabile",
+   "cpv": "45261215-4 Lucrări de acoperire cu panouri solare",
+   "valoare_estimata_fara_tva": 406780.7,
+   "buget_aprobat_fara_tva": 406780.7,
+   "linie_bugetara": "cap. 4.2 – Montaj + cap. 4.3 – Utilaje cu montaj (total cap. 4: 79.811 EUR, din care eligibil 47.932 EUR)",
+   "procedura": "directa",
+   "cod_seap": "DA40809147",
+   "data_seap": "13.07.2026",
+   "furnizor": {
+    "denumire": "S.C. NEXT LEVEL BUSINESS S.R.L.",
+    "cui": "RO31945829"
+   },
+   "contract_nr_data": "4249/14.07.2026",
+   "valoare_contract_fara_tva": 406464.72,
+   "termen": "4 luni de la ordinul de începere; garanția lucrărilor 36 luni",
+   "specificatii_tehnice": [
+    "Parc fotovoltaic 60 kWp cu stocare, montaj la sol",
+    "100 panouri monocristaline 605 W cu structură de susținere",
+    "3 invertoare hibride trifazate 20 kW (DEYE SUN-20K-SG05LP3-EU-SM2)",
+    "6 baterii LiFePO4 ~16 kWh (Dyness PowerBrick Plus 16,07 kWh, IP65)",
+    "Modul WiFi de monitorizare",
+    "C+M: cablaje DC/AC, tablouri și protecții, SPD, împământare, PRAM, PIF, instruire"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "Criva Favorite Truck S.R.L. (RO31124785)",
+     "nr_data_oferta": "344/06.07.2025",
+     "valoare_fara_tva": 491909.96,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii elaborare documentații tehnice (SF și PT)",
+    "cpv": "71241000-9",
+    "furnizor": null,
+    "document": "Atribuire directă online 22–23.12.2025 (buget local)",
+    "valoare_fara_tva": 16539.12,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "NECONCORDANȚĂ PAP – DE REZOLVAT ÎNAINTE DE DEPUNERE: PAP nr. 5235/01.09.2026 prevede „Produse – Sistem de panouri fotovoltaice”, CPV 09332000-5, procedură simplificată 30.09–30.11.2026, 406.780,70 lei, în timp ce achiziția reală a fost LUCRĂRI (proiectare + execuție), achiziție directă DA40809147 (13.07.2026, acceptată 14.07.2026), contract 4249/14.07.2026, 406.464,72 lei fără TVA. Dosarul este generat conform achiziției reale – PAP trebuie actualizat (tip contract lucrări, CPV 45261215-4, achiziție directă, date reale).",
+   "Încadrare în prag: pragul pentru achiziția directă de lucrări este 900.400 lei fără TVA (art. 7 alin. (5) Legea 98/2016), deci achiziția directă de lucrări de 406.464,72 lei fără TVA este permisă.",
+   "Risc: bugetul este pe cap. 4.2 + 4.3 (echipamente cu montaj); dacă AFIR reîncadrează contractul ca produse, valoarea depășește pragul de 270.120 lei pentru achiziția directă de produse – de argumentat natura de lucrări (proiectare + execuție, C+M 144.633,96 lei) și eventual încadrarea proiectării (cap. 3.5).",
+   "Achiziția (14.07.2026) a fost făcută înaintea PAP găsit (01.09.2026); graficul GAL indică PAP 80/10.07.2026 – de clarificat versiunea PAP avizată.",
+   "SEAP indică programul „PNDR” și termene 7 luni / 2 luni, față de 4 luni în contract.",
+   "Oferta câștigătoare NEXT LEVEL: fișier „Oferta 213”, conținut „OFERTĂ nr. 219 din 06.07.2026”, termen „5 (zece) zile” – inconsecvent; nu e trecută la oferte comparative (este oferta din procedură).",
+   "Doar o ofertă comparativă găsită (Criva, datată 06.07.2025 – posibil 2026); de identificat ofertele din CF.",
+   "Garanție de bună execuție 26.420,21 lei (43 luni); devizul general SF/PT trebuie atașat.",
+   "Folderul „8. ROSETTI” (SF_ROSETTI_*, CF_ROSETTI_final.pdf, 30.09.2026) pare documentație refăcută – necitit în detaliu.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat.",
+   "Adresa: SEAP indică „Strada DN nr. 2B”; telefon 0238/731001 (fax) / mobil 0745538156 / SEAP 0238/531001; e-mail SEAP secretariat@primariacarosetti.ro – de confirmat datele de contact.",
+   "Furnizorul SF/PT (16.539,12 lei, buget local) nu a fost identificat – de completat în centralizator."
+  ]
+ },
+ {
+  "id": "ca-rosetti-consultanta",
+  "folder": "10 C.A. ROSETTI",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna C.A. Rosetti",
+   "denumire_beneficiar": "UAT COMUNA C.A. ROSETTI",
+   "judet": "Buzău",
+   "adresa": "Sat C.A. Rosetti, Com. C.A. Rosetti, Jud. Buzău, CP 127120",
+   "cif": "3662681",
+   "telefon": "0238/731001",
+   "email": "primaria_carosetti@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "CRĂCIUN COSTEL",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "CREȘTEREA EFICIENȚEI ENERGETICE ȘI REDUCEREA COSTURILOR CU ENERGIA ELECTRICĂ PRIN REALIZAREA UNUI SISTEM FOTOVOLTAIC PENTRU AUTOCONSUM AFERENT STATIEI DE POMPARE A APEI POTABILE DIN COMUNA C.A. ROSETTI, JUDEȚUL BUZĂU",
+   "nr_cerere_finantare": "F 36020808218621003741",
+   "nr_contract_finantare": "C 36020808218621003741",
+   "data_contract_finantare": "03.07.2026",
+   "gal": "GAL Ecoul Câmpiei Buzăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "5235/01.09.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță pentru managementul proiectului",
+   "cpv": "73220000-0 Servicii de consultanță în dezvoltare",
+   "valoare_estimata_fara_tva": 48536.82,
+   "buget_aprobat_fara_tva": 48536.82,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (din care eligibil 7.324,10 lei conform PAP)",
+   "procedura": "directa",
+   "cod_seap": "DA40872973",
+   "data_seap": "23.07.2026",
+   "furnizor": {
+    "denumire": "CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 48500.0,
+   "termen": null,
+   "specificatii_tehnice": [],
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii elaborare documentații tehnice (SF și PT)",
+    "cpv": "71241000-9",
+    "furnizor": null,
+    "document": "Atribuire directă online 22–23.12.2025 (buget local)",
+    "valoare_fara_tva": 16539.12,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   },
+   {
+    "obiect": "Proiectare și execuție lucrări – parc fotovoltaic 60 kWp cu stocare",
+    "cpv": "45261215-4",
+    "furnizor": "NEXT LEVEL BUSINESS S.R.L., CUI RO31945829",
+    "document": "Contract nr. 4249/14.07.2026 (SEAP DA40809147)",
+    "valoare_fara_tva": 406464.72,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Nr./data contractului CREDINVEST, oferta, specificațiile și termenul serviciilor nu au fost găsite – de completat.",
+   "Eligibil 3.7.1 în PAP 7.324,10 lei (identic cu Glodeanu-Siliștea) vs buget 2.395 EUR (~12.207 lei la 5,0968) – posibilă eroare în PAP, de verificat.",
+   "PAP indică pentru consultanță 13–14.07.2026, achiziția SEAP este din 23.07.2026; CPV 73220000-0 în PAP (alte proiecte folosesc 79411000-8).",
+   "Neconcordanța PAP 5235/01.09.2026 pentru lucrări (produse/simplificată vs lucrări/directă DA40809147) afectează și centralizatorul – de rezolvat.",
+   "Nicio ofertă comparativă găsită pentru consultanță.",
+   "DA40764471 și DA40809053 – oferte refuzate (reluate) conform graficului GAL.",
+   "Consilierul achiziții și contabilul nu au fost identificați – de completat.",
+   "Adresa: SEAP indică „Strada DN nr. 2B”; telefon 0238/731001 (fax) / mobil 0745538156 / SEAP 0238/531001; e-mail SEAP secretariat@primariacarosetti.ro – de confirmat datele de contact.",
+   "Furnizorul SF/PT (16.539,12 lei, buget local) nu a fost identificat – de completat în centralizator."
+  ]
+ },
+ {
+  "id": "zarnesti-buldoexcavator",
+  "folder": "12 ZĂRNEȘTI",
+  "dosar": "Dosar achizitie buldoexcavator",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Zărnești",
+   "denumire_beneficiar": "UAT COMUNA ZĂRNEȘTI",
+   "judet": "Buzău",
+   "adresa": "Sat Zărnești, Com. Zărnești, Jud. Buzău, CP 127715",
+   "cif": "3724512",
+   "telefon": "0238/785102",
+   "email": "primariazarnesti@yahoo.com",
+   "functie_reprezentant": "Viceprimar (îndeplinind atribuțiile de primar)"
+  },
+  "persoane": {
+   "reprezentant": "DINU VICTOR-MARIAN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI BULDOEXCAVATOR PENTRU DOTAREA SERVICIULUI PUBLIC DE SALUBRIZARE MENAJERA AL COMUNEI ZĂRNEȘTI",
+   "nr_cerere_finantare": "F36020808213821003851",
+   "nr_contract_finantare": "C36020808213821003851",
+   "data_contract_finantare": null,
+   "gal": "GAL Valea Cîlnăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Buldoexcavator multifuncțional – 1 buc. (fără montaj) pentru Serviciul Public de Salubrizare Menajeră",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 468905.59,
+   "buget_aprobat_fara_tva": 468905.59,
+   "linie_bugetara": "cap. 4.4 – Utilaje, echipamente tehnologice și funcționale care nu necesită montaj și echipamente de transport",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Motor 70–80 CP, 2.000–4.000 cmc, 4 cilindri, cuplu 440 Nm la 1.200 rpm",
+    "Transmisie AUTOSHIFT cu convertizor blocabil, 6+4 trepte, POWER SHUTTLE, 2x4/4x4; viteză max. 30–50 km/h",
+    "Adâncime de săpare 5.500–6.500 mm; înălțime de ridicare 3.000–3.800 mm",
+    "Anvelope 340/80-18 față, 480/80-26 spate; punți 8.000–9.000 kg față / 12.000–13.000 kg spate",
+    "Direcție hidrostatică; frâne cu discuri în baie de ulei",
+    "Pompă hidraulică cu pistoane axiale, debit variabil, Load Sensing, 160–165 l/min, 250–260 bar",
+    "Cabină închisă ROPS/FOPS, ventilație, încălzire, aer condiționat"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "SC TERRA ROMANIA UTILAJE DE CONSTRUCTII SRL (JCB 3CX 14L5WM)",
+     "nr_data_oferta": "8AG-4867/16.12.2025",
+     "valoare_fara_tva": 92000.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 468546.8
+    },
+    {
+     "furnizor": "SC TITAN MACHINERY ROMANIA SRL (CASE 580SV TC 2025)",
+     "nr_data_oferta": "TMR-2025-20347-1/19.11.2025",
+     "valoare_fara_tva": 91450.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 470838.61
+    },
+    {
+     "furnizor": "KUHN ROMANIA SRL",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": 516929.35,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "NOTĂ PROCEDURĂ: Procedura „simplificată” este DEDUSĂ din valoare (peste pragul de achiziție directă de 270.120 lei fără TVA pentru produse) – nu este documentată; trebuie confirmată cu PAP-ul (care lipsește).",
+   "Reprezentant legal: viceprimarul DINU VICTOR-MARIAN, împuternicit prin HCL nr. 36/23.07.2026 (fostul primar MATEI Sorin a demisionat la 10.06.2026; Ordinul Prefectului Buzău nr. 572/18.06.2026) – atașați HCL-ul la dosar.",
+   "Lipsește PAP-ul (nu există în graficul GAL și nici în Drive) – trebuie întocmit/avizat înainte de depunere.",
+   "Data contractului de finanțare nu apare în documente (anexele semnate de beneficiar la 16.09.2026) – de completat.",
+   "Adresa primăriei nu are stradă/număr în CF; email: primariazarnesti@yahoo.com în CF vs primaria.zarnesti@yahoo.com în memoriul din 25.08.2026 – de confirmat.",
+   "OJFIR Buzău este dedus din județ – de confirmat.",
+   "Graficul de cereri de plată dă CP1 la 15.09.2026 (5.000 lei), înainte de orice achiziție – probabil trebuie actualizat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă – de preluat din PAP / caietul de sarcini.",
+   "Oferta KUHN ROMANIA nu a fost găsită (apare doar în tabelul comparativ din CF, 516.929,35 lei) – numărul/data ofertei lipsesc.",
+   "În tabelul comparativ, Titan are preț EUR mai mic (91.450) decât Terra (92.000), dar valoare lei mai mare (alt curs); bugetul s-a construit pe oferta Terra – de clarificat justificarea.",
+   "Valorile în lei ale ofertelor sunt cele din tabelul comparativ al CF.",
+   "Dacă consultanța CREDINVEST se atribuie înaintea buldoexcavatorului, adăugați-o în centralizatorul achizițiilor anterioare."
+  ]
+ },
+ {
+  "id": "zarnesti-consultanta",
+  "folder": "12 ZĂRNEȘTI",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Zărnești",
+   "denumire_beneficiar": "UAT COMUNA ZĂRNEȘTI",
+   "judet": "Buzău",
+   "adresa": "Sat Zărnești, Com. Zărnești, Jud. Buzău, CP 127715",
+   "cif": "3724512",
+   "telefon": "0238/785102",
+   "email": "primariazarnesti@yahoo.com",
+   "functie_reprezentant": "Viceprimar (îndeplinind atribuțiile de primar)"
+  },
+  "persoane": {
+   "reprezentant": "DINU VICTOR-MARIAN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI BULDOEXCAVATOR PENTRU DOTAREA SERVICIULUI PUBLIC DE SALUBRIZARE MENAJERA AL COMUNEI ZĂRNEȘTI",
+   "nr_cerere_finantare": "F36020808213821003851",
+   "nr_contract_finantare": "C36020808213821003851",
+   "data_contract_finantare": null,
+   "gal": "GAL Valea Cîlnăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță – managementul proiectului",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 28521.69,
+   "buget_aprobat_fara_tva": 28521.69,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect pentru obiectivul de investiții",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": {
+    "denumire": "S.C. CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Elaborarea cererii de finanțare și a documentelor suport (10.000 lei)",
+    "Managementul proiectului: planificare, monitorizarea implementării și a achizițiilor (18.500 lei)",
+    "Întocmirea cererilor de plată și a actelor adiționale"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "SC CREDINVEST CONSULTING SRL",
+     "nr_data_oferta": "104/15.12.2025",
+     "valoare_fara_tva": 28500.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Reprezentant legal: viceprimarul DINU VICTOR-MARIAN, împuternicit prin HCL nr. 36/23.07.2026 (fostul primar MATEI Sorin a demisionat la 10.06.2026; Ordinul Prefectului Buzău nr. 572/18.06.2026) – atașați HCL-ul la dosar.",
+   "Lipsește PAP-ul (nu există în graficul GAL și nici în Drive) – trebuie întocmit/avizat înainte de depunere.",
+   "Data contractului de finanțare nu apare în documente (anexele semnate de beneficiar la 16.09.2026) – de completat.",
+   "Adresa primăriei nu are stradă/număr în CF; email: primariazarnesti@yahoo.com în CF vs primaria.zarnesti@yahoo.com în memoriul din 25.08.2026 – de confirmat.",
+   "OJFIR Buzău este dedus din județ – de confirmat.",
+   "Graficul de cereri de plată dă CP1 la 15.09.2026 (5.000 lei), înainte de orice achiziție – probabil trebuie actualizat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă; la celelalte proiecte consultanța CREDINVEST s-a încadrat la 79400000-8 – de confirmat cu PAP-ul.",
+   "Achiziția nu este inițiată în SEAP: lipsesc codul DA, contractul și valoarea contractului.",
+   "Oferta CREDINVEST include și elaborarea CF (10.000 lei), activitate deja prestată – de verificat cum se reflectă în contract.",
+   "Bugetul 3.7.1 (28.521,69 lei) are 14.067,17 lei eligibil și 14.454,52 lei neeligibil.",
+   "Procedura (achiziție directă) e estimată, nu există PAP – de confirmat."
+  ]
+ },
+ {
+  "id": "robeasca-lucrari-fotovoltaic",
+  "folder": "13 ROBEASCA",
+  "dosar": "Dosar achizitie lucrari sistem fotovoltaic",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Robeasca",
+   "denumire_beneficiar": "UAT COMUNA ROBEASCA",
+   "judet": "Buzău",
+   "adresa": "Sat Robeasca, Șos. Buzăului nr. 29, Com. Robeasca, Jud. Buzău, CP 127515",
+   "cif": "2808992",
+   "telefon": "0238/581800",
+   "email": "primaria_robeasca@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "VLAD DOMNICA",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "EFICIENTIZAREA CONSUMULUI DE ENERGIE ELECTRICĂ, PRIN INSTALAREA DE PANOURI SOLARE FOTOVOLTAICE, CENTRALA ELECTRICA FOTOVOLTAICA PENTRU AUTOCONSUM – COMUNA ROBEASCA, JUDEȚUL BUZAU",
+   "nr_cerere_finantare": "F36020808213821003887",
+   "nr_contract_finantare": "C36020808213821003887",
+   "data_contract_finantare": "03.07.2026",
+   "gal": "GAL Valea Cîlnăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "3203/01.09.2026"
+  },
+  "achizitie": {
+   "tip": "lucrari",
+   "obiect": "Execuție sistem fotovoltaic trifazat 58,88 kW cu stocare 40,96 kWh – centrală electrică fotovoltaică pentru autoconsum (Grădinița Moșești)",
+   "cpv": "45261215-4 Lucrări de acoperire cu panouri solare",
+   "valoare_estimata_fara_tva": 305945.61,
+   "buget_aprobat_fara_tva": 305945.61,
+   "linie_bugetara": "cap. 4.2 Montaj + cap. 4.3 Echipamente care necesită montaj (eligibil 271.868,41 lei); cap. 4.1 împrejmuire CEF (neeligibil)",
+   "procedura": "directa",
+   "cod_seap": "DA41081576",
+   "data_seap": "31.08.2026",
+   "furnizor": {
+    "denumire": "S.C. MULTIPROD ENERGO S.R.L.",
+    "cui": "RO3608607"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 304897.25,
+   "termen": null,
+   "specificatii_tehnice": [
+    "128 panouri fotovoltaice monocristaline Canadian Solar 460 W (58,88 kW)",
+    "3 invertoare hibride trifazate Deye 20 kW LV",
+    "4 acumulatori LiFePO4 Dyness 10,24 kWh cu încălzire (40,96 kWh)",
+    "Structură la sol SpeedRail K2 – 8 mese x 16 panouri",
+    "Tablouri AC/DC, BMP trifazat, ATS trifazat, tablou anti-insularizare, cabluri",
+    "Producție estimată 70.000–75.000 kWh/an",
+    "Împrejmuire: stâlpi metalici H 2500 mm, plasă 2,5 mm x 1,8 m, poartă"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "SC MULTIPROD ENERGO SRL",
+     "nr_data_oferta": "2192/22.01.2026",
+     "valoare_fara_tva": 271632.01,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "PUBLIC SOLAR",
+     "nr_data_oferta": "51/20.01.2026",
+     "valoare_fara_tva": 301424.12,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "SC ELECTRO & CONSTRUCT SRL",
+     "nr_data_oferta": "811/20.01.2026",
+     "valoare_fara_tva": 319260.47,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță – managementul proiectului",
+    "cpv": "79400000-8 Servicii de consultanță în afaceri și în management și servicii conexe",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Achiziție directă SEAP DA40918590/31.07.2026 (nr. contract de completat)",
+    "valoare_fara_tva": 28500.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "!!! NECONCORDANȚE PAP vs SEAP – DE REZOLVAT ÎNAINTE DE DEPUNERE (probabil prin actualizarea PAP): PAP nr. 3203/01.09.2026 prevede PRODUSE, PROCEDURĂ SIMPLIFICATĂ, CPV 09332000-5 Instalații solare, 305.945,61 lei; achiziția s-a făcut ca LUCRĂRI, ACHIZIȚIE DIRECTĂ din catalogul SEAP DA41081576 (31.08.2026), CPV 45261215-4, 304.897,25 lei. Dosarul este generat conform SEAP.",
+   "!!! PAP-ul e semnat la 01.09.2026, DUPĂ publicarea DA41081576 (31.08.2026); există și o variantă PAP din 07.2026 – de clarificat care versiune se depune.",
+   "Valoarea DA (304.897,25 lei) depășește oferta Multiprod din CF (271.632,01 lei) și include probabil împrejmuirea neeligibilă (oferta Multiprod nr. 2306/22.05.2026 – 34.049,73 lei, cap. 4.1) – de verificat; oferta de împrejmuire nu e inclusă în tabelul comparativ.",
+   "Achiziție directă de lucrări sub pragul de 900.400 lei fără TVA – OK ca prag, dar trebuie să corespundă cu PAP-ul actualizat.",
+   "Contractul de execuție lucrări există doar ca draft „aug 2026”, fără număr/dată – de completat după semnare.",
+   "Ofertele ELC și Public Solar sunt marcate „v6 – finală” și conțin valori suprapuse 29,44/58,88 kW – de verificat că sunt ofertele originale.",
+   "Graficul GAL menționează DA41004802 (17.08) și DA41035509 (24.08), neacceptate la termen – de explicat în nota justificativă dacă e cazul.",
+   "Pentru lucrări se cere și devizul general/devizele pe obiect din documentația tehnico-economică.",
+   "Telefon: 0238/581800 în SEAP; 0723 805 401 în CF și contract – de ales cel corect.",
+   "Bugetul final din Anexa III.2 a contractului nu a fost citit (valorile sunt din PAP și CF) – de verificat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat."
+  ]
+ },
+ {
+  "id": "robeasca-consultanta",
+  "folder": "13 ROBEASCA",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Robeasca",
+   "denumire_beneficiar": "UAT COMUNA ROBEASCA",
+   "judet": "Buzău",
+   "adresa": "Sat Robeasca, Șos. Buzăului nr. 29, Com. Robeasca, Jud. Buzău, CP 127515",
+   "cif": "2808992",
+   "telefon": "0238/581800",
+   "email": "primaria_robeasca@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "VLAD DOMNICA",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "EFICIENTIZAREA CONSUMULUI DE ENERGIE ELECTRICĂ, PRIN INSTALAREA DE PANOURI SOLARE FOTOVOLTAICE, CENTRALA ELECTRICA FOTOVOLTAICA PENTRU AUTOCONSUM – COMUNA ROBEASCA, JUDEȚUL BUZAU",
+   "nr_cerere_finantare": "F36020808213821003887",
+   "nr_contract_finantare": "C36020808213821003887",
+   "data_contract_finantare": "03.07.2026",
+   "gal": "GAL Valea Cîlnăului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": "3203/01.09.2026"
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță – managementul proiectului",
+   "cpv": "79400000-8 Servicii de consultanță în afaceri și în management și servicii conexe",
+   "valoare_estimata_fara_tva": 28526.79,
+   "buget_aprobat_fara_tva": 28526.79,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (eligibil 8.154,87 lei)",
+   "procedura": "directa",
+   "cod_seap": "DA40918590",
+   "data_seap": "31.07.2026",
+   "furnizor": {
+    "denumire": "S.C. CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": 28500.0,
+   "termen": null,
+   "specificatii_tehnice": null,
+   "oferte_comparative": [
+    {
+     "furnizor": "SC CREDINVEST CONSULTING SRL",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": 28500.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Numărul/data contractului de consultanță lipsesc; valoarea de 28.500 lei este preluată din graficul GAL – de verificat cu contractul.",
+   "Oferta CREDINVEST din CF (fișierul „3.2. Oferta CredInvest consultanta Robeasca.doc”) nu a fost citită – numărul/data lipsesc.",
+   "PAP-ul nr. 3203/01.09.2026 e semnat după DA40918590 (31.07.2026); verificați că poziția consultanței din PAP corespunde (procedură, CPV, valoare).",
+   "Specificațiile serviciilor lipsesc – de preluat din oferta/contractul CREDINVEST.",
+   "Telefon: 0238/581800 în SEAP; 0723 805 401 în CF și contract – de ales cel corect.",
+   "Bugetul final din Anexa III.2 a contractului nu a fost citit (valorile sunt din PAP și CF) – de verificat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat."
+  ]
+ },
+ {
+  "id": "beceni-buldoexcavator",
+  "folder": "14 BECENI",
+  "dosar": "Dosar achizitie buldoexcavator",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Beceni",
+   "denumire_beneficiar": "UAT COMUNA BECENI",
+   "judet": "Buzău",
+   "adresa": "Sat Beceni, Str. Principală B nr. 25, Com. Beceni, Jud. Buzău, CP 127025",
+   "cif": "3662568",
+   "telefon": "0238/520398",
+   "email": "office@primariabeceni.ro",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "BURLACU ADRIAN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI BULDOEXCAVATOR PENTRU DOTAREA SERVICIULUI VOLUNTAR PENTRU SITUAȚII DE URGENȚĂ COMUNA BECENI",
+   "nr_cerere_finantare": "F36020808217121003908",
+   "nr_contract_finantare": "C36020808217121003908",
+   "data_contract_finantare": "26.08.2026",
+   "gal": "GAL Valea Slănicului Buzău",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null,
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Buldoexcavator multifuncțional – 1 buc. pentru dotarea SVSU Beceni",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 431648.0,
+   "buget_aprobat_fara_tva": 431648.0,
+   "linie_bugetara": "cap. 4.3 – Utilaje, echipamente tehnologice și funcționale care necesită montaj (eligibil 394.283,35 lei)",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 31.12.2026",
+   "specificatii_tehnice": [
+    "Adâncime max. de excavare 5.700–6.200 mm (4.500–4.600 mm cu braț neextins); braț telescopic cu telescopare exterioară",
+    "Cupă încărcător 1,00–1,20 m³, încărcător cu paralelism",
+    "Motor 95–105 CP (70–78 kW), 3.500–3.800 cm³, 4 cilindri, cuplu 430–470 Nm la ~1.500 rpm, preîncălzire",
+    "Greutate 8.500–9.300 kg",
+    "Cutie automată/powershift min. 4+4, selector 4x2/4x4; frâne servo cu discuri în baie de ulei",
+    "Pompă cu pistoane axiale, debit variabil; comenzi pilotate electro-hidraulice/joystick; sistem antibalans SRS",
+    "Cabină închisă cu aer condiționat"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "S.C. LAMCON ART S.R.L. (MST M642 Stage V)",
+     "nr_data_oferta": "1621/15.12.2025",
+     "valoare_fara_tva": 84690.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 431317.7
+    },
+    {
+     "furnizor": "COSTA UTILAJE SRL (MST M642; 86.000 EUR + 1.875 EUR AC)",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": 87875.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 447538.59
+    },
+    {
+     "furnizor": "AGROCONCEPT IMPEX SRL (New Holland B100D TC S5 AC)",
+     "nr_data_oferta": "AGC-19178/19.06.2026",
+     "valoare_fara_tva": 104400.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "NOTĂ PROCEDURĂ: Procedura „simplificată” este DEDUSĂ din valoare (peste pragul de achiziție directă de 270.120 lei fără TVA pentru produse) – nu este documentată; trebuie confirmată cu PAP-ul (ilizibil).",
+   "!!! NUME PRIMAR: grafia corectă din datele brute este BURLACU ADRIAN; în cererea de finanțare și în contractul de finanțare apare greșit „BURALCU ADRIAN” – confirmați cu actul de identitate și semnalați la AFIR/GAL (eventual corecție în contract), altfel numele din dosar nu va corespunde cu contractul.",
+   "PAP-ul (ProgramulAchizitiilor_Beceni.pdf, 09.2026) e formular XFA și nu a putut fi citit; graficul GAL nu are PAP avizat – de completat nr./data PAP.",
+   "Data contractului de finanțare: 26.08.2026 = semnătura beneficiarului (AFIR a semnat la 25.08.2026) – de confirmat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă – de preluat din PAP / caietul de sarcini.",
+   "Linia bugetară diferă: CF (25.06.2026) – cap. 4.4; contract (Anexa III.2) – cap. 4.3. Dosarul folosește cap. 4.3 – de confirmat.",
+   "Oferta COSTA UTILAJE nu a fost găsită (apare doar în tabelul comparativ: 86.000 EUR + 1.875 EUR AC = 87.875 EUR / 447.538,59 lei) – numărul/data lipsesc.",
+   "Oferta AGROCONCEPT (104.400 EUR) nu are echivalent lei în date – de completat cu cursul folosit în CF.",
+   "Valoarea totală 431.648,00 lei include 37.364,65 lei neeligibil.",
+   "Dacă consultanța CREDINVEST se atribuie înainte (grafic: 30.10.2026), adăugați-o în centralizatorul achizițiilor anterioare.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ },
+ {
+  "id": "beceni-consultanta",
+  "folder": "14 BECENI",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Beceni",
+   "denumire_beneficiar": "UAT COMUNA BECENI",
+   "judet": "Buzău",
+   "adresa": "Sat Beceni, Str. Principală B nr. 25, Com. Beceni, Jud. Buzău, CP 127025",
+   "cif": "3662568",
+   "telefon": "0238/520398",
+   "email": "office@primariabeceni.ro",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "BURLACU ADRIAN",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "ACHIZIȚIA UNUI BULDOEXCAVATOR PENTRU DOTAREA SERVICIULUI VOLUNTAR PENTRU SITUAȚII DE URGENȚĂ COMUNA BECENI",
+   "nr_cerere_finantare": "F36020808217121003908",
+   "nr_contract_finantare": "C36020808217121003908",
+   "data_contract_finantare": "26.08.2026",
+   "gal": "GAL Valea Slănicului Buzău",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță – managementul proiectului",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 29525.74,
+   "buget_aprobat_fara_tva": 29525.74,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (eligibil 5.005,05 lei)",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": {
+    "denumire": "S.C. CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 30.10.2026",
+   "specificatii_tehnice": null,
+   "oferte_comparative": [
+    {
+     "furnizor": "SC CREDINVEST CONSULTING SRL",
+     "nr_data_oferta": null,
+     "valoare_fara_tva": 29500.0,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "!!! NUME PRIMAR: grafia corectă din datele brute este BURLACU ADRIAN; în cererea de finanțare și în contractul de finanțare apare greșit „BURALCU ADRIAN” – confirmați cu actul de identitate și semnalați la AFIR/GAL (eventual corecție în contract), altfel numele din dosar nu va corespunde cu contractul.",
+   "PAP-ul (ProgramulAchizitiilor_Beceni.pdf, 09.2026) e formular XFA și nu a putut fi citit; graficul GAL nu are PAP avizat – de completat nr./data PAP.",
+   "Data contractului de finanțare: 26.08.2026 = semnătura beneficiarului (AFIR a semnat la 25.08.2026) – de confirmat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă; la celelalte proiecte consultanța CREDINVEST s-a încadrat la 79400000-8 – de confirmat cu PAP-ul.",
+   "Achiziția nu este inițiată în SEAP: lipsesc codul DA, contractul și valoarea contractului.",
+   "Oferta CREDINVEST („4.2. Oferta CredInvest consultanta Beceni GAL.pdf”) nu a fost citită – nr./data lipsesc; valoarea de 29.500 lei e din tabelul comparativ.",
+   "Specificațiile serviciilor lipsesc – de preluat din oferta CREDINVEST.",
+   "Procedura (achiziție directă) e estimată – de confirmat cu PAP-ul."
+  ]
+ },
+ {
+  "id": "vintila-voda-fotovoltaice",
+  "folder": "15 VINTILĂ VODĂ",
+  "dosar": "Dosar achizitie sisteme fotovoltaice",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Vintilă Vodă",
+   "denumire_beneficiar": "UAT COMUNA VINTILĂ VODĂ",
+   "judet": "Buzău",
+   "adresa": "Sat Vintilă Vodă, Com. Vintilă Vodă, Jud. Buzău, CP 127695",
+   "cif": "3662576",
+   "telefon": "0238/509292",
+   "email": "prim_vintila_voda@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "COMAN ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "REALIZAREA CAPACITĂȚILOR DE PRODUCERE ȘI STOCARE A ENERGIEI ELECTRICE DIN SURSE FOTOVOLTAICE PENTRU ȘCOALA ȘI PRIMĂRIA VINTILĂ VODĂ, JUDEȚUL BUZĂU",
+   "nr_cerere_finantare": "F36020808217121003916",
+   "nr_contract_finantare": "C36020808217121003916",
+   "data_contract_finantare": "07.08.2026",
+   "gal": "GAL Valea Slănicului Buzău",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Furnizare, montaj și punere în funcțiune a 2 sisteme fotovoltaice hibride cu stocare – Școala Gimnazială Vintilă Vodă (40 kWp, pe acoperiș) și Primăria Vintilă Vodă (21,78 kWp, la sol)",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 380374.18,
+   "buget_aprobat_fara_tva": 380374.18,
+   "linie_bugetara": "cap. 4.3 Echipamente care necesită montaj (311.761,06 lei) + cap. 4.2 Montaj (68.613,12 lei)",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 30.11.2026",
+   "specificatii_tehnice": [
+    "Panouri monocristaline 605 Wp, randament ~20,9%, 1100 V DC, degradare max. 0,55%/an (67 buc. școală + 36 buc. primărie)",
+    "Invertoare hibride trifazate 20 kW, 400 V, randament min. 98%, anti-insularizare EN 50549, compatibile BMS (2 școală, 1 primărie)",
+    "Baterii Li-ion LFP 14,33 kWh/modul, DoD min. 90%, min. 6000 cicluri (3 module școală = 42,99 kWh; 2 module primărie = 28,66 kWh)",
+    "Structuri de montaj pe acoperiș (școală) și la sol (primărie)",
+    "Tablouri AC/DC, protecții, sistem de monitorizare",
+    "Producție estimată ~75,9 MWh/an"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "NEXT LEVEL BUSINESS (RO31945829)",
+     "nr_data_oferta": "89/16.12.2025",
+     "valoare_fara_tva": 380082.88,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "IMPULS CONSTRUCT (RO23225983)",
+     "nr_data_oferta": "47/08.12.2025",
+     "valoare_fara_tva": 413261.02,
+     "moneda": "lei",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "NOTĂ PROCEDURĂ: Procedura „simplificată” este DEDUSĂ din valoare (peste pragul de achiziție directă de 270.120 lei fără TVA pentru produse) – nu este documentată; trebuie confirmată cu PAP-ul (care lipsește).",
+   "Lipsește PAP-ul pentru acest proiect („PAP var Uat refacut_ultimul_Vintila V_s.pdf” ține de alt proiect, PNRR C15) – trebuie întocmit/avizat.",
+   "Adresa primăriei nu are stradă/număr în CF – de completat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă – de preluat din PAP / caietul de sarcini.",
+   "Tipul achiziției (produse cu montaj) – proiectul este încadrat la 9.4.2 construcții-montaj fără autorizație de construire; montajul are 68.613,12 lei. Confirmați cu PAP-ul dacă e furnizare (produse) sau lucrări.",
+   "CF-ul final are doar 2 oferte atașate (Next Level, Impuls). Oferta ATT TECHNOLOGY SRL (10.12.2025, 425.399,95 lei) nu e semnată și nu e atașată la CF – neinclusă.",
+   "Oferta Impuls inversează configurațiile școală/primărie; oferta Next Level menționează „stația de pompare apă” (text din alt proiect) – de verificat.",
+   "Bugetul (380.374,18 lei) diferă ușor de oferta Next Level (380.082,88 lei) din cauza cursului.",
+   "Dacă consultanța CREDINVEST se atribuie înainte (grafic: 30.09.2026), adăugați-o în centralizatorul achizițiilor anterioare."
+  ]
+ },
+ {
+  "id": "vintila-voda-consultanta",
+  "folder": "15 VINTILĂ VODĂ",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Vintilă Vodă",
+   "denumire_beneficiar": "UAT COMUNA VINTILĂ VODĂ",
+   "judet": "Buzău",
+   "adresa": "Sat Vintilă Vodă, Com. Vintilă Vodă, Jud. Buzău, CP 127695",
+   "cif": "3662576",
+   "telefon": "0238/509292",
+   "email": "prim_vintila_voda@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "COMAN ION",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "REALIZAREA CAPACITĂȚILOR DE PRODUCERE ȘI STOCARE A ENERGIEI ELECTRICE DIN SURSE FOTOVOLTAICE PENTRU ȘCOALA ȘI PRIMĂRIA VINTILĂ VODĂ, JUDEȚUL BUZĂU",
+   "nr_cerere_finantare": "F36020808217121003916",
+   "nr_contract_finantare": "C36020808217121003916",
+   "data_contract_finantare": "07.08.2026",
+   "gal": "GAL Valea Slănicului Buzău",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Buzău",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță – managementul proiectului",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 32522.68,
+   "buget_aprobat_fara_tva": 32522.68,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (eligibil 11.406,64 lei)",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": {
+    "denumire": "S.C. CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 30.09.2026",
+   "specificatii_tehnice": null,
+   "oferte_comparative": []
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Lipsește PAP-ul pentru acest proiect („PAP var Uat refacut_ultimul_Vintila V_s.pdf” ține de alt proiect, PNRR C15) – trebuie întocmit/avizat.",
+   "Adresa primăriei nu are stradă/număr în CF – de completat.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă; la celelalte proiecte consultanța CREDINVEST s-a încadrat la 79400000-8 – de confirmat cu PAP-ul.",
+   "Oferta CREDINVEST pentru consultanță nu a fost găsită – analiza rezonabilității nu are oferte; de atașat oferta din CF.",
+   "Achiziția nu este inițiată în SEAP: lipsesc codul DA, contractul și valoarea contractului (termen din grafic 30.09.2026 – depășit/iminent).",
+   "Specificațiile serviciilor lipsesc – de preluat din oferta CREDINVEST.",
+   "Procedura (achiziție directă) e estimată – de confirmat cu PAP-ul."
+  ]
+ },
+ {
+  "id": "fundeni-fotovoltaice-pompe",
+  "folder": "16 FUNDENI",
+  "dosar": "Dosar achizitie sisteme fotovoltaice si pompe de caldura",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Fundeni",
+   "denumire_beneficiar": "UAT COMUNA FUNDENI",
+   "judet": "Galați",
+   "adresa": "Str. Octavian Goga nr. 2, Com. Fundeni, Jud. Galați, CP 807140",
+   "cif": "3126837",
+   "telefon": "0236/821202",
+   "email": "fundeni@gl.e-adm.ro",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "LUPU MANUEL",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "MODERNIZARE LOCALITATE PRIN IMPLEMENTAREA DE SOLUTII DE ENERGIE REGENERABILA FOTOVOLTAICA IN COMUNA FUNDENI, JUDETUL GALATI",
+   "nr_cerere_finantare": "F36020804213321805226",
+   "nr_contract_finantare": "C36020804213321805226",
+   "data_contract_finantare": "15.09.2026",
+   "gal": "GAL Lunca Joasă a Siretului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Galați",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Furnizare și montaj sisteme fotovoltaice cu stocare (12 kWp / 30 kWh la Școala Gimnazială „Sf. Trei Ierarhi” Hanu Conachi și 15 kWp / 30 kWh la sediul Primăriei Fundeni) și 6 pompe de căldură aer-aer pentru școală",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 361230.6,
+   "buget_aprobat_fara_tva": 361230.6,
+   "linie_bugetara": "cap. 4.3 Echipamente care necesită montaj (57.344 EUR ≈ 292.270,90 lei) + cap. 4.2 Montaj (13.530 EUR ≈ 68.959,70 lei)",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Școală – sistem fotovoltaic 12 kWp: panouri monocristaline 390–450 Wp, invertor hibrid 12 kW, structură pe acoperiș, stocare min. 30 kWh",
+    "Primărie – sistem fotovoltaic 15 kWp: invertor hibrid 15 kW, stocare min. 30 kWh",
+    "Tablouri CC/CA, protecții și monitorizare pentru ambele sisteme",
+    "6 pompe de căldură aer-aer: 4 x min. 12.000 BTU (săli de clasă) + 2 x min. 9.000 BTU (secretariat, birou director), încălzire/răcire/filtrare",
+    "Total 27 kWp, 60 kWh stocare, producție ~33,48 MWh/an, reducere CO2 ~20,49 t/an"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CARALUX PROD S.R.L. (RO6769322)",
+     "nr_data_oferta": "03.04.2026 (fără număr)",
+     "valoare_fara_tva": 70874.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 361379.44
+    },
+    {
+     "furnizor": "SC RC ENERGO INSTALL SRL (RO17701017)",
+     "nr_data_oferta": "72/08.04.2026",
+     "valoare_fara_tva": 72250.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 368395.53
+    },
+    {
+     "furnizor": "SC DUARTT SYS SRL (CUI 37242950)",
+     "nr_data_oferta": "10.04.2026 (fără număr)",
+     "valoare_fara_tva": 79777.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 406774.95
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "NOTĂ PROCEDURĂ: Procedura „simplificată” este DEDUSĂ din valoare (peste pragul de achiziție directă de 270.120 lei fără TVA pentru produse) – nu este documentată; trebuie confirmată cu PAP-ul (care lipsește).",
+   "Lipsește PAP-ul (nu există în grafic și nici în Drive) – trebuie întocmit/avizat.",
+   "Data contractului de finanțare: 15.09.2026 = semnătura beneficiarului (AFIR CRFIR 10.09.2026) – de confirmat.",
+   "Valorile bugetului sunt în EUR; valoarea estimată/bugetul în lei sunt calculate la cursul din contract 5,0968 (cum e calculată valoarea eligibilă de 372.066,40 lei), iar echivalentul lei al ofertelor la cursul din CF 5,0989 (singurul echivalent din CF; valorile lei ale ofertelor nu apar ca atare în CF) – verificați cu valorile lei din Anexa III.2.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă – de preluat din PAP / caietul de sarcini.",
+   "Valoare: 70.874 EUR fără TVA (FV școală 30.874 + pompe 6.000 + FV primărie 34.000 EUR); bugetul e construit exact pe oferta CARALUX. La cursul CF 5,0989 oferta CARALUX (361.379,42 lei) iese peste bugetul în lei la 5,0968 (361.230,60 lei) – diferență de curs, de explicat sau de aliniat.",
+   "De decis dacă echipamentele se atribuie într-un singur contract sau pe loturi (FV școală / FV primărie / pompe de căldură).",
+   "ATENȚIE proveniență oferte: în Drive-ul consultantului există fișiere .doc editabile („OFERTA DEFALCATA FUNDENI KW.doc”, „OFERTA DEFALCATA Fundenii F.doc”) cu același format ca oferta CARALUX – de verificat că ofertele sunt originale, de la furnizori.",
+   "Ofertele CARALUX și DUARTT nu au număr de înregistrare.",
+   "Dacă consultanța CREDINVEST se atribuie înainte, adăugați-o în centralizatorul achizițiilor anterioare."
+  ]
+ },
+ {
+  "id": "fundeni-consultanta",
+  "folder": "16 FUNDENI",
+  "dosar": "Dosar achizitie servicii consultanta",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Fundeni",
+   "denumire_beneficiar": "UAT COMUNA FUNDENI",
+   "judet": "Galați",
+   "adresa": "Str. Octavian Goga nr. 2, Com. Fundeni, Jud. Galați, CP 807140",
+   "cif": "3126837",
+   "telefon": "0236/821202",
+   "email": "fundeni@gl.e-adm.ro",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "LUPU MANUEL",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "MODERNIZARE LOCALITATE PRIN IMPLEMENTAREA DE SOLUTII DE ENERGIE REGENERABILA FOTOVOLTAICA IN COMUNA FUNDENI, JUDETUL GALATI",
+   "nr_cerere_finantare": "F36020804213321805226",
+   "nr_contract_finantare": "C36020804213321805226",
+   "data_contract_finantare": "15.09.2026",
+   "gal": "GAL Lunca Joasă a Siretului",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Galați",
+   "interventie": "DR-36 LEADER",
+   "pap": null
+  },
+  "achizitie": {
+   "tip": "servicii",
+   "obiect": "Servicii de consultanță – elaborarea cererii de finanțare și managementul proiectului",
+   "cpv": null,
+   "valoare_estimata_fara_tva": 10835.8,
+   "buget_aprobat_fara_tva": 10835.8,
+   "linie_bugetara": "cap. 3.7.1 – Managementul de proiect (2.126 EUR, integral eligibil)",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": {
+    "denumire": "S.C. CREDINVEST CONSULTING S.R.L.",
+    "cui": "RO15227452"
+   },
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": null,
+   "specificatii_tehnice": [
+    "Elaborarea cererii de finanțare și a documentelor suport (20 ore x 50 EUR = 1.000 EUR)",
+    "Managementul proiectului (22,52 ore x 50 EUR = 1.125,99 EUR)"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "SC CREDINVEST CONSULTING SRL",
+     "nr_data_oferta": "42/16.03.2026",
+     "valoare_fara_tva": 2125.99,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": 10840.21
+    }
+   ]
+  },
+  "achizitii_anterioare": [],
+  "observatii": [
+   "Lipsește PAP-ul (nu există în grafic și nici în Drive) – trebuie întocmit/avizat.",
+   "Data contractului de finanțare: 15.09.2026 = semnătura beneficiarului (AFIR CRFIR 10.09.2026) – de confirmat.",
+   "Valorile bugetului sunt în EUR; valoarea estimată/bugetul în lei sunt calculate la cursul din contract 5,0968 (cum e calculată valoarea eligibilă de 372.066,40 lei), iar echivalentul lei al ofertelor la cursul din CF 5,0989 (singurul echivalent din CF; valorile lei ale ofertelor nu apar ca atare în CF) – verificați cu valorile lei din Anexa III.2.",
+   "Lipsesc consilierul de achiziții publice și contabilul (nume) – de completat.",
+   "CPV lipsă în datele sursă; la celelalte proiecte consultanța CREDINVEST s-a încadrat la 79400000-8 – de confirmat cu PAP-ul.",
+   "Valoarea estimată: 2.126 EUR ≈ 10.835,80 lei (curs 5,0968).",
+   "Achiziția nu este inițiată în SEAP: lipsesc codul DA, contractul și valoarea contractului.",
+   "Oferta CREDINVEST include și elaborarea CF (1.000 EUR), activitate deja prestată – de verificat cum se reflectă în contract.",
+   "Procedura (achiziție directă) e estimată – de confirmat cu PAP-ul."
+  ]
+ },
+ {
+  "id": "gal-tecuci-echipamente",
+  "folder": "17 GAL TECUCI",
+  "dosar": "Dosar achizitie sistem fotovoltaic",
+  "an": 2026,
+  "uat": {
+   "denumire": "Asociația GAL Tecuci",
+   "denumire_beneficiar": "ASOCIAȚIA GAL TECUCI",
+   "judet": "Galați",
+   "adresa": "Sat Poiana, Com. Poiana, Jud. Galați, CP 807226",
+   "cif": "35127105",
+   "telefon": "0744.858.110",
+   "email": "galtecuci@gmail.com",
+   "functie_reprezentant": "Președinte"
+  },
+  "persoane": {
+   "reprezentant": "CĂPRARU VALERIU-PAUL",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "IMPLEMENTAREA UNEI INFRASTRUCTURI ENERGETICE VERZI PENTRU FURNIZAREA SERVICIILOR SOCIALE DESTINATE COPIILOR ȘI SENIORILOR ÎN MEDIUL RURAL",
+   "nr_cerere_finantare": "F36010807706221805307",
+   "nr_contract_finantare": "C 36010807706221805307",
+   "data_contract_finantare": "18.08.2026",
+   "gal": "GAL Tecuci",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Galați",
+   "interventie": "DR-36 LEADER",
+   "pap": "701/29.09.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Sistem de panouri fotovoltaice",
+   "cpv": "09332000-5 Instalații solare",
+   "valoare_estimata_fara_tva": 742348.92,
+   "buget_aprobat_fara_tva": 742348.92,
+   "linie_bugetara": "cap. 4.2 – Montaj utilaje, echipamente tehnologice și funcționale (117.226,40 lei) + cap. 4.3 – Utilaje, echipamente tehnologice și funcționale care necesită montaj (625.122,52 lei)",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 31.12.2026 (PAP v2: inițiere 30.10.2026, atribuire 31.12.2026)",
+   "specificatii_tehnice": [
+    "Centrală fotovoltaică ~100,3 kWp montată pe sol: 170 panouri monocristaline min. 590 Wp",
+    "Invertor trifazat min. 100 kW (ofertat HUAWEI SUN2000-100KTL-M2), SmartLogger 3000",
+    "Sistem de stocare min. 161 kWh, IP55 (ofertat HUAWEI LUNA2000-161-2S11)",
+    "Structură metalică pentru sol; tablouri CC (separatori, siguranțe, descărcător, IP65) și CA (MCB, releu de insularizare); cabluri, mufe MC4, accesorii",
+    "5 pompe de căldură aer-aer (1×9.000 BTU, 3×12.000 BTU, 1×18.000 BTU), clasa A+/A++, Wi-Fi, cu kit de instalare",
+    "Montaj inclus; amplasare: Centrul de zi pentru copii și Clubul Seniorilor"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CARALUX PROD S.R.L. (CUI RO6769322)",
+     "nr_data_oferta": "fără număr/19.03.2026",
+     "valoare_fara_tva": 145650.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "RC ENERGO INSTALL S.R.L.",
+     "nr_data_oferta": "22/23.03.2026",
+     "valoare_fara_tva": 155795.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "DUARTT SYS S.R.L. (CUI 37242950)",
+     "nr_data_oferta": "fără număr, nedatată",
+     "valoare_fara_tva": 161583.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță – elaborare cerere de finanțare și managementul proiectului",
+    "cpv": "73220000-0",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract nr. CInv.86/16.03.2026 (oferta nr. 45/16.03.2026)",
+    "valoare_fara_tva": 22161.95,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "PAP v2 (701/29.09.2026: produse, procedură simplificată, CPV 09332000-5) nu are încă aviz identificat; v1 (677/16.09.2026, lucrări/directă) a fost respins prin fișa navetă OJFIR Galați 377/24.09.2026.",
+   "De clarificat regimul aplicabil (AFIR a invocat Legea 98/2016, dar dosarul de consultanță se raportează la instrucțiunile pentru beneficiari privați).",
+   "CPV 09332000-5 nu acoperă pompele de căldură (5.000 EUR) – de verificat dacă e necesar CPV suplimentar.",
+   "CRFIR dedus din județ (Galați → CRFIR 2 Sud-Est Constanța) – de confirmat.",
+   "Lipsesc: consilier achiziții / responsabil achiziții, contabil, referat de necesitate, caiet de sarcini, cod SEAP.",
+   "Oferte în EUR fără echivalent lei (bugetul folosește cursul 5,0968); Caralux și Duartt fără număr de înregistrare, Duartt nedatată; RC Energo fără CUI/adresă; deviz Caralux semnat „CARLUX PROD SRL”.",
+   "Ofertele RC Energo și Duartt propun Deye (Duartt 2×50 kW), nu identic tehnic cu specificația Huawei 100 kW; suma Duartt 161.585 vs 161.583 EUR scris.",
+   "Consultanța: PAP indică 22.171,08 lei (buget), contractul 22.161,95 lei; poziția din PAP nu este cunoscută.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ },
+ {
+  "id": "jijila-lucrari-fotovoltaice",
+  "folder": "18 JIJILA",
+  "dosar": "Dosar achizitie lucrari sistem fotovoltaic",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Jijila",
+   "denumire_beneficiar": "UAT COMUNA JIJILA",
+   "judet": "Tulcea",
+   "adresa": "Sat Jijila, Str. Principală nr. 77, Com. Jijila, Jud. Tulcea, CP 827110",
+   "cif": "4508690",
+   "telefon": "0240550002",
+   "email": "prmrjijila@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "DEACU COSTICĂ",
+   "consilier_achizitii": null,
+   "contabil": "Petru Maria"
+  },
+  "proiect": {
+   "titlu": "EFICIENTIZAREA CONSUMULUI DE ENERGIE ELECTRICĂ, PRIN INSTALAREA DE PANOURI SOLARE FOTOVOLTAICE, CENTRALA ELECTRICA FOTOVOLTAICA PENTRU AUTOCONSUM – COMUNA JIJILA, JUDEȚUL TULCEA",
+   "nr_cerere_finantare": "F 36020804211923802432",
+   "nr_contract_finantare": "C 36020804211923802432",
+   "data_contract_finantare": "07.07.2026",
+   "gal": "GAL Dobrogea de Nord Tulcea",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Tulcea",
+   "interventie": "DR-36 LEADER",
+   "pap": "7708/11.08.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "lucrari",
+   "obiect": "Execuție sistem de panouri fotovoltaice",
+   "cpv": "45261215-4 Lucrări de acoperire cu panouri solare",
+   "valoare_estimata_fara_tva": 300966.04,
+   "buget_aprobat_fara_tva": 300966.04,
+   "linie_bugetara": "cap. 4.2 – Montaj utilaje, echipamente tehnologice și funcționale (46.126,04 lei) + cap. 4.3 – Utilaje, echipamente tehnologice și funcționale care necesită montaj (254.840,00 lei)",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 30.09.2026",
+   "specificatii_tehnice": [
+    "Școala Jijila – centrală hibridă 24 kWp: 60 panouri monocristaline 400 W, 2 invertoare hibride 12 kW, stocare 2×15 kWh (30 kWh)",
+    "Grădinița Jijila – centrală hibridă 12 kWp: 30 panouri monocristaline 400 W, 1 invertor hibrid 12 kW, stocare 2×15 kWh (30 kWh)",
+    "Structură metalică pe acoperiș, senzor putere/monitorizare",
+    "Tablouri CC (IP65, separatori, siguranțe, descărcător) și CA (MCB, releu de insularizare)",
+    "Total 36 kWp, producție estimată ~40,9 MWh/an",
+    "Garanție sistem 5 ani; intervenție în 48 h, reparație în 5 zile"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CARALUX PROD S.R.L.",
+     "nr_data_oferta": "fără număr/09.09.2025",
+     "valoare_fara_tva": 59050.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "RC ENERGO INSTALL S.R.L.",
+     "nr_data_oferta": "72/15.10.2025",
+     "valoare_fara_tva": 63200.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "DUARTT SYS S.R.L.",
+     "nr_data_oferta": "fără număr/10.10.2025",
+     "valoare_fara_tva": 64280.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță management proiect (elaborare CF + implementare)",
+    "cpv": "73220000-0",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract nr. 53/03.10.2025 (SEAP DA38975797/30.09.2025)",
+    "valoare_fara_tva": 7500.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   },
+   {
+    "obiect": "Servicii elaborare documentații tehnice – Memoriu justificativ și Proiect tehnic",
+    "cpv": "71220000-6",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract nr. 52/03.10.2025 + Act adițional nr. 1/20.10.2025 (SEAP DA38975560)",
+    "valoare_fara_tva": 7750.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Risc de încadrare: achiziția e în PAP ca LUCRĂRI (CPV 45261215-4, atribuire directă), dar bugetul e pe cap. 4.2+4.3 (echipamente cu montaj) – exact motivul pentru care OJFIR Galați a respins PAP-ul GAL Tecuci (fișa navetă 377/24.09.2026: tip contract neconform cu încadrarea 4.2+4.3, procedură neconformă Legii 98/2016). Dacă la verificarea dosarului AFIR reîncadrează ca produse, valoarea depășește pragul de achiziție directă pentru produse – ar fi necesară procedură simplificată și actualizarea PAP.",
+   "Termenele din PAP (inițiere 31.08.2026, atribuire 30.09.2026) și din grafic (30.09.2026) sunt depășite – de actualizat graficul/PAP.",
+   "CARALUX PROD SRL este proiectant declarat în CF (A7) și ofertant cel mai ieftin – de analizat conflictul de interese.",
+   "„Analiza rezonabilității valorii estimate” existentă conține textul Bozioru, iar decizia de alegere a ofertei are antetul „SC AURORA CONSULTING TEAM SRL” – de refăcut.",
+   "Oferte în EUR fără echivalent lei (bugetul folosește cursul 5,0968); Caralux și Duartt fără număr de înregistrare.",
+   "Lipsesc: consilier achiziții, cod SEAP; telefon mobil alternativ 0740187897.",
+   "Achiziții anterioare: valori PAP 7.512,68 / 7.762,43 lei vs contracte 7.500 / 7.750 lei; documentul SEAP DA38975560 nu a fost găsit; pozițiile din PAP nu sunt cunoscute.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ },
+ {
+  "id": "niculitel-lucrari-fotovoltaice",
+  "folder": "20 NICULIȚEL",
+  "dosar": "Dosar achizitie lucrari sistem fotovoltaic",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Niculițel",
+   "denumire_beneficiar": "UAT COMUNA NICULIȚEL",
+   "judet": "Tulcea",
+   "adresa": "Sat Niculițel, Str. Centrală nr. 2, Com. Niculițel, Jud. Tulcea, CP 827165",
+   "cif": "4508762",
+   "telefon": "0240/542104",
+   "email": "primarianiculitel@yahoo.com",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "SECHILA FLORIN",
+   "consilier_achizitii": "Zamfir Maria-Alexandra",
+   "contabil": "Maricaș Ana-Maria"
+  },
+  "proiect": {
+   "titlu": "INSTALARE SISTEM FOTOVOLTAIC PENTRU EFICIENTIZAREA CONSUMULUI DE ENERGIE ELECTRICA IN COMUNA NICULITEL JUDETUL TULCEA",
+   "nr_cerere_finantare": "F36020804211923802438",
+   "nr_contract_finantare": "C 36020804211923802438",
+   "data_contract_finantare": null,
+   "gal": "GAL Dobrogea de Nord Tulcea",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Tulcea",
+   "interventie": "DR-36 LEADER",
+   "pap": "47/11726/14.09.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "lucrari",
+   "obiect": "Execuție sistem de panouri fotovoltaice",
+   "cpv": "45261215-4 Lucrări de acoperire cu panouri solare",
+   "valoare_estimata_fara_tva": 300966.04,
+   "buget_aprobat_fara_tva": 300966.04,
+   "linie_bugetara": "cap. 4.2 – Montaj utilaje, echipamente tehnologice și funcționale (51.222,84 lei) + cap. 4.3 – Utilaje, echipamente tehnologice și funcționale care necesită montaj (249.743,20 lei)",
+   "procedura": "directa",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 30.10.2026",
+   "specificatii_tehnice": [
+    "Primărie (clădirea căminului cultural) – centrală hibridă 30 kWp: 76 panouri monocristaline 400 W, 2 invertoare hibride 15 kW, stocare 20 kWh",
+    "Puțuri de forare P1, P2, P3 – centrală on-grid 20 kWp: 50 panouri monocristaline 400 W, 1 invertor 20 kW",
+    "Structuri metalice de montaj, senzor de putere",
+    "Tablouri CC/CA cu protecții",
+    "Total 50 kWp, producție estimată ~61 MWh/an",
+    "Garanție sistem 5 ani"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CARALUX PROD S.R.L.",
+     "nr_data_oferta": "fără număr/12.10.2025",
+     "valoare_fara_tva": 59050.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "RC ENERGO INSTALL S.R.L.",
+     "nr_data_oferta": "74/15.10.2025",
+     "valoare_fara_tva": 63600.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "DUARTT SYS S.R.L.",
+     "nr_data_oferta": "fără număr/10.10.2025",
+     "valoare_fara_tva": 64280.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță management proiect (elaborare CF + management)",
+    "cpv": "73220000-0",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract nr. 14341/05.11.2025 (SEAP DA39209628/04.11.2025)",
+    "valoare_fara_tva": 13700.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   },
+   {
+    "obiect": "Servicii elaborare SF și Proiect tehnic de execuție",
+    "cpv": "71220000-6",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract nr. 14337/05.11.2025 (SEAP DA39209570/04.11.2025)",
+    "valoare_fara_tva": 8000.0,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Risc de încadrare: achiziția e în PAP ca LUCRĂRI (CPV 45261215-4, atribuire directă), dar bugetul e pe cap. 4.2+4.3 (echipamente cu montaj) – exact motivul pentru care OJFIR Galați a respins PAP-ul GAL Tecuci (fișa navetă 377/24.09.2026: tip contract neconform cu încadrarea 4.2+4.3, procedură neconformă Legii 98/2016). Dacă la verificarea dosarului AFIR reîncadrează ca produse, valoarea depășește pragul de achiziție directă pentru produse – ar fi necesară procedură simplificată și actualizarea PAP.",
+   "Data contractului de finanțare: doar semnătura AFIR 11.09.2026 e cunoscută – de completat data semnării de beneficiar.",
+   "Neconcordanțe în tabelul comparativ al ofertelor: Caralux 09.10 vs 12.10.2025; RC Energo nr. 68 vs 74/15.10.2025 – de verificat pe documentele originale.",
+   "CARALUX PROD SRL este proiectant declarat în CF (A7) și ofertant cel mai ieftin – de analizat conflictul de interese.",
+   "Oferte în EUR fără echivalent lei (bugetul folosește cursul 5,0968); Caralux și Duartt fără număr de înregistrare.",
+   "Consultanță contractată 13.700 lei vs 7.013,19 lei eligibil în buget/PAP (diferența din buget local); SF+PT 8.000 lei vs 7.762,43 lei în PAP (neeligibil); pozițiile din PAP nu sunt cunoscute.",
+   "„Deviz General HG907 Niculitel.xlsx” este o variantă veche (310.000 lei) – nu se folosește.",
+   "Lipsește cod SEAP; telefon alternativ din CF: 0787306501.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ },
+ {
+  "id": "ceamurlia-de-jos-echipamente",
+  "folder": "21 CEAMURLIA DE JOS",
+  "dosar": "Dosar achizitie sistem fotovoltaic si pompe",
+  "an": 2026,
+  "uat": {
+   "denumire": "Comuna Ceamurlia de Jos",
+   "denumire_beneficiar": "UAT COMUNA CEAMURLIA DE JOS",
+   "judet": "Tulcea",
+   "adresa": "Sat Ceamurlia de Jos, Str. Principală nr. 58, Com. Ceamurlia de Jos, Jud. Tulcea, CP 827035",
+   "cif": "4508630",
+   "telefon": "0240564706",
+   "email": "contact@primariaceamurliadejos.ro",
+   "functie_reprezentant": "Primar"
+  },
+  "persoane": {
+   "reprezentant": "STAN DUMITRU",
+   "consilier_achizitii": null,
+   "contabil": null
+  },
+  "proiect": {
+   "titlu": "MODERNIZARE SISTEME DE ALIMENTARE CU APA SI EPURARE APE UZATE, ÎN COMUNA CEAMURLIA DE JOS, JUDEȚUL TULCEA",
+   "nr_cerere_finantare": "F 36020804207123802607",
+   "nr_contract_finantare": "C 36020804207123802607",
+   "data_contract_finantare": "21.08.2026",
+   "gal": "GAL Razim",
+   "crfir": "CRFIR 2 Sud-Est Constanța",
+   "ojfir": "OJFIR Tulcea",
+   "interventie": "DR-36 LEADER",
+   "pap": "2057/07.09.2026",
+   "curs_eur": 5.0968
+  },
+  "achizitie": {
+   "tip": "produse",
+   "obiect": "Sistem de panouri fotovoltaice",
+   "cpv": "09332000-5 Instalații solare",
+   "valoare_estimata_fara_tva": 445460.32,
+   "buget_aprobat_fara_tva": 445460.32,
+   "linie_bugetara": "cap. 4.2 – Montaj utilaje, echipamente tehnologice și funcționale (60.549,98 lei) + cap. 4.3 – Utilaje, echipamente tehnologice și funcționale care necesită montaj (384.910,34 lei)",
+   "procedura": "simplificata",
+   "cod_seap": null,
+   "data_seap": null,
+   "furnizor": null,
+   "contract_nr_data": null,
+   "valoare_contract_fara_tva": null,
+   "termen": "conform graficului: 15.11.2026 (PAP: inițiere 15.10.2026, atribuire 15.11.2026)",
+   "specificatii_tehnice": [
+    "2 centrale hibride 15 kWp cu stocare 15 kWh la stațiile de epurare Ceamurlia și Lunca (56 panouri)",
+    "3 centrale on-grid 6 kWp la stațiile de pompare (2 Ceamurlia, 1 Lunca) (36 panouri); total 48 kWp, ~62.980 kWh/an",
+    "Panouri monocristaline 555 Wp (IP68, eficiență 22,84%, garanție 20 ani); 2 invertoare hibride 15 kW + 3 invertoare 6 kW",
+    "Structuri metalice K2, înclinare 15°, orientare sud; tablouri CC/CA, smart meter",
+    "3 pompe apă submersibile: 14 m³/h, H 65 m, inox AISI 304, IP68",
+    "10 pompe canalizare submersibile: 18 m³/h, trecere solidă 50 mm, carcasă fontă EN-GJL-200, IP68, izolație clasa F",
+    "Montaj inclus"
+   ],
+   "oferte_comparative": [
+    {
+     "furnizor": "CARALUX PROD S.R.L. – varianta 2 (baza bugetului)",
+     "nr_data_oferta": "nedatată, nesemnată",
+     "valoare_fara_tva": 87400.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "CARALUX PROD S.R.L.",
+     "nr_data_oferta": "fără număr/12.10.2025",
+     "valoare_fara_tva": 83600.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "RC ENERGO INSTALL S.R.L.",
+     "nr_data_oferta": "84/17.10.2025",
+     "valoare_fara_tva": 88250.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    },
+    {
+     "furnizor": "DUARTT SYS S.R.L.",
+     "nr_data_oferta": "fără număr/20.10.2025",
+     "valoare_fara_tva": 89777.0,
+     "moneda": "EUR",
+     "valoare_lei_fara_tva": null
+    }
+   ]
+  },
+  "achizitii_anterioare": [
+   {
+    "obiect": "Servicii de consultanță management proiect",
+    "cpv": "73220000-0",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract nr. 816/27.11.2025 (SEAP DA39391566/27.11.2025)",
+    "valoare_fara_tva": null,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   },
+   {
+    "obiect": "Servicii elaborare documentații tehnice (SF și PT)",
+    "cpv": "71220000-6",
+    "furnizor": "CREDINVEST CONSULTING S.R.L., CUI RO15227452",
+    "document": "Contract nr. 817/27.11.2025 (SEAP DA39391608)",
+    "valoare_fara_tva": null,
+    "pozitie_pap": null,
+    "stadiu_afir": null
+   }
+  ],
+  "observatii": [
+   "Nu a fost identificată fișa navetă de avizare a PAP 2057/07.09.2026 (există și o variantă din 01.09.2026) – de verificat avizarea, inclusiv pentru consultanță și proiectare; dacă nu au fost avizate, sunt necesare dosare separate pentru ele.",
+   "Obiectul din PAP („Sistem de panouri fotovoltaice”, CPV 09332000-5) nu acoperă pompele de apă/canalizare (24.000 EUR) – de adăugat CPV pentru pompe (ex. 42122000-0) sau de clarificat loturile.",
+   "Valoare eligibilă 436.974,15 lei; 8.486,17 lei pe cap. 4.3 sunt neeligibili (buget local).",
+   "Bugetul (87.400 EUR) corespunde variantei 2 Caralux, nedatată și nesemnată; varianta semnată din 12.10.2025 are 83.600 EUR. Oferta RC Energo nu detaliază pompele; Duartt include doar 3 pompe canalizare.",
+   "Oferte în EUR fără echivalent lei (bugetul folosește cursul 5,0968); Caralux și Duartt fără număr de înregistrare.",
+   "CARALUX PROD SRL este proiectant declarat în CF și ofertant – de analizat conflictul de interese.",
+   "Achiziții anterioare: valorile contractelor 816/817 lipsesc (PAP: 13.725,68 lei consultanță, 8.012,17 lei proiectare neeligibilă); contractele și extrasele SEAP nu au fost găsite; proiectarea e bugetată pe 3.5.2 în loc de 3.5.3.",
+   "Lipsesc: consilier achiziții, contabil, cod SEAP; telefon alternativ 0744680787.",
+   "Ofertele în EUR au fost convertite în analiza rezonabilității la cursul 5,0968 lei/euro (cursul folosit în bugetul cererii de finanțare) – verificați cursul efectiv din CF/contract."
+  ]
+ }
+]

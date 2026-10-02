@@ -10,6 +10,7 @@ Câmpurile lipsă se tipăresc ca spații de completat, evidențiate cu galben.
 import json
 import re
 import sys
+import zipfile
 from pathlib import Path
 
 from docx import Document
@@ -508,19 +509,33 @@ def doc_analiza(d, nr):
     P(doc, "Valoare analizată: ", B(lei(val_ref) or None), B(" lei fără TVA"),
       (" (valoarea contractului)" if a.get("valoare_contract_fara_tva") else " (valoarea estimată)"), ".", before=4)
     vs = [_ofv(o, curs) for o in of if _ofv(o, curs)]
+    ok = None
     if vs and val_ref:
         mn = min(vs)
         ok = float(val_ref) <= mn
-        P(doc, "Cel mai mic preț ofertat: ", B(lei(mn)), " lei fără TVA. Rezonabil (valoare ≤ minim): ", B("DA" if ok else "NU – se justifică diferența"), ".")
+        P(doc, "Cel mai mic preț ofertat: ", B(lei(mn)), " lei fără TVA. Valoare analizată ≤ cel mai mic preț ofertat: ", B("DA" if ok else "NU"), ".")
     P(doc, B("V. Analiza tehnică"))
     P(doc, "Produsele/serviciile/lucrările analizate corespund specificațiilor din cererea de finanțare și au aceleași caracteristici principale cu cele ofertate",
       (f": {a['specificatii_tehnice'] if isinstance(a.get('specificatii_tehnice'), str) else '; '.join(a['specificatii_tehnice'])}" if a.get("specificatii_tehnice") else ""), ".", align="j")
     P(doc, B("VI. Concluzia analizei"))
+    if ok is False:
+        par = P(doc, "ATENȚIE – DE COMPLETAT ÎNAINTE DE SEMNARE: valoarea analizată depășește cel mai mic preț ofertat pentru un "
+                "produs/serviciu/lucrare de același tip. Se justifică diferența (de ex. dotări/opțiuni suplimentare incluse în contract, "
+                "actualizarea prețurilor) sau se atașează alte surse de preț (baza de date AFIR, internet); în caz contrar, diferența "
+                "este neeligibilă.", align="j")
+        par.runs[0].font.highlight_color = WD_COLOR_INDEX.YELLOW
+    else:
+        if ok:
+            P(doc, "Valoarea analizată, de ", lei(val_ref), " lei fără TVA, este mai mică sau egală cu cel mai mic preț ofertat pentru un produs/serviciu/lucrare de același tip.", align="j")
+        else:
+            P(doc, "Comparația cu ofertele de preț se completează după atașarea ofertelor (cel puțin o sursă de preț pentru același tip de produs/serviciu/lucrare).", align="j")
+            doc.paragraphs[-1].runs[0].font.highlight_color = WD_COLOR_INDEX.YELLOW
     P(doc, "Valoarea analizată, de ", lei(val_ref) or None, " lei fără TVA, se încadrează în bugetul aprobat pentru ", a.get("linie_bugetara") or None,
       " (", lei(a.get("buget_aprobat_fara_tva")) or None, " lei fără TVA), în valoarea prevăzută în Programul achizițiilor pentru proiect"
-      + (f" nr. {pr['pap']}" if pr.get("pap") else "") + " și în pragul prevăzut la art. 7 alin. (5) din Legea nr. 98/2016"
-      + (" pentru achiziția directă" if a.get("procedura") != "simplificata" else "") + ".", align="j")
-    P(doc, "În consecință, prețul este rezonabil, în sensul prevederilor Anexei IV la Contractul de finanțare.", align="j")
+      + (f" nr. {pr['pap']}" if pr.get("pap") else "") + " și în pragul prevăzut la art. 7 din Legea nr. 98/2016"
+      + (" pentru achiziția directă" if a.get("procedura") != "simplificata" else " pentru procedura simplificată") + ".", align="j")
+    if ok:
+        P(doc, "În consecință, prețul este rezonabil, în sensul prevederilor Anexei IV la Contractul de finanțare.", align="j")
     P(doc, B("VII. Anexe"))
     for o in of:
         P(doc, "• ", o.get("furnizor"), " – Oferta nr. ", o.get("nr_data_oferta"), ";")
@@ -679,6 +694,31 @@ def slug(s):
     return re.sub(r"[^A-Za-z0-9.\- ]+", "", s).strip()
 
 
+KEEP_STYLES = {"Normal", "DefaultParagraphFont", "TableNormal", "TableGrid", "NoList", "Footer", "Header"}
+DROP_PARTS = {"word/stylesWithEffects.xml", "docProps/thumbnail.jpeg"}
+
+
+def compacteaza(path):
+    """Elimină din .docx stilurile neutilizate ale șablonului python-docx (fișiere de ~6 KB în loc de ~38 KB)."""
+    with zipfile.ZipFile(path) as z:
+        items = [(i, z.read(i.filename)) for i in z.infolist() if i.filename not in DROP_PARTS]
+    out = []
+    for info, data in items:
+        txt = None
+        if info.filename == "word/styles.xml":
+            txt = data.decode("utf-8")
+            txt = re.sub(r"<w:latentStyles.*?</w:latentStyles>", "", txt, flags=re.S)
+            txt = re.sub(r'<w:style [^>]*w:styleId="([^"]+)".*?</w:style>',
+                         lambda m: m.group(0) if m.group(1) in KEEP_STYLES else "", txt, flags=re.S)
+        elif info.filename in ("[Content_Types].xml", "_rels/.rels", "word/_rels/document.xml.rels"):
+            txt = data.decode("utf-8")
+            txt = re.sub(r'<(Override|Relationship)[^>]*(stylesWithEffects|thumbnail)[^>]*/>', "", txt)
+        out.append((info.filename, txt.encode("utf-8") if txt is not None else data))
+    with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
+        for name, data in out:
+            z.writestr(name, data)
+
+
 def genereaza(d, out_root):
     folder = out_root / slug(d["folder"]) / slug(d["dosar"])
     folder.mkdir(parents=True, exist_ok=True)
@@ -688,6 +728,7 @@ def genereaza(d, out_root):
         footer_no(doc, nr)
         p = folder / f"{nr}. {name}.docx"
         doc.save(p)
+        compacteaza(p)
         files.append(p)
 
     save(doc_fisa_naveta(d, "00"), "00", "Fisa naveta - Formular 1")
@@ -703,6 +744,7 @@ def genereaza(d, out_root):
     P(doc, "☐ Atașați documentele marcate cu * în opis, numerotați filele și completați opisul.", align="j")
     p = folder / "_DE VERIFICAT.docx"
     doc.save(p)
+    compacteaza(p)
     save(doc_opis(d, "00a"), "00a", "Opis documentatie")
     for nr, den, src in lista_documente(d):
         fn = GENERATORS.get(den)
