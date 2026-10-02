@@ -11,8 +11,8 @@ C4 = {
     # desfacere învelitoare țiglă solzi/olane pe șipci, cu sortarea țiglelor recuperabile
     (CAP_C4, "RPCT26B1"): [("O02", 0.15), ("O03", 0.22), ("T02", 0.0030)],
     # învelitoare din țiglă solzi refăcută: țigle recuperate + 25% țigle noi, șipci noi, folie unde e cazul
-    (CAP_C4, "RPCI01C"): [("M30", 5.4), ("M31", 0.12), ("M03", 0.0065), ("M08", 0.35), ("M05", 0.12),
-                          ("M06", 0.25), ("M32", 0.10), ("O02", 0.55), ("O01", 0.15), ("O03", 0.25),
+    (CAP_C4, "RPCI01C"): [("M30", 5.4), ("M31", 0.06), ("M03", 0.0065), ("M08", 0.35), ("M05", 0.12),
+                          ("M06", 0.25), ("M32", 0.10), ("O02", 0.45), ("O01", 0.10), ("O03", 0.20),
                           ("U01", 0.03), ("T01", 1.20)],
     # reparații țigle profilate, coame în mortar de ciment, fără astereală
     (CAP_C4, "RPCI05XB"): [("M30", 6.0), ("M33", 6.0), ("O02", 0.60), ("O03", 0.30), ("T01", 0.50)],

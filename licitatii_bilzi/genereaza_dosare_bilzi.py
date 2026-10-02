@@ -219,8 +219,10 @@ LICITATII = {
         "lucrari": [
             "desfacerea învelitorii din olane / țigle solzi sau profilate pe șipci, inclusiv desfacerea șipcilor doliilor "
             "(480 mp), cu sortarea materialelor recuperabile;",
-            "învelitoare nouă din țiglă solzi sau olane, cu coame așezate pe șipci de lemn, inclusiv doliile, paziile și "
-            "șorțurile (480 mp), cu verificarea și înlocuirea foliei anticondens unde este cazul;",
+            "refacerea învelitorii din țiglă solzi sau olane pe șipci de lemn noi, tratate, cu coame, inclusiv doliile, "
+            "paziile și șorțurile (480 mp): se refolosesc țiglele recuperate în stare bună, iar cele sparte sau degradate se "
+            "înlocuiesc cu țiglă nouă compatibilă ca model și culoare (ofertat: cca. 15% din suprafață, adică cca. 2.600 "
+            "buc.; procentul se confirmă la vizită), cu verificarea și înlocuirea foliei anticondens unde este cazul;",
             "reparații la învelitoarea din țigle profilate, cu țigle și coame în mortar de ciment, la acoperiș fără "
             "astereală (65 mp);",
             "jgheaburi din tablă zincată 0,5 mm, semirotunde D=12,5 cm, executate pe șantier, cu colțuri, capace și ștuț "
@@ -565,12 +567,18 @@ def capitole(L):
 
 
 def suma_cap(L, cap):
-    """Valoarea capitolului cu CAM, indirecte și profit repartizate proporțional (ca în foaia Grafic)."""
+    """Valoarea capitolului cu CAM, indirecte și profit repartizate proporțional (ca în foaia Grafic);
+    diferența de rotunjire de 1–2 bani se trece la ultimul capitol, ca suma să dea exact totalul."""
     c = L.get("calc")
     if not c:
         return None
-    directe = sum(sum(v.values()) for cp, *_, v in c["linii"] if cp == cap)
-    return lei(round(directe / c["directe"] * c["total"], 2))
+    caps = capitole(L)
+    val = {}
+    for cp in caps:
+        directe = sum(sum(v.values()) for x, *_, v in c["linii"] if x == cp)
+        val[cp] = round(directe / c["directe"] * c["total"], 2)
+    val[caps[-1]] = round(c["total"] - sum(val[cp] for cp in caps[:-1]), 2)
+    return lei(val[cap])
 
 
 def anexa_oferta(doc, L):
@@ -876,6 +884,7 @@ if __name__ == "__main__":
     import oferta_financiara as ofin
     import analize_bilzi
     LICITATII["c4"]["analize"] = analize_bilzi.C4
+    LICITATII["c4"]["indirecte"] = 0.03
     LICITATII["dofteana"]["analize"] = analize_bilzi.scaleaza_manopera(
         analize_bilzi.DOFTEANA, LICITATII["dofteana"]["f3"], analize_bilzi.TINTE_MANOPERA_DOFTEANA)
     LICITATII["c4"]["durata_scurt"] = "45 zile calendaristice (7 săptămâni)"
