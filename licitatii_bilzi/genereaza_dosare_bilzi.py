@@ -41,7 +41,7 @@ EXPERIENTA = [
      "23.05.2024 – 03.06.2024", "PV de recepție nr. 2455 / 03.06.2024"),
     ("Reparație acoperiș clădire publică Post Poliție Alexeni",
      "UAT Comuna Alexeni, jud. Ialomița", "nr. 2005 / 05.03.2024", "42.454,94",
-     "05.03.2024 – 18.03.2024", None),
+     "05.03.2024 – 04.04.2024", "PV de recepție nr. 2453 / 04.04.2024"),
 ]
 
 LICITATII = {
@@ -502,8 +502,10 @@ def experienta(doc, L):
           widths=[0.8, 4, 3, 2.4, 2, 2.4, 2.6], size=9)
     P(doc, f"{FIRMA['denumire']} a executat lucrările de mai sus în calitate de contractant unic. Anexăm copii ale "
            "documentelor constatatoare (contract, proces-verbal de recepție la terminarea lucrărilor).", align="j")
-    P(doc, Y("PV-ul de recepție de la Alexeni trebuie obținut de la Primăria Alexeni înainte de depunere; fără el, "
-             "lăsați doar lucrarea de la Sinești (80.000 lei), care acoperă singură valoarea estimată."), size=9)
+    P(doc, B("Total: 122.454,94 lei fără TVA, în 2 contracte cu autorități publice."))
+    P(doc, Y("Atenție: PV-ul Alexeni nr. 2453/04.04.2024 îl trece pe Șerban Marius ca reprezentant al „SC LAVITEX PROD SRL” "
+             "(eroare materială). Cereți Primăriei Alexeni o rectificare sau o recomandare pe BILZI, altfel se poate contesta."),
+      size=9)
     semnatura(doc)
 
 
