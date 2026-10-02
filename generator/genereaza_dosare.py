@@ -675,6 +675,18 @@ def genereaza(d, out_root):
         files.append(p)
 
     save(doc_fisa_naveta(d, "00"), "00", "Fisa naveta - Formular 1")
+    obs = d.get("observatii") or []
+    if isinstance(obs, str):
+        obs = [obs]
+    doc = new_doc()
+    P(doc, B("DE VERIFICAT ÎNAINTE DE DEPUNERE"), " (document intern – nu se include în dosar)", size=12)
+    P(doc, d["uat"].get("denumire"), " – ", obiect(d), after=8)
+    for o in obs:
+        P(doc, "☐ ", o, align="j")
+    P(doc, "☐ Completați câmpurile evidențiate cu galben (numere de înregistrare, date, valori lipsă).", align="j")
+    P(doc, "☐ Atașați documentele marcate cu * în opis, numerotați filele și completați opisul.", align="j")
+    p = folder / "_DE VERIFICAT.docx"
+    doc.save(p)
     save(doc_opis(d, "00a"), "00a", "Opis documentatie")
     for nr, den, src in lista_documente(d):
         fn = GENERATORS.get(den)
