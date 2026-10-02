@@ -17,7 +17,7 @@ def parse_list(h, modul):
     out = []
     for m in re.finditer(r'property="view" aria-valuenow="([0-9a-f]+)"(.*?)(?=property="view" aria-valuenow=|\Z)', h, re.S):
         ch, body = m.group(1), m.group(2)
-        tl = re.search(r'class="titlu"[^>]*>(.*?)</a>', body, re.S)
+        tl = re.search(r'class="titlu[^"]*"[^>]*>(.*?)</a>', body, re.S)
         title = html.unescape(re.sub(r"<[^>]+>", "", tl.group(1))).strip() if tl else ""
         auth = re.search(r'class="authority">(.*?)</span>', body, re.S)
         t = L.text(body)
@@ -57,7 +57,9 @@ def main():
                 for it in its:
                     k = f"{modul}|{it['ch']}"
                     if k in db["items"]:
-                        db["items"][k]["cuvinte"] = sorted(set(db["items"][k]["cuvinte"] + [kw]))
+                        old = db["items"][k]
+                        it["cuvinte"] = sorted(set(old["cuvinte"] + [kw]))
+                        db["items"][k] = it
                     else:
                         it["cuvinte"] = [kw]
                         db["items"][k] = it
