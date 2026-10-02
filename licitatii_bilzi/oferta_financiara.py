@@ -6,6 +6,7 @@ Grafic, Anexa), deci schimbarea unui preț în foaia „Resurse” recalculează
 în Python, ca să putem trece sumele în formularul de ofertă (.docx).
 """
 import csv
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 import openpyxl
@@ -23,6 +24,11 @@ LEI = "#,##0.00"
 CANT = "#,##0.000"
 CATEG = ("Material", "Manopera", "Utilaj", "Transport")
 CAM = 0.0225  # contribuția asiguratorie pentru muncă, % din manoperă
+
+
+def r2(x):
+    """Rotunjire la 2 zecimale ca în Excel (jumătatea în sus), nu ca round() din Python."""
+    return float(Decimal(format(x, ".15g")).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
 
 
 def citeste_resurse(path=RESURSE_CSV):
@@ -46,19 +52,19 @@ def calculeaza(L, resurse, adaos, indirecte):
             for rc, consum in an[(cap, cod)]:
                 r = resurse[rc]
                 pu[r["categorie"]] += consum * r["pret_lei"]
-            pu = {k: round(v, 2) for k, v in pu.items()}
-            val = {k: round(cant * pu[k], 2) for k in CATEG}
+            pu = {k: r2(v) for k, v in pu.items()}
+            val = {k: r2(cant * pu[k]) for k in CATEG}
             for k in CATEG:
                 total_cat[k] += val[k]
             linii.append((cap, cod, den, um, cant, pu, val))
     directe = sum(total_cat.values())
-    cam = round(total_cat["Manopera"] * CAM, 2)
+    cam = r2(total_cat["Manopera"] * CAM)
     directe_cam = directe + cam
-    ind = round(directe_cam * indirecte, 2)
-    profit = round((directe_cam + ind) * adaos, 2)
-    total = round(directe_cam + ind + profit, 2)
+    ind = r2(directe_cam * indirecte)
+    profit = r2((directe_cam + ind) * adaos)
+    total = r2(directe_cam + ind + profit)
     return {"linii": linii, "total_cat": total_cat, "directe": directe, "cam": cam, "indirecte": ind,
-            "profit": profit, "total": total, "tva": round(total * 0.21, 2)}
+            "profit": profit, "total": total, "tva": r2(total * 0.21)}
 
 
 def alege_adaos(L, resurse, indirecte, tinta=0.97, minim=0.05, maxim=0.25):
@@ -147,6 +153,9 @@ def genereaza(L, firma, resurse, path, adaos, indirecte, calc):
     for col, w in zip("ABCDEF", [9, 60, 8, 11, 14, 80]):
         rs.column_dimensions[col].width = w
 
+    alast = 6 + sum(len(v) for v in an.values())
+    A = lambda col: f"Analiza!${col}$7:${col}${alast}"
+
     # ---------------- F3 (rânduri fixe, ca Analiza să poată trimite la cantitate)
     f3 = wb.create_sheet("F3")
     _antet(f3, L, firma, "F3 – Lista cu cantitățile de lucrări – deviz ofertă", 14)
@@ -168,7 +177,7 @@ def genereaza(L, firma, resurse, path, adaos, indirecte, calc):
             f3.cell(row, 4, um)
             f3.cell(row, 5, cant).number_format = CANT
             for j, k in enumerate(CATEG):
-                f3.cell(row, 6 + j, f'=ROUND(SUMIFS(Analiza!$J:$J,Analiza!$A:$A,$A{row},Analiza!$K:$K,"{k}"),2)')
+                f3.cell(row, 6 + j, f'=ROUND(SUMIFS({A("J")},{A("A")},$A{row},{A("K")},"{k}"),2)')
                 f3.cell(row, 6 + j).number_format = LEI
                 f3.cell(row, 10 + j, f"=ROUND($E{row}*{get_column_letter(6 + j)}{row},2)").number_format = LEI
             f3.cell(row, 14, f"=SUM(J{row}:M{row})").number_format = LEI
@@ -263,7 +272,7 @@ def genereaza(L, firma, resurse, path, adaos, indirecte, calc):
             s.cell(k, 1, k - 6)
             s.cell(k, 2, f"=Resurse!B{rr}")
             s.cell(k, 3, f"=Resurse!C{rr}")
-            s.cell(k, 4, f'=SUMIFS(Analiza!$H:$H,Analiza!$C:$C,"{rc}")').number_format = CANT
+            s.cell(k, 4, f'=SUMIFS({A("H")},{A("C")},Resurse!$A${rr})').number_format = CANT
             s.cell(k, 5, f"=Resurse!E{rr}").number_format = LEI
             s.cell(k, 6, f"=ROUND(D{k}*E{k},2)").number_format = LEI
             k += 1
@@ -294,7 +303,10 @@ def genereaza(L, firma, resurse, path, adaos, indirecte, calc):
         gr.cell(k, 1, i + 1)
         gr.cell(k, 2, cap)
         # valoarea capitolului cu CAM, indirecte și profit repartizate proporțional
-        gr.cell(k, 3, f"=ROUND(F3!N{srow}/F3!N{t}*F3!N{tot_row},2)").number_format = LEI
+        if i < len(sub_rows) - 1:
+            gr.cell(k, 3, f"=ROUND(F3!N{srow}/F3!N{t}*F3!N{tot_row},2)").number_format = LEI
+        else:  # ultimul capitol preia diferența de rotunjire, ca suma să dea exact totalul F3
+            gr.cell(k, 3, f"=F3!N{tot_row}-SUM(C7:C{k - 1})" if k > 7 else f"=F3!N{tot_row}").number_format = LEI
         proc = L["grafic"][i]
         for w in range(sapt):
             c = gr.cell(k, 4 + w, proc[w] if w < len(proc) else 0)
@@ -334,6 +346,6 @@ def genereaza(L, firma, resurse, path, adaos, indirecte, calc):
     ax.column_dimensions["B"].width = 22
     _semnatura(ax, k + 4, 1, firma)
 
-    wb.move_sheet("F3", offset=-(len(wb.sheetnames) - 2))
+    wb.move_sheet("F3", offset=1 - wb.sheetnames.index("F3"))
     wb.save(path)
     return path
