@@ -118,7 +118,10 @@ def main():
             continue
         d = det.get(k)
         if not d:
-            continue
+            # detaliu nedescărcat (limită cont): folosim doar datele din listă
+            if not ROOF.search(it["titlu"] or ""):
+                continue
+            d = {"titlu": it["titlu"], "entitati": [], "Tip procedura": "(detaliu nedescărcat)"}
         titlu = d.get("titlu") or it["titlu"]
         text = " ".join(filter(None, [titlu, it["titlu"], d.get("Descriere"), d.get("Obiect"), d.get("cpv")]))
         if not ROOF.search(text) and not re.search(r"4526\d|44112[1-5]|4419\d", d.get("cpv") or ""):
@@ -152,14 +155,15 @@ def main():
         uniq.append(r)
     rows = uniq
 
-    # ---- Clienti
+    # ---- Clienti (rândurile fără CUI se leagă după denumire de cele cu CUI)
+    name2cui = {norm(r["org"]): r["cui"] for r in rows if r["cui"]}
     cl = defaultdict(list)
     for r in rows:
-        cl[r["cui"] or norm(r["org"])].append(r)
+        cl[r["cui"] or name2cui.get(norm(r["org"])) or norm(r["org"])].append(r)
     clienti = []
     for key, rs in cl.items():
         o = next((r["org_ent"] for r in rs if r["org_ent"]), {})
-        nume = rs[0]["org"]
+        nume = o.get("denumire") or rs[0]["org"]
         jud = next((r["judet"] for r in rs if r["judet"]), None)
         loc = o.get("Localitate")
         achiz = [r for r in rs if r["modul"] != "planuriachizitii"]
