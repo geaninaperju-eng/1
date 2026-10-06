@@ -1,6 +1,8 @@
 # Bază de date – clienți potențiali BILZI STEEL PROFILE (acoperișuri / învelitori / șarpante)
 
-Fișier: `clienti_potentiali.xlsx` (copie Google Sheet în Drive: folderul „BILZI STEEL PROFILE”).
+Fișier: `clienti_potentiali.xlsx` (toate foile, toate cele 805 entități).
+
+În Google Drive, folderul „BILZI STEEL PROFILE”, Google Sheet-ul „Bază clienți potențiali BILZI – acoperișuri” conține **foaia Clienti filtrată pe scor 4–5 (222 de entități)**, cu coloanele principale (fără adresă/web). Încărcarea s-a făcut ca CSV (fișierul xlsx complet e prea mare pentru încărcarea prin conector); pentru restul foilor folosiți xlsx-ul din repo.
 
 ## Foi
 | Foaie | Conținut |
