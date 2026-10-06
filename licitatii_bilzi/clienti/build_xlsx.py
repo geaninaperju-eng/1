@@ -64,14 +64,14 @@ def pval(s):
 
 TIPURI = [("MApN / unitate militară", r"aparari|u\.?m\.? ?\d|unitatea militara|cazarma|statul major|brigada|baza aeriana"),
           ("Poliție / Jandarmerie / IGSU / MAI", r"politi|jandarm|situatii de urgenta|isu |igsu|afacerilor interne|frontier|imigrari|penitenciar"),
-          ("Romsilva / silvic", r"romsilva|padurilor|silvic|ocolul"),
+          ("Romsilva / silvic", r"romsilva|padurilor|silvic|\bocolul"),
+          ("Universitate / cercetare", r"universitat|academi|institutul|cercetare"),
           ("Spital / sănătate", r"spital|sanatate|ambulant|dsp |medic|cantacuzino"),
           ("Școală / grădiniță / liceu", r"scoal|liceu|colegi|gradinit|gimnazial|creș|cresa|palatul copiilor|seminar"),
-          ("Universitate / cercetare", r"universitat|academi|institutul|cercetare"),
           ("Cultură / patrimoniu / culte", r"muzeu|biblioteca|teatr|cultur|patrimoniu|biseric|parohi|episcopi|arhiepiscop|manastir|filarmon"),
           ("Asistență socială", r"dgaspc|asistenta sociala|protectia copilului|camin|centrul de ingrijire|batrani"),
           ("Primărie / UAT", r"primari|^comuna|^orasul|^municipiul|^judetul|consiliul (local|judetean)|^uat|sector \d"),
-          ("Companie de stat / regie", r"\bs\.?a\.?\b|regia|r\.?a\.?\b|compania|cfr|apa|hidro|electrica|transelectrica|posta|apele romane|aeroport|port"),
+          ("Companie de stat / regie", r"\bs\.a\.?|\bsa\b|\bregia\b|\br\.a\.?|compania|\bcfr\b|hidroelectrica|electrica|transelectrica|\bposta\b|apele romane|aeroport|\bport\b|termoficare|nuclearelectrica|romgaz|conpet|cnair|administratia nationala"),
           ("Finanțe / administrație centrală", r"finantelor|ministerul|agentia|autoritatea|directia|institutia prefectului|casa (de|judeteana)|anaf|oficiul")]
 
 def tip(name):
@@ -90,10 +90,9 @@ def judet_of(loc):
     return None
 
 def dist(judet, localitate):
-    l = norm(localitate)
-    for k, v in DIST_LOC.items():
-        if k in l:
-            return v
+    l = re.sub(r"^(municipiul|orasul|oras|comuna|sat)\s+", "", norm(localitate).strip()).replace("-", " ")
+    if l in DIST_LOC:
+        return DIST_LOC[l]
     return DIST.get(judet)
 
 def main():
@@ -119,9 +118,14 @@ def main():
             continue
         d = det.get(k)
         if not d:
-            continue
+            # detaliu nedescărcat (limită cont): folosim doar datele din listă
+            if not ROOF.search(it["titlu"] or ""):
+                continue
+            d = {"titlu": it["titlu"], "entitati": [], "Tip procedura": "(detaliu nedescărcat)"}
         titlu = d.get("titlu") or it["titlu"]
         text = " ".join(filter(None, [titlu, it["titlu"], d.get("Descriere"), d.get("Obiect"), d.get("cpv")]))
+        if re.search(r"tinichigerie auto|mecanica si tinichigerie|caroseri|auto(turism|vehicul)", norm(text)):
+            continue
         if not ROOF.search(text) and not re.search(r"4526\d|44112[1-5]|4419\d", d.get("cpv") or ""):
             continue
         jud_loc = [j for j in DIST if j.lower() in norm(it.get("localizare") or d.get("Localizare"))]
@@ -153,14 +157,15 @@ def main():
         uniq.append(r)
     rows = uniq
 
-    # ---- Clienti
+    # ---- Clienti (rândurile fără CUI se leagă după denumire de cele cu CUI)
+    name2cui = {norm(r["org"]): r["cui"] for r in rows if r["cui"]}
     cl = defaultdict(list)
     for r in rows:
-        cl[r["cui"] or norm(r["org"])].append(r)
+        cl[r["cui"] or name2cui.get(norm(r["org"])) or norm(r["org"])].append(r)
     clienti = []
     for key, rs in cl.items():
         o = next((r["org_ent"] for r in rs if r["org_ent"]), {})
-        nume = rs[0]["org"]
+        nume = o.get("denumire") or rs[0]["org"]
         jud = next((r["judet"] for r in rs if r["judet"]), None)
         loc = o.get("Localitate")
         achiz = [r for r in rs if r["modul"] != "planuriachizitii"]
@@ -207,7 +212,7 @@ def main():
     def sheet(ws, headers, data, widths):
         ws.append(headers)
         for row in data:
-            ws.append(row)
+            ws.append(["" if x == "null" else x for x in row])
         for i, w in enumerate(widths, 1):
             ws.column_dimensions[get_column_letter(i)].width = w
         for c in ws[1]:

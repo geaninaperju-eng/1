@@ -36,7 +36,7 @@ def parse_detail(h):
             while j < len(t) and not t[j].startswith("Vezi") and j < i + 20:
                 if t[j] in KEYS:
                     nxt = t[j + 1] if j + 1 < len(t) else ""
-                    e[t[j].rstrip(":")] = "" if nxt in KEYS or nxt.startswith("Vezi") else nxt
+                    e[t[j].rstrip(":")] = "" if nxt in KEYS or nxt.startswith("Vezi") or nxt == "null" else nxt
                 j += 1
             ents.append(e)
     d["entitati"] = ents
