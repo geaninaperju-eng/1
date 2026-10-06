@@ -11,7 +11,10 @@ os.makedirs(OUT, exist_ok=True)
 
 W, H, FPS = 1080, 1920, 30
 FW, FH = 1080, 1350          # fereastra foto (4:5), centrată
-FY = 480                     # sub banda de text; jos rămâne loc pentru descrierea TikTok
+FY = 556                     # sub siglă și banda de text
+LOGO = os.path.join(S, "logo", "badge.png")   # sigla pe fundal alb, colțuri rotunjite
+LOGO_W = 220                 # lățimea siglei din colț
+MUSIC = os.path.join(S, "music")
 CLIP = 3.4                   # durata unei poze
 XF = 0.5                     # durata tranziției
 END = 3.0                    # card final
@@ -25,6 +28,7 @@ PROIECTE = [
          titlu="Casă în Ciocârlia",
          model="Țiglă metalică Bilka Balcanic 8004 MAT",
          loc="Ciocârlia, Ialomița",
+         muzica=("Life_of_Riley.mp3", 0),
          poze=["proiect1-img1.jpg", "proiect1-img2-1.jpg", "proiect1-img4-1.jpg",
                "proiect1-img3-1.jpg.webp", "proiect1-img5-1.jpg.webp",
                "proiect1-img6-1-rotated.jpg.webp"]),
@@ -33,6 +37,7 @@ PROIECTE = [
          titlu="Casă în Afumați",
          model="Țiglă metalică Bilka Clasic 8019 Grande Mat",
          loc="Afumați, Ilfov",
+         muzica=("Wallpaper.mp3", 0),
          poze=["proiect2-img1.jpg", "proiect2-img2-1.jpg.webp", "proiect2-img3.jpg",
                "proiect2-img3-1.jpg.webp", "proiect2-img4.jpg.webp"]),
     dict(slug="03_Lilieci_Camin_Cultural_Bilka_Clasic_8017",
@@ -40,6 +45,7 @@ PROIECTE = [
          titlu="Cămin cultural Lilieci",
          model="Țiglă metalică Bilka Clasic 8017 MAT",
          loc="Lilieci, Ialomița",
+         muzica=("Inspired.mp3", 0),
          poze=["bilka-materiale-livrare.jpg.webp", "proiect3-img1.jpg.webp",
                "proiect3-img4.jpg", "proiect3-img3-1.jpg.webp", "proiect3-img4-1.jpg.webp"]),
     dict(slug="04_Bilka_Iberic_Negru_Pluvial_Alb",
@@ -47,6 +53,7 @@ PROIECTE = [
          titlu="Casă nouă, de la zero",
          model="Bilka Iberic negru · sistem pluvial alb",
          loc="Montaj complet acoperiș",
+         muzica=("Funkorama.mp3", 12),
          poze=["proiect4-img1-1.jpg.webp", "proiect4-img3.jpg.webp",
                "proiect4-img2.jpg.webp", "proiect4-img4.jpg.webp"]),
 ]
@@ -99,8 +106,8 @@ def endcard(dst, p):
     l1 = txt("e1.txt", "BILZI STEEL PROFILE")
     l2 = txt("e2.txt", "Montaj acoperișuri · Țiglă metalică")
     l3 = txt("e3.txt", "Cere o ofertă!")
-    l4 = txt("e4.txt", "0761 144 238")
-    l5 = txt("e5.txt", "Sediu: Buzău")
+    l4 = txt("e4.txt", "0720 244 244")
+    l5 = txt("e5.txt", "www.acoperis-mag.ro")
     last = os.path.join(IMG, p["poze"][0])
     flt = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
            f"boxblur=30:3,eq=brightness=-0.35:saturation=0.6,"
@@ -109,7 +116,7 @@ def endcard(dst, p):
            f"drawtext=fontfile={REG}:textfile={l2}:fontsize=44:fontcolor=white@0.9:x=(w-tw)/2:y=810,"
            f"drawtext=fontfile={BOLD}:textfile={l3}:fontsize=56:fontcolor=white:x=(w-tw)/2:y=950,"
            f"drawtext=fontfile={BOLD}:textfile={l4}:fontsize=84:fontcolor=white:x=(w-tw)/2:y=1060,"
-           f"drawtext=fontfile={REG}:textfile={l5}:fontsize=40:fontcolor=white@0.85:x=(w-tw)/2:y=1230,"
+           f"drawtext=fontfile={REG}:textfile={l5}:fontsize=48:fontcolor=white:x=(w-tw)/2:y=1220,"
            f"fade=t=in:st=0:d=0.4,format=yuv420p[v]")
     run(["ffmpeg", "-y", "-v", "error", "-loop", "1", "-framerate", str(FPS), "-t", str(END), "-i", last,
          "-filter_complex", flt, "-map", "[v]", "-t", str(END), "-r", str(FPS),
@@ -149,11 +156,10 @@ def video(p):
     on = f"enable='lt(t,{body_end:.2f})'"
     hook_on = "enable='between(t,0.2,2.9)'"
     alpha_hook = "alpha='if(lt(t,0.5),(t-0.2)/0.3,if(gt(t,2.5),(2.9-t)/0.4,1))'"
-    top_y = 150
-    bot_y = 320
+    top_y = 263
+    bot_y = 415
     over = (
         # bandă sus: brand + titlu proiect
-        f"drawtext=fontfile={BOLD}:textfile={brand}:fontsize=34:fontcolor=white@0.85:x=(w-tw)/2:y={top_y}:{on},"
         f"drawtext=fontfile={BOLD}:textfile={titlu}:fontsize=66:fontcolor=white:"
         f"shadowcolor=black@0.6:shadowx=3:shadowy=3:x=(w-tw)/2:y={top_y+55}:{on},"
         # bandă jos: model țiglă (pe fundal roșu) + localitate
@@ -165,13 +171,23 @@ def video(p):
         f"drawtext=fontfile={BOLD}:textfile={hook}:fontsize=78:line_spacing=16:fontcolor=white:"
         f"box=1:boxcolor=black@0.45:boxborderw=30:text_align=center:x=(w-tw)/2:y=(h-th)/2:{alpha_hook}:{hook_on}"
     )
-    parts.append(f"{cur}{over},format=yuv420p[v]")
+    n = len(clips)
+    parts.append(f"{cur}{over}[t]")
+    # sigla permanentă în colțul stânga-sus
+    parts.append(f"[{n}:v]scale={LOGO_W}:-1:flags=lanczos[lg]")
+    parts.append(f"[t][lg]overlay=36:150,format=yuv420p[v]")
+    # muzică: tăiată la durata videoului, normalizată, fade in/out
+    mf, start = p["muzica"]
+    parts.append(f"[{n+1}:a]atrim=start={start}:duration={total:.3f},asetpts=PTS-STARTPTS,"
+                 f"loudnorm=I=-14:TP=-1.5:LRA=11,afade=t=in:d=0.4,"
+                 f"afade=t=out:st={total-1.8:.3f}:d=1.8,aresample=44100[a]")
     dst = os.path.join(OUT, f"BILZI_TikTok_{p['slug']}.mp4")
     run(["ffmpeg", "-y", "-v", "error", *inputs,
-         "-f", "lavfi", "-t", f"{total:.3f}", "-i", "anullsrc=r=44100:cl=stereo",
-         "-filter_complex", ";".join(parts), "-map", "[v]", "-map", f"{len(clips)}:a",
+         "-loop", "1", "-i", LOGO, "-i", os.path.join(MUSIC, mf),
+         "-filter_complex", ";".join(parts), "-map", "[v]", "-map", "[a]",
+         "-t", f"{total:.3f}", "-r", str(FPS),
          "-c:v", "libx264", "-preset", "slow", "-crf", "19", "-profile:v", "high", "-pix_fmt", "yuv420p",
-         "-c:a", "aac", "-b:a", "128k", "-shortest", "-movflags", "+faststart", dst])
+         "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", dst])
     print(f"   {dst}  ({total:.1f}s)")
 
 
