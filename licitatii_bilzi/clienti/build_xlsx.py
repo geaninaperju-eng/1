@@ -9,7 +9,7 @@ from detalii import ROOF
 HERE = os.path.dirname(os.path.abspath(__file__))
 D = os.path.join(HERE, "date")
 BASE = "https://www.licitatiipublice.ro/licitatiipublice/module"
-TODAY = dt.date(2026, 10, 2)
+TODAY = dt.date.today()
 
 # distanță rutieră aproximativă Buzău -> reședința de județ (km)
 DIST = {"Buzau": 20, "Vrancea": 70, "Braila": 100, "Prahova": 100, "Ialomita": 100, "Bucuresti": 120,
@@ -99,8 +99,24 @@ def dist(judet, localitate):
 def main():
     lista = json.load(open(os.path.join(D, "lista.json")))["items"]
     det = json.load(open(os.path.join(D, "detalii.json")))
+    planuri_l = []
+    for k, it in lista.items():
+        if it["modul"] != "planuriachizitii":
+            continue
+        jl = [j for j in DIST if j.lower() in norm(it.get("localizare"))]
+        if not jl or not (set(it["cuvinte"]) - {"tabla", "materiale acoperis"} or ROOF.search(it["titlu"] or "")):
+            continue
+        planuri_l.append(dict(data=pdate(it.get("data_publicare")), data_est=pdate(it.get("data_estimata")),
+                              titlu=it["titlu"], judet=jl[0], valoare=pval(it.get("valoare")),
+                              cuvinte=", ".join(it["cuvinte"]),
+                              link=f"{BASE}/planuriachizitii/vizualizare_anunt.jsp?ch={it['ch']}"))
+    plan_jud = defaultdict(list)
+    for p_ in planuri_l:
+        plan_jud[p_["judet"]].append(p_)
     rows = []
     for k, it in lista.items():
+        if it["modul"] == "planuriachizitii":
+            continue
         d = det.get(k)
         if not d:
             continue
@@ -158,15 +174,16 @@ def main():
         n = len(rs)
         s += 1.5 if n >= 4 else 1 if n >= 2 else 0.5
         s += 1 if any(20000 <= v <= 150000 for v in vals) else 0.5 if any(150000 < v <= 500000 or 5000 <= v < 20000 for v in vals) else 0
-        s += 0.5 if planuri else 0
+        s += 0.25 if plan_jud.get(jud) else 0
         s += 0.5 if any(r["data"] and (TODAY - r["data"]).days <= 365 for r in rs) else 0
         scor = 5 if s >= 4.5 else 4 if s >= 3.5 else 3 if s >= 2.75 else 2 if s >= 2 else 1
         clienti.append(dict(
             denumire=nume, cui=o.get("Cod fiscal") or "", tip=tip(nume), judet=jud, localitate=loc or "",
             adresa=o.get("Adresa", ""), telefon=o.get("Telefon", ""), email=o.get("Email", ""), web=o.get("Web", ""),
-            nr=len(achiz), nr_plan=len(planuri), total=round(sum(vals), 2) if vals else None,
+            nr=len(achiz), nr_plan=len(plan_jud.get(jud, [])), total=round(sum(vals), 2) if vals else None,
             ult_data=last["data"], ult_obiect=last["obiect"], ult_val=last["valoare"], ult_modul=last["modul"],
-            plan="da" if planuri else "nu", plan_obiect="; ".join(sorted({r["obiect"] for r in planuri}))[:500],
+            plan=f"nedeterminat (modul plătit); în județ: {len(plan_jud.get(jud, []))} poziții plan cu acoperiș",
+            plan_obiect="; ".join(sorted({p_["titlu"] for p_ in plan_jud.get(jud, [])}))[:300],
             km=km, scor=scor, scor_brut=round(s, 2)))
     clienti.sort(key=lambda c: (-c["scor"], -c["scor_brut"], c["km"] or 999, -(c["total"] or 0)))
 
@@ -202,10 +219,10 @@ def main():
     ws = wb.active
     ws.title = "Clienti"
     sheet(ws, ["Scor prioritate (1-5)", "Denumire", "CUI", "Tip entitate", "Județ", "Localitate", "Adresă", "Telefon",
-               "E-mail", "Web", "Nr. achiziții acoperiș găsite", "Nr. poziții în plan achiziții",
+               "E-mail", "Web", "Nr. achiziții acoperiș găsite", "Nr. poziții plan cu acoperiș în județ",
                "Valoare totală estimată (lei)", "Ultima achiziție – data", "Ultima achiziție – obiect",
                "Ultima achiziție – valoare (lei)", "Ultima achiziție – modul", "Are plan achiziții cu acoperiș",
-               "Plan – obiect", "Distanța aprox. față de Buzău (km)"],
+               "Planuri în județ – obiect (trunchiat de site)", "Distanța aprox. față de Buzău (km)"],
           [[c["scor"], c["denumire"], c["cui"], c["tip"], c["judet"], c["localitate"], c["adresa"], c["telefon"],
             c["email"], c["web"], c["nr"], c["nr_plan"], c["total"], c["ult_data"], c["ult_obiect"], c["ult_val"],
             c["ult_modul"], c["plan"], c["plan_obiect"], c["km"]] for c in clienti],
@@ -217,13 +234,22 @@ def main():
             r["termen"], (r["win"] or {}).get("denumire"), (r["win"] or {}).get("Cod fiscal"), r["cpv"], r["link"]]
            for r in rows],
           [11, 16, 14, 18, 60, 40, 12, 12, 14, 14, 35, 12, 40, 30])
+    ws4 = wb.create_sheet("Planuri_judete")
+    sheet(ws4, ["Județ", "Distanța aprox. față de Buzău (km)", "Nr. poziții plan cu acoperiș/învelitori",
+                "Valoare totală estimată (lei)", "Data publicării", "Data estimată achiziție", "Obiect (trunchiat)",
+                "Valoare (lei)", "Cuvinte cheie", "Link"],
+          [[p_["judet"], DIST[p_["judet"]], len(plan_jud[p_["judet"]]),
+            round(sum(x["valoare"] or 0 for x in plan_jud[p_["judet"]])), p_["data"], p_["data_est"], p_["titlu"],
+            p_["valoare"], p_["cuvinte"], p_["link"]]
+           for p_ in sorted(planuri_l, key=lambda x: (DIST[x["judet"]], -(x["valoare"] or 0)))],
+          [12, 12, 12, 15, 12, 12, 30, 14, 30, 30])
     ws3 = wb.create_sheet("Concurenti")
     sheet(ws3, ["Denumire", "CUI", "Județ sediu", "Localitate", "Telefon", "E-mail", "Web", "Nr. contracte acoperiș",
                 "Valoare totală (lei)", "Județe în care a câștigat", "Clienți"],
           [[c["denumire"], c["cui"], c["judet"], c["localitate"], c["telefon"], c["email"], c["web"], c["nr"],
             c["total"], c["judete_lucru"], c["clienti"]] for c in concurenti],
           [40, 12, 14, 16, 16, 28, 22, 10, 15, 30, 70])
-    for w in (ws, ws2):
+    for w in (ws, ws2, ws4):
         for row in w.iter_rows(min_row=2):
             for c in row:
                 if isinstance(c.value, dt.date):

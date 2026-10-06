@@ -18,8 +18,9 @@ def parse_detail(h):
             return t[i + 1] if i + 1 < len(t) and not t[i + 1].endswith(":") else ""
         except ValueError:
             return None
-    i0 = t.index("Informatii") if "Informatii" in t else 0
-    d["titlu"] = t[i0 - 3] if i0 >= 3 else None
+    i0 = next((i for i, x in enumerate(t) if x.startswith("INAPOI LA")), None)
+    d["titlu"] = t[i0 + 1] if i0 is not None else None
+    d["restrictionat"] = "ACHIZITIONEAZA EXTRA-OPTIUNE" in t
     for k in ["Tip procedura:", "Numar anunt:", "Pret maximal:", "Valoare estimata:", "Val. estimata:",
               "Valoare atribuita:", "Valoare:", "Data atribuire:", "Data limita:", "Termen limita:",
               "Data estimata achizitie:", "Descriere:", "Obiect:", "Tip contract:", "Localizare:", "Data publicare:"]:
@@ -46,9 +47,8 @@ def main(limit=None):
     out_p = os.path.join(D, "detalii.json")
     det = json.load(open(out_p)) if os.path.exists(out_p) else {}
     todo = [k for k, it in lista.items() if k not in det and
-            (ROOF.search(it["titlu"] or "") or
-             # titlurile din planuri sunt trunchiate: le descărcăm dacă au venit din cuvinte cheie specifice
-             (it["modul"] == "planuriachizitii" and set(it["cuvinte"]) - {"tabla", "materiale acoperis"}))]
+            # planurile de achiziții cer o extra-opțiune plătită (organizator mascat) - nu le descărcăm
+            it["modul"] != "planuriachizitii" and ROOF.search(it["titlu"] or "")]
     print("de descărcat:", len(todo), flush=True)
     c = L.LP()
     for n, k in enumerate(todo[:limit]):
