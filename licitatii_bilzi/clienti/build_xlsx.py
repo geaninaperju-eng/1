@@ -71,7 +71,7 @@ TIPURI = [("MApN / unitate militară", r"aparari|u\.?m\.? ?\d|unitatea militara|
           ("Cultură / patrimoniu / culte", r"muzeu|biblioteca|teatr|cultur|patrimoniu|biseric|parohi|episcopi|arhiepiscop|manastir|filarmon"),
           ("Asistență socială", r"dgaspc|asistenta sociala|protectia copilului|camin|centrul de ingrijire|batrani"),
           ("Primărie / UAT", r"primari|^comuna|^orasul|^municipiul|^judetul|consiliul (local|judetean)|^uat|sector \d"),
-          ("Companie de stat / regie", r"\bs\.?a\.?\b|regia|r\.?a\.?\b|compania|cfr|apa|hidro|electrica|transelectrica|posta|apele romane|aeroport|port"),
+          ("Companie de stat / regie", r"\bs\.a\.?|\bsa\b|\bregia\b|\br\.a\.?|compania|\bcfr\b|hidroelectrica|electrica|transelectrica|\bposta\b|apele romane|aeroport|\bport\b|termoficare|nuclearelectrica|romgaz|conpet|cnair|administratia nationala"),
           ("Finanțe / administrație centrală", r"finantelor|ministerul|agentia|autoritatea|directia|institutia prefectului|casa (de|judeteana)|anaf|oficiul")]
 
 def tip(name):
@@ -90,10 +90,9 @@ def judet_of(loc):
     return None
 
 def dist(judet, localitate):
-    l = norm(localitate)
-    for k, v in DIST_LOC.items():
-        if k in l:
-            return v
+    l = re.sub(r"^(municipiul|orasul|oras|comuna|sat)\s+", "", norm(localitate).strip()).replace("-", " ")
+    if l in DIST_LOC:
+        return DIST_LOC[l]
     return DIST.get(judet)
 
 def main():
@@ -207,7 +206,7 @@ def main():
     def sheet(ws, headers, data, widths):
         ws.append(headers)
         for row in data:
-            ws.append(row)
+            ws.append(["" if x == "null" else x for x in row])
         for i, w in enumerate(widths, 1):
             ws.column_dimensions[get_column_letter(i)].width = w
         for c in ws[1]:
