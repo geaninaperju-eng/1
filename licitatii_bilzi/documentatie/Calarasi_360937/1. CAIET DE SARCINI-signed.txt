@@ -1,0 +1,85 @@
+Digitally signed by Bancu Emil-
+Adrian
+Date: 2026.09.24 14:48:52 EEST
+                                                    DEVIZ ESTIMATIV LUCRARE
+
+
+
+
+Nr      Lucrare                                                         U.M.   Cantitate Preț unitar (RON)   Total (RON)
+      1 Decopertat placă beton + îndepărtat resturi vegetale            mp             14
+      2 Desfacere padocuri metalice (structură + stâlpi)                mp             86
+      3 Desfacere învelitoare plăci azbociment + cadru                  mp             98
+        Subtotal Demolări/Decopertări
+      4 Reparații tencuieli pereți beton (15 padocuri + 2 anexe)        mp          257
+      5 Reparații tencuieli interioare (birou + grup sanitar)           mp           51
+      6 Aplicare amorsă + vopsitorii lavabile (padocuri + anexe)        mp          257
+      7 Aplicare glet + amorsă + vopsitorii (anexa birou)               mp          25.5
+      8 Aplicare faianță (grup sanitar)                                 mp          25.5
+      9 Turnare șapă ≤5 cm + montaj gresie (anexe)                      mp           15
+     10 Anvelopare exterioară polistiren extrudat 10 cm + finisaje      mp           55
+     11 Uși metalice exterioare (90x200 cm)                             buc            2
+     12 Ferestre PVC oscilobatante (110x60 cm)                          buc            2
+     13 Turnare placă beton armat (7–24 cm)                             mp          272
+     14 Rigolă de scurgere dejecții (20 cm)                             ml           32
+        Subtotal Reparații curente
+     15 Panouri sandwich termoizolate anexe (grosime ≥10 cm)            mp            21
+     16 Panouri sandwich termoizolate padocuri (grosime ≥4 cm)          mp           135
+        Subtotal Acoperișuri
+     17 Legătură (cămin) către rețeaua existentă cu grilă               ml            32
+     18 Cuști metalice (rect.100x50x3 mm h=2 m)                         buc          225
+     19 Gard plasă metalică sudată (suprafață)                          mp           144
+     20 Poartă frontală (27 x 2 m)                                      buc            1
+     21 Garduri despărțitoare (45 x 2 m)                                buc           16
+        Subtotal Lucrări metalice
+     22 Cabluri cupru 25 mm² (prize)                                    ml           100
+     23 Cabluri cupru 15 mm² (iluminat)                                 ml            45
+     24 Săpătură șanț și refacere placă/asfalt (îngropare cablu)        ml           100
+     25 Stâlp beton 6 m cu fundație                                     buc            1
+     26 Traversare aeriană + racordare                                  lot            1
+     27 Tablou electric interior (dif.30mA sig.25A/16A etc.)            buc            1
+     28 Tablou/siguranțe + montaj                                       lot            1
+     29 Prize (total 9 prize)                                           buc            9
+     30 Corp iluminat interior (lampă)                                  buc            3
+     31 Corp iluminat exterior (lampă)                                  buc            1
+     32 Întrerupător exterior + doză etanșă                             buc            1
+     33 Doze, tuburi, cleme, tub corrugat, accesorii                    lot            1
+     34 Dulap/protecții pentru stâlp                                    lot            1
+     35 Manoperă montaj instalații electrice (estimare 6 zile)          lot            1
+     36 Eliminare resturi + documentație (electrice)                    lot            1
+        Subtotal Instalații electrice (fără transport)
+     37 Aer condiționat (birou)                                         buc            1
+     38 Convectoare electrice                                           buc            2
+     39 Montaj echipamente HVAC                                         lot            1
+        Subtotal HVAC
+     40 Boiler electric 100–120 L                                       buc            1
+41 Cabină duş                                             buc    1
+42 Vas WC + rezervor                                      set    1
+43 Lavoar + baterie                                       set    1
+44 Accesorii sanitare (suport hârtie săpun x2)            lot    1
+45 Montaj/legare instalaţii sanitare                      lot    1
+46 Canalizare PVC Ø50 mm traseu 32 m                      ml    32
+47 Cămin plastic/beton cu robinet de închidere            buc    1
+   Subtotal instalaţii sanitare
+48 Conductă PVC potabil Ø1" (32 m)                        ml    32
+49 Branşament/legătură la reţeaua existentă               lot    1
+50 Cișmele termoizolate (2 buc)                           buc    2
+51 Montaj şi manoperă reţea apă                           lot    1
+   Subtotal rețea apă
+52 Realizare împământare și legare tablou                 lot    1
+53 Camere supraveghere (4 buc)                            buc    4
+54 Cabluri FTP Cat6 + introducere în copex (100 m)        lot    1
+55 Alimentare camere (cablu 15 mm² în copex)              lot    1
+56 Montaj/configurare sistem CCTV (NVR)                   lot    1
+   Subtotal CCTV
+57 Corpuri iluminat exterior (felinar)                    buc   15
+58 Montaj şi conexiuni exterioare                         lot    1
+   Subtotal iluminat exterior
+   Sumă subtotaluri fără cheltuieli generale
+59 Transport materiale (10% din subtotaluri)              lot    1
+60 Manoperă suplimentară / montaj (10% din subtotaluri)   lot    1
+61 Eliminare resturi / deșeuri (5% din subtotaluri)       lot    1
+   Total General Estimativ (excl. TVA)
+   TVA 21%
+   Total General Estimativ (incl. TVA 21%)
+

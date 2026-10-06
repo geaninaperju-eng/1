@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QualificationApplicationRequest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:X-test:UBL:Pre-award:QualificationApplicationRequest">
+  <UBLVersionID schemeAgencyID="OASIS-UBL-TC" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">2.2</UBLVersionID>
+  <CustomizationID schemeAgencyID="CEN-BII" schemeVersionID="1.0" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">urn:www.cenbii.eu:transaction:biitrdm070:ver3.0</CustomizationID>
+  <ProfileID schemeAgencyID="CEN-BII" schemeVersionID="1.0" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">4.1</ProfileID>
+  <ProfileExecutionID schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ESPD-EDMv2.0.2-REGULATED</ProfileExecutionID>
+  <ID schemeAgencyID="DGPE" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ESPDREQ-DGPE-386311</ID>
+  <CopyIndicator xmlns="urn:X-test:UBL:Pre-award:CommonBasic">false</CopyIndicator>
+  <UUID schemeID="ISO/IEC 9834-8:2008 - 4UUID" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">2d877b73-d35f-40c8-b649-9e01fac257ba</UUID>
+  <ContractFolderID schemeAgencyID="DGPE" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">4240847_2026_PAAPD1639195 </ContractFolderID>
+  <IssueDate xmlns="urn:X-test:UBL:Pre-award:CommonBasic">2026-09-22</IssueDate>
+  <VersionID schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">1.0</VersionID>
+  <ProcedureCode listID="ProcedureType" listAgencyID="EU-COM-OP" listVersionID="1.0" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">OTHER</ProcedureCode>
+  <QualificationApplicationTypeCode listID="QualificationApplicationType" listAgencyID="EU-COM-GROW" listAgencyName="DG GROW (European Commission)" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">REGULATED</QualificationApplicationTypeCode>
+  <ContractingParty xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <BuyerProfileURI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">um02444@mapn.ro</BuyerProfileURI>
+    <Party>
+      <WebsiteURI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">https://www.ddi.mapn.ro</WebsiteURI>
+      <EndpointID schemeID="NO:ORGNR" schemeAgencyID="NO:ORGNR" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">https://www.ddi.mapn.ro</EndpointID>
+      <PartyIdentification>
+        <ID schemeAgencyID="VIES" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">4240847</ID>
+      </PartyIdentification>
+      <PartyName>
+        <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ministerul Apararii - Unitatea Militara 02444 Sibiu</Name>
+      </PartyName>
+      <PostalAddress>
+        <StreetName xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Sediu Social</StreetName>
+        <CityName xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Strada: Armelor, nr. 10, Sector: -, Judet: Sibiu, Localitate: Sibiu, Cod postal: 550194</CityName>
+        <PostalZone xmlns="urn:X-test:UBL:Pre-award:CommonBasic">550194</PostalZone>
+        <Country>
+          <IdentificationCode listID="CountryCodeIdentifier" listAgencyID="ISO" listVersionID="1.0" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">RO</IdentificationCode>
+        </Country>
+      </PostalAddress>
+      <Contact>
+        <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Marius-Dumitru DOBRIN</Name>
+        <Telephone xmlns="urn:X-test:UBL:Pre-award:CommonBasic">+40 369440345</Telephone>
+        <ElectronicMail xmlns="urn:X-test:UBL:Pre-award:CommonBasic">um02444@mapn.ro</ElectronicMail>
+      </Contact>
+    </Party>
+  </ContractingParty>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">005eb9ed-1347-4ca3-bb29-9bc0db64e1ab</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Participare la o organizatie criminala</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic Insusi sau orice persoana care este membru al organismului de administrare, de conducere sau de supraveghere al acestuia sau care are putere de reprezentare, de decizie sau de control In cadrul acestuia a facut obiectul unei condamnari pronuntate printr-o hotarare definitiva pentru participare la o organizatie criminala, printr-o condamnare pronuntata cu cel mult cinci ani In urma sau In care continua sa se aplice o perioada de excludere prevazuta In mod direct In condamnare? Astfel cum este definita la articolul 2 din Decizia-cadru 2008/841/JAI a Consiliului din 24 octombrie 2008 privind lupta Impotriva crimei organizate (JO L 300, 11.11.2008, p. 42).</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">c6a11472-b4c4-44b2-95dc-10d81253d0c6</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c637c0c-7703-4389-ba52-02997a055bd7</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">69d28a69-75c1-4c10-be10-6308eb32f7fd</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f5276600-a2b6-4ff6-a90e-b31fe19dae41</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f7ec8ed7-f7d6-4890-a677-ee1ff10ab863</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Data condamnare</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">015fc769-2c06-4830-bd50-74d0e659bb27</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">dd55762a-a772-428d-b660-a5cb7e7f9ca5</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">57794d3f-4fa6-4909-a56c-4349aa38caa3</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f4978772-3126-4ded-bc30-f50da8c3a038</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">19391978-03f4-4572-8801-423341175aa9</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">df83933a-0c1d-49df-8990-62eea24968a5</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">1190c988-b0ee-40ad-b256-2cd98e88f8d3</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">e4648d9d-4ffe-4d76-990c-761ca0186885</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">c27b7c4e-c837-4529-b867-ed55ce639db5</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Coruptie</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">A: Indicatie globala pentru toate criteriile de selectie</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3f0d10f2-70c6-40d0-8706-f11e9c53faf2</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c637c0c-7703-4389-ba52-02997a055bd7</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74770f5c-36c7-45ca-967f-d98b2b3e6541</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f5276600-a2b6-4ff6-a90e-b31fe19dae41</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">8a18de10-edac-44c4-99aa-5c7e2e143b6e</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Data condamnare</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">37dd78f6-b8dc-4be3-be9e-0a29b7b0dc6c</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Motivul</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">38df1d3a-b918-4b47-b5ef-e50a810e0dec</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">27714edc-7500-46fa-b6dd-88158e2ec3b4</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Durata perioadei de excludere</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f4978772-3126-4ded-bc30-f50da8c3a038</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">bc4a7598-489c-4ba0-81fe-2d379643b634</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">985e2c8d-f8b9-4a9b-b49f-e4857365743e</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">5cfef168-247a-49d9-a7de-829ba99c872c</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">53eea629-9f22-4c4d-9f17-ada0911e121e</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Dovezi furnizate</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">297d2323-3ede-424e-94bc-a91561e6f320</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONVICTIONS.FRAUD</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Frauda</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic Insusi sau orice persoana care este membru al organismului de administrare, de conducere sau de supraveghere al acestuia sau care are putere de reprezentare, de decizie sau de control In cadrul acestuia a facut obiectul unei condamnari pentru frauda pronuntate printr-o hotarare definitiva, printr-o condamnare pronuntata cu cel mult cinci ani In urma sau In care continua sa se aplice o perioada de excludere prevazuta In mod direct In condamnare? In sensul articolului 1 din Conventia privind protejarea intereselor financiare ale Comunitatilor Europene (JO C 316, 27.11.1995, p. 48).</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">e576c936-5d3b-40a5-844e-31f59378cce0</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c637c0c-7703-4389-ba52-02997a055bd7</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">0e698644-bdb9-4ae0-9383-86859aa1db56</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f5276600-a2b6-4ff6-a90e-b31fe19dae41</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b881492c-a4f8-4e29-8de0-74e454999c1c</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Data condamnare</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">976ba6ff-2530-4276-b77a-eeec7baed09b</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Motivul</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">380c3ea3-2363-457f-9e4a-fae2a155c59d</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">bbea3f9e-71ea-4796-8d64-dde040b2f240</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Durata perioadei de excludere</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f4978772-3126-4ded-bc30-f50da8c3a038</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ab50fd35-4531-4758-b847-1ed3be6ba866</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">0ddd939e-25f5-48cf-a3ba-7fce314c9a71</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">27271e28-3129-48d8-9ab1-ad4a3a8c1707</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ffa40ecc-665f-4310-afa1-c3ab84a652c6</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d486fb70-86b3-4e75-97f2-0d71b5697c7d</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Infractiuni teroriste sau infractiuni legate de activitati teroriste</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic însuși sau orice persoană care este membru al organismului de administrare, de conducere sau de supraveghere al acestuia sau care are putere de reprezentare, de decizie sau de control în cadrul acestuia a făcut obiectul unei condamnări pentru infracțiuni teroriste sau infracțiuni legate de activități teroriste, pronunțate printr-o hotărâre definitivă, printr-o condamnare pronunțată cu cel mult cinci ani în urmă sau în care continuă să se aplice o perioadă de excludere prevăzută în mod direct în condamnare? . Acest motiv de excludere include, de asemenea, instigare, complicitate sau tentativă de a săvârși o infracțiune, în sensul articolului 4 din respectiva decizie-cadru.</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">aa7d8901-3640-481a-94f7-10a1109514c8</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c637c0c-7703-4389-ba52-02997a055bd7</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7f1942dd-1989-4a1a-915c-f3671deb4b35</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f5276600-a2b6-4ff6-a90e-b31fe19dae41</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">fb53c794-1209-4305-962f-dffa4d99fa01</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Data condamnare</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">6ae7e349-ec40-47ba-9386-5969be3f909e</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Motivul</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d4ba7ebb-cc97-4fe6-a762-633734044d00</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f0bc689a-f709-4923-8a48-62adcc4524f4</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Durata perioadei de excludere</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f4978772-3126-4ded-bc30-f50da8c3a038</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">10c06895-668c-44c4-95ee-ff527fab3b49</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ec9dd4e8-288c-4cfe-ad0e-fc580368a3c2</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">43a951c9-beb1-46f5-bab4-f7e2ab2703bd</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ca39c16d-1a40-4167-9817-64361ad81eee</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Dovezi furnizate</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">47112079-6fec-47a3-988f-e561668c3aef</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Spalare de bani sau finantarea terorismului</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic însuși sau orice persoană care este membru al organismului de administrare, de conducere sau de supraveghere al acestuia sau care are putere de reprezentare, de decizie sau de control în cadrul acestuia a făcut obiectul unei condamnări pentru infracțiuni teroriste sau infracțiuni legate de activități teroriste, pronunțate printr-o hotărâre definitivă, printr-o condamnare pronunțată cu cel mult cinci ani în urmă sau în care continuă să se aplice o perioadă de excludere prevăzută în mod direct în condamnare? Astfel cum sunt definite la articolul 1 din Directiva 2005/60/CE a Parlamentului European și a Consiliului din 26 octombrie 2005 privind prevenirea utilizării sistemului financiar în scopul spălării banilor și finanțării terorismului (JO L 309, 25.11.2005, p. 15).</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">0fd4c47d-3a42-4fc7-8bfd-7a2a310c6bbc</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c637c0c-7703-4389-ba52-02997a055bd7</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">888ae0c5-8776-43ee-ab66-e80adcc90e5f</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f5276600-a2b6-4ff6-a90e-b31fe19dae41</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">768fe12e-2d91-4102-bf69-b60ac1ba4ef4</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Data condamnare</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">18f9133f-cedc-46fd-80ff-b7fc7f79c249</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Motivul</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">df86ce64-f8a2-4b34-a7de-9796dfdde003</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d2f7dc31-84cd-4627-93c8-cfd677c14468</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Durata perioadei de excludere</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f4978772-3126-4ded-bc30-f50da8c3a038</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">27badb35-09cb-46ce-8178-9487a7fdd7d1</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">6c0f6747-8433-424c-bfe0-297b95647d98</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3bc151a5-db05-497c-a3c8-46abbd5a1170</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">c6ffeb26-927d-4007-89fb-1a0dffa81bf2</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Dovezi furnizate</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d789d01a-fe03-4ccd-9898-73f9cfa080d1</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Exploatarea prin munca a copiilor si alte forme de trafic de persoane</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic Insusi sau orice persoana care este membru al organismului de administrare, de conducere sau de supraveghere al acestuia sau care are putere de reprezentare, de decizie sau de control In cadrul acestuia a facut obiectul unei condamnari pronuntate printr-o hotarare definitiva pentru exploatare prin munca a copiilor si alte forme de trafic de persoane, printr-o condamnare pronuntata cu cel mult cinci ani In urma sau In care continua sa se aplice o perioada de excludere prevazuta In mod direct In condamnare? Astfel cum sunt definite la articolul 2 din Directiva 2011/36/UE a Parlamentului European si a Consiliului din 5 aprilie 2011 privind prevenirea si combaterea traficului de persoane si protejarea victimelor acestuia, precum si de Inlocuire a Deciziei-cadru 2002/629/JAI a Consiliului (JO L 101, 15.4.2011, p. 1). Va rugam sa repetati de cate ori este necesar.</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a8827ba0-e20d-4992-a85c-86ec96f6452a</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c637c0c-7703-4389-ba52-02997a055bd7</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">253f7de4-1cc6-444a-a7b8-126b8da1175c</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f5276600-a2b6-4ff6-a90e-b31fe19dae41</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ff31b723-a2d6-4542-bac9-7a68684e1314</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Data condamnare</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">59de3dae-0980-4404-a12c-0bf3ffe7e4b7</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Motivul</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d657e279-5072-4a9c-a309-7f0da39fdd2d</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Cine a fost condamnat</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">8fca27e3-094b-44af-9369-57a425d30f3a</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Durata perioadei de excludere</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f4978772-3126-4ded-bc30-f50da8c3a038</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">9911d1e7-b415-46be-a167-c22d5feb50fc</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">95b38d38-61a9-41b0-b303-b69d18ca08e0</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ea55194b-8489-486d-b5a0-b75c5b590c4f</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">44c510de-3a65-46fe-8716-b7ace66af088</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Dovezi furnizate</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Plata impozitelor</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic si-a Incalcat obligatiile cu privire la plata impozitelor, atat In tara In care este stabilit, cat si In statul membru al autoritatii contractante sau al entitatii contractante, In cazul In care este diferit de tara de stabilire?</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">890ee4fb-b6ca-4611-afd9-667e9736dd78</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">098fd3cc-466e-4233-af1a-affe09471bce</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">0c15a1d8-2f3d-4c75-b341-9867219f58e1</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f8499787-f9f8-4355-95e2-9784426f4d7b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">926bdd79-c251-40a7-a3db-2b076f5db76c</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Țara sau statul membru în cauză</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CODE_COUNTRY</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">59e9885a-6886-4318-847d-ccd3ee7f79dd</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Suma în cauză</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">AMOUNT</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c2aec9f-4876-4c33-89e6-2ab6d6cf5d02</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a894c8d1-3ee3-491d-a0db-191d0370060f</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Această încălcare a obligațiilor a fost stabilită prin alte mijloace decât o hotărâre judecătorească sau administrativă?</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3cb7abf1-662a-4756-b61c-7bc716c1fafc</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c0ef247-4db4-4a8a-a3f1-7b94781a2d52</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Descrieți ce mijloace au fost utilizate</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">c882afa4-6971-4b00-8970-0c283eb122cc</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONFALSE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a7a70d86-4222-4c7b-bf0c-ef1aeb80b048</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic și-a îndeplinit obligațiile plătind impozitele sau contribuțiile la asigurările sociale datorate sau încheind un aranjament cu caracter obligatoriu în vederea plății acestora, inclusiv, după caz, a eventualelor dobânzi acumulate sau a amenzilor?</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">815422d6-f8a1-418a-8bf0-3524f7c8f721</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f97eff27-e253-4f69-b580-cd8ae16c7331</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Data condamnare</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">cb1d9e7e-4ac3-4d13-b1f9-98889dd0ecb7</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Durata perioadei de excludere</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">fc57e473-d63e-4a04-b589-dcf81cab8052</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">56e77003-24fe-42ed-81d2-ba99c5f5e188</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">În cazul în care această încălcare a obligațiilor a fost stabilită printr-o hotărâre judecătorească sau administrativă, această decizie este definitivă și obligatorie?</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">6c3609e1-9add-4fa9-9409-62ce72ae4548</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">67c17c67-26ba-43b7-b03a-cb211cc94a2a</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f7b25ab6-a894-416e-a5a7-8d5afa2010f3</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">9a17e005-9a70-4933-b8ca-b0b50c8e3d46</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">URL</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7d85e333-bbab-49c0-be8d-c36d71a72f5e</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Plata asigurărilor sociale</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic si-a Incalcat obligatiile cu privire la plata contributiilor la asigurarile sociale, atat In tara In care este stabilit, cat si In statul membru al autoritatii contractante sau al entitatii contractante, In cazul In care este diferit de tara de stabilire?</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">592553d5-0853-4aa9-866c-7ccb2644e580</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">098fd3cc-466e-4233-af1a-affe09471bce</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f1863b8f-cb98-4b50-9e96-64ce83134f16</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">f8499787-f9f8-4355-95e2-9784426f4d7b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">99ee7dfa-c347-453d-a4d6-93ceb05590da</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Țara sau statul membru în cauză</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CODE_COUNTRY</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">2c735545-7859-4539-9b08-5baf33ebaf46</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Suma în cauză</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">AMOUNT</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7c2aec9f-4876-4c33-89e6-2ab6d6cf5d02</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">55831fef-1e9d-40d9-a360-84689d5fe625</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Această încălcare a obligațiilor a fost stabilită prin alte mijloace decât o hotărâre judecătorească sau administrativă?</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3cb7abf1-662a-4756-b61c-7bc716c1fafc</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d1f84040-997e-4393-b83d-dc16ca7c4731</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Descrieți ce mijloace au fost utilizate</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">c882afa4-6971-4b00-8970-0c283eb122cc</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONFALSE</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">dc04f9be-70ee-461b-ab47-c6464937fa92</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic și-a îndeplinit obligațiile plătind impozitele sau contribuțiile la asigurările sociale datorate sau încheind un aranjament cu caracter obligatoriu în vederea plății acestora, inclusiv, după caz, a eventualelor dobânzi acumulate sau a amenzilor?</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">815422d6-f8a1-418a-8bf0-3524f7c8f721</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">92d650ed-6c49-401e-9831-11ec3da9eabe</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să precizați data condamnării</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DATE</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">79c6270a-9cef-45f6-aec1-3cc5de25282a</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Durata perioadei de excludere</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">fc57e473-d63e-4a04-b589-dcf81cab8052</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">0c534eb4-251b-4898-abf2-49f7e65d92f9</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">În cazul în care această încălcare a obligațiilor a fost stabilită printr-o hotărâre judecătorească sau administrativă, această decizie este definitivă și obligatorie?</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">6c3609e1-9add-4fa9-9409-62ce72ae4548</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">929ba81b-d2fb-46ac-ac5d-948ed294d3a3</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">307bf52d-92ce-4a36-a1e9-6bddb7632bd5</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">În cazul unei condamnări, durata perioadei de excludere, în măsura în care aceasta este stabilită direct în condamnare</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">cc2fb4a6-9ec6-4dd5-a8e0-a7c9cfb07ae1</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">32965ab2-cc02-4894-bb5d-d3416a128a26</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">URL</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a80ddb62-d25b-4e4e-ae22-3968460dc0a9</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Incalcarea obligatiilor In domeniul legislatiei de mediu</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">In masura cunostintelor sale, operatorul economic si-a Incalcat obligatiile In domeniul legislatiei mediului? Astfel cum sunt mentionate In scopul acestei achizitii publice In legislatia nationala, In anuntul relevant sau In documentele achizitiei ori la articolul 18 alineatul (2) din Directiva 2014/24/UE.</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">cd8a1a4e-845c-454d-93b4-125a05bfcda9</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">976b5acb-c00f-46ca-8f83-5ce6abfdfe43</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">81020333-54cf-4812-93b0-828534db041f</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">64a2102c-4af1-4ecb-97b3-0c41907ec0f6</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7a2900af-91cb-4d79-8d63-8c7b6b9a4ef1</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">5f9f09f7-f701-432c-9fdc-c22c124a74c9</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">6e6007f2-305a-4570-8e64-518768475ed2</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">6000d6dc-bc01-428c-8336-0a0c5c97e006</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3dcd8fe3-7967-48b6-bc58-9af369763796</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b40e5dc4-6d54-4276-b88b-6eb9687b7663</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Dovezi furnizate</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a261a395-ed17-4939-9c75-b9ff1109ca6e</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Incalcarea obligatiilor In domeniul legislatiei sociale</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">In masura cunostintelor sale, operatorul economic si-a Incalcat obligatiile In domeniul legislatiei sociale? Astfel cum sunt mentionate In scopul acestei achizitii publice In legislatia nationala, In anuntul relevant sau In documentele achizitiei ori la articolul 18 alineatul (2) din Directiva 2014/24/UE.</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b6f7d621-f8ee-4dfb-b959-65ac2b3ccd08</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">976b5acb-c00f-46ca-8f83-5ce6abfdfe43</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b18cdfac-99b3-4887-9808-71665e113405</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">64a2102c-4af1-4ecb-97b3-0c41907ec0f6</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">6d3ea50c-7bd7-48b0-9b68-33f27baccccf</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">5f9f09f7-f701-432c-9fdc-c22c124a74c9</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b6d9b318-61f9-46b6-a06d-64c77a8401d2</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">1191b8f8-468b-45f4-87c3-f8aa709e5463</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3dcd8fe3-7967-48b6-bc58-9af369763796</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b40e5dc4-6d54-4276-b88b-6eb9687b7663</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Dovezi furnizate</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a34b70d6-c43d-4726-9a88-8e2b438424bf</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Incalcarea obligatiilor In domeniul legislatiei muncii</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">In masura cunostintelor sale, operatorul economic si-a Incalcat obligatiile In domeniul legislatiei sociale? Astfel cum sunt mentionate In scopul acestei achizitii publice In legislatia nationala, In anuntul relevant sau In documentele achizitiei ori la articolul 18 alineatul (2) din Directiva 2014/24/UE.</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">25b5eda1-970f-4f76-b31f-bfb6ed620051</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">976b5acb-c00f-46ca-8f83-5ce6abfdfe43</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">9b0d22f5-3f2a-4c03-afcb-073ecdfd7ac</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">64a2102c-4af1-4ecb-97b3-0c41907ec0f6</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a53409ec-48c0-4556-add1-9297485f1cba</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">5f9f09f7-f701-432c-9fdc-c22c124a74c9</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">2ea13d45-e950-436b-9b91-cd5c58665881</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ac69e383-7d37-4211-9293-1e21529cfd5a</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3dcd8fe3-7967-48b6-bc58-9af369763796</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b40e5dc4-6d54-4276-b88b-6eb9687b7663</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Dovezi furnizate</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d3732c09-7d62-4edc-a172-241da6636e7c</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Falimentul</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic este In stare de faliment?</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">0b382f2a-f97d-405e-9634-a3ad5b5fbd0b</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d91c11a1-f19e-4b83-8ade-c4be2bf00555</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">bc993090-865d-467e-adaf-1127aa86b73a</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">aeef523b-c8fc-4dba-9c34-03e34812567b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">aad0cc18-81bd-46e7-9ec2-11d988db3131</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">64d6befd-3960-4fe2-b2e3-c33b4e3663a7</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Precizați motivele pentru care veți putea fi, totuși, în măsură să executați contractul</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">d11d9ef8-82fc-498d-b983-08cac3190403</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7240d249-9fe8-448c-a906-c894339a3f6d</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">URL</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b1b5ac18-f393-4280-9659-1367943c1a2e</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PARTICIPATION</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Conflict de interese care decurge din participarea la procedura de achizitii publice</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Operatorul economic are cunoștință de vreun conflict de interese, astfel cum se precizează în legislația națională, anunțul relevant sau documentele achiziției, care decurge din participarea sa la procedura de achiziții publice?</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">c2ad1e11-e98b-4b6a-a6e6-aa772cd24089</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">30450436-f559-4dfa-98ba-f0842ed9d2a0</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">a7df734c-c5bc-4675-b615-28501067d995</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">73f0fe4c-4ed9-4343-8096-d898cf200146</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ca9912ce-0425-41a5-9ae7-22a575a417f5</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">82456474-e97d-49fe-ac25-6b53ee1833de</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">9cd5ee30-5b40-4ac3-919b-d4e7ececf9e4</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">URL</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <TenderingCriterion xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">63adb07d-db1b-4ef0-a14e-a99785cf8cf6</ID>
+    <CriterionTypeCode listID="CriteriaTypeCode" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">CRITERION.EXCLUSION.NATIONAL.OTHER</CriterionTypeCode>
+    <Name xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Motivele de excludere pur nationale</Name>
+    <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Alte motive de excludere care pot fi prevazute In legislatia nationala din statul membru al autoritatii contractante sau al entitatii contractante. Se aplica motivele de excludere pur nationale care sunt specificate In anuntul relevant sau In documentele achizitiei?</Description>
+    <Legislation>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">405382fc-4f18-4fda-b784-4205203ef5f2</ID>
+      <Title xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation title]</Title>
+      <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Legislation Description]</Description>
+      <JurisdictionLevel xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EU</JurisdictionLevel>
+      <Article xmlns="urn:X-test:UBL:Pre-award:CommonBasic">[Article, e.g. Article 2.I.a]</Article>
+      <URI xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://eur-lex.europa.eu/</URI>
+      <Language>
+        <LocaleCode listID="LanguageCodeEU" listAgencyName="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EN</LocaleCode>
+      </Language>
+    </Legislation>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">77ae3f29-7c5f-4afa-af97-24afec48c5bf</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3b524b98-d29a-4b02-8be3-02cd450e38f7</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Raspunsul dumneavoastra</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">73f0fe4c-4ed9-4343-8096-d898cf200146</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ea7bcd04-8ad5-4e7b-a849-fe2181220745</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+        <SubsidiaryTenderingCriterionPropertyGroup>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">5f9f09f7-f701-432c-9fdc-c22c124a74c9</ID>
+          <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+          <TenderingCriterionProperty>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">2742de69-0e6a-47fc-a534-d2d2d8960cdf</ID>
+            <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Ați luat măsuri pentru a demonstra fiabilitatea dumneavoastră(„autocorectare”)</Description>
+            <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+            <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+          </TenderingCriterionProperty>
+          <SubsidiaryTenderingCriterionPropertyGroup>
+            <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">74e6c7b4-757b-4b40-ada6-fad6a997c310</ID>
+            <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+            <TenderingCriterionProperty>
+              <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">b3a97294-8a2e-47ed-b086-f60f46def879</ID>
+              <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Vă rugăm să le descrieți</Description>
+              <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+              <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">DESCRIPTION</ValueDataTypeCode>
+            </TenderingCriterionProperty>
+          </SubsidiaryTenderingCriterionPropertyGroup>
+        </SubsidiaryTenderingCriterionPropertyGroup>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+    <TenderingCriterionPropertyGroup>
+      <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7458d42a-e581-4640-9283-34ceb3ad4345</ID>
+      <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ON*</PropertyGroupTypeCode>
+      <TenderingCriterionProperty>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">fbd7de28-c941-40bd-a4bc-593a007947bf</ID>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Aceste informații sunt disponibile gratuit pentru autorități, dintr-o bază de date națională a unui stat membru UE?</Description>
+        <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+        <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">INDICATOR</ValueDataTypeCode>
+      </TenderingCriterionProperty>
+      <SubsidiaryTenderingCriterionPropertyGroup>
+        <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">41dd2e9b-1bfd-44c7-93ee-56bd74a4334b</ID>
+        <PropertyGroupTypeCode listID="PropertyGroupType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">ONTRUE</PropertyGroupTypeCode>
+        <TenderingCriterionProperty>
+          <ID schemeID="CriteriaTaxonomy" schemeAgencyID="EU-COM-GROW" schemeVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">7203f7b6-b7b0-40c1-a665-a5df13e8a7a7</ID>
+          <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">URL</Description>
+          <TypeCode listID="CriterionElementType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">QUESTION</TypeCode>
+          <ValueDataTypeCode listID="ResponseDataType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">EVIDENCE_IDENTIFIER</ValueDataTypeCode>
+        </TenderingCriterionProperty>
+      </SubsidiaryTenderingCriterionPropertyGroup>
+    </TenderingCriterionPropertyGroup>
+  </TenderingCriterion>
+  <AdditionalDocumentReference xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeAgencyID="EU-COM-OP" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">2017/S 142-293520</ID>
+    <DocumentTypeCode listID="DocRefContentType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">TED_CN</DocumentTypeCode>
+    <Attachment>
+      <ExternalReference>
+        <URI schemeAgencyID="EU-COM-OP" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">http://ted.europa.eu/udl?uri%3DTED:NOTICE:293520-2017:TEXT:EN:HTML%026src%3D0</URI>
+        <FileName xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Spain-Aljaraque: Repair and maintenance services</FileName>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">293520-2017</Description>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Repair and maintenance services. Real estate services.</Description>
+      </ExternalReference>
+    </Attachment>
+  </AdditionalDocumentReference>
+  <AdditionalDocumentReference xmlns="urn:X-test:UBL:Pre-award:CommonAggregate">
+    <ID schemeAgencyID="EU-COM-OP" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">3.17/20830.0160</ID>
+    <DocumentTypeCode listID="DocRefContentType" listAgencyID="EU-COM-GROW" listVersionID="2.0.2" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">NOJCN</DocumentTypeCode>
+    <Attachment>
+      <ExternalReference>
+        <URI schemeAgencyID="PLACE" xmlns="urn:X-test:UBL:Pre-award:CommonBasic">https://contrataciondelestado.es/wps/portal/!ut/p/b1/pY_LDoIwEEW_hQ8wM5S2wJKH5REUVEDbjenCGI3Axvj9gmFrMXF2Nzkncy8okDahHD2XMAYnUL1-3a76eRt6_Ziy4me6LqNIpAS9gxMjKeKm4ekUyQhIA5AQo5-w2WdORNu8rfghSxCzVMRFY7NR57_5-OUC_K-_t9j_CMqMkBkwTfwAhg3bdOguIEfMPQftehdkvoNluB8f5dWmrhJiI3KoQYbhEkYnLA-hUw8hhJ_dqV7pwLLeHJySpA!!/</URI>
+        <FileName xmlns="urn:X-test:UBL:Pre-award:CommonBasic">Suministro y transporte de balasto para el tramo Zamora — Pedralba de la Línea de Alta Velocidad Olmedo — Lubián — Ourense. Subtramo 8.Reference number: 3.17/20830.0160</FileName>
+        <Description xmlns="urn:X-test:UBL:Pre-award:CommonBasic" />
+      </ExternalReference>
+    </Attachment>
+  </AdditionalDocumentReference>
+</QualificationApplicationRequest>

@@ -1,0 +1,81 @@
+cod;denumire;um;categorie;pret_lei;sursa
+O01;Dulgher;ore;Manopera;35;Tarif BILZI (ca la oferta Onești 01.10.2026)
+O02;Montator învelitori / tinichigiu;ore;Manopera;35;Tarif BILZI (ca la oferta Onești 01.10.2026)
+O03;Muncitor necalificat;ore;Manopera;25;Tarif BILZI (ca la oferta Onești 01.10.2026)
+O04;Zidar;ore;Manopera;35;Tarif BILZI – de verificat
+O05;Electrician autorizat ANRE;ore;Manopera;45;Estimare – de verificat
+O06;Lăcătuș / sudor;ore;Manopera;38;Estimare – de verificat
+O07;Vopsitor / tâmplar finisaje lemn;ore;Manopera;35;Estimare – de verificat
+O08;Montator schele;ore;Manopera;30;Estimare – de verificat
+U01;Fierăstrău circular electric;ore;Utilaj;10;Tarif BILZI (Onești)
+U02;Mașină de înșurubat / găurit electrică;ore;Utilaj;8;Tarif BILZI (Onești)
+U03;Echipament de curățare cu laser (închiriere, cu consumabile);ore;Utilaj;180;Estimare – de verificat
+U04;Macara / automacara (închiriere cu operator);ore;Utilaj;280;Estimare – de verificat
+U05;Aparat de sudură;ore;Utilaj;12;Estimare – de verificat
+U06;Schelă metalică (închiriere, montaj inclus în manoperă);mp·lună;Utilaj;10.0;depozituldeschele.ro 02.10.2026: 8,26–11,57 lei/mp/lună fără TVA, fără montaj
+U07;Ciocan de lipit / letcon tinichigerie;ore;Utilaj;6;Estimare – de verificat
+T01;Transport rutier materiale cu autocamionul;t·km;Transport;3;Tarif BILZI (Onești)
+T02;Container moloz 7 mc (închiriere, transport și eliminare);buc;Transport;1800.0;Reciclero 2.281 lei (7 zile, cu tratarea deșeurilor) / Moloz24 de la 400 lei – medie rotunjită
+M01;Cherestea rășinoase (grinzi, căpriori) pentru reparații;mc;Material;1500;Estimare (Onești) – de verificat
+M02;Scândură rășinoase 25 mm pentru astereală, tratată;mc;Material;990.0;Depozite cherestea Chitila 02.10.2026: 1.150–1.200 lei/mc (presupus cu TVA) → ~990 lei/mc fără TVA
+M03;Șipci 50×50 și contrașipci 30×50 rășinoase, tratate;mc;Material;1150.0;Depozite cherestea 02.10.2026: șipcă 50×50 2,69–3,10 lei/ml, contrașipcă 1,03–1,55 lei/ml → ~1.150 lei/mc
+M04;Scoabe, cuie și buloane pentru șarpantă;kg;Material;11;Estimare (Onești) – de verificat
+M05;Cuie pentru astereală / șipci;kg;Material;9;Estimare (Onești) – de verificat
+M06;Soluție fungicidă / insecticidă pentru lemn;l;Material;14;Estimare – de verificat
+M08;Folie anticondens min. 120 g/mp;mp;Material;4.18;Listă Bilka / Dedeman 02.10.2026: folie anticondens 120–150 g/mp, rolă 75 mp
+M09;Șuruburi autoforante cu garnitură / nituri;buc;Material;0.25;Estimare (Onești) – de verificat
+M10;Țiglă ceramică Creaton Balance / Melodie angobată roșu cupru (sau echivalent), inclusiv piese;mp;Material;66.0;Dedeman 02.10.2026: Creaton Balance roșu cupru angoba 7,21 lei/buc fără TVA × 8,7 buc/mp = 62,70 lei/mp + 5% piese speciale
+M11;Cleme de prindere țiglă ceramică;buc;Material;0.9;Estimare – de verificat
+M12;Coamă ceramică Creaton (2,5 buc/ml);ml;Material;102.15;Dedeman 02.10.2026: coamă ceramică Creaton PF roșu angoba 40,86 lei/buc × 2,5 buc/ml
+M13;Bandă de coamă ventilată și suport de șipcă coamă;ml;Material;27.95;Dedeman 02.10.2026: bandă coamă ventilată Bramac UniRoll 25,95 lei/ml + suport șipcă coamă
+M14;Capăt de coamă / închidere coamă ceramică;buc;Material;45;Estimare – de verificat
+M15;Opritor de zăpadă metalic pentru țiglă ceramică Creaton;buc;Material;5.52;Dedeman 02.10.2026: opritor zăpadă Creaton Balance 5,52 lei/buc fără TVA
+M16;Suport opritor zăpadă pentru țiglă ceramică;buc;Material;9;Estimare – de verificat
+M17;Etanșant / silicon pentru tinichigerie;buc;Material;25;Estimare (Onești) – de verificat
+M18;Lambriu larice termotratat clasa A;mp;Material;165.0;Între lambriu larice 20×146 Lemn Depo 135,54 lei/mp și pin termotratat Dedeman 197,52 lei/mp (larice termotratat negăsit online) – de cerut ofertă
+M19;Șuruburi inox pentru lemn;buc;Material;0.6;Estimare – de verificat
+M20;Tablă prevopsită mat 0,50 mm (BILKA);mp;Material;33.69;Listă BILKA 01. Rezidențial – tablă plană mat 0,50 (6,32 €/mp × 5,3313)
+M21;Jgheab 125 mm colorat (BILKA);ml;Material;11.22;Listă BILKA 03. Sistem pluvial – jgheab 125/4 m (8,42 €/buc)
+M22;Cârlig jgheab 125 / 210 mm;buc;Material;7.52;Listă BILKA 03. Sistem pluvial
+M23;Burlan 90 mm colorat (BILKA);ml;Material;13.84;Listă BILKA 03. Sistem pluvial – burlan 90/3 m (7,79 €/buc)
+M24;Colț exterior jgheab 90° 125;buc;Material;39.35;Listă BILKA 03. Sistem pluvial (7,38 €)
+M25;Racord jgheab – burlan 125/90;buc;Material;11.89;Listă BILKA 03. Sistem pluvial
+M26;Prelungitor intermediar burlan 90 / 1 m;buc;Material;13.86;Listă BILKA 03. Sistem pluvial
+M27;Cot burlan 60° 90;buc;Material;11.89;Listă BILKA 03. Sistem pluvial
+M28;Cot evacuare burlan 90;buc;Material;12.53;Listă BILKA 03. Sistem pluvial (2,35 €)
+M29;Colier burlan 90;buc;Material;4.42;Listă BILKA 03. Sistem pluvial
+M30;Țiglă ceramică solzi / olan (completare);buc;Material;3.11;Dedeman 02.10.2026: Creaton Klassic Biber natur 104,4 lei/mp ÷ 33,6 buc/mp
+M31;Coamă ceramică pentru țiglă solzi (pe mp de învelitoare);buc;Material;40.86;Dedeman 02.10.2026: coamă ceramică Creaton 40,86 lei/buc fără TVA
+M32;Sârmă zincată / cârlige de prindere țiglă;kg;Material;12;Estimare – de verificat
+M33;Mortar de ciment-var M100 (uscat, sac);kg;Material;0.6;Estimare – de verificat
+M34;Tablă zincată 0,50 mm (desfășurată jgheab 33 cm + pierderi);mp;Material;31.65;Constal 02.10.2026: tablă zincată 0,5 mm 31,65 lei/mp fără TVA
+M35;Cârlig jgheab zincat semirotund;buc;Material;6.5;Estimare – de verificat
+M36;Aliaj de lipit Sn-Pb LP30;kg;Material;140;Estimare – de verificat
+M37;Accesorii jgheab (capace, colțuri, ștuț) – cotă pe ml;buc;Material;14;Estimare – de verificat
+M38;Panou parazăpadă metalic zincat (tip grilă);buc;Material;48;Estimare – de verificat
+M39;Ancoră / suport parazăpadă prins în căprior;buc;Material;7;Estimare – de verificat
+M40;Bandă de aluminiu 1×20 mm;ml;Material;6;Estimare – de verificat
+M41;Nituri / șuruburi pentru inele;buc;Material;0.3;Estimare – de verificat
+M42;Plasă metalică zincată pentru protecție;mp;Material;28;Estimare – de verificat
+M43;Profile oțel (cornier / țeavă rectangulară) pentru cadru;kg;Material;8;Estimare – de verificat
+M44;Vopsea anticorozivă + email;kg;Material;30;Estimare – de verificat
+M45;Electrozi sudură;kg;Material;22;Estimare – de verificat
+M50;Adeziv / clei pentru lemn, eclise metalice;buc;Material;25;Estimare – de verificat
+M51;Elemente decor lemn profilat (completări);buc;Material;120;Estimare – de verificat
+M52;Lazură opacă microporoasă exterior;l;Material;55;Estimare – de verificat
+M53;Impregnant / tratament de profunzime lemn;l;Material;35;Estimare – de verificat
+M54;Chit pentru lemn exterior;kg;Material;30;Estimare – de verificat
+M55;Pazie larice termotratat clasa A;ml;Material;32.0;Estimare din prețul laricelui (~4.500 lei/mc) pentru pazie 22×200 mm + termotratare – de cerut ofertă
+M60;Conductor OL-Zn Ø8 mm pentru paratrăsnet;ml;Material;9;Estimare – de verificat
+M61;Suporți conductor paratrăsnet pentru țiglă / perete;buc;Material;9;Estimare – de verificat
+M62;Piese de separație, cleme, legături la priza de pământ (set);buc;Material;650;Estimare – de verificat
+M63;Buletin de măsurători PRAM (firmă autorizată);buc;Material;800;Estimare – de verificat
+M64;Accesorii repoziționare firidă electrică (cablu, tub, console);buc;Material;450;Estimare – de verificat
+M65;Element descărcare la sol / rigolă pluvială;buc;Material;35;Estimare – de verificat
+M70;Cărămidă plină presată;buc;Material;2.2;Estimare – de verificat
+M71;Mortar CT29 / ciment-var pentru zidărie și rosturi;kg;Material;0.9;Estimare – de verificat
+M72;Hidrofobizant pentru zidărie;l;Material;38;Estimare – de verificat
+M73;Tubulatură inox AISI 304 Ø180 mm – kit complet coș (cca. 10 ml cu accesorii);buc;Material;1320.0;Linox Tehnic 02.10.2026: tub inox AISI 304 Ø180 109,92 lei/ml × 10 ml + căciulă 73,12 + coliere/flanșă
+M74;Accesorii tubulatură inox (căciulă, colier, flanșă);buc;Material;320;Estimare – de verificat
+M75;Tablă prevopsită 0,50 mm RAL 7016 pentru coronament;mp;Material;33.69;Listă BILKA 01. Rezidențial – tablă plană mat 0,50
+M56;Consumabile sistem laser (lentile, filtre, protecții);set;Material;350;Estimare – de verificat
