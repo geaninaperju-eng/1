@@ -7,3 +7,6 @@ Licența cere menționarea autorului – copiază rândul corespunzător în des
 04 Iberic     -> "Funkorama" Kevin MacLeod (incompetech.com) · Licensed under CC BY 4.0
 
 https://creativecommons.org/licenses/by/4.0/
+
+Vocea lui Nea Bilzi: sintetizată local cu Piper TTS, vocea „ro_RO mihai” (set de date CC0) – nu necesită mențiune.
+Mascota „Nea Bilzi” (avatar/avatar.html) a fost desenată special pentru BILZI STEEL PROFILE.
