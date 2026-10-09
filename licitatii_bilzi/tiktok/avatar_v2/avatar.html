@@ -1,0 +1,301 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; overflow: hidden; }
+  body { width: 1080px; height: 1920px; position: relative; font-family: 'Nunito', sans-serif; }
+  #wrap { position: absolute; width: 400px; height: 700px; transform-origin: 50% 100%; }
+  #wrap svg { width: 100%; height: 100%; overflow: visible; }
+  #bubble {
+    position: absolute; max-width: 900px; box-sizing: border-box; display: none;
+    background: #fff; color: #0F3B38; border: 7px solid #127F7E; border-radius: 38px;
+    padding: 20px 32px 22px; font-weight: 900; font-size: 50px; line-height: 1.12;
+    box-shadow: 0 10px 0 rgba(15, 83, 79, .35); transform-origin: 20% 100%;
+  }
+  #bubble::after { content: ""; position: absolute; left: var(--tail, 140px); bottom: -40px;
+    border-left: 22px solid transparent; border-right: 30px solid transparent; border-top: 40px solid #127F7E; }
+  #bubble::before { content: ""; position: absolute; left: calc(var(--tail, 140px) + 9px); bottom: -26px; z-index: 2;
+    border-left: 14px solid transparent; border-right: 20px solid transparent; border-top: 28px solid #fff; }
+  #bubble b { color: #E5731A; }
+
+  :root { --skin:#F4C7A1; --skin2:#EDB58F; --neck:#E8B48C; --hair:#7A6352; --brow:#5A4030; --stache:#4A3426;
+          --helmet:#127F7E; --stripe:#E5731A; --brim:#0F534F; --lips:#6E1F1F; --shirt:#0F534F; --vest:#F57F17; }
+  .sk{fill:var(--skin)} .sk2{fill:var(--skin2)} .nk{fill:var(--neck)} .hr{fill:var(--hair)} .st{fill:var(--stache)}
+  .br{stroke:var(--brow)} .hm{fill:var(--helmet)} .hs{fill:var(--stripe)} .hb{fill:var(--brim)} .lp{fill:var(--lips)}
+  .sh{fill:var(--shirt)} .vs{fill:var(--vest)} .opt{display:none}
+  body.v-tanar   { --skin:#E9B88E; --skin2:#E0A97E; --neck:#DDA77D; --hair:#3B2A20; --brow:#3B2A20;
+                   --helmet:#F4F6F6; --stripe:#127F7E; --brim:#C9D2D2; }
+  body.v-tanar #stache, body.v-tanar #hammer { display:none }
+  body.v-tanar #stubble, body.v-tanar #ruler { display:inline }
+  body.v-batran  { --skin:#F2C6A3; --skin2:#EAB490; --neck:#E5B18C; --hair:#E9E9E4; --brow:#ECECE8; --stache:#F4F4F1;
+                   --helmet:#E5731A; --stripe:#127F7E; --brim:#B4570F; }
+  body.v-batran #beard, body.v-batran #glasses, body.v-batran #pencil { display:inline }
+  body.v-mesterita { --skin:#F6CDAA; --skin2:#EFBC97; --neck:#EAB892; --hair:#8E3B1F; --brow:#6B2C17; --lips:#A8334A; }
+  body.v-mesterita #stache, body.v-mesterita #hammer, body.v-mesterita #sideburns { display:none }
+  body.v-mesterita #ponytail, body.v-mesterita #longhair, body.v-mesterita #lashes, body.v-mesterita #earrings,
+  body.v-mesterita #ruler { display:inline }
+</style></head>
+<body>
+<div id="bubble"></div>
+<div id="wrap">
+<svg viewBox="0 0 400 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="vestclip">
+      <path d="M92,700 L92,560 C92,445 122,398 166,386 L182,700 Z"/>
+      <path d="M308,700 L308,560 C308,445 278,398 234,386 L218,700 Z"/>
+    </clipPath>
+    <clipPath id="eyeL"><ellipse cx="160" cy="236" rx="16" ry="18"/></clipPath>
+    <clipPath id="eyeR"><ellipse cx="240" cy="236" rx="16" ry="18"/></clipPath>
+    <clipPath id="mouthclip"><path id="mclip" d=""/></clipPath>
+  </defs>
+
+  <!-- unealta din mâna stângă (în spatele trunchiului) -->
+  <g id="hammer">
+    <g id="hammerRot" transform="rotate(0 128 470)">
+      <line x1="128" y1="470" x2="62" y2="318" stroke="#9A5B25" stroke-width="17" stroke-linecap="round"/>
+      <g transform="translate(62,318) rotate(-23)">
+        <rect x="-44" y="-17" width="88" height="34" rx="6" fill="#6E7B85"/>
+        <rect x="-44" y="-17" width="88" height="10" rx="5" fill="#8C99A3"/>
+        <rect x="34" y="-21" width="16" height="42" rx="4" fill="#59656E"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- trunchi (respiră: scalare verticală față de bază) -->
+  <g id="torso">
+    <path d="M58,700 L58,560 C58,425 110,372 200,372 C290,372 342,425 342,560 L342,700 Z" class="sh"/>
+    <path d="M92,700 L92,560 C92,445 122,398 166,386 L182,700 Z" class="vs"/>
+    <path d="M308,700 L308,560 C308,445 278,398 234,386 L218,700 Z" class="vs"/>
+    <rect x="190" y="430" width="20" height="270" fill="#0B4440" opacity=".35"/>
+    <g clip-path="url(#vestclip)">
+      <rect x="80" y="468" width="240" height="15" fill="#E3ECEB"/>
+      <rect x="80" y="512" width="240" height="15" fill="#E3ECEB"/>
+    </g>
+    <path d="M92,560 C96,600 98,650 100,700" stroke="#C9640F" stroke-width="3" fill="none" opacity=".5"/>
+    <path d="M308,560 C304,600 302,650 300,700" stroke="#C9640F" stroke-width="3" fill="none" opacity=".5"/>
+    <rect x="236" y="420" width="62" height="26" rx="8" fill="#fff"/>
+    <text x="267" y="439" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="16" fill="#0F534F">BILZI</text>
+  </g>
+
+  <!-- brațul stâng: umăr -> cot -> mâna care ține unealta -->
+  <g id="larm">
+    <path id="larmUpper" d="M86,420 L64,548" stroke="var(--shirt)" stroke-width="50" stroke-linecap="round" fill="none"/>
+    <path id="larmFore" d="M64,548 L126,474" stroke="var(--skin)" stroke-width="36" stroke-linecap="round" fill="none"/>
+    <path id="larmCuff" d="M64,548 L80,529" stroke="var(--shirt)" stroke-width="46" stroke-linecap="round" fill="none"/>
+    <g id="ruler" class="opt">
+      <rect x="96" y="418" width="64" height="58" rx="14" fill="#F7C51E"/>
+      <circle cx="128" cy="446" r="14" fill="#2E2E2E"/><circle cx="128" cy="446" r="5" fill="#F7C51E"/>
+      <rect x="152" y="462" width="44" height="10" fill="#F2E7B8" stroke="#B89B2E" stroke-width="1.5"/>
+    </g>
+    <ellipse id="lhand" cx="128" cy="470" rx="26" ry="23" class="sk"/>
+    <path id="lknuck" d="M110,462 h34 M108,474 h36" stroke="#E2A57E" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g id="upper">  <!-- tot ce se ridică odată cu respirația -->
+  <rect x="174" y="322" width="52" height="62" rx="12" class="nk"/>
+  <path d="M170,378 L200,420 L230,378 Z" class="nk"/>
+
+  <!-- capul -->
+  <g id="head">
+    <g id="ponytail" class="opt">
+      <path id="ptail" d="M262,196 C338,196 362,282 338,372 C330,388 312,390 318,366 C330,300 312,250 270,236 Z" class="hr"/>
+      <rect x="262" y="214" width="26" height="16" rx="6" fill="#E5731A" transform="rotate(25 275 222)"/>
+    </g>
+    <g id="longhair" class="opt">
+      <path d="M104,196 C92,262 98,322 118,356 L140,344 C126,300 124,248 130,198 Z" class="hr"/>
+      <path d="M296,196 C306,250 302,300 292,330 L272,318 C278,280 278,240 270,198 Z" class="hr"/>
+    </g>
+    <g id="ears">
+      <ellipse cx="108" cy="238" rx="18" ry="25" class="sk2"/>
+      <ellipse cx="292" cy="238" rx="18" ry="25" class="sk2"/>
+      <path d="M104,226 Q112,238 104,252" stroke="#D99A75" stroke-width="4" fill="none"/>
+      <path d="M296,226 Q288,238 296,252" stroke="#D99A75" stroke-width="4" fill="none"/>
+      <g id="earrings" class="opt"><circle cx="106" cy="266" r="7" fill="#F2C230"/><circle cx="294" cy="266" r="7" fill="#F2C230"/></g>
+    </g>
+    <ellipse cx="200" cy="238" rx="92" ry="100" class="sk"/>
+    <ellipse cx="200" cy="330" rx="50" ry="10" fill="#E2A982" opacity=".35"/>
+    <g id="sideburns">
+      <path d="M110,200 C108,230 112,255 120,268 L130,262 C124,240 124,218 126,200 Z" class="hr"/>
+      <path d="M290,200 C292,230 288,255 280,268 L270,262 C276,240 276,218 274,200 Z" class="hr"/>
+    </g>
+
+    <g id="face">   <!-- trăsăturile se deplasează ușor la întoarcerea capului (iluzie 3D) -->
+      <path id="stubble" class="opt" d="M114,258 C118,330 160,340 200,340 C240,340 282,330 286,258 C272,300 244,316 200,316 C156,316 128,300 114,258 Z M168,286 Q200,276 232,286 L232,292 Q200,284 168,292 Z" fill="#4A3A30" opacity=".22"/>
+      <g id="cheeks">
+        <circle id="cheekL" cx="140" cy="282" r="17" fill="#F2998C" opacity=".45"/>
+        <circle id="cheekR" cx="260" cy="282" r="17" fill="#F2998C" opacity=".45"/>
+      </g>
+      <g id="browL"><path d="M136,212 Q159,198 182,207" class="br" stroke-width="10" fill="none" stroke-linecap="round"/></g>
+      <g id="browR"><path d="M218,207 Q241,198 264,212" class="br" stroke-width="10" fill="none" stroke-linecap="round"/></g>
+      <ellipse cx="160" cy="236" rx="16" ry="18" fill="#fff"/>
+      <ellipse cx="240" cy="236" rx="16" ry="18" fill="#fff"/>
+      <g clip-path="url(#eyeL)">
+        <g id="pupilL"><circle cx="160" cy="238" r="9.5" fill="#2A2A2A"/><circle cx="163" cy="234" r="3.2" fill="#fff"/></g>
+        <rect id="lidL" x="140" y="216" width="40" height="0" class="sk"/>
+        <line id="lashL" x1="140" x2="180" y1="216" y2="216" stroke="#3A2A20" stroke-width="3"/>
+      </g>
+      <g clip-path="url(#eyeR)">
+        <g id="pupilR"><circle cx="240" cy="238" r="9.5" fill="#2A2A2A"/><circle cx="243" cy="234" r="3.2" fill="#fff"/></g>
+        <rect id="lidR" x="220" y="216" width="40" height="0" class="sk"/>
+        <line id="lashR" x1="220" x2="260" y1="216" y2="216" stroke="#3A2A20" stroke-width="3"/>
+      </g>
+      <g id="lashes" class="opt" stroke="#2A2A2A" stroke-width="4" stroke-linecap="round">
+        <path d="M144,226 l-9,-6 M148,220 l-6,-8"/><path d="M256,226 l9,-6 M252,220 l6,-8"/>
+      </g>
+      <g id="glasses" class="opt" fill="#fff" fill-opacity=".18" stroke="#3A3A3A" stroke-width="5">
+        <circle cx="160" cy="236" r="27"/><circle cx="240" cy="236" r="27"/>
+        <path d="M187,232 Q200,224 213,232 M133,230 L112,224 M267,230 L288,224" fill="none"/>
+      </g>
+      <ellipse cx="200" cy="262" rx="21" ry="18" fill="#E9A07A"/>
+      <ellipse cx="193" cy="256" rx="6" ry="4" fill="#F6C3A4" opacity=".8"/>
+      <path id="beard" class="opt" d="M110,240 C106,340 150,392 200,392 C250,392 294,340 290,240 C282,282 262,300 244,304 C236,322 220,330 200,330 C180,330 164,322 156,304 C138,300 118,282 110,240 Z" fill="#F4F4F1"/>
+      <g id="mouthg">
+        <path id="mouth" d="" class="lp"/>
+        <g clip-path="url(#mouthclip)">
+          <rect id="teeth" x="170" y="280" width="60" height="9" fill="#FAF7F2"/>
+          <ellipse id="tongue" cx="200" cy="320" rx="16" ry="9" fill="#E06363"/>
+        </g>
+        <path id="lipline" d="" stroke="#5A1A1A" stroke-width="3" fill="none" stroke-linecap="round"/>
+      </g>
+      <path id="stache" d="M200,274 C186,262 150,262 131,284 C126,295 139,304 153,299 C169,294 186,289 200,288 C214,289 231,294 247,299 C261,304 274,295 269,284 C250,262 214,262 200,274 Z" class="st"/>
+    </g>
+
+    <g id="pencil" class="opt" transform="rotate(-62 300 205)">
+      <rect x="262" y="198" width="78" height="13" fill="#F5C518"/><polygon points="340,198 356,204.5 340,211" fill="#E9C9A0"/>
+      <rect x="254" y="198" width="10" height="13" fill="#E88A9B"/>
+    </g>
+    <g id="helmet">
+      <path d="M100,194 C100,112 150,70 200,70 C250,70 300,112 300,194 Z" class="hm"/>
+      <path d="M186,72 C194,70 206,70 214,72 L218,194 L182,194 Z" class="hs"/>
+      <ellipse cx="150" cy="118" rx="30" ry="13" fill="#fff" opacity=".22" transform="rotate(-28 150 118)"/>
+      <path d="M100,190 C140,182 260,182 300,190" stroke="#000" stroke-opacity=".12" stroke-width="6" fill="none"/>
+      <path d="M74,188 Q200,168 326,188 L328,208 Q200,190 72,208 Z" class="hb"/>
+    </g>
+  </g>
+
+  <!-- brațul drept: umăr -> cot -> încheietură -> mână -->
+  <g id="arm" transform="translate(318,420) rotate(-8)">
+    <rect x="-26" y="-14" width="52" height="132" rx="26" class="sh"/>
+    <g id="fore" transform="translate(0,106) rotate(-6)">
+      <rect x="-19" y="0" width="38" height="104" rx="19" class="sk"/>
+      <rect x="-25" y="-8" width="50" height="30" rx="14" class="sh"/>
+      <g id="hand" transform="translate(0,100) rotate(0)">
+        <g id="hOpen">
+          <ellipse cx="0" cy="22" rx="27" ry="25" class="sk"/>
+          <rect x="-26" y="30" width="12" height="38" rx="6" class="sk"/>
+          <rect x="-12" y="34" width="12" height="44" rx="6" class="sk"/>
+          <rect x="2" y="34" width="12" height="42" rx="6" class="sk"/>
+          <rect x="15" y="30" width="11" height="34" rx="5.5" class="sk"/>
+          <rect x="-46" y="4" width="30" height="13" rx="6.5" class="sk" transform="rotate(-35 -20 10)"/>
+        </g>
+        <g id="hThumb" style="display:none">
+          <rect x="-27" y="2" width="54" height="50" rx="22" class="sk"/>
+          <path d="M-24,18 h48 M-24,32 h48" stroke="#E2A57E" stroke-width="3"/>
+          <rect x="-36" y="30" width="25" height="66" rx="12.5" class="sk"/>
+          <path d="M-31,86 q8,6 16,0" stroke="#E2A57E" stroke-width="3" fill="none"/>
+        </g>
+        <g id="hPoint" style="display:none">
+          <rect x="-24" y="2" width="48" height="46" rx="20" class="sk"/>
+          <rect x="4" y="34" width="13" height="56" rx="6.5" class="sk"/>
+          <rect x="-34" y="10" width="26" height="12" rx="6" class="sk" transform="rotate(-30 -20 16)"/>
+        </g>
+        <g id="hRelax" style="display:none">
+          <ellipse cx="0" cy="26" rx="24" ry="28" class="sk"/>
+          <path d="M-18,30 q18,10 36,0" stroke="#E2A57E" stroke-width="3" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  </g>
+</svg>
+</div>
+
+<script>
+  const $ = (id) => document.getElementById(id);
+  const easeBack = (x) => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+  const HANDS = { open: 'hOpen', thumb: 'hThumb', point: 'hPoint', relax: 'hRelax' };
+  window.setup = (w, h) => { document.body.style.width = w + 'px'; document.body.style.height = h + 'px'; };
+
+  // Toată mișcarea e calculată în Python; aici doar se aplică parametrii cadrului.
+  window.renderFrame = (s) => {
+    document.body.className = s.variant ? 'v-' + s.variant : '';
+    const w = $('wrap');
+    w.style.left = (s.x - 200) + 'px';
+    w.style.top = (s.y - 700) + 'px';
+    w.style.transform = `scale(${s.sc * s.sx}, ${s.sc * s.sy}) rotate(${s.rot}deg)`;
+
+    // respirație: trunchiul se întinde, partea de sus urcă
+    const br = s.breath;
+    $('torso').setAttribute('transform', `translate(0 ${700 * -br}) scale(1 ${1 + br})`);
+    $('upper').setAttribute('transform', `translate(0 ${-328 * br})`);
+    $('larm').setAttribute('transform', `translate(0 ${-300 * br}) rotate(${s.lsway} 86 420)`);
+    $('hammerRot').setAttribute('transform', `translate(0 ${-300 * br}) rotate(${s.lsway * 1.4} 128 470)`);
+
+    // cap: rotire + încuviințare + întoarcere (deplasarea trăsăturilor)
+    const hd = s.head;
+    $('head').setAttribute('transform', `translate(${hd.turn * 4} ${hd.nod}) rotate(${hd.r} 200 330)`);
+    $('face').setAttribute('transform', `translate(${hd.turn * 12} ${hd.up * 4})`);
+    $('ears').setAttribute('transform', `translate(${-hd.turn * 5} 0)`);
+    $('sideburns').setAttribute('transform', `translate(${-hd.turn * 3} 0)`);
+    $('helmet').setAttribute('transform', `translate(${hd.turn * 3} ${-Math.abs(hd.turn) * 1.5})`);
+    if ($('ptail')) $('ptail').setAttribute('transform', `rotate(${-hd.r * 2.2 + s.tailSwing} 270 210)`);
+
+    // ochi: privire + pleoape
+    const e = s.eyes;
+    const px = e.lx * 6, py = e.ly * 5;
+    $('pupilL').setAttribute('transform', `translate(${px} ${py})`);
+    $('pupilR').setAttribute('transform', `translate(${px} ${py})`);
+    const lid = Math.max(e.close, 0.12 * s.mouth.s);  // zâmbetul ridică ușor obrajii
+    for (const [id, l] of [['L', 'lidL'], ['R', 'lidR']]) {
+      const hgt = 40 * Math.min(1, lid);
+      $(l).setAttribute('height', hgt);
+      $('lash' + id).setAttribute('y1', 216 + hgt); $('lash' + id).setAttribute('y2', 216 + hgt);
+      $('lash' + id).style.display = lid > 0.04 ? '' : 'none';
+    }
+    // sprâncene: ridicare + înclinare
+    const b = s.brow;
+    $('browL').setAttribute('transform', `translate(0 ${-b.raise * 9}) rotate(${-b.tilt * 8} 182 207)`);
+    $('browR').setAttribute('transform', `translate(0 ${-b.raise * 9}) rotate(${b.tilt * 8} 218 207)`);
+
+    // gură: deschidere, lățime (i/e vs o/u), zâmbet
+    const m = s.mouth, o = Math.max(0, Math.min(1, m.o));
+    const rx = 25 * m.w + 3 * m.s, cy = 299;
+    const corner = cy - m.s * 6 + o * 2;
+    const top = cy - 2 - o * 7 - m.s * 1;
+    const bot = cy + 3 + o * 30 - m.s * 1 + (m.s > 0.5 ? 2 : 0);
+    const d = `M${200 - rx},${corner} Q200,${2 * top - corner} ${200 + rx},${corner} Q200,${2 * bot - corner} ${200 - rx},${corner} Z`;
+    $('mouth').setAttribute('d', d); $('mclip').setAttribute('d', d);
+    $('lipline').setAttribute('d', `M${200 - rx},${corner} Q200,${2 * top - corner} ${200 + rx},${corner}`);
+    $('lipline').style.display = o < 0.08 ? '' : 'none';
+    $('teeth').setAttribute('y', top - 1);
+    $('tongue').setAttribute('cy', bot - 4);
+    $('tongue').setAttribute('rx', rx * 0.55);
+    $('stache').setAttribute('transform', `translate(0 ${-o * 3}) scale(${1 + m.s * 0.04} 1)`);
+    $('stache').setAttribute('transform-origin', '200 280');
+    $('cheekL').setAttribute('transform', `translate(0 ${-m.s * 5})`);
+    $('cheekR').setAttribute('transform', `translate(0 ${-m.s * 5})`);
+    $('beard').setAttribute('transform', `translate(0 ${o * 6}) `);
+
+    // braț drept: umăr, cot, încheietură + forma mâinii
+    const a = s.arm;
+    $('arm').setAttribute('transform', `translate(318,420) rotate(${a.a1})`);
+    $('fore').setAttribute('transform', `translate(0,106) rotate(${a.a2})`);
+    $('hand').setAttribute('transform', `translate(0,100) rotate(${a.a3})`);
+    for (const [k, id] of Object.entries(HANDS)) $(id).style.display = (a.hand === k) ? '' : 'none';
+
+    // balonul cu replica
+    const bb = $('bubble');
+    if (s.bubble && s.bubble.show > 0) {
+      if (bb.dataset.html !== s.bubble.html) { bb.innerHTML = s.bubble.html; bb.dataset.html = s.bubble.html; }
+      bb.style.display = 'block';
+      bb.style.fontSize = (s.bubble.fs || 50) + 'px';
+      bb.style.setProperty('--tail', (s.bubble.tail || 140) + 'px');
+      bb.style.left = s.bubble.x + 'px';
+      bb.style.top = (s.bubble.y - bb.offsetHeight) + 'px';
+      const k = s.bubble.show;
+      bb.style.opacity = Math.min(1, k * 1.6);
+      bb.style.transform = `scale(${0.55 + 0.45 * easeBack(Math.min(1, k))})`;
+    } else bb.style.display = 'none';
+  };
+</script>
+</body></html>
