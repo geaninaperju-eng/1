@@ -1,0 +1,77 @@
+  <g id="head">
+    <g id="ponytail" class="opt">
+      <path id="ptail" d="M262,196 C338,196 362,282 338,372 C330,388 312,390 318,366 C330,300 312,250 270,236 Z" class="hr"/>
+      <rect x="262" y="214" width="26" height="16" rx="6" fill="#E5731A" transform="rotate(25 275 222)"/>
+    </g>
+    <g id="longhair" class="opt">
+      <path d="M104,196 C92,262 98,322 118,356 L140,344 C126,300 124,248 130,198 Z" class="hr"/>
+      <path d="M296,196 C306,250 302,300 292,330 L272,318 C278,280 278,240 270,198 Z" class="hr"/>
+    </g>
+    <g id="ears">
+      <ellipse cx="108" cy="238" rx="18" ry="25" class="sk2"/>
+      <ellipse cx="292" cy="238" rx="18" ry="25" class="sk2"/>
+      <path d="M104,226 Q112,238 104,252" stroke="#D99A75" stroke-width="4" fill="none"/>
+      <path d="M296,226 Q288,238 296,252" stroke="#D99A75" stroke-width="4" fill="none"/>
+      <g id="earrings" class="opt"><circle cx="106" cy="266" r="7" fill="#F2C230"/><circle cx="294" cy="266" r="7" fill="#F2C230"/></g>
+    </g>
+    <ellipse cx="200" cy="238" rx="92" ry="100" class="sk"/>
+    <ellipse cx="200" cy="330" rx="50" ry="10" fill="#E2A982" opacity=".35"/>
+    <g id="sideburns">
+      <path d="M110,200 C108,230 112,255 120,268 L130,262 C124,240 124,218 126,200 Z" class="hr"/>
+      <path d="M290,200 C292,230 288,255 280,268 L270,262 C276,240 276,218 274,200 Z" class="hr"/>
+    </g>
+
+    <g id="face">   <!-- trăsăturile se deplasează ușor la întoarcerea capului (iluzie 3D) -->
+      <path id="stubble" class="opt" d="M114,258 C118,330 160,340 200,340 C240,340 282,330 286,258 C272,300 244,316 200,316 C156,316 128,300 114,258 Z M168,286 Q200,276 232,286 L232,292 Q200,284 168,292 Z" fill="#4A3A30" opacity=".22"/>
+      <g id="cheeks">
+        <circle id="cheekL" cx="140" cy="282" r="17" fill="#F2998C" opacity=".45"/>
+        <circle id="cheekR" cx="260" cy="282" r="17" fill="#F2998C" opacity=".45"/>
+      </g>
+      <g id="browL"><path d="M136,212 Q159,198 182,207" class="br" stroke-width="10" fill="none" stroke-linecap="round"/></g>
+      <g id="browR"><path d="M218,207 Q241,198 264,212" class="br" stroke-width="10" fill="none" stroke-linecap="round"/></g>
+      <ellipse cx="160" cy="236" rx="16" ry="18" fill="#fff"/>
+      <ellipse cx="240" cy="236" rx="16" ry="18" fill="#fff"/>
+      <g clip-path="url(#eyeL)">
+        <g id="pupilL"><circle cx="160" cy="238" r="9.5" fill="#2A2A2A"/><circle cx="163" cy="234" r="3.2" fill="#fff"/></g>
+        <rect id="lidL" x="140" y="216" width="40" height="0" class="sk"/>
+        <line id="lashL" x1="140" x2="180" y1="216" y2="216" stroke="#3A2A20" stroke-width="3"/>
+      </g>
+      <g clip-path="url(#eyeR)">
+        <g id="pupilR"><circle cx="240" cy="238" r="9.5" fill="#2A2A2A"/><circle cx="243" cy="234" r="3.2" fill="#fff"/></g>
+        <rect id="lidR" x="220" y="216" width="40" height="0" class="sk"/>
+        <line id="lashR" x1="220" x2="260" y1="216" y2="216" stroke="#3A2A20" stroke-width="3"/>
+      </g>
+      <g id="lashes" class="opt" stroke="#2A2A2A" stroke-width="4" stroke-linecap="round">
+        <path d="M144,226 l-9,-6 M148,220 l-6,-8"/><path d="M256,226 l9,-6 M252,220 l6,-8"/>
+      </g>
+      <g id="glasses" class="opt" fill="#fff" fill-opacity=".18" stroke="#3A3A3A" stroke-width="5">
+        <circle cx="160" cy="236" r="27"/><circle cx="240" cy="236" r="27"/>
+        <path d="M187,232 Q200,224 213,232 M133,230 L112,224 M267,230 L288,224" fill="none"/>
+      </g>
+      <ellipse cx="200" cy="262" rx="21" ry="18" fill="#E9A07A"/>
+      <ellipse cx="193" cy="256" rx="6" ry="4" fill="#F6C3A4" opacity=".8"/>
+      <path id="beard" class="opt" d="M110,240 C106,340 150,392 200,392 C250,392 294,340 290,240 C282,282 262,300 244,304 C236,322 220,330 200,330 C180,330 164,322 156,304 C138,300 118,282 110,240 Z" fill="#F4F4F1"/>
+      <g id="mouthg">
+        <path id="mouth" d="" class="lp"/>
+        <g clip-path="url(#mouthclip)">
+          <rect id="teeth" x="170" y="280" width="60" height="9" fill="#FAF7F2"/>
+          <ellipse id="tongue" cx="200" cy="320" rx="16" ry="9" fill="#E06363"/>
+        </g>
+        <path id="lipline" d="" stroke="#5A1A1A" stroke-width="3" fill="none" stroke-linecap="round"/>
+      </g>
+      <path id="stache" d="M200,274 C186,262 150,262 131,284 C126,295 139,304 153,299 C169,294 186,289 200,288 C214,289 231,294 247,299 C261,304 274,295 269,284 C250,262 214,262 200,274 Z" class="st"/>
+    </g>
+
+    <g id="pencil" class="opt" transform="rotate(-62 300 205)">
+      <rect x="262" y="198" width="78" height="13" fill="#F5C518"/><polygon points="340,198 356,204.5 340,211" fill="#E9C9A0"/>
+      <rect x="254" y="198" width="10" height="13" fill="#E88A9B"/>
+    </g>
+    <g id="helmet">
+      <path d="M100,194 C100,112 150,70 200,70 C250,70 300,112 300,194 Z" class="hm"/>
+      <path d="M186,72 C194,70 206,70 214,72 L218,194 L182,194 Z" class="hs"/>
+      <ellipse cx="150" cy="118" rx="30" ry="13" fill="#fff" opacity=".22" transform="rotate(-28 150 118)"/>
+      <path d="M100,190 C140,182 260,182 300,190" stroke="#000" stroke-opacity=".12" stroke-width="6" fill="none"/>
+      <path d="M74,188 Q200,168 326,188 L328,208 Q200,190 72,208 Z" class="hb"/>
+    </g>
+  </g>
+

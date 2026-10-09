@@ -1,0 +1,16 @@
+  :root { --skin:#F4C7A1; --skin2:#EDB58F; --neck:#E8B48C; --hair:#7A6352; --brow:#5A4030; --stache:#4A3426;
+          --helmet:#127F7E; --stripe:#E5731A; --brim:#0F534F; --lips:#6E1F1F; --shirt:#0F534F; --vest:#F57F17; }
+  .sk{fill:var(--skin)} .sk2{fill:var(--skin2)} .nk{fill:var(--neck)} .hr{fill:var(--hair)} .st{fill:var(--stache)}
+  .br{stroke:var(--brow)} .hm{fill:var(--helmet)} .hs{fill:var(--stripe)} .hb{fill:var(--brim)} .lp{fill:var(--lips)}
+  .sh{fill:var(--shirt)} .vs{fill:var(--vest)} .opt{display:none}
+  body.v-tanar   { --skin:#E9B88E; --skin2:#E0A97E; --neck:#DDA77D; --hair:#3B2A20; --brow:#3B2A20;
+                   --helmet:#F4F6F6; --stripe:#127F7E; --brim:#C9D2D2; }
+  body.v-tanar #stache, body.v-tanar #hammer { display:none }
+  body.v-tanar #stubble, body.v-tanar #ruler { display:inline }
+  body.v-batran  { --skin:#F2C6A3; --skin2:#EAB490; --neck:#E5B18C; --hair:#E9E9E4; --brow:#ECECE8; --stache:#F4F4F1;
+                   --helmet:#E5731A; --stripe:#127F7E; --brim:#B4570F; }
+  body.v-batran #beard, body.v-batran #glasses, body.v-batran #pencil { display:inline }
+  body.v-mesterita { --skin:#F6CDAA; --skin2:#EFBC97; --neck:#EAB892; --hair:#8E3B1F; --brow:#6B2C17; --lips:#A8334A; }
+  body.v-mesterita #stache, body.v-mesterita #hammer, body.v-mesterita #sideburns { display:none }
+  body.v-mesterita #ponytail, body.v-mesterita #longhair, body.v-mesterita #lashes, body.v-mesterita #earrings,
+  body.v-mesterita #ruler { display:inline }

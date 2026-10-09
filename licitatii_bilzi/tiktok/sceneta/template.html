@@ -1,0 +1,288 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="../fonts/fonts.css">
+<style>
+  html, body { margin: 0; padding: 0; overflow: hidden; background: #BFE3F2; }
+  body { width: 1080px; height: 1920px; position: relative; font-family: 'Nunito', sans-serif; }
+  svg#scene { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+  #bubble {
+    position: absolute; max-width: 900px; box-sizing: border-box; display: none;
+    background: #fff; color: #0F3B38; border: 7px solid #127F7E; border-radius: 38px;
+    padding: 20px 32px 22px; font-weight: 900; font-size: 50px; line-height: 1.12;
+    box-shadow: 0 10px 0 rgba(15, 83, 79, .35); transform-origin: var(--tail, 140px) 100%;
+  }
+  #bubble::after { content: ""; position: absolute; left: var(--tail, 140px); bottom: -40px; margin-left: -26px;
+    border-left: 22px solid transparent; border-right: 30px solid transparent; border-top: 40px solid #127F7E; }
+  #bubble::before { content: ""; position: absolute; left: var(--tail, 140px); bottom: -26px; margin-left: -17px; z-index: 2;
+    border-left: 14px solid transparent; border-right: 20px solid transparent; border-top: 28px solid #fff; }
+  #bubble b { color: #E5731A; }
+  #card { position: absolute; left: 60px; right: 60px; top: 330px; display: none; text-align: center;
+    background: #fff; border-radius: 40px; border: 7px solid #127F7E; padding: 26px 20px 30px;
+    box-shadow: 0 12px 0 rgba(15,83,79,.35); }
+  #card .t1 { font-weight: 900; font-size: 50px; color: #0F534F; }
+  #card .t2 { font-weight: 900; font-size: 92px; color: #fff; background: #E30613; border-radius: 22px; margin: 14px 30px 10px; padding: 4px 0 10px; }
+  #card .t3 { font-weight: 700; font-size: 44px; color: #0F534F; }
+  .pop { font-family: 'Nunito'; font-weight: 900; }
+{{VARS}}
+  .pants{fill:#2F3B45} .boot{fill:#5A3E2B}
+</style></head>
+<body>
+<svg id="scene" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8FD0EC"/><stop offset="1" stop-color="#E3F4FA"/>
+    </linearGradient>
+    <pattern id="tiles" width="64" height="44" patternUnits="userSpaceOnUse">
+      <rect width="64" height="44" fill="#B23A2E"/>
+      <path d="M0,0 Q16,30 32,0 Q48,30 64,0 L64,44 L0,44 Z" fill="#9C2F25" opacity=".55"/>
+      <path d="M0,4 Q16,30 32,4" stroke="#D2584A" stroke-width="3" fill="none" opacity=".7"/>
+      <path d="M32,4 Q48,30 64,4" stroke="#D2584A" stroke-width="3" fill="none" opacity=".7"/>
+      <rect y="38" width="64" height="6" fill="#7C2219"/>
+    </pattern>
+    <pattern id="battens" width="64" height="44" patternUnits="userSpaceOnUse">
+      <rect width="64" height="44" fill="#6B4A2E"/>
+      <rect y="14" width="64" height="12" fill="#C79A63"/><rect y="14" width="64" height="3" fill="#E0B983"/>
+      <rect x="20" width="4" height="44" fill="#4E3520" opacity=".6"/>
+    </pattern>
+    <clipPath id="vestclip">
+      <path d="M-56,6 C-62,-60 -66,-120 -74,-178 C-72,-200 -50,-212 -26,-214 L-12,6 Z"/>
+      <path d="M56,6 C62,-60 66,-120 74,-178 C72,-200 50,-212 26,-214 L12,6 Z"/>
+    </clipPath>
+    <clipPath id="eyeL"><ellipse cx="160" cy="236" rx="16" ry="18"/></clipPath>
+    <clipPath id="eyeR"><ellipse cx="240" cy="236" rx="16" ry="18"/></clipPath>
+    <clipPath id="mouthclip"><path id="mclip" d=""/></clipPath>
+  </defs>
+
+  <!-- cer, soare, nori -->
+  <rect width="1080" height="1920" fill="url(#sky)"/>
+  <circle cx="900" cy="560" r="70" fill="#FFE07A"/><circle cx="900" cy="560" r="95" fill="#FFE07A" opacity=".25"/>
+  <g id="clouds">
+    <g id="cloud1"><ellipse cx="0" cy="0" rx="90" ry="38" fill="#fff"/><ellipse cx="-60" cy="12" rx="60" ry="30" fill="#fff"/><ellipse cx="70" cy="14" rx="66" ry="28" fill="#fff"/></g>
+    <g id="cloud2"><ellipse cx="0" cy="0" rx="70" ry="30" fill="#fff" opacity=".9"/><ellipse cx="55" cy="10" rx="50" ry="24" fill="#fff" opacity=".9"/></g>
+  </g>
+  <!-- copaci în fundal -->
+  <ellipse cx="40" cy="1640" rx="120" ry="190" fill="#5BA65B"/><ellipse cx="1060" cy="1660" rx="110" ry="170" fill="#4F9A50"/>
+  <!-- iarbă -->
+  <rect y="1760" width="1080" height="160" fill="#7CC36B"/><rect y="1760" width="1080" height="14" fill="#68B159"/>
+
+  <!-- casa -->
+  <rect x="150" y="1150" width="780" height="612" fill="#F3E7D2"/>
+  <rect x="150" y="1150" width="780" height="40" fill="#000" opacity=".08"/>
+  <g fill="#fff" stroke="#127F7E" stroke-width="10">
+    <rect x="215" y="1300" width="170" height="190" rx="6"/><rect x="695" y="1300" width="170" height="190" rx="6"/>
+  </g>
+  <g stroke="#127F7E" stroke-width="7"><path d="M300,1300 V1490 M215,1395 H385 M780,1300 V1490 M695,1395 H865"/></g>
+  <rect x="215" y="1300" width="170" height="190" fill="#9FD8EA" opacity=".35"/><rect x="695" y="1300" width="170" height="190" fill="#9FD8EA" opacity=".35"/>
+  <rect x="470" y="1470" width="140" height="292" rx="8" fill="#9A6234"/><circle cx="588" cy="1620" r="9" fill="#F2C230"/>
+  <rect x="455" y="1455" width="170" height="20" fill="#127F7E"/>
+  <!-- acoperișul: țiglă metalică -->
+  <path d="M70,1150 L250,800 L830,800 L1010,1150 Z" fill="url(#tiles)"/>
+  <path d="M250,800 L830,800 L840,786 L240,786 Z" fill="#7C2219"/>
+  <!-- porțiunea în lucru: șipci, apoi țiglele apar la fiecare lovitură -->
+  <g id="patch">
+    <rect x="300" y="1050" width="192" height="88" fill="url(#battens)"/>
+    <rect id="tp0" x="300" y="1094" width="96" height="44" fill="url(#tiles)" style="display:none"/>
+    <rect id="tp1" x="396" y="1094" width="96" height="44" fill="url(#tiles)" style="display:none"/>
+    <rect id="tp2" x="300" y="1050" width="96" height="44" fill="url(#tiles)" style="display:none"/>
+    <rect id="tp3" x="396" y="1050" width="96" height="44" fill="url(#tiles)" style="display:none"/>
+  </g>
+  <!-- coș de fum + porumbelul -->
+  <rect x="690" y="740" width="80" height="140" fill="#C9B9A4"/><rect x="680" y="728" width="100" height="22" fill="#A8977F"/>
+  <g id="pigeon" transform="translate(735,728)">
+    <ellipse cx="0" cy="-22" rx="26" ry="18" fill="#9AA4AE"/>
+    <g id="pwing"><ellipse cx="6" cy="-24" rx="16" ry="10" fill="#7F8A95"/></g>
+    <g id="phead"><circle cx="-20" cy="-40" r="11" fill="#9AA4AE"/><circle cx="-23" cy="-42" r="2.5" fill="#222"/>
+      <path d="M-31,-40 l-8,3 l8,2 Z" fill="#E8A13A"/><path d="M-14,-32 q-6,6 -14,2" stroke="#6FB28A" stroke-width="4" fill="none"/></g>
+    <path d="M-4,-6 v8 M6,-6 v8" stroke="#E8A13A" stroke-width="3"/>
+  </g>
+  <!-- jgheab + burlan -->
+  <rect x="60" y="1150" width="960" height="22" rx="10" fill="#EDEFF0"/><rect x="60" y="1166" width="960" height="6" fill="#B9C0C4"/>
+  <rect x="88" y="1170" width="22" height="592" fill="#E3E6E8"/>
+  <g fill="#9AA3A8"><rect x="240" y="1146" width="8" height="28"/><rect x="540" y="1146" width="8" height="28"/><rect x="840" y="1146" width="8" height="28"/></g>
+  <!-- scara -->
+  <g id="ladder">
+    <rect x="862" y="1120" width="14" height="660" fill="#AEB7BD"/><rect x="948" y="1120" width="14" height="660" fill="#AEB7BD"/>
+    <g fill="#C7CED2" id="rungs"></g>
+  </g>
+  <!-- grămada de țiglă și găleata -->
+  <g transform="translate(250,1700)"><rect x="-70" y="20" width="160" height="40" fill="#B23A2E"/><rect x="-70" y="44" width="160" height="16" fill="#7C2219"/><rect x="-62" y="6" width="150" height="18" fill="#C94A3C"/></g>
+
+  <!-- MEȘTERUL -->
+  <g id="man">
+    <!-- picior stâng/drept: coapsă, gambă, bocanc -->
+    <g id="legs">
+      <path id="thighL" stroke="#2F3B45" stroke-width="48" stroke-linecap="round" fill="none"/>
+      <path id="shinL" stroke="#2F3B45" stroke-width="44" stroke-linecap="round" fill="none"/>
+      <ellipse id="padL" rx="22" ry="18" fill="#E5731A"/>
+      <g id="bootL"><path d="M-26,-14 L18,-14 C40,-14 50,0 50,10 L50,18 L-26,18 Z" class="boot"/><rect x="-28" y="14" width="80" height="9" rx="4" fill="#2B2B2B"/></g>
+      <path id="thighR" stroke="#2F3B45" stroke-width="48" stroke-linecap="round" fill="none"/>
+      <path id="shinR" stroke="#2F3B45" stroke-width="44" stroke-linecap="round" fill="none"/>
+      <ellipse id="padR" rx="22" ry="18" fill="#E5731A"/>
+      <g id="bootR"><path d="M-26,-14 L18,-14 C40,-14 50,0 50,10 L50,18 L-26,18 Z" class="boot"/><rect x="-28" y="14" width="80" height="9" rx="4" fill="#2B2B2B"/></g>
+    </g>
+    <!-- trunchi -->
+    <g id="torso">
+      <path d="M-62,0 L62,0 L60,44 L-60,44 Z" class="pants"/>
+      <rect x="-20" y="-246" width="40" height="40" rx="10" class="nk"/>
+      <path d="M-60,8 C-66,-60 -72,-120 -84,-180 C-86,-205 -60,-222 0,-224 C60,-222 86,-205 84,-180 C72,-120 66,-60 60,8 Z" class="sh"/>
+      <path d="M-56,6 C-62,-60 -66,-120 -74,-178 C-72,-200 -50,-212 -26,-214 L-12,6 Z" class="vs"/>
+      <path d="M56,6 C62,-60 66,-120 74,-178 C72,-200 50,-212 26,-214 L12,6 Z" class="vs"/>
+      <g clip-path="url(#vestclip)"><rect x="-90" y="-92" width="180" height="12" fill="#E3ECEB"/><rect x="-90" y="-58" width="180" height="12" fill="#E3ECEB"/></g>
+      <path d="M-22,-222 L0,-194 L22,-222 Z" class="nk"/>
+      <rect x="20" y="-170" width="46" height="20" rx="6" fill="#fff"/>
+      <text x="43" y="-155" text-anchor="middle" font-family="Nunito" font-weight="900" font-size="12.5" fill="#0F534F">BILZI</text>
+      <rect x="-62" y="-6" width="124" height="16" rx="4" fill="#5A3E2B"/><rect x="-10" y="-8" width="20" height="20" rx="3" fill="#D9B44A"/>
+    </g>
+    <!-- capul (preluat din mascota) -->
+    <g id="headwrap">
+{{HEAD}}
+    </g>
+    <!-- ciocanul (în mâna din stânga ecranului) -->
+    <g id="hammer">
+      <rect x="-7" y="-128" width="14" height="150" rx="6" fill="#9A5B25"/>
+      <g transform="translate(0,-128)">
+        <rect x="-46" y="-18" width="92" height="34" rx="6" fill="#6E7B85"/>
+        <rect x="-46" y="-18" width="92" height="10" rx="5" fill="#8C99A3"/>
+        <rect x="-60" y="-22" width="18" height="42" rx="4" fill="#59656E"/>
+      </g>
+    </g>
+    <!-- brațe: braț, antebraț, manșetă, mână -->
+    <g id="arms">
+      <path id="uarmL" stroke="var(--shirt)" stroke-width="44" stroke-linecap="round" fill="none"/>
+      <path id="farmL" stroke="var(--skin)" stroke-width="32" stroke-linecap="round" fill="none"/>
+      <path id="cuffL" stroke="var(--shirt)" stroke-width="40" stroke-linecap="round" fill="none"/>
+      <g id="handL"><g class="hs-wrap">{{HANDS}}</g></g>
+      <path id="uarmR" stroke="var(--shirt)" stroke-width="44" stroke-linecap="round" fill="none"/>
+      <path id="farmR" stroke="var(--skin)" stroke-width="32" stroke-linecap="round" fill="none"/>
+      <path id="cuffR" stroke="var(--shirt)" stroke-width="40" stroke-linecap="round" fill="none"/>
+      <g id="handR"><g class="hs-wrap">{{HANDS}}</g></g>
+    </g>
+  </g>
+
+  <!-- efecte -->
+  <g id="fx">
+    <g id="toc" style="display:none"><text class="pop" text-anchor="middle" font-size="64" fill="#fff" stroke="#E5731A" stroke-width="10" paint-order="stroke">TOC!</text></g>
+    <g id="dust"></g>
+    <g id="sweat" style="display:none"><path d="M0,0 C-10,16 -12,26 0,30 C12,26 10,16 0,0 Z" fill="#7FC8F0" stroke="#3E9BD0" stroke-width="2"/></g>
+    <g id="excl" style="display:none"><text class="pop" text-anchor="middle" font-size="110" fill="#E30613" stroke="#fff" stroke-width="8" paint-order="stroke">!</text></g>
+    <g id="motion" style="display:none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".85"></g>
+  </g>
+  <image id="logo" href="../logo/badge.png" x="36" y="150" width="220" height="150"/>
+</svg>
+<div id="bubble"></div>
+<div id="card"><div class="t1">Vrei și tu acoperiș nou?</div><div class="t2">0720 244 244</div><div class="t3">www.acoperis-mag.ro</div></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const easeBack = (x) => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+// treptele scării
+(() => { let h = ''; for (let y = 1160; y < 1770; y += 64) h += `<rect x="862" y="${y}" width="100" height="12"/>`; $('rungs').innerHTML = h; })();
+const L = (p, q) => `M${p[0]},${p[1]} L${q[0]},${q[1]}`;
+const lerp = (p, q, k) => [p[0] + (q[0] - p[0]) * k, p[1] + (q[1] - p[1]) * k];
+const HANDS = { open: 'hOpen', thumb: 'hThumb', point: 'hPoint', relax: 'hRelax' };
+
+function setHand(id, f) {
+  const g = $(id);
+  g.setAttribute('transform', `translate(${f.p[0]},${f.p[1]}) rotate(${f.rot}) scale(${f.sc * f.side},${f.sc})`);
+  for (const [k, hid] of Object.entries(HANDS)) g.querySelector('#' + hid).style.display = (f.shape === k) ? '' : 'none';
+}
+
+window.renderFrame = (s) => {
+  document.body.className = s.variant ? 'v-' + s.variant : '';
+  const j = s.j;
+  // nori
+  $('cloud1').setAttribute('transform', `translate(${(200 + s.t * 9) % 1300 - 110},470)`);
+  $('cloud2').setAttribute('transform', `translate(${(820 + s.t * 6) % 1300 - 110},640)`);
+  // picioare
+  for (const sd of ['L', 'R']) {
+    const g = j['leg' + sd];
+    $('thigh' + sd).setAttribute('d', L(g.hip, g.knee)); $('thigh' + sd).setAttribute('stroke-width', 48 * s.cs);
+    $('shin' + sd).setAttribute('d', L(g.knee, g.ankle)); $('shin' + sd).setAttribute('stroke-width', 44 * s.cs);
+    $('pad' + sd).setAttribute('transform', `translate(${g.knee[0]},${g.knee[1]}) scale(${s.cs})`);
+    $('boot' + sd).setAttribute('transform', `translate(${g.ankle[0]},${g.ankle[1]}) rotate(${g.footRot}) scale(${s.cs * g.side},${s.cs})`);
+  }
+  // trunchi și cap
+  $('torso').setAttribute('transform', `translate(${j.pelvis[0]},${j.pelvis[1]}) rotate(${j.lean}) scale(${s.cs}, ${s.cs * (1 + s.breath)})`);
+  const hd = s.head;
+  $('headwrap').setAttribute('transform', `translate(${j.neck[0]},${j.neck[1]}) rotate(${j.lean + hd.r}) scale(${s.cs * 0.86}) translate(-200,-326)`);
+  $('head').setAttribute('transform', `translate(${hd.turn * 4} ${hd.nod})`);
+  $('face').setAttribute('transform', `translate(${hd.turn * 12} ${hd.up * 4})`);
+  $('ears').setAttribute('transform', `translate(${-hd.turn * 5} 0)`);
+  $('sideburns').setAttribute('transform', `translate(${-hd.turn * 3} 0)`);
+  $('helmet').setAttribute('transform', `translate(${hd.turn * 3} ${-Math.abs(hd.turn) * 1.5})`);
+  const e = s.eyes, px = e.lx * 6, py = e.ly * 5;
+  $('pupilL').setAttribute('transform', `translate(${px} ${py})`); $('pupilR').setAttribute('transform', `translate(${px} ${py})`);
+  const lid = Math.min(1, Math.max(e.close, 0.12 * s.mouth.s));
+  for (const sd of ['L', 'R']) {
+    const hgt = 40 * lid; $('lid' + sd).setAttribute('height', hgt);
+    $('lash' + sd).setAttribute('y1', 216 + hgt); $('lash' + sd).setAttribute('y2', 216 + hgt);
+    $('lash' + sd).style.display = lid > 0.04 ? '' : 'none';
+  }
+  const b = s.brow;
+  $('browL').setAttribute('transform', `translate(0 ${-b.raise * 9}) rotate(${-b.tilt * 8} 182 207)`);
+  $('browR').setAttribute('transform', `translate(0 ${-b.raise * 9}) rotate(${b.tilt * 8} 218 207)`);
+  const m = s.mouth, o = Math.max(0, Math.min(1, m.o));
+  const rx = 25 * m.w + 3 * m.s, cy = 299, corner = cy - m.s * 6 + o * 2;
+  const top = cy - 2 - o * 7 - m.s, bot = cy + 3 + o * 30 - m.s + (m.s > 0.5 ? 2 : 0);
+  const d = `M${200 - rx},${corner} Q200,${2 * top - corner} ${200 + rx},${corner} Q200,${2 * bot - corner} ${200 - rx},${corner} Z`;
+  $('mouth').setAttribute('d', d); $('mclip').setAttribute('d', d);
+  $('lipline').setAttribute('d', `M${200 - rx},${corner} Q200,${2 * top - corner} ${200 + rx},${corner}`);
+  $('lipline').style.display = o < 0.08 ? '' : 'none';
+  $('teeth').setAttribute('y', top - 1); $('tongue').setAttribute('cy', bot - 4); $('tongue').setAttribute('rx', rx * 0.55);
+  $('stache').setAttribute('transform', `translate(0 ${-o * 3})`);
+  $('cheekL').setAttribute('transform', `translate(0 ${-m.s * 5})`); $('cheekR').setAttribute('transform', `translate(0 ${-m.s * 5})`);
+  // brațe
+  for (const sd of ['L', 'R']) {
+    const a = j['arm' + sd];
+    $('uarm' + sd).setAttribute('d', L(a.sh, a.el)); $('uarm' + sd).setAttribute('stroke-width', 44 * s.cs);
+    $('farm' + sd).setAttribute('d', L(a.el, a.wr)); $('farm' + sd).setAttribute('stroke-width', 32 * s.cs);
+    $('cuff' + sd).setAttribute('d', L(a.el, lerp(a.el, a.wr, 0.22))); $('cuff' + sd).setAttribute('stroke-width', 40 * s.cs);
+    setHand('hand' + sd, a.hand);
+  }
+  $('hammer').style.display = j.hammer ? '' : 'none';
+  if (j.hammer) $('hammer').setAttribute('transform', `translate(${j.hammer.p[0]},${j.hammer.p[1]}) rotate(${j.hammer.rot}) scale(${s.cs})`);
+  // țiglele puse + porumbel
+  for (let i = 0; i < 4; i++) {
+    const k = s.tiles[i];
+    const el = $('tp' + i);
+    el.style.display = k > 0 ? '' : 'none';
+    el.setAttribute('transform', k > 0 && k < 1 ? `translate(0 ${(1 - easeBack(k)) * -40})` : '');
+  }
+  $('pigeon').setAttribute('transform', `translate(${735 + s.pigeon.x},${728 + s.pigeon.y})`);
+  $('phead').setAttribute('transform', `translate(${s.pigeon.head},0)`);
+  $('pwing').setAttribute('transform', `rotate(${s.pigeon.wing} 0 -24)`);
+  // efecte
+  const fx = s.fx;
+  const toc = $('toc');
+  if (fx.toc) { toc.style.display = ''; toc.setAttribute('transform', `translate(${fx.toc.x},${fx.toc.y}) scale(${fx.toc.s}) rotate(${fx.toc.r})`); toc.style.opacity = fx.toc.a; }
+  else toc.style.display = 'none';
+  $('dust').innerHTML = (fx.dust || []).map(p => `<circle cx="${p[0]}" cy="${p[1]}" r="${p[2]}" fill="#E8DCCB" opacity="${p[3]}"/>`).join('');
+  const sw = $('sweat');
+  if (fx.sweat) { sw.style.display = ''; sw.setAttribute('transform', `translate(${fx.sweat.x},${fx.sweat.y}) scale(${fx.sweat.s})`); sw.style.opacity = fx.sweat.a; }
+  else sw.style.display = 'none';
+  const ex = $('excl');
+  if (fx.excl) { ex.style.display = ''; ex.setAttribute('transform', `translate(${fx.excl.x},${fx.excl.y}) scale(${fx.excl.s})`); }
+  else ex.style.display = 'none';
+  const mo = $('motion');
+  if (fx.motion) { mo.style.display = ''; mo.innerHTML = fx.motion.map(l => `<path d="M${l[0]},${l[1]} L${l[2]},${l[3]}"/>`).join(''); }
+  else mo.style.display = 'none';
+  // balon + card final
+  const bb = $('bubble');
+  if (s.bubble && s.bubble.show > 0) {
+    if (bb.dataset.html !== s.bubble.html) { bb.innerHTML = s.bubble.html; bb.dataset.html = s.bubble.html; }
+    bb.style.display = 'block';
+    const w = bb.offsetWidth;
+    let x = Math.max(40, Math.min(1040 - w, s.bubble.ax - w * 0.35));
+    bb.style.left = x + 'px';
+    bb.style.top = (s.bubble.ay - bb.offsetHeight) + 'px';
+    bb.style.setProperty('--tail', Math.max(60, Math.min(w - 60, s.bubble.ax - x)) + 'px');
+    const k = s.bubble.show;
+    bb.style.opacity = Math.min(1, k * 1.6);
+    bb.style.transform = `scale(${0.55 + 0.45 * easeBack(Math.min(1, k))})`;
+  } else bb.style.display = 'none';
+  const cd = $('card');
+  if (s.card > 0) { cd.style.display = 'block'; cd.style.opacity = Math.min(1, s.card * 2); cd.style.transform = `scale(${0.6 + 0.4 * easeBack(Math.min(1, s.card))})`; }
+  else cd.style.display = 'none';
+};
+</script>
+</body></html>
