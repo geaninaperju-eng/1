@@ -279,6 +279,315 @@ LICITATII = {
 }
 
 
+# ---------------------------------------------------------------- licitații noi 12.11.2026
+CFR_GL_DECIZIE = ("Marian Profir – Director; Cristian Calinov – Contabil Șef; Adrian Bocșan – Șef Divizie Exploatare "
+                  "Tehnic; Marian Ilie – Consilier juridic; Nicoleta Iorga – Șef Serviciu O.T.D. și IT; Lucian Jacota – "
+                  "Șef Serviciu Aprovizionare, Achiziții și Administrativ; Grigore Dan Ungureanu – Expert Achiziții "
+                  "Publice; Stelian Băncilă – Economist Serviciul Aprovizionare, Achiziții și Administrativ")
+CFR_CT_DECIZIE = ("Niculae Auraș Gavrilă – Director; Florentina Sima – Contabil Șef; Ionuț Popa – Șef Divizie Exploatare "
+                  "Comercială și Marketing; Hristu Aurelian Tanef – Șef Serviciu AAA; Marinela Olteanu – Șef Serviciu OTD "
+                  "și IT; Cristina Avisalon – Șef Serviciu Financiar; Violeta Mihaela Dragomir – Economist Serviciul AAA; "
+                  "Paul Țânțar – Inginer Serviciul AAA; Valentin Roman – Inginer Serviciul OTD și IT; Mirela Georgescu – "
+                  "Consilier Juridic; Florentina Țurcanu – Consilier Juridic")
+
+LICITATII.update({
+    "romeo": {
+        "fisier": "ADV1556879_Cabana_Romeo",
+        "titlu": "Înlocuire învelitoare acoperiș Cabana de vânătoare Romeo – DSBC2026",
+        "autoritate": "REGIA NAȚIONALĂ A PĂDURILOR – ROMSILVA prin DIRECȚIA SILVICĂ BACĂU",
+        "autoritate_scurt": "Direcția Silvică Bacău (O.S. Tg. Ocna)",
+        "email_depunere": "anunturi.seap@bacau.rosilva.ro",
+        "nr_anunt": "ADV1556879",
+        "data_anunt": "10.11.2026",
+        "termen": "16.11.2026",
+        "ora": "08:00",
+        "cpv": "45261910-6 – Reparare de acoperișuri",
+        "valoare": 51539.86,
+        "amplasament": "Cabana de vânătoare Romeo, fond forestier, Ocolul Silvic Tg. Ocna, județul Bacău (coordonate "
+                       "Stereo 70 din caietul de sarcini; acces foarte greu – ultimii 7,5 km pe drum forestier)",
+        "procedura": "cumpărare directă",
+        "durata": "30 (treizeci) de zile calendaristice de la ordinul de începere, dar nu mai târziu de 31.12.2026",
+        "garantie": "24",
+        "catalog": True,
+        "decizie": "Pădureanu Leonard – Director, Bitir Ioan – Director Tehnic, Tabacaru Ion – Director Economic",
+        "experienta": False, "acces": False, "vizita": False,
+        "distanta": "cca. 190 km (Buzău – Focșani – Onești – Tg. Ocna) + 7,5 km drum forestier",
+        "saptamani": 5,
+        "durata_scurt": "30 zile calendaristice (5 săptămâni)",
+        "lucrari": [
+            "desfacerea învelitorii existente din șindrilă bituminoasă (256,50 mp), cu sortarea și evacuarea deșeurilor;",
+            "astereală din OSB 10 mm în zonele degradate (50 mp);",
+            "rigle din lemn de rășinoase tratate pe căpriori (256,50 mp) și folie anticondens (307,80 mp);",
+            "învelitoare din țiglă metalică BILKA Balcanic mat 0,50 mm, maro închis RAL 8019 (256,50 mp), prinsă cu "
+            "holzșuruburi cu garnitură EPDM;",
+            "coame mari BILKA RAL 8019 cu bandă de coamă și capace (13,50 ml), dolii (13,50 ml), borduri de streașină "
+            "(27 ml) și de fronton (38 ml), opritori de zăpadă (36 ml);",
+            "sistem pluvial BILKA RAL 8019: jgheab semicircular D125 (13,50 m), burlane D90 (12 m), cârlige, racorduri, "
+            "capace, coturi, coliere, prelungitoare;",
+            "transportul materialelor până la cabană și evacuarea deșeurilor.",
+        ],
+        "etape": [
+            "Etapa 1 – Predarea amplasamentului, transportul materialelor pe drumul forestier, organizarea de șantier.",
+            "Etapa 2 – Desfacerea șindrilei bituminoase pe tronsoane, verificarea astereli și a căpriorilor.",
+            "Etapa 3 – Înlocuirea astereli degradate cu OSB 10 mm, folie anticondens, rigle tratate.",
+            "Etapa 4 – Montajul țiglei metalice de la streașină spre coamă, cu holzșuruburi cu garnitură EPDM.",
+            "Etapa 5 – Coame, dolii, borduri, opritori de zăpadă; etanșări cu mastic.",
+            "Etapa 6 – Sistem pluvial; curățenie, evacuarea deșeurilor, recepția la terminarea lucrărilor.",
+        ],
+        "materiale": [
+            "țiglă metalică ", Y("BILKA Balcanic mat 0,50 mm RAL 8019 (ca în F3)"),
+            ", coame, capace, dolii, borduri și opritori din aceeași gamă; folie anticondens; OSB 10 mm; rigle de "
+            "rășinoase tratate; sistem pluvial BILKA D125/D90 RAL 8019; holzșuruburi cu garnitură EPDM; mastic.",
+        ],
+        "f3": [
+            ("Deviz DMH937 – Înlocuire învelitoare acoperiș Cabana Romeo", [
+                ("RPCT26D1", "Desfacerea învelitorilor din șindrilă bituminoasă – Tegola", "mp", 256.5),
+                ("CE18A1", "asim – Astereală executată din OSB gr. = 10 mm", "mp", 50),
+                ("3270480", "OSB 10 mm", "mp", 51.5),
+                ("CE20A1", "Rigle din lemn de rășinoase așezate pe căpriori", "mp", 256.5),
+                ("CE05A1", "Învelitori din tablă BILKA Balcanic mat 0,5 mm maro închis RAL 8019 – montaj", "mp", 256.5),
+                ("3270481", "Țiglă metalică BILKA Balcanic mat (RAL 8019), 0,5 mm", "mp", 307.8),
+                ("7299982", "Folie anticondens", "mp", 307.8),
+                ("7299995", "Holzșurub", "buc", 2565),
+                ("7299992", "Tablă plană", "buc", 2),
+                ("7299996", "Opritor zăpadă", "ml", 36),
+                ("CE08A%9", "asim – Montat coame pentru învelitori din tablă BILKA RAL 8019", "ml", 13.5),
+                ("3270482", "Coamă mare BILKA maro închis mat (RAL 8019) 0,5 mm", "buc", 7),
+                ("3270483", "Capac coamă BILKA maro mat (RAL 8019) 0,5 mm", "buc", 2),
+                ("7299994", "Bandă pentru coamă", "buc", 3),
+                ("CE08A%6", "asim – Montat bordură streașină", "ml", 27),
+                ("7299997", "Bordură streașină", "ml", 27),
+                ("CE08A%7", "asim – Montat bordură fronton BILKA RAL 8019", "ml", 38),
+                ("3270468", "Bordură fronton BILKA maro închis mat (RAL 8019) 0,5 mm", "buc", 19),
+                ("CE08A%8", "asim – Montat dolii pentru învelitori din tablă BILKA RAL 8019", "ml", 13.5),
+                ("3270484", "Dolie BILKA maro închis mat (RAL 8019) 0,5 mm EN 10143", "buc", 7),
+                ("7299993", "Mastic premium", "buc", 3),
+                ("CE13A1", "asim – Montat jgheaburi din tablă BILKA RAL 8019", "m", 13.5),
+                ("3270485", "Jgheab de scurgere metalic semicircular D 125 mm BILKA RAL 8019", "m", 14),
+                ("7299989", "Cârlig jgheab", "buc", 19),
+                ("7299987", "Elemente îmbinare jgheab", "buc", 4),
+                ("7299986", "Racord jgheab/burlan", "buc", 3),
+                ("3270487", "Capac jgheab BILKA 125 mm RAL 8019", "buc", 2),
+                ("CE14A1", "asim – Montat burlane din tablă BILKA RAL 8019", "m", 12),
+                ("3270486", "Burlan de scurgere metalic circular BILKA RAL 8019 D 90 mm", "m", 12),
+                ("7299988", "Colier burlan", "buc", 9),
+                ("7299984", "Prelungitor intermediar 1 m", "buc", 3),
+                ("7299985", "Cot de 60 grade", "buc", 9),
+                ("TRA02A40", "Transportul rutier al materialelor, semifabricatelor cu autocamionul pe dist. = 40 km",
+                 "tonă", 10),
+            ]),
+        ],
+        "note_f3": "Sursa: Formularul F3 – Deviz ofertă DMH937 (O.S. Tg. Ocna) din documentația anunțului ADV1556879, "
+                   "33 de poziții, cu aceleași coduri și cantități. Caietul de sarcini: termen 30 de zile, garanție 24 "
+                   "de luni, vizitarea amplasamentului recomandată (acces foarte greu).",
+    },
+    "loto": {
+        "fisier": "ADV1556660_Loto_Bacau_terasa",
+        "titlu": "Lucrări de reparații hidroizolație la terasa agenției 04-013 din cadrul SZ Galați – PLJ Bacău",
+        "autoritate": "COMPANIA NAȚIONALĂ LOTERIA ROMÂNĂ S.A.",
+        "autoritate_scurt": "C.N. Loteria Română S.A.",
+        "email_depunere": "achizitii.publice@loto.ro",
+        "nr_anunt": "ADV1556660",
+        "data_anunt": "11.11.2026",
+        "termen": "18.11.2026",
+        "ora": "12:00",
+        "cpv": "45261310-0 – Lucrări de hidroizolare",
+        "valoare": 44235.18,
+        "amplasament": "Agenția Loto 04-013, str. Logofăt Tăutu nr. 1C, Bacău",
+        "procedura": "cumpărare directă",
+        "durata": Y("15 (cincisprezece) zile calendaristice de la ordinul de începere"),
+        "garantie": "36",
+        "catalog": False,
+        "decizie": Y("de completat – anunțul nu le nominalizează; cereți lista la achizitii.publice@loto.ro"),
+        "experienta": False, "acces": False, "vizita": False,
+        "distanta": "cca. 180 km (Buzău – Focșani – Bacău)",
+        "saptamani": 3,
+        "durata_scurt": "15 zile calendaristice (3 săptămâni)",
+        "lucrari": [
+            "desfacerea straturilor friabile ale hidroizolației existente și a învelitorii aticurilor, pregătirea "
+            "suprafeței (95 mp);",
+            "reparații locale cu membrană bituminoasă V3 după desfacere (95 mp) și șapă de pantă pentru corecția "
+            "pantelor spre gura de scurgere (95 mp);",
+            "amorsă bituminoasă (95 mp), membrană P4 termosudată – strat 1 (95 mp) și membrană PA4,5 cu ardezie – "
+            "strat 2 (95 mp), cu racordări la atice;",
+            "gură de scurgere Ø90–110 mm (1 buc.) și căciuli de ventilație (2 buc.);",
+            "glafuri din tablă la atice, cu profil picurător (24 ml);",
+            "ridicarea materialelor pe terasă, evacuarea molozului și a deșeurilor (0,2 t).",
+        ],
+        "etape": [
+            "Etapa 1 – Predarea amplasamentului; protejarea agenției (activitatea continuă).",
+            "Etapa 2 – Desfacerea straturilor friabile și a glafurilor, curățarea suportului.",
+            "Etapa 3 – Șapă de pantă, reparații locale cu V3, uscarea suportului.",
+            "Etapa 4 – Amorsă, membrană P4, membrană PA4,5 cu ardezie, racordări la atice și guri.",
+            "Etapa 5 – Gura de scurgere, căciulile de ventilație, glafurile de atic; proba de etanșeitate, recepție.",
+        ],
+        "materiale": [
+            "membrane bituminoase termosudabile ", Y("V3, P4 și PA4,5 cu ardezie (Sika Festa/Ecobit sau echivalent)"),
+            ", amorsă bituminoasă cu solvent; șapă de ciment pentru pante; gură de scurgere Ø110 cu manșon bituminos; "
+            "căciuli de ventilație; tablă prevopsită 0,50 mm pentru glafuri cu picurător.",
+        ],
+        "f3": [
+            ("Deviz estimativ – terasa agenției 04-013 Bacău", [
+                ("1", "Desfacere straturi friabile – pregătire suprafață", "mp", 95),
+                ("2", "Montare membrană bituminoasă V3 kg/mp – strat 1 reparații locale și completări după desfacere",
+                 "mp", 95),
+                ("3", "Turnare șapă de pantă – corecție pante", "mp", 95),
+                ("4", "Aplicare amorsă bituminoasă", "mp", 95),
+                ("5", "Montare membrană bituminoasă P4 kg/mp – strat 1", "mp", 95),
+                ("6", "Montare membrană bituminoasă PA4,5 kg/mp – strat 2", "mp", 95),
+                ("7", "Montare guri de scurgere diametru 90–110 mm", "buc", 1),
+                ("8", "Montare căciulă ventilație 90–110 mm", "buc", 2),
+                ("9", "Montare glafuri din tablă la atice (profil picurător)", "ml", 24),
+                ("10", "Material mărunt", "buc", 1),
+                ("11", "Ridicare materiale și accesorii pe acoperiș", "buc", 1),
+                ("12", "Evacuare gunoi, moloz, deșeuri", "tone", 0.2),
+            ]),
+        ],
+        "note_f3": "Sursa: „Deviz estimativ lucrare AG 04-013 – PLJ Bacău” din anunțul ADV1556660 (12 poziții, fără "
+                   "prețuri). Vizionarea amplasamentului: zile lucrătoare 12–15, dl. Cosmin Năstac, 0750.622.503. "
+                   "Achizitorul nu acordă avans; prețul este ferm.",
+    },
+    "cfr_galati": {
+        "fisier": "SCN1181822_CFR_Galati_hidroizolatie",
+        "titlu": "Reparație hidroizolație fostă clădire centrală termică Revizia Vagoane Galați",
+        "autoritate": "SNTFC „CFR CĂLĂTORI” S.A. – Sucursala Regională de Transport Feroviar de Călători Galați",
+        "autoritate_scurt": "S.R.T.F.C. Galați",
+        "email_depunere": "depunere online în SEAP (procedura simplificată SCN1181822)",
+        "nr_anunt": "SCN1181822",
+        "data_anunt": "05.11.2026",
+        "termen": "23.11.2026",
+        "ora": "15:00",
+        "cpv": "45261310-0 – Lucrări de hidroizolare",
+        "valoare": 104904.00,
+        "amplasament": "Revizia Vagoane Galați, str. Alexandru Davila nr. 1, Galați – fosta clădire a centralei "
+                       "termice (terasă 459 mp, cu 114 panouri fotovoltaice de 455 W)",
+        "procedura": "procedură simplificată (Legea nr. 99/2016)",
+        "sectorial": True,
+        "durata": "60 (șaizeci) de zile de la ordinul de începere (durata contractului: 5 luni)",
+        "garantie": Y("36"),
+        "catalog": False,
+        "decizie": CFR_GL_DECIZIE,
+        "experienta": False, "acces": False, "vizita": False,
+        "distanta": "cca. 130 km (Buzău – Brăila – Galați)",
+        "saptamani": 9,
+        "durata_scurt": "60 zile (9 săptămâni)",
+        "lucrari": [
+            "demontarea celor 114 panouri fotovoltaice de pe acoperiș, cu depozitarea lor în siguranță;",
+            "decopertarea membranei afectate (459 mp), reparații cu mortar rapid (4 mp) și la golurile din tavan (2 mp);",
+            "aplicarea amorsei bituminoase cu solvent (459 mp) și a hidroizolației din membrană termosudabilă cu ardezie "
+            "(459 mp), cu racordări la atice și la gurile de scurgere;",
+            "remontarea celor 114 panouri fotovoltaice, inclusiv setarea și conexiunea pentru funcționare (electrician "
+            "autorizat ANRE);",
+            "utilizarea macaralei (4 ore) și transportul deșeurilor la depozit autorizat (2,5 t).",
+        ],
+        "etape": [
+            "Etapa 1 – Predarea amplasamentului; deconectarea sistemului fotovoltaic de către electrician autorizat.",
+            "Etapa 2 – Demontarea și coborârea panourilor (macara), depozitare pe paleți, inventariere.",
+            "Etapa 3 – Decopertarea membranei afectate, curățare, reparații cu mortar rapid și la tavan.",
+            "Etapa 4 – Amorsă, membrană cu ardezie termosudată la peste +5 °C, fără ploaie; racordări.",
+            "Etapa 5 – Remontarea structurii și a panourilor, reconectare, punere în funcțiune, verificări.",
+            "Etapa 6 – Evacuarea deșeurilor, curățenie, recepție.",
+        ],
+        "materiale": [
+            "membrană bituminoasă termosudabilă cu armătură din poliester și ardezie ",
+            Y("min. 4 mm, flexibilitate la rece ≤ -10 °C, stabilitate la cald ≥ 120 °C (Sika Ecobit PA4,5 sau echivalent)"),
+            "; amorsă bituminoasă cu solvent; mortar rapid de reparații; accesorii de fixare și conectare a panourilor.",
+        ],
+        "f3": [
+            ("Lista cantităților de lucrări – hidroizolație fostă CT Revizia Vagoane", [
+                ("1", "Demontare panouri fotovoltaice de pe acoperiș", "buc", 114),
+                ("2", "Decopertare membrană afectată", "mp", 459),
+                ("3", "Efectuare reparații cu mortar rapid", "mp", 4),
+                ("4", "Reparații goluri tavan", "mp", 2),
+                ("5", "Aplicare amorsă cu solvent", "mp", 459),
+                ("6", "Hidroizolație cu ardezie", "mp", 459),
+                ("7", "Montare panouri fotovoltaice pe acoperiș, inclusiv setare și conexiune pentru funcționare",
+                 "buc", 114),
+                ("8", "Utilizare macara", "ore", 4),
+                ("9", "Transportul și predarea la depozitul deșeurilor", "tone", 2.5),
+            ]),
+        ],
+        "note_f3": "Sursa: Lista cantităților de lucrări din caietul de sarcini GL6/2/865/12.05.2026 (S.R.T.F.C. Galați), "
+                   "anunț SCN1181822. Garanție de participare 1.049 lei (3 luni), garanție de bună execuție 5%. "
+                   "Fără cerințe de experiență, cifră de afaceri sau ISO.",
+    },
+    "cfr_mangalia": {
+        "fisier": "SCN1181778_CFR_Mangalia_Vila_C",
+        "titlu": "Reparație acoperiș clădire Dormitor personal CF – Stația Mangalia (Vila C)",
+        "autoritate": "SNTFC „CFR CĂLĂTORI” S.A. – Sucursala Regională de Transport Feroviar de Călători Constanța",
+        "autoritate_scurt": "S.R.T.F.C. Constanța",
+        "email_depunere": "depunere online în SEAP (procedura simplificată SCN1181778)",
+        "nr_anunt": "SCN1181778",
+        "data_anunt": "03.11.2026",
+        "termen": "20.11.2026",
+        "ora": "15:00",
+        "cpv": "45261900-3 – Lucrări de reparare și de întreținere a acoperișurilor",
+        "valoare": 172000.00,
+        "amplasament": "Clădirea Dormitor personal CF – Stația Mangalia (Vila C), nr. inventar C08/Y801/803117, "
+                       "Șos. Constanței nr. 86, Mangalia, județul Constanța (P+1E, acoperiș cca. 236 mp)",
+        "procedura": "procedură simplificată (Legea nr. 99/2016)",
+        "sectorial": True,
+        "durata": "60 (șaizeci) de zile de la predarea amplasamentului (durata contractului: 5 luni)",
+        "garantie": "24",
+        "catalog": False,
+        "decizie": CFR_CT_DECIZIE,
+        "experienta": False, "acces": False, "vizita": True,
+        "distanta": "cca. 230 km (Buzău – Slobozia – Constanța – Mangalia)",
+        "saptamani": 9,
+        "durata_scurt": "60 zile (9 săptămâni)",
+        "lucrari": [
+            "demontarea instalației de panouri solare, a învelitorii din tablă profilată, a jgheaburilor, burlanelor și "
+            "a astereli;",
+            "astereală nouă din scândură de rășinoase tratată, termoizolație din saltele de vată minerală, folie "
+            "anticondens, șipci și contrașipci (spațiu de ventilare 3–5 cm);",
+            "învelitoare din țiglă metalică din oțel zincat (min. 275 g/mp Zn) și prevopsit, grosime min. 0,50 mm, cu "
+            "garanție de producător de min. 25 de ani, prinsă cu șuruburi autoforante cu garnitură EPDM;",
+            "coame, dolii, borduri, jgheaburi și burlane din același sistem integrat;",
+            "remontarea panourilor solare existente / pregătirea pentru instalația fotovoltaică;",
+            "evacuarea deșeurilor la depozit autorizat.",
+        ],
+        "etape": [
+            "Etapa 0 – Vizitarea obligatorie a amplasamentului (solicitare la marinela.olteanu@cfrcalatori.ro) și "
+            "antemăsurătoarea proprie, pe care se bazează oferta.",
+            "Etapa 1 – Predarea amplasamentului, convenția SSM/PSI, organizarea de șantier.",
+            "Etapa 2 – Demontarea panourilor solare, a pluvialului, a tablei și a astereli, pe tronsoane.",
+            "Etapa 3 – Astereală, vată minerală, folie anticondens, șipci și contrașipci.",
+            "Etapa 4 – Țiglă metalică, coame, dolii, borduri; sistem pluvial.",
+            "Etapa 5 – Remontarea panourilor solare, curățenie, evacuarea deșeurilor, recepție.",
+        ],
+        "materiale": [
+            "țiglă metalică ", Y("BILKA mat 0,50 mm, Z275, garanție 25+ ani (sau echivalent)"),
+            ", cu coame, dolii, borduri și sistem pluvial BILKA din același sistem; scândură de rășinoase tratată; vată "
+            "minerală 10 cm; folie anticondens; șipci și contrașipci; șuruburi autoforante cu garnitură EPDM.",
+        ],
+        "f3": [
+            ("Antemăsurătoare estimată (de confirmat la vizita obligatorie)", [
+                ("D01", "Demontare instalație panouri solare existentă, cu depozitare pentru remontare", "set", 1),
+                ("D02", "Desfacere învelitoare din tablă profilată, inclusiv tinichigerie", "mp", 236),
+                ("D03", "Demontare jgheaburi și burlane", "ml", 70),
+                ("D04", "Desfacere astereală degradată", "mp", 236),
+                ("A01", "Astereală din scândură de rășinoase 25 mm, tratată", "mp", 236),
+                ("A02", "Termoizolație cu saltele de vată minerală 10 cm", "mp", 236),
+                ("A03", "Folie anticondens", "mp", 236),
+                ("A04", "Șipci și contrașipci de rășinoase tratate", "mp", 236),
+                ("A05", "Învelitoare din țiglă metalică 0,50 mm Z275, cu accesorii de fixare", "mp", 236),
+                ("A06", "Coame din tablă, cu bandă de ventilare și capace", "ml", 30),
+                ("A07", "Dolii din tablă", "ml", 12),
+                ("A08", "Borduri de streașină și fronton", "ml", 64),
+                ("P01", "Jgheaburi D125 cu cârlige și accesorii", "ml", 40),
+                ("P02", "Burlane D90 cu coliere și coturi", "ml", 30),
+                ("S01", "Remontare instalație panouri solare existentă", "set", 1),
+                ("E01", "Evacuarea deșeurilor la depozit autorizat (container)", "buc", 2),
+            ]),
+        ],
+        "note_f3": "Caietul de sarcini CT6/3/1807/30.10.2026 NU conține listă de cantități: oferta se face pe baza "
+                   "antemăsurătorii proprii, după vizitarea OBLIGATORIE a amplasamentului (cca. 236 mp de acoperiș). "
+                   "Cantitățile de mai sus sunt estimate și trebuie confirmate la vizită. Garanție de participare 1.720 "
+                   "lei (90 de zile). Fără cerințe de experiență, cifră de afaceri sau ISO.",
+    },
+})
+
+
 # ---------------------------------------------------------------- utilitare docx
 
 def lei(v):
@@ -723,18 +1032,63 @@ def genereaza_docx(cheie):
                  "Lista lucrărilor similare executate, cu documente constatatoare",
                  "Lista nominală a personalului și a autovehiculelor pentru acces în cazarmă"]
         sectiuni += [decl_164_165_167, experienta, lista_personal]
+    elif cheie in ("romeo", "loto", "cfr_galati", "cfr_mangalia"):
+        opis += ["Declarație privind neîncadrarea în art. 164, 165 și 167 din Legea nr. 98/2016",
+                 "Lista lucrărilor similare executate, cu documente constatatoare (informativ)"]
+        sectiuni += [decl_164_165_167, experienta]
+    if L.get("sectorial"):
+        opis.insert(1, "DUAE completat în SEAP (răspuns la DUAE-cererea entității contractante)")
+        opis.insert(2, "Dovada constituirii garanției de participare")
     if L.get("vizita"):
         opis.insert(3, "Confirmarea vizitării amplasamentului (obligatorie – fără ea oferta nu este luată în considerare)")
     scrisoare(doc, L, opis)
     for s in sectiuni:
         page_break(doc)
         s(doc, L)
+    if L.get("sectorial"):
+        lege_sectoriala(doc)
     footer(doc, f"{FIRMA['denumire']} – Ofertă „{L['titlu']}”")
     OUT.mkdir(exist_ok=True)
     path = OUT / f"Dosar_oferta_BILZI_{L['fisier']}.docx"
     doc.save(path)
     compacteaza_docx(path)
     return path
+
+
+SECTORIAL = [
+    ("respectarea art. 51 din Legea nr. 98/2016 privind achizițiile publice",
+     "respectarea obligațiilor de mediu, sociale și de muncă – Legea nr. 99/2016 privind achizițiile sectoriale"),
+    ("respectarea art. 51 din Legea nr. 98/2016", "obligațiile de mediu, sociale și de muncă (Legea nr. 99/2016)"),
+    ("art. 59–60 din Legea nr. 98/2016 privind achizițiile publice",
+     "art. 72–73 din Legea nr. 99/2016 privind achizițiile sectoriale"),
+    ("art. 59–60 din Legea nr. 98/2016", "art. 72–73 din Legea nr. 99/2016"),
+    ("prevăzute la art. 60 din Legea nr. 98/2016", "prevăzute la art. 73 din Legea nr. 99/2016"),
+    ("art. 21 alin. (5) și (6) din H.G. nr. 395/2016", "H.G. nr. 394/2016"),
+    ("având în vedere și prevederile art. 61 din Legea nr. 98/2016", "conform Legii nr. 99/2016"),
+    ("ART. 164, 165 ȘI 167 DIN LEGEA NR. 98/2016", "ART. 177, 178 ȘI 180 DIN LEGEA NR. 99/2016"),
+    ("art. 164, 165 și 167 din Legea nr. 98/2016", "art. 177, 178 și 180 din Legea nr. 99/2016"),
+    ("art. 164 alin. (1) din Legea nr. 98/2016", "art. 177 alin. (1) din Legea nr. 99/2016"),
+    ("art. 165 din Legea nr. 98/2016", "art. 178 din Legea nr. 99/2016"),
+    ("art. 167 alin. (1) din Legea nr. 98/2016", "art. 180 alin. (1) din Legea nr. 99/2016"),
+    ("anunțului de cumpărare directă", "anunțului de participare simplificat"),
+    ("Legea nr. 98/2016", "Legea nr. 99/2016"),
+]
+
+
+def lege_sectoriala(doc):
+    """Contract sectorial (CFR): trimiterile la Legea nr. 98/2016 devin trimiteri la Legea nr. 99/2016."""
+    pars = list(doc.paragraphs)
+    for t in doc.tables:
+        for row in t.rows:
+            for c in row.cells:
+                pars += c.paragraphs
+    for par in pars:
+        for run in par.runs:
+            x = run.text
+            for a, b in SECTORIAL:
+                x = x.replace(a, b)
+            if x != run.text:
+                run.text = x
 
 
 def compacteaza_docx(path):
@@ -900,9 +1254,22 @@ if __name__ == "__main__":
         [0, 0, 0, 0, 0, 0, 0.40, 0.40, 0.20],          # tinichigerie, pluvial
         [0, 0, 0.20, 0.30, 0.30, 0.20, 0, 0, 0],       # coșuri
     ]
+    LICITATII["romeo"]["analize"] = analize_bilzi.ROMEO
+    LICITATII["loto"]["analize"] = analize_bilzi.LOTO
+    LICITATII["cfr_galati"]["analize"] = analize_bilzi.CFR_GALATI
+    LICITATII["cfr_mangalia"]["analize"] = analize_bilzi.CFR_MANGALIA
+    LICITATII["romeo"]["depunere"] = "e-mail anunturi.seap@bacau.rosilva.ro + prețul publicat în catalogul SICAP"
+    LICITATII["loto"]["depunere"] = "e-mail achizitii.publice@loto.ro, cu referire la ADV1556660"
+    LICITATII["cfr_galati"]["depunere"] = "online în SEAP (DUAE + ofertă + garanție de participare 1.049 lei)"
+    LICITATII["cfr_mangalia"]["depunere"] = "online în SEAP (DUAE + ofertă + garanție de participare 1.720 lei); vizită obligatorie"
+    LICITATII["romeo"]["grafic"] = [[0.15, 0.30, 0.30, 0.20, 0.05]]
+    LICITATII["loto"]["grafic"] = [[0.30, 0.45, 0.25]]
+    LICITATII["cfr_galati"]["grafic"] = [[0.10, 0.15, 0.15, 0.15, 0.15, 0.10, 0.10, 0.05, 0.05]]
+    LICITATII["cfr_mangalia"]["grafic"] = [[0.10, 0.15, 0.15, 0.15, 0.15, 0.10, 0.10, 0.05, 0.05]]
     resurse = ofin.citeste_resurse()
     OUT.mkdir(exist_ok=True)
-    for k in LICITATII:
+    chei = sys.argv[1:] or list(LICITATII)
+    for k in chei:
         L = LICITATII[k]
         adaos, calc = ofin.alege_adaos(L, resurse, indirecte=L.get("indirecte", 0.05))
         L["calc"] = calc

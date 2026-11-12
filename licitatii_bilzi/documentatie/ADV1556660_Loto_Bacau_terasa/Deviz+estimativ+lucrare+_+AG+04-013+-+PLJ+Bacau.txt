@@ -1,0 +1,49 @@
+       DEVIZ ESTIMATIV LUCRARE pentru agenția 04-013 situată în Bacău strada Logofăt Tăutu
+       nr.1C
+
+                                                                                    Valoare          Valoare
+                                                          Pret         Pret
+Nr.                                                                                materiale +      materiale +
+            Descriere lucrari        Cantitate   U.M.   materiale    manopera
+crt.                                                                                 manopera        manopera
+                                                          (lei)          (lei)
+                                                                                   (lei fara TVA)   (lei cu TVA)
+ 0                   1                  2         3      4=2x3            5           6=4+5              7
+       desfacere straturi fiabile
+ 1                                      95       mp
+       – pregatire suprafata
+       montare membrana
+       bituminoasa V3kg/mp –
+ 2     strat 1 reparatii locale si      95       mp
+       completari dupa
+       desfacere
+       turnare sapa de panat –
+ 3                                      95       mp
+       corectie pante
+       aplicare amorsa
+ 4                                      95       mp
+       bituminoasa
+       montare membrana
+ 5     bituminoasa P4kg/mp –            95       mp
+       strat 1
+       montare membrana
+ 6     bituminoasa PA4,5kg/mp           95       mp
+       – strat 2
+       montare guri de scurgere
+ 7                                       1       buc.
+       diametru 90-110 mm
+       montare caciula ventilatie
+ 8                                      2        buc.
+       90-110 mm
+       montare glafuri din tabla
+ 9                                      24       ml
+       la atice (profil picurator)
+10     material marunt                   1       buc.
+       ridicare materiale si
+11                                       1       buc
+       accesorii pe acoperis
+       evacuare gunoi, moluz,
+12                                     0,2       tone
+       deseuri
+                                                                    Total (lei):
+

@@ -79,3 +79,30 @@ M73;Tubulatură inox AISI 304 Ø180 mm – kit complet coș (cca. 10 ml cu acces
 M74;Accesorii tubulatură inox (căciulă, colier, flanșă);buc;Material;320;Estimare – de verificat
 M75;Tablă prevopsită 0,50 mm RAL 7016 pentru coronament;mp;Material;33.69;Listă BILKA 01. Rezidențial – tablă plană mat 0,50
 M56;Consumabile sistem laser (lentile, filtre, protecții);set;Material;350;Estimare – de verificat
+N01;Țiglă metalică BILKA Balcanic mat 0,50 mm RAL 8019;mp;Material;34.23;Listă BILKA 01. Rezidențial – Balcanic mat 0,50 (6,42 €/mp × 5,3313)
+N02;Coamă mare BILKA mat 0,50 mm RAL 8019;buc;Material;30.6;Listă BILKA – Coamă mare mat 0,50 (5,74 €/buc)
+N03;Capac coamă BILKA mat;buc;Material;20.31;Listă BILKA – Capac coamă mat (3,81 €/buc)
+N04;Bordură streașină BILKA mat 0,50 (208 mm, 2 m);buc;Material;16.85;Listă BILKA – Bordură streașină mat 0,50, 208 mm (3,16 €/buc de 2 m)
+N05;Bordură fronton BILKA mat 0,50 (360 mm, 2 m);buc;Material;33.69;Listă BILKA – Bordură fronton mat 0,50, 360 mm (6,32 €/buc de 2 m)
+N06;Dolie BILKA mat 0,50 (417 mm, 2 m);buc;Material;33.69;Listă BILKA – Dolie mat 0,50, 417 mm (6,32 €/buc de 2 m)
+N07;Opritor zăpadă BILKA mat 0,50 (2 m);buc;Material;16.85;Listă BILKA – Opritor zăpadă mat 0,50, 2 m (3,16 €/buc)
+N08;Tablă plană BILKA mat 0,50 – foaie 1,25×2,00 m;buc;Material;84.23;Listă BILKA – tablă plană mat 0,50 (6,32 €/mp × 2,5 mp)
+N09;Bandă de coamă (rolă 5 m);buc;Material;129.75;Dedeman 02.10.2026 – Bramac UniRoll 5 m, 129,75 lei fără TVA (preturi_online.csv)
+N10;Mastic / etanșant poliuretanic (tub 300 ml);buc;Material;32;Estimare – de verificat
+N11;Element îmbinare jgheab 125 BILKA;buc;Material;7.09;Listă BILKA 03. Sistem pluvial (1,33 €)
+N12;Capac jgheab 125 BILKA;buc;Material;4.42;Listă BILKA 03. Sistem pluvial (0,83 €)
+N13;Placă OSB 10 mm;mp;Material;24;Estimare (placă OSB/3 10 mm 2500×1250 ≈ 75 lei fără TVA) – de verificat
+N14;Membrană bituminoasă V3 (strat de reparații / difuzie);mp;Material;12.4;Estimare din Hornbach 12.11.2026 (Sika Festa plus V3, rolă 10 mp) – de verificat
+N15;Membrană bituminoasă P4 / PA4 termosudabilă;mp;Material;15.54;Hornbach 12.11.2026: Sika Arcon Festa plus PA4 10 mp 188 lei cu TVA → 15,54 lei/mp fără TVA
+N16;Membrană bituminoasă PA4,5 cu ardezie;mp;Material;16.61;Hornbach 12.11.2026: Sika Ecobit PA4,5 ardezie 10 mp 201 lei cu TVA → 16,61 lei/mp fără TVA
+N17;Amorsă bituminoasă cu solvent;l;Material;13;Estimare (amorsă bituminoasă bidon 20 l ≈ 260 lei fără TVA) – de verificat
+N18;Gaz propan (butelie) pentru termosudare;kg;Material;9;Estimare – de verificat
+N19;Șapă / mortar de ciment pentru pante (uscat, sac);kg;Material;0.45;Estimare (sac 40 kg ≈ 18 lei fără TVA) – de verificat
+N20;Gură de scurgere terasă Ø110 cu manșon bituminos;buc;Material;210;Estimare – de verificat
+N21;Căciulă de ventilație terasă Ø110;buc;Material;95;Estimare (Drive: SB49A2 căciulă ventilație 65,55 lei + manșon) – de verificat
+N22;Mortar rapid de reparații (sac 25 kg);kg;Material;2.4;Estimare – de verificat
+N23;Accesorii fixare/conectare panouri fotovoltaice (cleme, conectori MC4, șuruburi);buc;Material;18;Estimare – de verificat
+N24;Țiglă metalică BILKA mat 0,50 mm (Z275, garanție 25+ ani);mp;Material;34.23;Listă BILKA 01. Rezidențial – țiglă metalică mat 0,50 (6,42 €/mp)
+N25;Vată minerală saltele 10 cm pentru mansardă/pod;mp;Material;19;Estimare (saltea vată minerală 10 cm ≈ 18–22 lei/mp fără TVA) – de verificat
+N26;Material mărunt (dibluri, șuruburi, bandă);buc;Material;150;Estimare – de verificat
+T03;Transport rutier materiale (pe tonă, inclusiv descărcare);t;Transport;120;T01 3 lei/t·km × 40 km, ca în F3 al proiectantului

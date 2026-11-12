@@ -71,3 +71,9 @@ Niciun fișier nu depășește 50 MB (cel mai mare: Călărași „1. CAIET DE S
 - **Termen: 05.10.2026, ora 15:00**
 - **Depunere: e-mail achizitiipublice@bibnat.ro** (oferta câștigătoare se încarcă apoi în SEAP)
 - Descărcat: `Specificatii tehnice.pdf` (scanat)
+
+## Descărcate pe 12.11.2026 (ofertă făcută – vezi licitatii_bilzi/oferte/)
+- `ADV1556879_Cabana_Romeo` – Romsilva DS Bacău, Cabana de vânătoare Romeo, 51.539,86 lei, termen 16.11.2026 08:00, e-mail anunturi.seap@bacau.rosilva.ro + catalog SICAP; PDF scanat 19 pag. (F3 DMH937 la pag. 10–13)
+- `ADV1556660_Loto_Bacau_terasa` – Loteria Română, terasa agenției 04-013 Bacău, 44.235,18 lei, termen 18.11.2026 12:00, e-mail achizitii.publice@loto.ro
+- `SCN1181822_CFR_Galati_hidroizolatie` – CFR Călători Galați, 104.904 lei, termen 23.11.2026 15:00, SEAP; caiet de sarcini scanat (listă cantități pag. 3)
+- `SCN1181778_CFR_Mangalia_Vila_C` – CFR Călători Constanța, 172.000 lei, termen 20.11.2026 15:00, SEAP; fără listă de cantități, vizită obligatorie
