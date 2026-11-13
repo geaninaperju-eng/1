@@ -106,3 +106,17 @@ N24;Țiglă metalică BILKA mat 0,50 mm (Z275, garanție 25+ ani);mp;Material;34
 N25;Vată minerală saltele 10 cm pentru mansardă/pod;mp;Material;19;Estimare (saltea vată minerală 10 cm ≈ 18–22 lei/mp fără TVA) – de verificat
 N26;Material mărunt (dibluri, șuruburi, bandă);buc;Material;150;Estimare – de verificat
 T03;Transport rutier materiale (pe tonă, inclusiv descărcare);t;Transport;120;T01 3 lei/t·km × 40 km, ca în F3 al proiectantului
+R01;Tablă cutată T35 BILKA lucios 0,50 mm (acoperiș);mp;Material;34.49;Listă BILKA 06. Industrial – Tabla cutata T35 lucios 0,50 mm (6,47 €/mp × 5,3313)
+R02;Șurub autoforant pentru oțel 5,5/6,3 mm cu șaibă EPDM (tablă pe pane metalice);buc;Material;0.55;Estimare (șurub autoforant oțel cu EPDM, cutie 250 buc ≈ 135 lei fără TVA) – de verificat
+R03;Coamă unghiulară industrială BILKA lucios 0,50 (417 mm, 2 m);buc;Material;32.36;Listă BILKA 06. Industrial – Coama unghiulara industriala 417 mm lucios 0,50 (6,07 €/buc)
+R04;Accesoriu tinichigerie special BILKA lucios 0,50, desfășurată 301–350 mm (2 m);buc;Material;30.6;Listă BILKA 08. Accesorii speciale – D07 lucios 0,50 (5,74 €/buc de 2 ml)
+R05;Profil de etanșare din spumă pentru tablă cutată / bandă butilică;ml;Material;6;Estimare – de verificat
+R06;Folie PE 0,2 mm și saci big-bag marcați pentru ambalarea plăcilor de azbociment;mp;Material;3.5;Estimare (folie PE 0,2 mm ≈ 1,5 lei/mp + big-bag cu marcaj azbest ≈ 45 lei/buc la 25 mp) – de verificat
+R07;Echipament de protecție pentru azbest (combinezon tip 5/6, mască FFP3, mănuși) – set/zi;set;Material;55;Estimare – de verificat
+R08;Soluție de umectare / încapsulare fibre de azbest;l;Material;18;Estimare – de verificat
+R09;Eliminare deșeuri cu azbest (cod 17 06 05*) la operator autorizat, inclusiv transport ADR;t;Transport;1700;Estimare (ofertă de cerut operatorului autorizat din zona Sibiu) – de verificat
+R10;Cazare echipă (persoană·noapte);buc;Transport;110;Estimare (pensiune/apartament muncitori) – de verificat
+R11;Deplasare echipă și scule cu microbuzul (km parcurs);km;Transport;1.5;Estimare (consum 9 l/100 km × 7,2 lei + uzură) – de verificat
+R12;Plan de lucru pentru îndepărtarea azbestului și notificarea ITM (HG 1875/2005);buc;Material;600;Estimare – de verificat
+R13;Membrană bituminoasă SBS cu ardezie 4,2 mm, flexibilitate la rece ≤ -15 °C;mp;Material;21.5;Estimare (membrane SBS -15/-20 °C cu ardezie, rolă 10 mp ≈ 250–270 lei cu TVA) – de verificat
+R14;Polizor unghiular / freză pentru șlițuire;ore;Utilaj;6;Estimare – de verificat

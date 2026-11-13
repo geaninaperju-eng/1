@@ -587,6 +587,153 @@ LICITATII.update({
     },
 })
 
+# ---------------------------------------------------------------- licitații noi 13.11.2026
+CFR_BV_DECIZIE = ("Răzvan Cîrjan – Director; Radu Caleș – Contabil Șef; Valentin Bulmaci – Șef Serviciu O.T.D. și IT; "
+                  "Paula Caleș – Șef Serviciu Achiziții și Administrativ")
+SALUBRIS_DECIZIE = ("ec. Cătălin Neculău – Director General; ec. Virginica Pipirig – Contabil Șef; ec. Alina Pantea – "
+                    "Control Financiar Preventiv; cons. jr. Marinel Anușca – Serviciul Juridic; ec. Oana Bularda – "
+                    "Serviciul Achiziții Aprovizionare-Pază; Carmen Damian – Serviciul Tehnic")
+LICITATII.update({
+    "cfr_sibiu": {
+        "fisier": "SCN1182052_CFR_Sibiu_baraca",
+        "titlu": "Reparații acoperiș baracă metalică la Depoul Sibiu – S.R.T.F.C. Brașov",
+        "autoritate": "SNTFC „CFR CĂLĂTORI” S.A. – Sucursala Regională de Transport Feroviar de Călători Brașov",
+        "autoritate_scurt": "S.R.T.F.C. Brașov",
+        "email_depunere": "depunere online în SEAP (procedura simplificată SCN1182052)",
+        "nr_anunt": "SCN1182052",
+        "data_anunt": "12.11.2026",
+        "termen": "02.12.2026",
+        "ora": "15:00",
+        "cpv": "45261910-6 – Reparare de acoperișuri",
+        "valoare": 60000.00,
+        "amplasament": "Depoul Sibiu – hala procesului tehnologic (baraca metalică), str. Dorobanților nr. 22, Sibiu "
+                       "(o apă a acoperișului în două ape, cca. 350 mp, plăci de azbociment din 1991)",
+        "procedura": "procedură simplificată (Legea nr. 99/2016)",
+        "sectorial": True,
+        "durata": "30 (treizeci) de zile calendaristice de la predarea amplasamentului",
+        "garantie": Y("36"),
+        "catalog": False,
+        "decizie": CFR_BV_DECIZIE,
+        "experienta": False, "acces": False, "vizita": True,
+        "distanta": "cca. 290 km (Buzău – Brașov – Făgăraș – Sibiu)",
+        "saptamani": 5,
+        "durata_scurt": "30 zile calendaristice (5 săptămâni)",
+        "lucrari": [
+            "organizarea și delimitarea zonei de lucru, plan de lucru pentru îndepărtarea azbestului notificat la "
+            "Inspectoratul Teritorial de Muncă Sibiu (HG nr. 1875/2005);",
+            "demontarea învelitorii din plăci de azbociment (350 mp) fără spargere, cu umectarea/încapsularea fibrelor, "
+            "manipularea, colectarea și ambalarea etanșă în folie PE și saci big-bag marcați;",
+            "transportul și predarea deșeurilor cu azbest (cod 17 06 05*) la operator autorizat, cu documente de "
+            "trasabilitate (formular de încărcare–descărcare deșeuri periculoase);",
+            "verificarea și pregătirea structurii metalice (pane, contravântuiri), remedierea locală a elementelor "
+            "deteriorate și protecție anticorozivă;",
+            "învelitoare nouă din tablă cutată prevopsită grosime 0,50 mm (350 mp), fixată cu șuruburi autoforante cu "
+            "garnitură EPDM, cu suprapuneri etanșate;",
+            "elemente de tinichigerie (coamă/racord cu apa existentă, borduri, închideri), profile de etanșare și "
+            "elemente pentru evacuarea apelor pluviale;",
+            "curățarea amplasamentului și evacuarea tuturor deșeurilor rezultate.",
+        ],
+        "etape": [
+            "Etapa 0 – Vizionarea obligatorie a obiectivului (str. Dorobanților nr. 22, Sibiu) înainte de depunerea "
+            "ofertei; antemăsurătoarea proprie.",
+            "Etapa 1 – Predarea amplasamentului; plan de lucru azbest notificat la ITM; delimitare, semnalizare, linii "
+            "de ancorare.",
+            "Etapa 2 – Umectare, demontarea plăcilor de azbociment pe tronsoane, coborâre fără aruncare, ambalare etanșă.",
+            "Etapa 3 – Verificarea structurii metalice, remedieri locale, protecție anticorozivă.",
+            "Etapa 4 – Montarea tablei cutate pe tronsonul descoperit în aceeași zi; etanșări și tinichigerie.",
+            "Etapa 5 – Sistem pluvial, verificare vizuală și tehnică, predarea deșeurilor la operator autorizat, "
+            "curățenie, recepție.",
+        ],
+        "materiale": [
+            "tablă cutată prevopsită ", Y("BILKA T35 lucios 0,50 mm, culoare la alegerea beneficiarului (sau echivalent)"),
+            ", cu coame și accesorii de tinichigerie din același material; șuruburi autoforante pentru oțel cu "
+            "garnitură EPDM; profile de etanșare din spumă și bandă butilică; jgheaburi și burlane BILKA; folie PE "
+            "0,2 mm și saci big-bag pentru azbest; soluție de încapsulare a fibrelor; vopsea anticorozivă.",
+        ],
+        "f3": [
+            ("Lista de cantități – Anexa la CS ETT54/3/1/318/2026", [
+                ("1", "Organizarea și pregătirea zonei de lucru", "lucrare", 1),
+                ("2", "Demontarea învelitorii existente din plăci de azbociment", "mp", 350),
+                ("3", "Manipulare, colectare și ambalare plăci de azbociment", "mp", 350),
+                ("4", "Transport și predare deșeuri din azbociment la operator autorizat", "lucrare", 1),
+                ("5", "Verificarea și pregătirea structurii metalice existente", "mp", 350),
+                ("6", "Remedierea locală a elementelor metalice deteriorate, dacă este cazul", "lucrare", 1),
+                ("7", "Învelitoare tablă metalică profilată, grosime 0,5 mm", "mp", 350),
+                ("8", "Elemente de fixare pentru tablă metalică, cu garnituri de etanșare", "buc", 2100),
+                ("9", "Elemente de etanșare și accesorii pentru îmbinări", "ml", 70),
+                ("10", "Elemente de tinichigerie, margini, racorduri, închideri", "ml", 90),
+                ("11", "Elemente pentru evacuarea apelor pluviale", "ml", 60),
+                ("12", "Curățarea și evacuarea deșeurilor rezultate în urma lucrărilor", "lucrare", 1),
+            ]),
+        ],
+        "note_f3": "Sursa: Lista de cantități din Anexa la caietul de sarcini ETT54/3/1/318/05.10.2026 (S.R.T.F.C. "
+                   "Brașov), anunț SCN1182052. Pozițiile 8–11 sunt „conform necesarului/măsurătorilor” – cantitățile "
+                   "sunt estimate de noi și se confirmă la VIZIONAREA OBLIGATORIE a obiectivului. Deșeuri cu azbest "
+                   "estimate la 4,5 t (cca. 13 kg/mp). Garanție de participare 600 lei (6 luni), garanție de bună execuție "
+                   "5%. Fără cerințe de experiență, cifră de afaceri sau ISO.",
+    },
+    "salubris": {
+        "fisier": "ADV1557141_Salubris_Iasi_hidroizolatie",
+        "titlu": "Lucrări de reparații hidroizolație – birourile Salubris S.A., str. Aurel Vlaicu nr. 76, Iași",
+        "autoritate": "SALUBRIS S.A. Iași",
+        "autoritate_scurt": "Salubris S.A. Iași",
+        "email_depunere": "office@salubris.ro (simultan cu postarea ofertei în SEAP)",
+        "nr_anunt": "ADV1557141",
+        "data_anunt": "12.11.2026",
+        "termen": "16.11.2026",
+        "ora": "09:00",
+        "cpv": "45261310-0 – Lucrări de hidroizolare",
+        "valoare": 13000.00,
+        "amplasament": "Birourile Salubris S.A., str. Aurel Vlaicu nr. 76, Iași (terasă cca. 110 mp)",
+        "procedura": "cumpărare directă",
+        "durata": "7 (șapte) zile lucrătoare de la semnarea contractului și emiterea ordinului de începere "
+                  "(maximum admis: 10 zile lucrătoare)",
+        "garantie": "60",
+        "catalog": True,
+        "decizie": SALUBRIS_DECIZIE,
+        "experienta": False, "acces": False, "vizita": False,
+        "distanta": "cca. 300 km (Buzău – Focșani – Bacău – Iași)",
+        "saptamani": 2,
+        "durata_scurt": "7 zile lucrătoare (2 săptămâni)",
+        "lucrari": [
+            "pregătirea suprafeței în funcție de situația existentă – curățare, îndepărtarea porțiunilor desprinse, "
+            "tăierea bulelor (110 mp);",
+            "șapă de corecție a pantei spre gurile de scurgere (15 mp);",
+            "amorsarea suprafeței cu amorsă bituminoasă (110 mp);",
+            "strat izolant din membrană bituminoasă PA 4,2 mm cu ardezie, flexibilitate la rece ≤ -15 °C, termosudată "
+            "(110 mp), cu racordări la atice;",
+            "șlițuirea peretelui pentru rost (8 ml) și rost din tablă zincată fixat pe perete și etanșat (8 ml);",
+            "izolarea gurilor de scurgere (2 buc.), evacuarea deșeurilor.",
+        ],
+        "etape": [
+            "Etapa 1 – Ordinul de începere; aducerea echipei și a materialelor; protejarea zonei de lucru.",
+            "Etapa 2 – Pregătirea suprafeței, șapa de corecție a pantei, uscarea.",
+            "Etapa 3 – Amorsă, membrană PA 4,2 mm termosudată, racordări la atice și la gurile de scurgere.",
+            "Etapa 4 – Șlițuire, rost din tablă zincată, etanșare; proba de etanșeitate, curățenie, recepție.",
+        ],
+        "materiale": [
+            "membrană bituminoasă SBS ", Y("PA 4,2 mm cu ardezie, flexibilitate la rece ≤ -15 °C (Sika/Bauder/Icopal "
+            "sau echivalent)"), ", amorsă bituminoasă cu solvent; șapă de ciment pentru pante; tablă zincată 0,50 mm "
+            "pentru rost; mastic poliuretanic; butelii propan pentru termosudare.",
+        ],
+        "f3": [
+            ("Lista cantităților de lucrări – solicitarea Salubris nr. 33347/12.11.2026", [
+                ("1", "Pregătire suprafață în funcție de situația existentă", "mp", 110),
+                ("2", "Turnare șapă corecție pantă", "mp", 15),
+                ("3", "Amorsare suprafață", "mp", 110),
+                ("4", "Strat izolant PA 4,2 mm (flexibilitate la rece -15 °C)", "mp", 110),
+                ("5", "Șlițuire perete pentru rost", "ml", 8),
+                ("6", "Rost tablă zincată pe perete", "ml", 8),
+                ("7", "Izolații guri scurgere", "buc", 2),
+            ]),
+        ],
+        "note_f3": "Sursa: solicitarea de ofertă Salubris S.A. nr. 33347/12.11.2026 (anunț ADV1557141). Termen de execuție "
+                   "maxim 10 zile lucrătoare, garanție 60 de luni, garanție de bună execuție 7%, plata la 30 de zile. "
+                   "Deplasarea și cazarea echipei (Buzău – Iași) sunt incluse în poziția 1. Informații tehnice: ing. "
+                   "Carmen Damian, 0745 586 852, carmen.damian@salubris.ro.",
+    },
+})
+
 
 # ---------------------------------------------------------------- utilitare docx
 
@@ -1032,7 +1179,7 @@ def genereaza_docx(cheie):
                  "Lista lucrărilor similare executate, cu documente constatatoare",
                  "Lista nominală a personalului și a autovehiculelor pentru acces în cazarmă"]
         sectiuni += [decl_164_165_167, experienta, lista_personal]
-    elif cheie in ("romeo", "loto", "cfr_galati", "cfr_mangalia"):
+    elif cheie in ("romeo", "loto", "cfr_galati", "cfr_mangalia", "cfr_sibiu", "salubris"):
         opis += ["Declarație privind neîncadrarea în art. 164, 165 și 167 din Legea nr. 98/2016",
                  "Lista lucrărilor similare executate, cu documente constatatoare (informativ)"]
         sectiuni += [decl_164_165_167, experienta]
@@ -1258,6 +1405,12 @@ if __name__ == "__main__":
     LICITATII["loto"]["analize"] = analize_bilzi.LOTO
     LICITATII["cfr_galati"]["analize"] = analize_bilzi.CFR_GALATI
     LICITATII["cfr_mangalia"]["analize"] = analize_bilzi.CFR_MANGALIA
+    LICITATII["cfr_sibiu"]["analize"] = analize_bilzi.CFR_SIBIU
+    LICITATII["salubris"]["analize"] = analize_bilzi.SALUBRIS
+    LICITATII["cfr_sibiu"]["depunere"] = "online în SEAP (DUAE + ofertă + garanție de participare 600 lei); vizionare obligatorie"
+    LICITATII["salubris"]["depunere"] = "ofertă postată în SEAP și, la aceeași oră, e-mail la office@salubris.ro"
+    LICITATII["cfr_sibiu"]["grafic"] = [[0.20, 0.30, 0.25, 0.15, 0.10]]
+    LICITATII["salubris"]["grafic"] = [[0.65, 0.35]]
     LICITATII["romeo"]["depunere"] = "e-mail anunturi.seap@bacau.rosilva.ro + prețul publicat în catalogul SICAP"
     LICITATII["loto"]["depunere"] = "e-mail achizitii.publice@loto.ro, cu referire la ADV1556660"
     LICITATII["cfr_galati"]["depunere"] = "online în SEAP (DUAE + ofertă + garanție de participare 1.049 lei)"

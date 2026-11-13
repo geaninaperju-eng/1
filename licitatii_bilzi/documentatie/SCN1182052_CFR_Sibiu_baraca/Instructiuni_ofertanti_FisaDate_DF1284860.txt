@@ -1,0 +1,682 @@
+                                                                                                          Sistemul Electronic de Achizitii Publice
+
+
+                                           Instructiuni pentru ofertanti/candidati
+                                                        (Fisa de date)
+                                                    Tip anunt: Anunt de participare simplificat
+                                                      Tip Legislatie: Legea nr. 99/23.05.2016
+
+
+
+          S-a organizat o consultare de piata: Nu
+
+
+Sectiunea I Autoritatea contractanta
+
+    I.1) Denumire si adrese
+    SNTFC "CFR CALATORI" S.A.
+    Cod de identificare fiscala: RO 11054545; Adresa: Sucursala Regionala de Transport Feroviar de Calatori Brasov ,Bulevardul Eroilor nr.3A,
+    etaj 2; Localitate: Brasov; Cod Postal: 500007; Tara: Romania; Codul NUTS: RO122 Braşov; Adresa de e-mail: paula.cales@cfrcalatori.ro; Nr
+    de telefon: 0372743274; Fax: +40 268477063; Persoana de contact: PAULA CALES; Adresa web a sediului principal al autoritatii/entitatii
+    contractante(URL) https://www.cfrcalatori.ro; Adresa web a profilului cumparatorului: https://www.e-licitatie.ro;
+
+
+    I.2) Achizitie comuna
+    Contractul implica o achizitie comuna: Nu
+    Contractul este atribuit de un organism central de achizitie: Nu
+    Rolul organismului central pe achizitie: -
+
+
+    I.3) Comunicare
+    Documentele de achizitii publice sunt disponibile pentru acces direct, nerestrictionat, complet si gratuit la (Website): https://www.e-
+    licitatie.ro
+    Numar zile pana la care se pot solicita clarificari inainte de data limita de depunere a ofertelor/candidaturilor 6
+    Informatii suplimentare pot fi obtinute de la:
+    Ofertele, candidaturile sau cererile de participare trebuie depuse la:
+
+
+    I.6) Activitate principala
+    Servicii feroviare
+
+
+Sectiunea II Obiectul contractului
+    II.1 Obiectul achizitiei
+          II.1.1 Titlu:
+          Reparații acoperiș baracă metalică la Depoul Sibiu ~S.R.T.F.C Brașov
+          Numar de referinta atribuit dosarului de autoritatea contractanta: RO11054545-1608;
+          SRTFC BV PS 39/2026
+
+
+          II.1.2 Cod CPV Principal:
+          45261910-6 Reparare de acoperisuri (Rev.2)
+
+
+          II.1.3 Tip de contract:
+          Lucrari
+          Executare
+
+
+          II.1.4 Descrierea succinta a contractului sau a achizitiei/achizitiilor
+                   Lucrările de reparare a acoperișului barăcii metalice (clădirea procesului tehnologic) la subunitatea Depoul Sibiu, constând
+          în demontarea plăcilor din azbociment pe o suprafață de 350 mp, montarea de învelitoare nouă din tablă cutată (grosime 0,5 mm) și
+          transportul/eliminarea deșeurilor rezultate, conform specificațiilor din Caietul de sarcini nr. ETT54/3/1/318/05.10.2026.
+          Valoarea estimata a achiziției = 60.000,00 lei fara TVA
+
+
+            Operatorii economici vor putea solicita clarificări cu 6 zile înainte de termenul limita stabilit pentru depunerea ofertelor, entitatea
+          contractantă răspunzând in mod clar si complet tuturor solicitărilor de clarificări/informațiilor suplimentare cu 4 zile înainte de
+          termenul stabilit pentru depunerea ofertelor.
+          Entitatea contractanta va răspunde doar la solicitările de clarificări adresate de operatorii economici pana la termenul stabilit.
+
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                Pagina 1
+                                                                                                              Sistemul Electronic de Achizitii Publice
+
+
+          II.1.5) Valoarea totala estimata:
+          Valoarea estimata fara TVA : 60000 ; Moneda: RON
+
+
+          Alte valori:
+          Valoarea garantiei de participare: 600 RON (1,00%)
+
+
+          II.1.6) Impartire in loturi:
+          Nu
+
+
+    II.2 Descriere
+          II.2.3 Locul de executare
+          Cod NUTS: RO122 Braşov
+          Locul principal de executare:
+          Conform cerințelor Caietului de sarcini nr. ETT54/3/1/318/05.10.2026
+
+
+          II.2.4 Descrierea achizitiei publice
+          (natura si cantitatea lucrarilor, produselor sau serviciilor sau o mentiune privind nevoile si cerintele)
+          Lucrările de reparare a acoperișului barăcii metalice (clădirea procesului tehnologic) la subunitatea Depoul Sibiu, constând în
+          demontarea plăcilor din azbociment pe o suprafață de 350 mp, montarea de învelitoare nouă din tablă cutată (grosime 0,5 mm) și
+          transportul/eliminarea deșeurilor rezultate, conform specificațiilor din Caietul de sarcini nr. ETT54/3/1/318/05.10.2026.
+
+
+          II.2.5 Criterii de atribuire
+          Pretul cel mai scazut
+
+
+
+          II.2.7 Durata contractului, concesiunii, a acordului-cadru sau a sistemului dinamic de achizitii
+          Durata in luni: -; Durata in zile : 30
+          Contractul se reinnoieste : Nu
+
+
+          II.2.10 Informatii privind variantele
+          Vor fi acceptate variante: Nu
+
+
+          II.2.11 Informatii privind optiunile
+          Optiuni: Nu
+
+
+          II.2.12 Informatii privind cataloagele electronice
+          Ofertele trebuie sa fie prezentate sub forma de cataloage electronice sau sa includa un catalog electronic: Nu
+
+
+          II.2.13 Informatii despre fondurile Uniunii Europene
+          Achizitia se refera la un proiect si/sau program finantat din fonduri ale Uniunii Europene: Nu
+
+
+          II.2.14 Informatii suplimentare
+          -
+
+
+          Procedura reprezinta o reluare a unei proceduri sau lot din trecut?
+          Nu
+
+
+          Este necesar a se completa formularul cu utilaje disponibile pentru contract?
+          Achizitia se refera la un proiect in care se solicita operatorilor economici sa declare utilajele pe care le vor utiliza in derularea
+          contractului (Conform HG NR. 342/2022): Nu
+
+
+          Incadrarea achizitiei in categoriile de produse si servicii la care se pot aplica criterii de atribuire ecologice
+
+          Autoritatea contractanta certifica in mod explicit ca a verificat categoriile prevazute in HG 427 din 24 aprilie 2025 pentru aprobarea
+          Programului national de achizitii ecologice 2025-2030 si achizitia pe care o deruleaza nu se poate incadra la nici una dintre acestea
+
+
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                    Pagina 2
+                                                                                                            Sistemul Electronic de Achizitii Publice
+
+
+          Achizitie strategica
+          Procedura de achizitii are scopul de a reduce impactul achizitiei asupra mediului, de a indeplini obiectivele sociale si/sau de a
+          cumpara o lucrare, un bun sau un serviciu inovator. (BT-06) Nu
+          Achizitie ecologica
+          Contractul implica un proces de achizitii de bunuri, servicii si lucrari cu un impact de mediu redus pe toata durata de viata a
+          acestora. (BT-774) Nu
+          Achizitie sociala
+          Contractul urmareste un obiectiv social promovat de lucrarile, de bunurile sau de serviciile respective (de exemplu, conditii de
+          munca echitabile). (BT-775) Nu
+          Achizitie in domeniul inovarii
+          Contractul implica achizitionare de lucrari, bunuri sau servicii inovatoare. (BT-776) Nu
+          Accesibilitate
+          Sunt utilizate in specificatiile tehnice a criteriilor de accesibilitate pentru persoanele cu handicap (BT-754) Nu
+    II.3 Ajustarea pretului contractului
+          Nu
+
+
+Sectiunea III Informatii juridice, economice, financiare si tehnice
+
+
+    III.1) CONDITII DE PARTICIPARE:
+
+          III.1.1 a) Situatia personala a candidatului sau ofertantului
+          Motive de excludere aplicabile în temeiul legislației selectate pentru procedură:
+          1. Corupție
+          2. Frauda
+          3. Participarea la o organizație criminală
+          4. Infracțiuni teroriste sau infracțiuni legate de activități teroriste
+          5. Munca copiilor și alte forme de trafic de persoane
+          6. Combaterea spălării banilor sau a finanțării terorismului
+          7. Încălcarea obligației de plată a impozitelor
+          8. Încălcarea obligației de plată a contribuțiilor la asigurările sociale
+          Motive de excludere indicate de autoritatea contractantă:
+          Cerinta 1:
+          Motiv excludere:
+          Încălcarea obligațiilor în domeniile legislației de mediu
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 2:
+          Motiv excludere:
+          Încălcarea obligațiilor în domeniile legislației sociale
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 3:
+          Motiv excludere:
+          Încălcarea obligațiilor în domeniile legislației muncii
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 4:
+          Motiv excludere:
+          Faliment
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                  Pagina 3
+                                                                                                             Sistemul Electronic de Achizitii Publice
+
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 5:
+          Motiv excludere:
+          Insolvență
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 6:
+          Motiv excludere:
+          Concordat
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 7:
+          Motiv excludere:
+          Situații similare, în temeiul legislației naționale, cum ar fi falimentul
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 8:
+          Motiv excludere:
+          Active administrate de lichidator
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 9:
+          Motiv excludere:
+          Activitățile economice sunt suspendate
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 10:
+          Motiv excludere:
+          Abaterea profesională gravă
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 11:
+          Motiv excludere:
+          Acorduri cu alți operatori economici care vizează denaturarea concurenței
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 12:
+          Motiv excludere:
+          Conflict de interese care decurge din participarea la procedura de achiziții publice
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie să se regăsească în situațiile prevăzute la art. 71, 72 - 73 din Legea nr.
+          99/2016, cu modificările și completările ulterioare. Persoanele cu funcție de decizie din cadrul entității contractante cu privire la
+          organizarea, derularea și finalizarea procedurii de atribuire sunt: Răzvan CÎRJAN – Director, Radu CALEȘ – Contabil Șef , Valentin
+          BULMACI - Șef Serviciu OTD IT, Paula CALEȘ - Șef Serviciu Achiziții și Administrativ
+
+
+          Cerinta 13:
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                   Pagina 4
+                                                                                                             Sistemul Electronic de Achizitii Publice
+
+          Motiv excludere:
+          Implicare directă sau indirectă în pregătirea acestei proceduri de achiziții publice
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie să se regăsească în situațiile prevăzute la art. 71, 72 - 73 din Legea nr.
+          99/2016, cu modificările și completările ulterioare. Persoanele cu funcție de decizie din cadrul entității contractante cu privire la
+          organizarea, derularea și finalizarea procedurii de atribuire sunt: Răzvan CÎRJAN – Director, Radu CALEȘ – Contabil Șef , Valentin
+          BULMACI - Șef Serviciu OTD IT, Paula CALEȘ - Șef Serviciu Achiziții și Administrativ
+
+
+          Cerinta 14:
+          Motiv excludere:
+          Încetare anticipată, daune-interese sau alte sancțiuni comparabile
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+          Cerinta 15:
+          Motiv excludere:
+          Au fost găsiți vinovați de fals în declarații, au divulgat informații, nu au putut furniza documentele necesare și au obținut informații
+          confidențiale ale acestei proceduri
+          Descriere:
+          Ofertanții, terți susținători, subcontractanții propuși nu trebuie sa se regăsească în situațiile prevăzute la art. 180 din Legea nr.
+          99/2016, cu modificările si completările ulterioare.
+
+
+
+          III.1.1 b) Capacitatea de exercitare a activitatii profesionale
+          Cerinta 1:
+          Înscrierea în registrul comerțului
+          Criteriu selectie:
+          Înregistrare într-un registru comercial
+          Descriere:
+          Operatorii economici ce depun oferta trebuie să dovedească o formă de înregistrare în condițiile legii din țara de rezidență, din care
+          să reiasă că operatorul economic este legal constituit, că nu se află în niciuna dintre situațiile de anulare a constituirii precum și
+          faptul că are capacitatea profesională de a realiza activitățile care fac obiectului contractului sectorial. Se va completa DUAE de către
+          operatorii economici participanți la procedura, subcontractanti si/sau terti sustinatori de atribuire cu informații aferente situației lor.
+            Conform prevederilor art.205 alin.(2) din Legea nr.99/2016, documentele justificative care probeaza indeplinirea celor asumate
+          prin completarea DUAE, respectiv Certificat Constatator emis de ONRC, sau in cazul ofertantilor straini, documente echivalente
+          emise in tara de rezidenta, urmeaza sa fie prezentate, la solicitarea entitatii contractante doar de catre ofertantul clasat pe primul
+          loc, in clasamentul intermediar intocmit la finalizarea evaluarii ofertelor.
+            Informatiile cuprinse in Certificatul Constatator trebuie sa fie reale/actuale la data prezentarii documentului.
+            Documentele ofertanților persoane juridice străine se vor prezenta însoțite de traducerea autorizată a acestora în limba română.
+
+
+
+          III.1.2) Capacitatea economica si financiara
+
+          III.1.3.a) Capacitatea tehnica si/sau profesionala
+          Informatii si/sau nivel(uri) minim(e) necesare pentru evaluarea respectarii cerintelor mentionate:
+          Proporția de subcontractare
+          Criteriu selectie:
+          Proporția subcontractării
+          Modalitatea de indeplinire:
+          Informatii privind partea din contract pe care ofertantul are eventual intentia sa o subcontracteze. Se va completa DUAE de catre
+          operatorii economici participanti la procedura de atribuire cu informatiile privind partea din contract pecare eventual, au intentia sa
+          o subcontracteze.
+                     În cazul în care operatorul economic intenţionează să subcontracteze o parte/părţi din contract, DUAE include şi informaţii
+          privind partea din contract care urmează a fi eventual subcontractată, şi va avea anexat acordul de subcontractare.
+                    Subcontractanţii pe ale căror capacităţi se bazează ofertantul trebuie să completeze, la rândul lor, DUAE separat, incluzând
+          toate informaţiile care prezintă relevanţă din perspectiva capacităţilor subcontractanţilor pe care se bazează ofertantul.
+           Operatorul economic clasat pe primul loc , la finalizarea evaluarii ofertelor, dupa aplicarea criteriului de atribuire va fi obligat sa
+          prezinte documentele justificative in sustinerea privind partea din contract pe care eventual are intentia sa o subcontracteze
+
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                   Pagina 5
+                                                                                                            Sistemul Electronic de Achizitii Publice
+
+
+          III.1.3.b) Standarde de asigurare a calitatii si de protectie a mediului
+
+          III.1.4) Reguli si criterii obiective de participare:
+
+          III.1.5) Informatii privind contractele rezervate:
+          Nu
+
+
+          III.1.6) Depozite valorice si garantii solicitate:
+          III.1.6.a) Garantie de participare:
+          a)GP:Conf. art. 164 din legea 99/2016 actualiz, in val. de 600 lei sau echivalent leu/valuta la cursul stabilit de BNR inainte cu 6 zile de
+          data limita stabilita pentru depunere, valab 6 luni de zile de la term. limita de depunere, va fi constituita conf. Art 42 din HG
+          394/2016 actualiz. prin: → virament bancar sau OP in contul SRTFC Brașov:RO04 BTRL RONC RT02 1866 6006 deschis la Banca
+          Transilvania;cod fiscal: 28604716 ; sau → printr-un instrument de garantare emis în condiţiile legii În cond. art. 228 alin. (4) din Lege,
+          comisia de evaluare solicită clarificări, în termen de o zi lucrătoare de la data-limită de depunere a ofertelor, privind eventualele
+          neconcordanţe referitoare la îndeplinirea cond. de formă a GP, precum şi la cuantumul sau valabilitatea acesteia, acordând
+          ofertantului un termen de 3 zile pentru a răspunde la solicitarea de clarificare, sub sancţiunea respingerii ofertei ca inacceptabilă. EC
+          are dreptul de a retine garantia,ofertantul pierzând astfel suma constituita conf art.43 din HG 394/2016. Restituirea garantiei se
+          realiz.potrivit art.44 din HG nr.394/2016, în baza cererii depuse conf. Formular 7 din sect. Formulare
+          III.1.6.b) Garantie de buna executie:
+          GBE:Cuantumul GBE 5% din val.contract. fara TVA si se va constitui in termen de 5 zile lucratoare de la data semnare contract (acest
+          termen poate fi prelungit la solicit. justif. a contractantului, fără a depăşi 15 zile de la data semnăre contract) prin viram. bancar sau
+          instrument de garantare emis de o instit de credit din Romania sau din alt stat sau de o societ. de asig. in conditiile legii. - in cazul in
+          care val GBE este mai mica de 5000 lei, se poate constit prin dep numerar la casieria SRTFC Brasov - prin ret succesive din sume dat
+          pt fact partiale, caz in care contractantul are oblig de a desch la Trezoreria Statului un cont la dispozitia SRTFC Brasov pe care il va
+          alimenta initial cu minim 0,5% din pretul contractului fara TVA conform art. 46, alin. 6 din HG 394/2016 cu modificarile si
+          completarile ulterioare
+
+
+          III.1.7) Principalele condiții de finanțare și modalități de plată și/sau trimitere la dispozițiile relevante care
+          le reglementează:
+          -
+
+
+          III.1.8) Forma juridica pe care o va lua grupul de operatori economici caruia i se atribuie contractul:
+                   Asociere conform art. 66. din Legea privind achizitiile sectoriale nr 99/2016
+
+
+          III.1.9) Legislatia aplicabila:
+          a) Legea privind achizitiile sectoriale nr 99/2016
+          b) Legea privind remediile si caile de atac in materie de atribuire a contractelor de achizitie publica, a contractelor sectoriale si a
+          contractelor de concesiune de lucrari si concesiune de servicii, precum si pentru organizarea si functionarea Consiliului National de
+          Solutionare a Contestatiilor nr 101/2016;
+          c) www.anap.gov.ro
+          d) H.G nr. 394/2016 - Normele metodologice de aplicare a prevederilor referitoare la atribuirea contractului sectorial/acordului-
+          cadru din Legea nr. 99/2016 privind achizitiile sectoriale
+          e) Legea 10/1995 privind calitatea în construcții;
+          f) HG nr.273/1994 modificat prin HG nr.940/2006 si HG nr.1303/2007 – privind aprobarea Regulamentului de receptie a lucrarilor
+          de constructii si instalatii aferente acestora
+          g) O.U.G. nr.195/2005 privind protectia mediului actualizata
+          h) O.U.G. nr. 92/2021 privind regimul deseurilor
+          i) H.G. nr. 1061/2008 privind transportul deşeurilor periculoase şi nepericuloase pe teritoriul României;
+          j) O.U.G. nr. 2/2021 privind depozitarea deşeurilor, cu modificările şi completările ulterioare;
+          k) O.U.G. nr.68 /2007 privind raspunderea de mediu cu referire la prevenirea si repararea prejudiciului asupra mediului
+
+
+    III.2) CONDITII REFERITOARE LA CONTRACT:
+
+          III.2.2) Executarea contractului este supusa altor conditii speciale:
+          Nu
+
+
+          III.2.3) Informatii privind personalul responsabil cu executarea contractului:
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                  Pagina 6
+                                                                                                         Sistemul Electronic de Achizitii Publice
+
+          Obligatie de a preciza numele si calificarile profesionale ale angajatilor desemnati pentru executarea contractului: Nu
+          Precizati etapa in care este aplicabila cerinta : Nu este obligatorie
+
+
+Sectiunea IV Procedura
+
+    IV.1 Descriere
+
+          IV.1.1 Tipul procedurii si modalitatea de desfasurare:
+          IV.1.1.a) Modalitatea de desfasurare a procedurii de atribuire:
+          Online
+          IV.1.1.b) Tipul Procedurii
+          Procedura simplificata
+          Intr-o singura etapa
+
+
+          IV.1.3 Informatii privind un acord-cadru sau un sistem dinamic de achizitii:
+          Pot fi depuse oferte pentru: Contract de achizitii publice
+
+
+          IV.1.6 Informatii despre licitatia electronica
+          Se va organiza o licitatie electronica: Nu
+
+
+          IV.1.8 Informatii despre Acordul privind achizitiile publice (AAP)
+          Achizitia intra sub incidenta acordului privind contractele de achizitii publice: Nu
+
+
+    IV.2 Informatii administrative
+
+          IV.2.4 Limbile in care pot fi depuse ofertele sau cererile de participare
+          Romana
+          Moneda in care se transmite oferta financiara: : RON
+
+
+          IV.2.6 Perioada minima pe parcursul careia ofertantul trebuie sa isi mentina oferta
+          6 luni (de la termenul limita de primire a ofertelor)
+    IV.4 Prezentarea ofertei
+
+          IV.4.1 Modul de prezentare al propunerii tehnice
+          Prin propunerea depusa, ofertantul are obligatia de a face dovada conformitatii produselor pe care le va furniza cu cerintele
+          prevazute în Caietului de sarcini.
+
+
+          Ofertantul trebuie sa prezinte :
+
+
+          1. PROPUNEREA TEHNICA - va cuprinde o descriere detaliată a modului în care ofertantul îndeplinește punctual cerințele impuse
+          pentru produsul care face obiectul contractului sectorial de produse, urmărind capitolele/cerințele caietelor de sarcini, cu
+          prezentarea de documente edificatoare în susținerea îndepliniri cerințelor.;
+
+
+           2. FORMULARUL DE PROPUNERE TEHNICA, din sectiunea Formulare - În cadrul propunerii tehnice, ofertantul va completa și
+          formularul de propunere tehnică, conținând informații referitoare la capitolele/secțiunile/categoriile minime de informații care vor fi
+          completate în coloana 3 din tabel, reprezentând modul succint dar precis în care ofertantul susține îndeplinirea punctuală a cerinței
+          prevazute în Caietul de sarcini, cu indicarea capitolului/paginii din Propunerea tehnică unde se regasește tratată detaliat respectiva
+          cerință/solicitare și/sau a documentelor prezentate în susținerea îndeplinirii cerinței.
+
+
+             NOTA : FORMULARUL DE PROPUNERE TEHNICĂ VA FI ATAȘAT ȘI ÎN FORMAT EDITABIL
+
+
+          3. O declaratie pe propria raspundere privind faptul ca la elaborarea ofertei a tinut cont de obligatiile relevante din domeniile
+          mediului, social si al relatiilor de munca, conform reglementarilor în vigoare la nivel national. Informatii referitoare la domeniul
+          mediului se pot obtine de la Ministerul Mediului (www.mmediu.gov.ro), iar informatii referitoare la domeniul social si al relatiilor de
+          munca, se pot obtine de la Ministerul Muncii si Justitiei Sociale (www.mmuncii.gov.ro);
+
+
+          4. alte documente solicitate prin Caietul de sarcini.
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                              Pagina 7
+                                                                                                             Sistemul Electronic de Achizitii Publice
+
+
+
+          Propunerea tehnica va fi numerotata pe fiecare pagina.
+
+
+          IV.4.2 Modul de prezentare al propunerii financiare
+          Propunerea financiara se va prezenta conform FORMULARULUI DE PROPUNERE FINANCIARA, din sectiunea Formulare .
+              Valoarea totala va fi exprimata in lei/contract , fara TVA si va include toate cheltuielile efectuate de ofertant pentru livrarea
+          produsului.
+             Valoarea totala a propunerii financiare se va cripta in SEAP, conform prevederilor Art. 67, alin. 2 din HG 394/2016.
+              Pretul total al contractului nu va avea mai mult de 2 (doua) zecimale si este ferm.
+            Data pentru care se determina echivalenta leu/valuta: curs valabil pentru cursul stabilit de BNR inainte cu 6 zile de data limita
+          stabilita pentru depunerea ofertelor.
+             Evaluarea ofertelor se va realiza prin compararea valorii totale a contractului, exprimata în lei, fara TVA.
+              Oferta castigatoare va fi desemnata in baza criteriului „pretul cel mai scazut”, in conditiile indeplinirii tuturor specificatiilor din
+          documentatia de atribuire.
+              In cazul in care se constata ca ofertele clasate pe primul loc au preturi egale, in vederea departajarii ofertelor, entitatea
+          contractanta (prin intermediul SEAP la Sectiunea “Intrebari”) va solicita reofertarea, prin prezentarea unei noi propuneri financiare.
+          Noua propunere financiara va fi depusa doar si numai in urma solicitarii entitatii contractante.
+          Propunerea financiara va fi numerotata pe fiecare pagina.
+
+
+          IV.4.3 Modul de prezentare al ofertei
+          Depunerea ofertei si a documentelor de înscriere
+            Adresa la care se depune oferta si documentele de inscriere: SEAP (www.e-licitatie.ro).
+          • Documentele din cadrul ofertei vor fi numerotate, semnate si stampilate (acolo unde este cazul) se vor incarca in SEAP si vor
+          purta semnatura electronica extinsa, bazata pe un certificate calificat, eliberat de un furnizor de servicii de certificare acreditat. In caz
+          contrar oferta va declarata inacceptabila in temeiul art.143 lit.j) din HG 394/2016.
+          • Ofertantul trebuie sa ia toate masurile astfel incat oferta sa fie transmisa in SEAP pana la data limita de depunere a ofertelor,
+          conform prevederilor art. 67 alin (1) din HG nr. 394/2016.
+          • Pentru informatii suplimentare privind depunerea in format electronic a ofertelor in SEAP, ofertantii se pot adresa la Agentia
+          pentru Agenda Digitala a Romaniei (AADR), tel. 021/303.29.97, fax:021/305.28.99, e-mail: contact@aadr.ro
+
+
+          Oferta va cuprinde 4 fisiere separate:
+
+
+          • Fisier 1 - documentele de inscriere ( modele atașate la sectiunea FORMULARE ) ;
+
+
+          •    DUAE (raspuns) va fi completat direct in SEAP in sectiunea corespunzatoare a procedurii, de catre
+          ofertant/asociat/subcontractant/tert sustinator dupa caz . Detalii cu privire la intocmirea DUAE veți regăsi, după autentificarea in
+          sistem, in secțiunea „Informații DUAE” – Ghid de completare DUAE ofertant.
+
+
+          • Fisier 2
+                - Declaratie privind acordul prelucrarii datelor cu caracter personal ( model atasat la sectiunea FORMULARE )
+                 - Declaratie pe proprie raspundere privind neincadrarea in situatiile prevazute la art. 73 din Legea 99/2016( model atasat la
+          sectiunea FORMULARE )
+                - Declaratie pe proprie raspundere privind partea/părțile din ofertă care au caracter confidențial conform prevederilor Art. 70
+          alin (4) din Legea nr. 99/2016 (model atașat la
+                  sectiunea FORMULARE )
+
+
+          • Fisier 3 - propunerea tehnica ( propunere tehnică + formular de propunere tehnică și în format editabil conform model atașat la
+          secțiunea FORMULARE ) ;
+
+
+          • Fisier 4 - propunerea financiara ( model atașat la sectiunea FORMULARE ) ; .
+
+
+          • Ofertantul va anexa in fisierul 1 un opis al tuturor documentelor prezentate in oferta, din care sa rezulte toate documentele
+          cuprinse in fiecare fisier.
+
+
+          • Documentele de inscriere care vor fi depuse sunt :
+          - Cerere de participare la procedura (Formularul 1 din Sectiunea Formulare)
+          - Imputernicire (daca este cazul). Aceasta va fi insotita de o copie a actului de identitate al persoanei imputernicite (buletin de
+          identitate, carte de identitate, pasaport).
+          - Garantia de participare. Avand in vedere dispozitiile art.138 (3) din HG 394/2016,comisia de evaluare solicită clarificări, in termen
+          de o zi lucrătoare de la data-limită de depunere a ofertelor, privind eventualele neconcordanţe referitoare la indeplinirea condiţiilor
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                   Pagina 8
+                                                                                                           Sistemul Electronic de Achizitii Publice
+
+          de formă a garanţiei de participare, precum şi la cuantumul sau valabilitatea acesteia, acordând ofertantului un termen de 3 zile
+          pentru a răspunde la solicita.
+          - Acord de asociere, daca este cazul. Ofertantii vor prezenta acordul de asociere odata cu oferta si DUAE pana la data limita a
+          depunere a ofertelor. Documentele justificative care probeaza cele asumate in acordul de asociere vor fi solicitate de Entitatea
+          Contractanta doar ofert declarat castigator.
+          - Ofertantul va prezenta o declaratie pe proprie raspundere de acceptare a conditiilor contractuale prevazute in modelul contract
+          conform Formularului 2 din Sectiunea Formulare.
+          - Ofertantul va mentiona instrumentul de garantare prin care se va constitui garantia de buna executie precum si Contul (cod
+          IBAN) si banca in care se va restitui garantia de participare de catre entitatea contractanta.
+
+
+          • Comisia de evaluare va consemna in procesul verbal al sedintei de deschidere toate ofertele depuse, care va fi incarcat in SEAP la
+          Sectiunea ” Procese verbale si declaratii”, in cel mult o zi lucratoare de la deschidere, in conformitate cu prevederile art. 71 alin (5)
+          din HG nr. 394/2016.
+          • Dupa deschiderea ofertelor comisia de evaluare va solicita eventualele clarificari si va continua cu analiza solicitarilor din
+          documentatia de atribuire referitoare la documentele de calificare, si oferta tehnica.
+          • Dupa finalizarea verificarilor documentelor de calificare si a propunerilor tehnice depuse de ofertanti, entitatea contractanta
+          selecteaza in SICAP, ofertele care au fost declarate admisibile, precum si pe cele care au fost declarate inacceptabile sau neconforme
+          • Conform art. 205 (1) din Legea nr. 99/2016, entitatea contractanta poate solicita ofertantilor sa depuna toate sau o parte dintre
+          documentele justificative ca dovada a informatiilor cuprinse in DUAE, in orice moment pe durata desfasurarii procedurii de atribuire,
+          daca acest lucru este necesar pentru a asigura desfasurarea corespunzatoare a procedurii. Ofertantul clasat pe primul loc dupa
+          aplicarea criteriului de atribuire asupra ofertelor admisibile va face dovada indeplinirii cerintelor de calificare, prin prezentarea, la
+          solicitarea entitatii contractante, de regula a documentelor solicitate
+          • Oferta castigatoare va fi desemnata in baza criteriului „pretul cel mai scazut”, in conditiile indeplinirii tuturor specificatiilor din
+          documentatia de atribuire si dupa prezentarea documentelor justificative actualizate prin care sa demonstreze indeplinirea tuturor
+          criteriilor de calificare si selectie, in conformitate cu informatiile cuprinse in DUAE.
+          • Persoane autorizate sa asiste la deschiderea ofertelor: NU
+
+
+Sectiunea VI Informatii suplimentare
+
+    VI.1 Aceasta achizitie este periodica
+
+    Nu
+    Programul estimat de publicare a anunturilor viitoare : -
+
+
+    VI.2 Informatii privind fluxurile de lucru electronice
+
+    Se va utiliza sistemul de comenzi electronice: Nu
+    Se va accepta facturarea electronica: Da
+    Se vor utiliza platile electronice: Nu
+
+
+    VI.3 Informatii suplimentare
+
+              Perioada de valabilitate a ofertelor – 6 luni de la termenul limita de depunere a ofertelor.
+         Note: a) entitatea contractanta are dreptul de a solicita ofertantilor, in circumstante exceptionale, inainte de expirarea perioadei de
+    valabilitate a ofertei, prelungirea acestei perioade;
+                 b) ofertantul are obligatia de a comunica entitatii contractante daca este sau nu este de acord cu prelungirea perioadei de
+    valabilitate a ofertei;
+                c) ofertantu care nu este de acord cu prelungirea perioadei de valabilitate a ofertei se considera ca si-a retras oferta, fara ca
+    acest fapt sa atraga pierderea garantiei de participare.
+       Limba de redactare a ofertei - Romana.
+       Toate certificatele si documentele emise in alta limba decat romana vor fi insotite de traducerea autorizata a acestora in limba romana.
+       In cazul in care se depune notificare sau contestatie, dupa caz se vor aplica prevederile Legii nr. 101/2016. Solicitarile de clarificari ale
+    potentialilor ofertanti se vor adresa in mod exclusiv in SEAP la Sectiunea ”Intrebari” din cadrul procedurii de atribuire derulate prin
+    mijloace electronice iar raspunsurile la acestea vor fi publicate in SEAP, la Sectiunea ”Documentatie si Clarificari” din cadrul anuntului de
+    participare, entitatea contractanta urmand sa nu dea curs solicitarilor adresate prin alta modalitate de comunicare decat cea stabilita in
+    conformitate cu prevederile art. 78 alin. (1) din Legea nr. 99/2016 pentru comunicarile ulterioare depunerii ofertelor. Comisia de evaluare
+    va transmite solicitarile de clarificare privind ofertele depuse, in SEAP la Sectiunea “Intrebari”.
+      Operatorii economici vor transmite raspunsurile la clarificari si eventualele documente solicitate pe parcursul evaluarii ofertelor prin
+    intermediul SEAP la Sectiunea “Intrebari”, integral in sectiunea corespunzatoare respectivei solicitari, sub forma unuia sau a mai multor
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                                 Pagina 9
+                                                                                                          Sistemul Electronic de Achizitii Publice
+
+    documente/fisiere distincte semnate cu semnatura electronica.
+        In cazul in care se constata ca ofertele clasate pe primul loc au preturi egale, in vederea departajarii ofertelor, entitatea contractanta
+    (prin intermediul SEAP la Sectiunea “Intrebari” va solicita reofertarea, prin prezentarea unei noi propuneri financiare. Noua propunere
+    financiara va fi depusa doar si numai in urma solicitarii entitatii contractante.
+    Detalii cu privire la intocmirea DUAE veți regăsi, după autentificarea in sistem, in secțiunea „Informații DUAE” – Ghid de completare DUAE
+    ofertant.
+      Cerintele tehnice definite la nivelul anuntului de participare, caietului de sarcini sau altor documente complementare, prin trimiterea
+    standardelor, la un anumit producator, la marci, brevete, tipuri, la o origine sau la o productie/metoda specifica de
+    fabricatie/prestare/executie, vor fi intelese ca fiind insotite de mentiunea ”sau echivalent”.
+
+
+    VI.4 Proceduri de contestare
+
+          VI.4.1 Organismul de solutionare a contestatiilor
+          Consiliul National de Solutionare a Contestatiilor
+          Adresa: Str. Stavropoleos nr. 6, sector 3; Localitate: București; Cod Postal: 030084; Tara: Romania; Codul NUTS: RO321 Bucuresti;
+          Adresa de e-mail: office@cnsc.ro; Nr de telefon: +40 213104641; Adresa web a sediului principal al autoritatii/entitatii
+          contractante(URL) http://www.cnsc.ro;
+
+
+          VI.4.3 Procedura de contestare
+          Precizari privind termenul (termenele) pentru procedurile de contestare:
+          Termenele de exercitare a cailor de atac sunt cele prevazute in Legea nr. 101/2016.
+
+
+          VI.4.4 Serviciul de la care se pot obtine informatii privind procedura de contestare
+          -
+
+
+
+
+Sistemul Electronic de Achizitii Publice, 10.11.2026 14:04                                                                              Pagina 10
+
