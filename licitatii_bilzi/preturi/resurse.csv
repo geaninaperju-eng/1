@@ -120,3 +120,6 @@ R11;Deplasare echipă și scule cu microbuzul (km parcurs);km;Transport;1.5;Esti
 R12;Plan de lucru pentru îndepărtarea azbestului și notificarea ITM (HG 1875/2005);buc;Material;600;Estimare – de verificat
 R13;Membrană bituminoasă SBS cu ardezie 4,2 mm, flexibilitate la rece ≤ -15 °C;mp;Material;21.5;Estimare (membrane SBS -15/-20 °C cu ardezie, rolă 10 mp ≈ 250–270 lei cu TVA) – de verificat
 R14;Polizor unghiular / freză pentru șlițuire;ore;Utilaj;6;Estimare – de verificat
+R15;Încărcare, transport și eliminare deșeuri inerte (țiglă, moloz, lemn) la depozit autorizat;t;Transport;190;Calcul din T02: container 7 mc ≈ 9,5 t moloz la 1.800 lei → ~190 lei/t – de verificat cu un operator din Sibiu
+R16;Cherestea rășinoase (grinzi, căpriori, pane) tratată, pentru înlocuiri la șarpantă;mc;Material;990;Depozit Cherestea Chitila 02.10.2026 (preturi_online.csv): grinzi 10×15×400 59,50 lei/0,06 mc = 992 lei/mc fără TVA
+R17;Linii de ancorare, plase de protecție, prelate și semnalizare zonă de lucru (set pentru șantier);buc;Material;1800;Estimare – de verificat

@@ -735,6 +735,103 @@ LICITATII.update({
 })
 
 
+# ---------------------------------------------------------------- licitații 16.11.2026
+LICITATII.update({
+    "cfr_sibiu_admin": {
+        "fisier": "CN1098200_CFR_Sibiu_acoperis_admin",
+        "titlu": "Lucrări de reparații acoperiș clădire administrativă la Depoul Sibiu – S.R.T.F.C. Brașov",
+        "autoritate": "SNTFC „CFR CĂLĂTORI” S.A. – Sucursala Regională de Transport Feroviar de Călători Brașov",
+        "autoritate_scurt": "S.R.T.F.C. Brașov",
+        "email_depunere": "depunere online în SEAP (licitația deschisă CN1098200)",
+        "nr_anunt": "CN1098200",
+        "data_anunt": "09.11.2026",
+        "termen": "14.12.2026",
+        "ora": "15:00",
+        "cpv": "45261910-6 – Reparare de acoperișuri",
+        "valoare": 300000.00,
+        "amplasament": "Depoul Sibiu – clădirea administrativă (construită în 1910), str. Dorobanților nr. 22, Sibiu "
+                       "(învelitoare din țiglă ceramică pe șarpantă din lemn, cca. 1.000–1.300 mp, 10 coșuri de fum)",
+        "procedura": "licitație deschisă (Legea nr. 99/2016)",
+        "sectorial": True,
+        "durata": "60 (șaizeci) de zile calendaristice de la predarea amplasamentului",
+        "garantie": Y("36"),
+        "catalog": False,
+        "decizie": CFR_BV_DECIZIE,
+        "experienta": False, "acces": False, "vizita": True,
+        "distanta": "cca. 290 km (Buzău – Brașov – Făgăraș – Sibiu)",
+        "saptamani": 9,
+        "durata_scurt": "60 zile calendaristice (9 săptămâni)",
+        "lucrari": [
+            "organizarea și delimitarea zonei de lucru, protecția spațiilor de birouri care rămân în funcțiune, linii "
+            "de ancorare și plase de protecție, schelă pe zonele de streașină;",
+            "desfacerea învelitorii din țiglă ceramică (1.000 mp), sortarea țiglei recuperabile, coborârea controlată "
+            "cu macaraua/tobogan, fără aruncare de la înălțime;",
+            "demontarea șipcilor și a elementelor deteriorate ale suportului învelitorii;",
+            "demolarea controlată, etapizată, a celor 10 coșuri de fum scoase din uz și închiderea golurilor în șarpantă;",
+            "verificarea vizuală și tehnică a șarpantei, înlocuirea elementelor degradate (căpriori, pane, cosoroabe) "
+            "cu lemn de rășinoase tratat ignifug și fungicid, consolidări locale cu eclise și scoabe;",
+            "verificarea streașinii pe toată lungimea: înlocuirea elementelor degradate, curățarea și vopsirea în două "
+            "straturi a elementelor din lemn păstrate;",
+            "folie anticondens min. 120 g/mp, contrașipci și șipci din rășinoase tratate;",
+            "învelitoare nouă din țiglă metalică 0,50 mm, RAL 8017 maro închis, cu protecție anticorozivă Z275 și "
+            "strat de vopsea rezistent la UV, fixată cu șuruburi autoforante cu garnitură EPDM;",
+            "tinichigerie aferentă: coame, dolii, șorțuri la racorduri, borduri de streașină și fronton, pazii;",
+            "încărcarea, transportul și predarea deșeurilor (țiglă, moloz, lemn) la depozit autorizat, cu documente "
+            "de trasabilitate; curățarea finală și eliberarea amplasamentului.",
+        ],
+        "etape": [
+            "Etapa 0 – Vizionarea obligatorie a obiectivului (str. Dorobanților nr. 22, Sibiu) înainte de depunerea "
+            "ofertei; măsurători proprii și constatarea stării șarpantei și a streașinii.",
+            "Etapa 1 – Predarea amplasamentului; delimitare, semnalizare, linii de ancorare, schelă la streașină, "
+            "protecția spațiilor interioare.",
+            "Etapa 2 – Desfacerea învelitoarei pe tronsoane (maxim ce se poate reacoperi în 1–2 zile), sortarea și "
+            "coborârea țiglei, demolarea coșurilor de fum.",
+            "Etapa 3 – Verificarea șarpantei pe tronsonul descoperit, înlocuirea elementelor degradate, consolidări, "
+            "tratamente; constatările se consemnează cu beneficiarul.",
+            "Etapa 4 – Folie anticondens, contrașipci, șipci și țiglă metalică pe același tronson (protecție provizorie "
+            "cu prelate la sfârșitul zilei).",
+            "Etapa 5 – Coame, dolii, șorțuri, borduri, pazii; refacerea și vopsirea streașinii.",
+            "Etapa 6 – Evacuarea deșeurilor, curățenia finală, verificarea etanșeității, recepția la terminarea lucrărilor.",
+        ],
+        "materiale": [
+            "țiglă metalică ", Y("BILKA Clasic/Balcanic mat 0,50 mm, RAL 8017 maro închis, Z275 (sau echivalent)"),
+            ", cu coame, capace de coamă, dolii, borduri și șorțuri din același material; folie anticondens "
+            "min. 120 g/mp; șipci 50×50 mm și contrașipci 30×50 mm din rășinoase tratate; cherestea de rășinoase "
+            "tratată pentru înlocuirea elementelor de șarpantă; scoabe, eclise, cuie, șuruburi autoforante cu EPDM; "
+            "bandă de coamă ventilată; lazură/vopsea pentru lemn exterior, tratament fungicid-insecticid.",
+        ],
+        "f3": [
+            ("Lista de cantități – Anexa la CS ETT54/3/1/319/2026", [
+                ("1", "Organizarea și pregătirea zonei de lucru", "lucrare", 1),
+                ("2", "Demontarea învelitorii existente din țiglă ceramică", "mp", 1000),
+                ("3", "Sortarea, manipularea și coborârea țiglei rezultate din demolare", "mp", 1000),
+                ("4", "Demontarea elementelor deteriorate ale suportului învelitorii", "mp", 1000),
+                ("5", "Demolarea coșurilor de fum existente", "buc", 10),
+                ("6", "Verificarea și remedierea locală a șarpantei existente", "lucrare", 1),
+                ("7", "Înlocuirea elementelor de șarpantă degradate (estimat 30% din suprafață)", "mp", 300),
+                ("8", "Demontarea streașinii existente deteriorate (estimat)", "ml", 70),
+                ("9", "Montare streașină nouă din lemn (estimat)", "ml", 70),
+                ("10", "Vopsirea elementelor din lemn ale streașinii (estimat)", "mp", 120),
+                ("11", "Montare folie anticondens", "mp", 1000),
+                ("12", "Montare șipci și contrașipci din lemn", "mp", 1000),
+                ("13", "Montare învelitoare din tablă tip țiglă metalică", "mp", 1000),
+                ("14", "Elemente de tinichigerie aferente acoperișului (borduri streașină și fronton) (estimat)", "ml", 160),
+                ("15", "Coame pentru învelitoare (estimat)", "ml", 70),
+                ("16", "Șorțuri, dolii, pazii și elemente de racord (estimat)", "ml", 90),
+                ("17", "Încărcarea și transportul materialelor rezultate din demolări (estimat)", "t", 60),
+                ("18", "Curățarea finală și eliberarea amplasamentului", "lucrare", 1),
+            ]),
+        ],
+        "note_f3": "Sursa: Lista de cantități din Anexa la caietul de sarcini ETT54/3/1/319/05.10.2026 (S.R.T.F.C. "
+                   "Brașov), anunț CN1098200. Pozițiile 7–10 și 14–17 sunt „conform constatărilor/măsurătorilor” – "
+                   "cantitățile sunt estimate de noi (30% din șarpantă de înlocuit; perimetru streașină cca. 140 ml; "
+                   "deșeuri cca. 45 t țiglă + 12 t moloz din coșuri + 3 t lemn) și se confirmă la VIZIONAREA "
+                   "OBLIGATORIE. Garanție de participare 3.000 lei (6 luni), garanție de bună execuție 5%. "
+                   "Fără cerințe de experiență, cifră de afaceri sau ISO.",
+    },
+})
+
+
 # ---------------------------------------------------------------- utilitare docx
 
 def lei(v):
@@ -1407,6 +1504,10 @@ if __name__ == "__main__":
     LICITATII["cfr_mangalia"]["analize"] = analize_bilzi.CFR_MANGALIA
     LICITATII["cfr_sibiu"]["analize"] = analize_bilzi.CFR_SIBIU
     LICITATII["salubris"]["analize"] = analize_bilzi.SALUBRIS
+    LICITATII["cfr_sibiu_admin"]["analize"] = analize_bilzi.CFR_SIBIU_ADMIN
+    LICITATII["cfr_sibiu_admin"]["depunere"] = ("online în SEAP (DUAE + ofertă + garanție de participare 3.000 lei); "
+                                                "vizionare obligatorie")
+    LICITATII["cfr_sibiu_admin"]["grafic"] = [[0.08, 0.14, 0.15, 0.15, 0.14, 0.12, 0.10, 0.07, 0.05]]
     LICITATII["cfr_sibiu"]["depunere"] = "online în SEAP (DUAE + ofertă + garanție de participare 600 lei); vizionare obligatorie"
     LICITATII["salubris"]["depunere"] = "ofertă postată în SEAP și, la aceeași oră, e-mail la office@salubris.ro"
     LICITATII["cfr_sibiu"]["grafic"] = [[0.20, 0.30, 0.25, 0.15, 0.10]]

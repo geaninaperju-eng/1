@@ -77,3 +77,6 @@ Niciun fișier nu depășește 50 MB (cel mai mare: Călărași „1. CAIET DE S
 - `ADV1556660_Loto_Bacau_terasa` – Loteria Română, terasa agenției 04-013 Bacău, 44.235,18 lei, termen 18.11.2026 12:00, e-mail achizitii.publice@loto.ro
 - `SCN1181822_CFR_Galati_hidroizolatie` – CFR Călători Galați, 104.904 lei, termen 23.11.2026 15:00, SEAP; caiet de sarcini scanat (listă cantități pag. 3)
 - `SCN1181778_CFR_Mangalia_Vila_C` – CFR Călători Constanța, 172.000 lei, termen 20.11.2026 15:00, SEAP; fără listă de cantități, vizită obligatorie
+
+## Descărcate pe 16.11.2026 (ofertă făcută – vezi licitatii_bilzi/oferte/CN1098200)
+- `CN1098200_CFR_Sibiu_acoperis_admin` – CFR Călători SRTFC Brașov, Depoul Sibiu, clădire administrativă (1910): țiglă ceramică 1.000 mp → țiglă metalică 0,50 mm RAL 8017, demolare 10 coșuri, 300.000 lei, licitație deschisă, termen 14.12.2026 15:00, online SEAP + DUAE, garanție participare 3.000 lei, VIZIONARE OBLIGATORIE (str. Dorobanților 22, Sibiu). Fără experiență/CA/ISO. Caiet de sarcini scanat 5 pag. (lista de cantități la pag. 5; multe poziții „conform constatărilor” – estimate). Ofertă 290.109,94 lei fără TVA (96,7%, adaos 23%).
