@@ -739,6 +739,7 @@ LICITATII.update({
 LICITATII.update({
     "cfr_sibiu_admin": {
         "fisier": "CN1098200_CFR_Sibiu_acoperis_admin",
+        "valabilitate": "180 (o sută optzeci)",
         "titlu": "Lucrări de reparații acoperiș clădire administrativă la Depoul Sibiu – S.R.T.F.C. Brașov",
         "autoritate": "SNTFC „CFR CĂLĂTORI” S.A. – Sucursala Regională de Transport Feroviar de Călători Brașov",
         "autoritate_scurt": "S.R.T.F.C. Brașov",
@@ -1085,7 +1086,7 @@ def formular_oferta(doc, L):
     P(doc, "2. Ne angajăm ca, în cazul în care oferta noastră este stabilită câștigătoare, să începem lucrările cât mai "
            "curând posibil după primirea ordinului de începere și să terminăm lucrările în ",
       L["durata"], ".", align="j")
-    P(doc, "3. Ne angajăm să menținem această ofertă valabilă pentru o durată de ", Y("90 (nouăzeci)"),
+    P(doc, "3. Ne angajăm să menținem această ofertă valabilă pentru o durată de ", Y(L.get("valabilitate", "90 (nouăzeci)")),
       " de zile, respectiv până la data de ", None, ", și ea va rămâne obligatorie pentru noi și poate fi acceptată "
       "oricând înainte de expirarea perioadei de valabilitate.", align="j")
     P(doc, "4. Am înțeles și consimțim ca, în cazul în care oferta noastră este stabilită ca fiind câștigătoare, să "
@@ -1290,7 +1291,7 @@ def genereaza_docx(cheie):
         page_break(doc)
         s(doc, L)
     if L.get("sectorial"):
-        lege_sectoriala(doc)
+        lege_sectoriala(doc, L)
     footer(doc, f"{FIRMA['denumire']} – Ofertă „{L['titlu']}”")
     OUT.mkdir(exist_ok=True)
     path = OUT / f"Dosar_oferta_BILZI_{L['fisier']}.docx"
@@ -1319,7 +1320,7 @@ SECTORIAL = [
 ]
 
 
-def lege_sectoriala(doc):
+def lege_sectoriala(doc, L=None):
     """Contract sectorial (CFR): trimiterile la Legea nr. 98/2016 devin trimiteri la Legea nr. 99/2016."""
     pars = list(doc.paragraphs)
     for t in doc.tables:
@@ -1331,6 +1332,8 @@ def lege_sectoriala(doc):
             x = run.text
             for a, b in SECTORIAL:
                 x = x.replace(a, b)
+            if L and "licitație deschisă" in L.get("procedura", ""):
+                x = x.replace("anunțului de participare simplificat", "anunțului de participare")
             if x != run.text:
                 run.text = x
 
