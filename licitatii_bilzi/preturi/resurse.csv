@@ -123,3 +123,29 @@ R14;Polizor unghiular / freză pentru șlițuire;ore;Utilaj;6;Estimare – de ve
 R15;Încărcare, transport și eliminare deșeuri inerte (țiglă, moloz, lemn) la depozit autorizat;t;Transport;190;Calcul din T02: container 7 mc ≈ 9,5 t moloz la 1.800 lei → ~190 lei/t – de verificat cu un operator din Sibiu
 R16;Cherestea rășinoase (grinzi, căpriori, pane) tratată, pentru înlocuiri la șarpantă;mc;Material;990;Depozit Cherestea Chitila 02.10.2026 (preturi_online.csv): grinzi 10×15×400 59,50 lei/0,06 mc = 992 lei/mc fără TVA
 R17;Linii de ancorare, plase de protecție, prelate și semnalizare zonă de lucru (set pentru șantier);buc;Material;1800;Estimare – de verificat
+H01;Barieră de vapori din membrană bituminoasă cu inserție de aluminiu (rolă 10 mp);mp;Material;17.5;Estimare (membrane barieră de vapori cu Al, rolă 10 mp ≈ 200–215 lei cu TVA) – de verificat
+H02;Bitum tip H 80/90 – H 85/25 pentru lipire/topire (sac 25 kg);kg;Material;6.2;Estimare (bitum oxidat sac 25 kg ≈ 185 lei cu TVA) – de verificat
+H03;Polistiren extrudat XPS 100 mm, 500 kPa (Austrotherm XPS TOP 50 sau echivalent);mp;Material;92;Estimare (XPS 500 kPa ≈ 920 lei/mc fără TVA; Drive: XPS 5 cm 67,23 lei/mp material în F3 2026) – de verificat
+H04;Spumă / adeziv poliuretanic pentru lipire plăci XPS (tub 750 ml, cca. 8–10 mp/tub);buc;Material;38;Estimare – de verificat
+H05;Folie de polietilenă PE 0,2 mm pentru separație;mp;Material;1.6;Estimare (folie PE 0,2 mm rolă 100 mp ≈ 190 lei cu TVA) – de verificat
+H06;Plasă sudată STNB Ø6 mm ochiuri 100×100 mm (cca. 4,4 kg/mp);mp;Material;27;Drive (F3 2026): plasă sudată 6/100×100 6,50 lei/kg × 4,2 kg/mp ≈ 27 lei/mp
+H07;Agregate (nisip + pietriș 0–16) pentru beton de pantă, livrate;mc;Material;115;Estimare (agregate sortate ≈ 60–70 lei/t × 1,8 t/mc) – de verificat
+H08;Fibre de polipropilenă pentru beton/șapă (0,9 kg/mc);kg;Material;32;Estimare – de verificat
+H09;Ciment Portland 42,5 (sac 40 kg);kg;Material;0.76;Dedeman 02.10.2026 (preturi_online.csv): Romcim Ultra 42,5 40 kg 30,57 lei fără TVA → 0,76 lei/kg
+H10;Pompă/malaxor pentru beton-șapă mecanizată (închiriere cu operator);ore;Utilaj;95;Estimare – de verificat
+H11;Mașină de spălat cu jet de apă sub presiune (hidrocurățitor);ore;Utilaj;15;Estimare – de verificat
+H12;Membrană bituminoasă SBS 4 kg/mp fără ardezie (strat 1);mp;Material;15.54;Hornbach 12.11.2026: Sika Arcon Festa plus PA4 10 mp 188 lei cu TVA → 15,54 lei/mp fără TVA (ca N15)
+H13;Membrană bituminoasă SBS cu ardezie gri, rezistentă UV (strat 2, 5 kg/mp);mp;Material;21.5;Estimare (membrane SBS cu ardezie 4,5–5 mm, rolă 10 mp ≈ 250–270 lei cu TVA; ca R13) – de verificat
+H14;Pânză bitumată fără strat de acoperire PI 40;mp;Material;6.5;Estimare – de verificat
+H15;Carton bitumat cu strat de acoperire din nisip CA 300;mp;Material;5.5;Estimare – de verificat
+H16;Flanșă cu hidroizolație (manșon bituminos) pentru gură de scurgere;buc;Material;65;Estimare – de verificat
+H17;Gură de scurgere pentru terase și balcoane, neagră, L 500 mm, D 125 mm;buc;Material;185;Estimare – de verificat
+H18;Racord jgheab/burlan Ø125;buc;Material;11.89;Listă BILKA 03. Sistem pluvial – racord jgheab-burlan (ca M25)
+H19;Dispozitiv de ventilare a stratului de difuzie din tablă zincată 0,5 mm Ø100, cu căciulă;buc;Material;95;Estimare (Drive: SB49A2 căciulă ventilație 65,55 lei + manșon; ca N21) – de verificat
+H20;Parafrunzar (sită) din sârmă zincată Ø120 pentru gura de scurgere;buc;Material;35;Estimare – de verificat
+H21;Profil de rost de dilatare Hidroplasto metal cu Nitriflex 830 (sau echivalent);m;Material;115;Estimare (Drive: profil T PexKIT pentru rosturi 40,58 lei/m material; profil metalic cu inserție ≈ 100–130 lei/m) – de verificat
+H22;Profil de prindere metalic pentru hidroizolație (bară de fixare);m;Material;14;Estimare – de verificat
+H23;Ușă/trapă metalică de acces pe terasă, izolată, etanșă (cu feronerie);buc;Material;2400;Estimare (trapă/ușă metalică izolată exterior ≈ 2.200–2.800 lei fără TVA) – de verificat
+H24;Amorsă bituminoasă tip Matizol (bitum tăiat), bidon;kg;Material;11;Estimare (amorsă bituminoasă bidon 20 kg ≈ 260 lei cu TVA) – de verificat
+H25;Aspirator industrial pentru curățarea suprafeței;ore;Utilaj;8;Estimare – de verificat
+H26;Bandă de tablă zincată 0,5 mm desfășurată 300 mm pentru rosturi/atic;mp;Material;31.65;Ca M34 (tablă zincată 0,50 mm) – de verificat

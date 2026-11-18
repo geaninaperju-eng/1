@@ -255,3 +255,62 @@ CFR_SIBIU_ADMIN = {(CAP_CFR_SBA, k): v for k, v in {
     "17": [("R15", 1.0), ("O03", 1.0)],
     "18": [("O03", 24.0)],
 }.items()}
+
+# ---------------------------------------------------------------- licitații 18.11.2026
+# Biblioteca Județeană „Panait Cerna” Tulcea (ADV1558035): 217 mp hidroizolație bituminoasă în 2 straturi
+CAP_BJT = "Formular 3 – Anexa nr. 1 la anunțul de publicitate nr. 2579/17.11.2026"
+BJT_TULCEA = {(CAP_BJT, k): v for k, v in {
+    "1": [("O03", 0.15), ("O02", 0.03), ("H25", 0.05)],
+    "2": [("H24", 0.30), ("O02", 0.05)],
+    # strat 1: membrană SBS 4 kg/mp cu inserție din împâslitură de fibră de sticlă, termosudată, suprapuneri 10–15%
+    "3": [("H12", 1.15), ("N18", 0.25), ("O02", 0.25), ("O03", 0.08)],
+    # strat 2: membrană SBS cu ardezie (strat hidroizolant cauciucat de finisaj)
+    "4": [("H13", 1.12), ("N18", 0.25), ("O02", 0.27), ("O03", 0.08)],
+    # 2 drumuri dus-întors Buzău–Tulcea (2 × 460 km), 3 oameni × 4 nopți, material mărunt, evacuare deșeuri
+    "5": [("R11", 920.0), ("R10", 12.0), ("N26", 1.0), ("N10", 4.0), ("T03", 1.0), ("O03", 6.0)],
+}.items()}
+
+# DGASPC Constanța – Centrul de Zi și Recuperare Mangalia (ADV1558019): termo-hidroizolație terasă 650 mp
+# echipă de 6 la cca. 270 km, 40 de zile (cazare luni–vineri), pozițiile x.y = materialele separate din F3
+CAP_DGASPC = "F3 – Lista cu cantități de lucrări (Hidroizolație Mangalia – estimare hidroizolație)"
+DGASPC_MANGALIA = {(CAP_DGASPC, k): v for k, v in {
+    # desfacere hidroizolație + termoizolație veche; include deplasarea și cazarea echipei (6 oameni × 30 nopți,
+    # 6 drumuri × 540 km) și protecțiile de șantier
+    "1": [("O03", 0.40), ("O02", 0.06), ("R14", 0.03), ("R10", 0.277), ("R11", 5.0), ("R17", 0.0015)],
+    "2": [("O03", 0.18), ("O02", 0.02)],
+    "3": [("O03", 4.0), ("U04", 0.08)],
+    "4": [("R15", 1.0)],
+    "5": [("O03", 0.06), ("H11", 0.06)],
+    "6": [("O02", 0.06), ("O03", 0.02)],
+    "6.4": [("H24", 1.0)],
+    "7": [("N18", 0.25), ("O02", 0.15), ("O03", 0.05)],
+    "7.4": [("H02", 1.0)],
+    "7.5": [("H01", 1.0)],
+    "8": [("H04", 0.11), ("O02", 0.12), ("O03", 0.04)],
+    "8.1": [("H03", 1.0)],
+    "9": [("O03", 0.02)],
+    "9.2": [("H05", 1.0)],
+    "10": [("H06", 1.0), ("O04", 0.06), ("O03", 0.06)],
+    # șapă de pantă din beton B400 cu fulgi PP: agregate, fibre, turnare mecanizată (cimentul e la 11.5)
+    "11": [("H07", 1.05), ("H08", 0.9), ("O04", 2.2), ("O03", 2.2), ("H10", 0.35)],
+    "11.5": [("H09", 1.0)],
+    "12": [("H12", 1.12), ("N18", 0.25), ("O02", 0.22), ("O03", 0.08)],
+    "13": [("H13", 1.12), ("N18", 0.25), ("O02", 0.25), ("O03", 0.08)],
+    "13.5": [("H02", 1.0)],
+    "14": [("N18", 0.15), ("N17", 0.15), ("O02", 0.35), ("O03", 0.10)],
+    "14.4": [("H13", 1.0)],
+    "15": [("H26", 0.30), ("M09", 4.0), ("N10", 0.10), ("O02", 0.45), ("O03", 0.10)],
+    "15.2": [("H14", 1.0)],
+    "15.3": [("H15", 1.0)],
+    "16": [("N18", 0.30), ("O02", 0.80)],
+    "16.3": [("H02", 1.0)],
+    "16.4": [("H16", 1.0)],
+    "17": [("H17", 1.0), ("O02", 1.50), ("O04", 0.50), ("N22", 5.0)],
+    "17.1": [("H18", 1.0)],
+    "18": [("H19", 1.0), ("O02", 1.0)],
+    "19": [("H20", 1.0), ("O02", 0.25)],
+    "20": [("H21", 1.0), ("O02", 0.40), ("O03", 0.10)],
+    "20.1": [("H22", 1.0)],
+    "21": [("T01", 50.0)],
+    "22": [("H23", 1.0), ("O06", 6.0), ("O03", 3.0), ("N10", 2.0)],
+}.items()}

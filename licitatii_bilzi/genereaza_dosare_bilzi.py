@@ -833,6 +833,200 @@ LICITATII.update({
 })
 
 
+# ---------------------------------------------------------------- licitații 18.11.2026
+BJT_DECIZIE = ("dr. Dima Ligia – Manager; Mihai Tudor – referent de specialitate (persoană de contact); Elena Ghionu – "
+               "achiziții")
+DGASPC_DECIZIE = (
+    "Director General: Ristea Mihaela; Director Executiv Protecția Copilului: Marcoșanu Silviu Mihai; Director Executiv "
+    "Asistență Socială Persoane Adulte: Urziceanu Petre; Serviciul Achiziții Publice Urmărire Contracte: Sotir Anișoara, "
+    "Constantin Antonela Dana, Grosu Chirana Georgiana, Neculae Laura-Cristina, Aldea Răzvan Gabriel, Masaca Cosmin, "
+    "Șerban Laura Alexandra; Compartiment Taxe, Avize, Autorizații și Urmărire Lucrări: Lupu Marius Dumitru, Iacoboaie "
+    "Mirabela; Serviciu Juridic Contencios: Ghițulescu Anca, Guță Titiana, Larie Petre, Checiu Cristina, Ciocîrlan "
+    "Monica-Mihaela, Creangă Cătălina Georgeta Iuliana; Serviciul Contabilitate, Buget: Stamule Zoica, Neculaev Alina, "
+    "Geamalingă Tanța, Cosma Felicia Iuliana, Marius Eremia, Butoi Meral, Acatrinei Florentina; CIRUL-DASPA: Macovei "
+    "Marius, Andrei Liviu, Mititelu Radu, Meroșneac Cătălin, Monea Florin, Nurla Aysel, Iordache Ionela")
+LICITATII.update({
+    "bjt_tulcea": {
+        "fisier": "ADV1558035_Biblioteca_Tulcea_acoperis",
+        "valabilitate": "30 (treizeci)",
+        "titlu": "Lucrări de reparații curente acoperiș Biblioteca Județeană „Panait Cerna” Tulcea",
+        "autoritate": "BIBLIOTECA JUDEȚEANĂ „PANAIT CERNA” TULCEA",
+        "autoritate_scurt": "Biblioteca Județeană „Panait Cerna” Tulcea",
+        "email_depunere": "bjt@tulcealibrary.ro (subiect: „Ofertă – Lucrări reparații curente acoperiș – Biblioteca "
+                          "Județeană Panait Cerna Tulcea”)",
+        "nr_anunt": "ADV1558035",
+        "data_anunt": "17.11.2026",
+        "termen": "20.11.2026",
+        "ora": "12:00",
+        "cpv": "45453000-7 – Lucrări de reparații generale și de renovare",
+        "valoare": 32979.69,
+        "amplasament": "Sediul Bibliotecii Județene „Panait Cerna”, str. Isaccei nr. 16A, Tulcea – acoperiș tip "
+                       "terasă/pantă mică (≤ 7%), 217 mp",
+        "procedura": "cumpărare directă",
+        "durata": "10 (zece) zile calendaristice de la comunicarea ordinului de începere (maximum admis: 30 de zile)",
+        "garantie": "24",
+        "catalog": False,
+        "decizie": BJT_DECIZIE,
+        "experienta": False, "acces": False, "vizita": False,
+        "distanta": "cca. 230 km (Buzău – Brăila – Măcin – Tulcea)",
+        "saptamani": 2,
+        "durata_scurt": "10 zile calendaristice (2 săptămâni)",
+        "lucrari": [
+            "curățarea și aspirarea suprafețelor în vederea pregătirii pentru hidroizolație (217 mp);",
+            "amorsarea suprafețelor cu amorsă bituminoasă, conform instrucțiunilor producătorului (217 mp);",
+            "strat de membrană bituminoasă cauciucată (SBS) cu inserție din împâslitură de fibră de sticlă, simplu "
+            "așezată/termosudată, pe suprafețe orizontale sau înclinate până la 7%, inclusiv suportul la perforațiile "
+            "stratului de difuziune (217 mp);",
+            "stratul hidroizolant cauciucat de finisaj – membrană SBS cu ardezie, rezistentă UV, cu racordări la atice, "
+            "străpungeri și guri de scurgere (217 mp);",
+            "protejarea elementelor adiacente, colectarea și evacuarea deșeurilor, predarea fișelor tehnice și a "
+            "declarațiilor de performanță ale materialelor.",
+        ],
+        "etape": [
+            "Etapa 1 – Ordinul de începere; aducerea echipei și a materialelor; protejarea zonelor adiacente.",
+            "Etapa 2 – Curățarea și aspirarea suprafeței, verificarea suportului; amorsarea și uscarea amorsei.",
+            "Etapa 3 – Stratul 1 de membrană SBS cu fibră de sticlă, cu suprapuneri de min. 10 cm.",
+            "Etapa 4 – Stratul 2 de membrană SBS cu ardezie, decalat față de stratul 1, racordări la atice și guri.",
+            "Etapa 5 – Verificarea etanșeității, curățenia, evacuarea deșeurilor, recepția.",
+        ],
+        "materiale": [
+            "membrane bituminoase elastomerice SBS ", Y("4 kg/mp cu fibră de sticlă (strat 1) și cu ardezie gri (strat 2) – "
+            "Sika/Bauder/Icopal sau echivalent"), ", amorsă bituminoasă cu solvent; butelii propan pentru termosudare; "
+            "mastic poliuretanic pentru racorduri.",
+        ],
+        "f3": [
+            ("Formular 3 – Anexa nr. 1 la anunțul de publicitate nr. 2579/17.11.2026", [
+                ("1", "Curățarea și aspirarea suprafețelor", "mp", 217),
+                ("2", "Amorsarea suprafețelor în vederea executării hidroizolației", "mp", 217),
+                ("3", "Executarea stratului de membrană cauciucată la acoperișuri și terase", "mp", 217),
+                ("4", "Executarea stratului hidroizolant cauciucat la terase și acoperișuri", "mp", 217),
+                ("5", "Alte cheltuieli (deplasare și cazare echipă, material mărunt, evacuare deșeuri)", "buc", 1),
+            ]),
+        ],
+        "note_f3": "Sursa: Anexa nr. 1 – Formular 3 din anunțul de publicitate nr. 2579/17.11.2026 (ADV1558035). Fără "
+                   "cerințe de experiență, cifră de afaceri sau ISO. Vizitarea amplasamentului este recomandată (nu "
+                   "obligatorie) – contact Mihai Tudor, tel. 0240 513 833. Se atașează fișele tehnice și declarațiile "
+                   "de performanță ale membranelor. Câștigătorul publică oferta în catalogul electronic SEAP.",
+    },
+    "dgaspc_mangalia": {
+        "fisier": "ADV1558019_DGASPC_Mangalia_terasa",
+        "titlu": "Execuția lucrărilor necesare remedierii infiltrațiilor și refacerii sistemului de termo-hidroizolație "
+                 "al acoperișului tip terasă al imobilului în care funcționează Centrul de Zi și Recuperare Mangalia",
+        "autoritate": "DIRECȚIA GENERALĂ DE ASISTENȚĂ SOCIALĂ ȘI PROTECȚIA COPILULUI CONSTANȚA",
+        "autoritate_scurt": "D.G.A.S.P.C. Constanța",
+        "email_depunere": "office@dgaspc-ct.ro / achizitii@dgaspc-ct.ro (sau depunere la sediu: str. Decebal nr. 22, "
+                          "et. III, Constanța)",
+        "nr_anunt": "ADV1558019",
+        "data_anunt": "17.11.2026",
+        "termen": "25.11.2026",
+        "ora": "14:00",
+        "cpv": "45261900-3 – Lucrări de reparare și de întreținere de acoperișuri",
+        "valoare": 511297.80,
+        "amplasament": "Centrul de Zi și Recuperare Mangalia (D.G.A.S.P.C. Constanța) – acoperiș tip terasă, cca. 650 mp",
+        "procedura": "cumpărare directă",
+        "durata": "40 (patruzeci) de zile calendaristice de la primirea ordinului de începere (maximum admis: 45 de zile)",
+        "garantie": "24",
+        "catalog": False,
+        "decizie": DGASPC_DECIZIE,
+        "experienta": False, "acces": False, "vizita": False,
+        "distanta": "cca. 270 km (Buzău – Slobozia – Constanța – Mangalia)",
+        "saptamani": 6,
+        "durata_scurt": "40 zile calendaristice (6 săptămâni)",
+        "lucrari": [
+            "desfacerea hidroizolațiilor și termoizolațiilor existente, inclusiv straturile de protecție și suport "
+            "(650 mp), curățarea cu peria de sârmă și rașchetă și spălarea cu jet de apă sub presiune;",
+            "colectarea, coborârea și transportul molozului (cca. 26 t) la depozit autorizat, cu documente de trasabilitate;",
+            "amorsă bituminoasă în două straturi și barieră de vapori din membrană bituminoasă cu inserție de aluminiu, "
+            "sudată cu flacăra (650 mp);",
+            "termoizolație din plăci de polistiren extrudat XPS 10 cm, 500 kPa, lipite cu spumă poliuretanică, folie de "
+            "separație PE (650 mp);",
+            "plasă sudată Ø6/100×100 mm și șapă de egalizare și pantă din beton B400 cu fibre de polipropilenă (49 mc);",
+            "hidroizolație în două straturi: membrană SBS 4 kg/mp fără ardezie + membrană SBS cu ardezie gri, "
+            "rezistentă UV (650 mp); racordări la atice și scafe (150 ml), etanșarea rosturilor de dilatare (150 ml);",
+            "11 guri de scurgere Ø125 cu flanșe hidroizolante și parafrunzare, 10 dispozitive de ventilare a stratului "
+            "de difuzie, profile de dilatare Hidroplasto (150 m) și înlocuirea ușii de acces pe terasă.",
+        ],
+        "etape": [
+            "Etapa 1 – Ordinul de începere (începerea efectivă în max. 3 zile lucrătoare); predarea amplasamentului, "
+            "organizarea de șantier, protecții, protejarea spațiilor centrului care rămâne în funcțiune.",
+            "Etapa 2 – Desfacerea pe tronsoane a straturilor vechi, curățare, spălare, evacuarea molozului; protecție "
+            "provizorie cu prelate/membrană la sfârșitul zilei.",
+            "Etapa 3 – Amorsă, barieră de vapori, XPS 10 cm, folie PE, plasă sudată.",
+            "Etapa 4 – Șapa de pantă din beton B400 cu fibre (turnare mecanizată), maturare și uscare.",
+            "Etapa 5 – Guri de scurgere, flanșe, dispozitive de ventilare; hidroizolația în 2 straturi, racordări la "
+            "atice și rosturi, profile de dilatare.",
+            "Etapa 6 – Ușa de acces pe terasă, proba de etanșeitate (inundare), curățenia finală, recepția.",
+        ],
+        "materiale": [
+            "membrane bituminoase SBS ", Y("4 kg/mp fără ardezie și cu ardezie gri rezistentă UV, barieră de vapori cu "
+            "inserție de Al (Sika/Bauder/Icopal sau echivalent)"), "; polistiren extrudat XPS 100 mm, 500 kPa ",
+            Y("(Austrotherm XPS TOP 50 sau echivalent)"), "; amorsă bituminoasă; bitum H 80/90; folie PE; plasă sudată "
+            "Ø6/100×100; beton B400 cu fibre de polipropilenă; guri de scurgere Ø125 cu flanșă; profile de dilatare "
+            "Hidroplasto/Nitriflex 830 sau echivalent; tablă zincată 0,5 mm.",
+        ],
+        "f3": [
+            ("F3 – Lista cu cantități de lucrări (Hidroizolație Mangalia – estimare hidroizolație)", [
+                ("1", "RCSE42A% – Desfacerea hidroizolațiilor, termoizolațiilor lipite cu bitum, cu straturile de "
+                      "protecție și suport, la terase", "mp", 650),
+                ("2", "RpIzE16A% – Curățarea confecțiilor și construcțiilor cu peria de sârmă și rașchetă", "mp", 650),
+                ("3", "TRB01A11 – Colectarea, manipularea și coborârea molozului din decopertare (cca. 40 kg/mp)", "t", 26),
+                ("4", "TRB01A11 – Transportul molozului cu autobasculanta la groapa autorizată/centru de reciclare, "
+                      "inclusiv taxe", "t", 26),
+                ("5", "H1B02A1 – Pregătirea suprafeței orizontale prin spălare cu jet de apă sub presiune", "mp", 650),
+                ("6", "IZF01A – Amorsarea suprafețelor cu soluție bituminoasă (bitum tăiat), în două straturi", "mp", 650),
+                ("6.4", "6101456 – Amorsă bituminoasă Matizol", "kg", 97.5),
+                ("7", "IZF04B(1) – Montarea barierei de vapori din membrană bituminoasă cu inserție de aluminiu, sudată "
+                      "cu flacăra (inclusiv suprapuneri 10%)", "mp", 650),
+                ("7.4", "2600048 – Bitum pentru materiale și lucrări de hidroizolații tip H 80/90", "kg", 975),
+                ("7.5", "2601640 – Barieră de vapori din membrană bituminoasă cu inserție de aluminiu", "mp", 715),
+                ("8", "IZG06B(1) – Montarea plăcilor de polistiren extrudat XPS 10 cm, 500 kPa, lipite cu spumă "
+                      "poliuretanică", "mp", 650),
+                ("8.1", "20024709 – Polistiren extrudat XPS 100 mm (Austrotherm XPS 50 GK sau echivalent)", "mp", 715),
+                ("9", "IZF09XA(1) – Așezarea foliei de separație din polietilenă peste polistiren", "mp", 650),
+                ("9.2", "11232 – Folie PE", "mp", 682.5),
+                ("10", "TE06C1(1) – Plasă de armătură sudată STNB d=6 mm, ochiuri 100×100 mm", "mp", 650),
+                ("11", "CA01XG02(1) – Prepararea și turnarea șapei mecanizate de egalizare și pantă din beton B400 cu "
+                       "fulgi de polipropilenă", "mc", 49),
+                ("11.5", "2100086 – Ciment Portland", "kg", 20090),
+                ("12", "IZF02A(1) – Hidroizolație strat 1: membrană bituminoasă SBS termosudabilă 4 kg/mp, fără ardezie",
+                 "mp", 650),
+                ("13", "IZF02B(1) – Hidroizolație strat 2 (finisaj): membrană bituminoasă SBS termosudabilă cu "
+                       "protecție de ardezie gri, rezistentă UV", "mp", 650),
+                ("13.5", "2600050 – Bitum pentru materiale și lucrări de hidroizolații tip H 82/92", "kg", 325),
+                ("14", "IZF05A1(1) – Tratamentul și etanșarea verticală a aticului și scafelor cu membrană bituminoasă "
+                       "cu ardezie (ridicare 30–40 cm)", "ml", 150),
+                ("14.4", "2600907 – Carton bitumat cu strat de acoperire din ardezie", "mp", 172.5),
+                ("15", "RpIzC20E% – Etanșarea rosturilor de dilatare/tasare ale aticurilor, cu protecție din tablă "
+                       "(benzi de cca. 300 mm)", "ml", 150),
+                ("15.2", "2600660 – Pânză bitumată fără strat de acoperire PI 40", "mp", 153),
+                ("15.3", "2600751 – Carton bitumat cu strat de acoperire din nisip CA 300", "mp", 45),
+                ("16", "IZF02XG(1) – Flanșă cu hidroizolație pentru guri de scurgere", "buc", 21),
+                ("16.3", "Bitum pentru materiale și lucrări de hidroizolații tip H 80/90", "kg", 42),
+                ("16.4", "7336692 – Flanșă cu hidroizolație", "buc", 21),
+                ("17", "CE25A01+ – Gură de scurgere pentru terase și balcoane, neagră, L 500 mm, D 125 mm", "buc", 11),
+                ("17.1", "20055418 – Racord jgheab/burlan Ø125", "buc", 11),
+                ("18", "RCSE26B%(1) – Dispozitive de comunicare a stratului de difuzie cu atmosfera, din tablă zincată "
+                       "0,5 mm, cu căciulă de protecție", "buc", 10),
+                ("19", "RCSE27A%(1) – Parafrunzar Ø120 mm din sârmă zincată pentru gurile de scurgere", "buc", 11),
+                ("20", "CR01A02+(1) – Profile de dilatare Hidroplasto pentru pardoseală, tip metal și Nitriflex 830",
+                 "m", 150),
+                ("20.1", "20025301 – Profil de prindere Hidroplasto metal pentru hidroizolație", "m", 150),
+                ("21", "TRA01A50 – Transportul rutier al materialelor și semifabricatelor cu autobasculanta, 50 km",
+                 "t", 150),
+                ("22", "M3D13A1(1) – Ușă de vizitare/acces pe terasă, înlocuită, cu etanșare", "buc", 1),
+            ]),
+        ],
+        "note_f3": "Sursa: F3 – Lista cu cantități de lucrări din documentația ADV1558019 (Deviz 360, „Hidroizolație "
+                   "Mangalia”), cu pozițiile de materiale x.y păstrate separat, ca în formularul autorității. Fără "
+                   "cerințe de experiență, cifră de afaceri sau ISO. În propunerea tehnică se nominalizează șeful de "
+                   "lucrări cu diplomă de inginer în construcții și personalul calificat pentru hidroizolații. Garanție "
+                   "minimă 24 de luni. Depunere pe e-mail office@dgaspc-ct.ro / achizitii@dgaspc-ct.ro sau la sediu "
+                   "(str. Decebal nr. 22, et. III). Relații: Sotir Anișoara / Șerban Laura Alexandra, 0241 480 876, "
+                   "0732 598 294. Clarificări cu min. 3 zile lucrătoare înainte de termen (până pe 20.11.2026).",
+    },
+})
+
+
 # ---------------------------------------------------------------- utilitare docx
 
 def lei(v):
@@ -1277,7 +1471,8 @@ def genereaza_docx(cheie):
                  "Lista lucrărilor similare executate, cu documente constatatoare",
                  "Lista nominală a personalului și a autovehiculelor pentru acces în cazarmă"]
         sectiuni += [decl_164_165_167, experienta, lista_personal]
-    elif cheie in ("romeo", "loto", "cfr_galati", "cfr_mangalia", "cfr_sibiu", "salubris"):
+    elif cheie in ("romeo", "loto", "cfr_galati", "cfr_mangalia", "cfr_sibiu", "salubris", "bjt_tulcea",
+                   "dgaspc_mangalia"):
         opis += ["Declarație privind neîncadrarea în art. 164, 165 și 167 din Legea nr. 98/2016",
                  "Lista lucrărilor similare executate, cu documente constatatoare (informativ)"]
         sectiuni += [decl_164_165_167, experienta]
@@ -1523,6 +1718,12 @@ if __name__ == "__main__":
     LICITATII["loto"]["grafic"] = [[0.30, 0.45, 0.25]]
     LICITATII["cfr_galati"]["grafic"] = [[0.10, 0.15, 0.15, 0.15, 0.15, 0.10, 0.10, 0.05, 0.05]]
     LICITATII["cfr_mangalia"]["grafic"] = [[0.10, 0.15, 0.15, 0.15, 0.15, 0.10, 0.10, 0.05, 0.05]]
+    LICITATII["bjt_tulcea"]["analize"] = analize_bilzi.BJT_TULCEA
+    LICITATII["bjt_tulcea"]["depunere"] = "e-mail bjt@tulcealibrary.ro (PDF semnat), vizită recomandată"
+    LICITATII["bjt_tulcea"]["grafic"] = [[0.6, 0.4]]
+    LICITATII["dgaspc_mangalia"]["analize"] = analize_bilzi.DGASPC_MANGALIA
+    LICITATII["dgaspc_mangalia"]["depunere"] = "e-mail office@dgaspc-ct.ro / achizitii@dgaspc-ct.ro sau la sediul DGASPC Constanța"
+    LICITATII["dgaspc_mangalia"]["grafic"] = [[0.12, 0.18, 0.20, 0.20, 0.18, 0.12]]
     resurse = ofin.citeste_resurse()
     OUT.mkdir(exist_ok=True)
     chei = sys.argv[1:] or list(LICITATII)
