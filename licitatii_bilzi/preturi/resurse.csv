@@ -149,3 +149,10 @@ H23;Ușă/trapă metalică de acces pe terasă, izolată, etanșă (cu feronerie
 H24;Amorsă bituminoasă tip Matizol (bitum tăiat), bidon;kg;Material;11;Estimare (amorsă bituminoasă bidon 20 kg ≈ 260 lei cu TVA) – de verificat
 H25;Aspirator industrial pentru curățarea suprafeței;ore;Utilaj;8;Estimare – de verificat
 H26;Bandă de tablă zincată 0,5 mm desfășurată 300 mm pentru rosturi/atic;mp;Material;31.65;Ca M34 (tablă zincată 0,50 mm) – de verificat
+F01;Scândură rășinoase 25 mm × 15–25 cm, lungime 5 m;mc;Material;1150;Depozit Cherestea Chitila / Total Forest 950–1.200 lei/mc fără TVA la 4 m (preturi_online.csv) + ~10% pentru lungimea de 5 m – estimare, de confirmat cu depozitul
+F02;Dulap rășinoase 5×10×500 cm (0,025 mc/buc);buc;Material;31.25;Grinzi rășinoase Total Forest 1.111–1.200 lei/mc la 4 m (preturi_online.csv) → 1.250 lei/mc la 5 m × 0,025 mc – estimare, de confirmat
+F03;Cuie construcții 3×70 mm, cutie 5 kg;kg;Material;5.78;Dedeman cuie 3x70 cutie 5 kg: 6,99 lei/kg cu TVA → 5,78 lei/kg fără TVA (preturi_online.csv)
+F04;Tablă zincată cutată 0,40 mm DX51D (h≈10–12 mm), lungime 2 m;mp;Material;21.96;BILKA T12 ZINCAT 0,40 mm 4,12 EUR/mp fără TVA × 5,3313 lei/EUR (preturi_bilka.csv)
+F05;Șurub autoforant 4,8×35 mm cu șaibă EPDM, cutie 250 buc;cutie;Material;62.50;M09 0,25 lei/buc × 250 (Dedeman Friulsider 4,8×32: 0,20 lei/buc fără TVA fără șaibă) – de verificat
+F06;Holșurub 6×130 mm cap înecat, zincat, cutie 200 buc;cutie;Material;180;Estimare 0,90 lei/buc fără TVA × 200 – de verificat
+F07;Transport la beneficiar București (camion 10–12 t, Buzău–București dus-întors ~230 km, cu descărcare);cursă;Transport;1500;T01 3 lei/t·km × ~10 t × 115 km ≈ 3.450 lei redus la o cursă dedicată ~6,5 lei/km × 230 km = 1.500 lei – estimare
