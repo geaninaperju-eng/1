@@ -80,3 +80,6 @@ Niciun fișier nu depășește 50 MB (cel mai mare: Călărași „1. CAIET DE S
 
 ## Descărcate pe 16.11.2026 (ofertă făcută – vezi licitatii_bilzi/oferte/CN1098200)
 - `CN1098200_CFR_Sibiu_acoperis_admin` – CFR Călători SRTFC Brașov, Depoul Sibiu, clădire administrativă (1910): țiglă ceramică 1.000 mp → țiglă metalică 0,50 mm RAL 8017, demolare 10 coșuri, 300.000 lei, licitație deschisă, termen 14.12.2026 15:00, online SEAP + DUAE, garanție participare 3.000 lei, VIZIONARE OBLIGATORIE (str. Dorobanților 22, Sibiu). Fără experiență/CA/ISO. Caiet de sarcini scanat 5 pag. (lista de cantități la pag. 5; multe poziții „conform constatărilor” – estimate). Ofertă 290.109,94 lei fără TVA (96,7%, adaos 23%).
+
+## Descărcate pe 23.11.2026 (ofertă făcută – vezi licitatii_bilzi/oferte/ADV1558636)
+- `ADV1558636_Parc_Dofteana_III` – Romsilva DS Bacău, „Înlocuire acoperiș clădire Parc Dofteana – DSBC 2026 III” (republicarea ADV1549806), 252.389,69 lei, termen 26.11.2026 08:00, e-mail anunturi.seap@bacau.rosilva.ro + preț în catalogul SICAP. PDF scanat 57 pag., caiet nr. 11858/16.11.2026, același Deviz 8076/1/22.07.2026 și același F3 (verificat devizul 02). Contract: 2 luni de la ordinul de începere, fără limita 31.12; GBE 5%. Ofertă 243.749,78 lei fără TVA (96,6%, adaos 12%).

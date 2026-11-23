@@ -1696,6 +1696,27 @@ if __name__ == "__main__":
         [0, 0, 0, 0, 0, 0, 0.40, 0.40, 0.20],          # tinichigerie, pluvial
         [0, 0, 0.20, 0.30, 0.30, 0.20, 0, 0, 0],       # coșuri
     ]
+    # ADV1558636 – republicarea Dofteana (DSBC 2026 III, 20.11.2026): aceeași documentație (Deviz 8076/1/22.07.2026,
+    # același F3, aceeași valoare estimată); caiet nr. 11858/16.11.2026, contract fără limita 31.12.2026.
+    import copy
+    D3 = copy.deepcopy(LICITATII["dofteana"])
+    D3.update({
+        "fisier": "ADV1558636_Parc_Dofteana_III",
+        "titlu": "Înlocuire acoperiș clădire Parc Dofteana – DSBC 2026 III",
+        "nr_anunt": "ADV1558636",
+        "data_anunt": "20.11.2026",
+        "termen": "26.11.2026",
+        "ora": "08:00",
+        "durata": "60 (șaizeci) de zile calendaristice – 2 (două) luni de la ordinul de începere (caietul de sarcini "
+                  "nr. 11858/16.11.2026 și art. 5.1 din proiectul de contract); începerea lucrărilor în maximum 72 de "
+                  "ore de la ordinul de începere (art. 8.1)",
+        "depunere": ("e-mail anunturi.seap@bacau.rosilva.ro până la 26.11.2026 ora 08:00 + valoarea ofertei publicată "
+                     "în catalogul SICAP (CPV 45261910-6, denumirea din anunț) până la aceeași oră"),
+    })
+    D3["note_f3"] = D3["note_f3"] + (" Republicare ADV1558636 (DSBC 2026 III): F3 identic cu cel din ADV1549806 "
+                                     "(verificat pe pagina devizului 02 – 600 mp, 175,82 ml); garanție de bună "
+                                     "execuție 5% (art. 6.1 din contract).")
+    LICITATII["dofteana3"] = D3
     LICITATII["romeo"]["analize"] = analize_bilzi.ROMEO
     LICITATII["loto"]["analize"] = analize_bilzi.LOTO
     LICITATII["cfr_galati"]["analize"] = analize_bilzi.CFR_GALATI
