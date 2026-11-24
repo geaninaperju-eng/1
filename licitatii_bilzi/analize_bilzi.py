@@ -314,3 +314,38 @@ DGASPC_MANGALIA = {(CAP_DGASPC, k): v for k, v in {
     "21": [("T01", 50.0)],
     "22": [("H23", 1.0), ("O06", 6.0), ("O03", 3.0), ("N10", 2.0)],
 }.items()}
+
+# ---------------------------------------------------------------- licitații 24.11.2026
+# Universitatea Tehnică „Gheorghe Asachi” Iași – Lot 1: hidroizolația terasei căminului T20 (1.080 mp, 2 straturi SBS)
+# echipă de 5 la cca. 300 km, 30 de zile: deplasarea (5 drumuri × 600 km) și cazarea (125 nopți) sunt în poziția 4
+CAP_TU_D = "Lot 1 – Desfaceri"
+CAP_TU_C = "Lot 1 – Lucrări de construcții-montaj"
+TUIASI_T20 = {(CAP_TU_D, k): v for k, v in {
+    "1": [("O02", 0.35), ("O03", 0.35)],
+    "2": [("O02", 1.00), ("O03", 1.00)],
+    "3": [("O02", 0.15), ("O03", 0.15)],
+}.items()}
+TUIASI_T20.update({(CAP_TU_C, k): v for k, v in {
+    "1": [("H29", 25.0), ("O04", 1.50), ("O03", 0.80)],
+    "2": [("H12", 1.15), ("N17", 0.30), ("N18", 0.25), ("O02", 0.35), ("O03", 0.15)],
+    "3": [("N19", 30.0), ("O04", 1.00), ("O03", 0.60)],
+    "4": [("O03", 0.12), ("O02", 0.03), ("H25", 0.02), ("H02", 0.15), ("N18", 0.02),
+          ("R10", 0.12), ("R11", 2.80), ("R17", 0.0009)],
+    "5": [("H17", 1.0), ("H16", 1.0), ("H20", 1.0), ("N10", 0.5), ("N18", 0.3), ("O02", 2.0), ("O03", 0.5)],
+    "6": [("H27", 1.0), ("N18", 0.3), ("O02", 0.8), ("O03", 0.2)],
+    # amorsare în două straturi
+    "7": [("H24", 0.35), ("O02", 0.06), ("O03", 0.03)],
+    # strat 1: membrană SBS ≥ 3 kg/mp fără ardezie, suprapuneri 10–15%; ridicarea materialelor pe terasă cu macaraua
+    "8": [("H12", 1.15), ("N18", 0.25), ("O02", 0.22), ("O03", 0.08), ("T03", 0.0046), ("U04", 0.004)],
+    # strat final: membrană SBS ≥ 4 mm cu ardezie
+    "9": [("H13", 1.12), ("N18", 0.25), ("O02", 0.25), ("O03", 0.08), ("T03", 0.0058), ("U04", 0.004)],
+    "10": [("H13", 0.30), ("N10", 0.30), ("N18", 0.20), ("O02", 0.60)],
+    "11": [("H28", 1.0), ("N18", 0.20), ("O02", 0.60), ("O03", 0.10)],
+    # glaf din tablă prevopsită 0,50 mm, desfășurată cca. 45 cm + suprapuneri 15 cm, 2 benzi de mastic PU la îmbinări
+    "12": [("M20", 0.55), ("N10", 0.10), ("M09", 4.0), ("O02", 0.45), ("O03", 0.10)],
+    # capac într-o apă din tablă cutată prevopsită, pe cadru metalic propriu (fără găurire în zidăria ghenei)
+    "13": [("R01", 0.70), ("M43", 3.0), ("M44", 0.10), ("M09", 8.0), ("N10", 0.20), ("O06", 0.50), ("O02", 0.60),
+           ("O03", 0.20), ("U05", 0.20)],
+    "14": [("R15", 4.0), ("O03", 16.0)],
+    "15": [("O03", 16.0), ("O02", 4.0), ("N26", 1.0)],
+}.items()})

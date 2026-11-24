@@ -1027,6 +1027,103 @@ LICITATII.update({
 })
 
 
+# ---------------------------------------------------------------- licitații 24.11.2026
+TUIASI_DECIZIE = ("Ing. Marius-Stelian Îmbrea – Director Direcția Achiziții și Investiții; Ing. Monica Gabriela Vlasov – "
+                  "Șef Serviciu Achiziții Strategice; Ing. Ionela Pleșcan – Serviciul Achiziții Strategice (responsabil "
+                  "achiziție); Ing. Emil Orășanu – Serviciul Investiții")
+LICITATII.update({
+    "tuiasi_t20": {
+        "fisier": "TUIASI_49376_Lot1_Camin_T20_hidroizolatie",
+        "valabilitate": "60 (șaizeci)",
+        "titlu": "Lucrări de reparații curente a hidroizolației la Cantina Studențească „Tudor Vladimirescu” și la "
+                 "căminul T20 – Lot 1: Lucrări de reparații curente a hidroizolației la căminul T20",
+        "autoritate": "UNIVERSITATEA TEHNICĂ „GHEORGHE ASACHI” DIN IAȘI – DIRECȚIA ACHIZIȚII ȘI INVESTIȚII",
+        "autoritate_scurt": "Universitatea Tehnică „Gheorghe Asachi” din Iași",
+        "email_depunere": "ionela.plescan@staff.tuiasi.ro (oferta tehnico-economică detaliată) + prețul Lotului 1 "
+                          "publicat în catalogul SICAP (CPV 45261310-0)",
+        "nr_anunt": "49376/20.11.2026",
+        "data_anunt": "20.11.2026",
+        "termen": "25.11.2026",
+        "ora": "11:00",
+        "cpv": "45261310-0 – Lucrări de hidroizolare",
+        "valoare": 278943.00,
+        "amplasament": "Căminul T20, Campusul studențesc „Tudor Vladimirescu”, Iași – terasă necirculabilă cca. 1.080 mp "
+                       "(scările A, B și C)",
+        "procedura": "achiziție directă (catalog SICAP)",
+        "durata": "30 (treizeci) de zile calendaristice de la data primirii ordinului de începere (contract pe 3 luni)",
+        "garantie": "36",
+        "catalog": True,
+        "decizie": TUIASI_DECIZIE,
+        "experienta": False, "acces": False, "vizita": False,
+        "distanta": "cca. 300 km (Buzău – Focșani – Bacău – Iași)",
+        "saptamani": 5,
+        "durata_scurt": "30 zile calendaristice (5 săptămâni)",
+        "lucrari": [
+            "desfacerea tablei de pe ghenele de aerisire (36 buc.), a gurilor de scurgere (6 buc.) și a glafurilor de "
+            "tablă de la atice (177 ml);",
+            "reparații locale la tencuielile ghenelor și chepengurilor (25 mp), la izolațiile hidrofuge existente (90 mp) "
+            "și refacerea planeității și a pantelor de scurgere (20 mp);",
+            "pregătirea suprafețelor (1.080 mp) și amorsarea în două straturi cu amorsă bituminoasă pe bază de solvent;",
+            "hidroizolație în două straturi: membrană termosudabilă fără ardezie (min. 3 kg/mp, voal poliester) + strat "
+            "final membrană termosudabilă cu ardezie (min. 4 mm), inclusiv racorduri și sub glafuri (1.080 mp);",
+            "6 guri de scurgere noi cu parafrunzare, 18 deflectoare noi, etanșarea a 26 de străpungeri și 26 de guri de "
+            "aerisire la străpungeri existente;",
+            "glafuri noi din tablă prevopsită 0,50 mm în cele două nuanțe existente (177 ml), îmbinări suprapuse 15 cm "
+            "etanșate cu două benzi de mastic poliuretanic, picurător la 3–4 cm, pantă 2–3% spre terasă;",
+            "capace noi într-o apă din tablă cutată prevopsită 0,50 mm la ghenele de aerisire (36 buc.), cu 100 mm "
+            "spațiu liber, fără prinderi în zidăria ghenei; evacuarea deșeurilor și proba de etanșeitate (inundare 24 h).",
+        ],
+        "etape": [
+            "Etapa 1 – Ordinul de începere; organizarea de șantier, ridicarea materialelor pe terasă, protecții.",
+            "Etapa 2 – Desfaceri (tablă ghene, guri de scurgere, glafuri); reparații tencuieli, izolații locale, pante.",
+            "Etapa 3 – Pregătirea suprafeței, amorsa în 2 straturi; guri de scurgere, deflectoare, străpungeri.",
+            "Etapa 4 – Hidroizolația în 2 straturi pe tronsoane (scările A, B, C), racorduri la atice și ghene.",
+            "Etapa 5 – Glafuri și capace de ghene din tablă prevopsită; proba de inundare 24 h, curățenie, recepție.",
+        ],
+        "materiale": [
+            "membrane bituminoase termosudabile ", Y("fără ardezie min. 3 kg/mp, voal poliester, ≥ 500 N/50 mm, "
+            "flexibilitate ≤ -10 °C și cu ardezie min. 4 mm, impact ≥ 600 mm (Sika/Bauder/Icopal sau echivalent, toate de "
+            "la același producător)"), "; amorsă bituminoasă pe bază de solvent; deflectoare PP cu flanșă termosudabilă; "
+            "guri de scurgere cu parafrunzar; tablă prevopsită 0,50 mm (BILKA) pentru glafuri și tablă cutată prevopsită "
+            "0,50 mm pentru ghene; mastic poliuretanic monocomponent UV.",
+        ],
+        "f3": [
+            ("Lot 1 – Desfaceri", [
+                ("1", "Desfacere tablă cutată ghene aerisire (0,5–0,6 mp/buc)", "buc", 36),
+                ("2", "Desfacere guri scurgere", "buc", 6),
+                ("3", "Desfacere glaf tablă atice", "ml", 177),
+            ]),
+            ("Lot 1 – Lucrări de construcții-montaj", [
+                ("1", "Reparații locale la tencuieli exterioare ghene aerisire, chepenguri acces terasă", "mp", 25),
+                ("2", "Reparații locale la izolații hidrofuge", "mp", 90),
+                ("3", "Refacerea planeității suprafețelor și a pantelor de scurgere", "mp", 20),
+                ("4", "Pregătirea suprafețelor ce urmează a fi hidroizolate: verificarea pantelor de scurgere și "
+                      "eventuale rectificări cu adaos de materiale bituminoase, precum și curățare generală în vederea "
+                      "amorsării", "mp", 1080),
+                ("5", "Procurare și montare guri de scurgere", "buc", 6),
+                ("6", "Procurare și montare deflectoare", "buc", 18),
+                ("7", "Procurare și aplicare amorsă pentru hidroizolații", "mp", 1080),
+                ("8", "Procurare și montare primul strat membrană termosudabilă", "mp", 1080),
+                ("9", "Procurare și montare strat final membrană termosudabilă cu ardezie", "mp", 1080),
+                ("10", "Etanșare străpungeri țevi metalice terasă", "buc", 26),
+                ("11", "Procurare și montare guri de aerisire la străpungeri existente", "buc", 26),
+                ("12", "Procurare și montare glaf tablă la atice, 0,5 mm grosime, 2 nuanțe", "ml", 177),
+                ("13", "Procurare și montare tablă cutată prevopsită la ghene aerisire (0,5–0,6 mp/buc)", "buc", 36),
+                ("14", "Încărcare, transport și evacuare deșeuri", "ans.", 1),
+                ("15", "Verificarea etanșeității prin probă cu apă (inundare 24 h)", "ans.", 1),
+            ]),
+        ],
+        "note_f3": "Sursa: Caietul de sarcini nr. 49365/20.11.2026 și Invitația de participare nr. 49376/20.11.2026 "
+                   "(UTGA Iași), Lot 1 – căminul T20, valoare estimată 278.943,00 lei fără TVA. Achiziție directă, "
+                   "criteriu: prețul cel mai scăzut din catalogul SICAP. Fără cerințe de experiență, cifră de afaceri "
+                   "sau ISO. Garanție de bună execuție 5%, garanția lucrărilor min. 36 de luni, produse cu garanție "
+                   "min. 2 ani. Se atașează fișele tehnice ale membranelor (fără ardezie și cu ardezie). Deplasarea și "
+                   "cazarea echipei (Buzău – Iași) sunt incluse în poziția 4. Vizită amplasament opțională (L–V "
+                   "08:00–15:00). Contact: ing. Ionela Pleșcan, 0232 702 437.",
+    },
+})
+
+
 # ---------------------------------------------------------------- utilitare docx
 
 def lei(v):
@@ -1745,6 +1842,10 @@ if __name__ == "__main__":
     LICITATII["dgaspc_mangalia"]["analize"] = analize_bilzi.DGASPC_MANGALIA
     LICITATII["dgaspc_mangalia"]["depunere"] = "e-mail office@dgaspc-ct.ro / achizitii@dgaspc-ct.ro sau la sediul DGASPC Constanța"
     LICITATII["dgaspc_mangalia"]["grafic"] = [[0.12, 0.18, 0.20, 0.20, 0.18, 0.12]]
+    LICITATII["tuiasi_t20"]["analize"] = analize_bilzi.TUIASI_T20
+    LICITATII["tuiasi_t20"]["depunere"] = ("e-mail ionela.plescan@staff.tuiasi.ro (oferta tehnico-economică detaliată) + "
+                                           "prețul Lotului 1 publicat în catalogul SICAP, până la 25.11.2026 ora 11:00")
+    LICITATII["tuiasi_t20"]["grafic"] = [[0.6, 0.4, 0, 0, 0], [0, 0.15, 0.35, 0.35, 0.15]]
     resurse = ofin.citeste_resurse()
     OUT.mkdir(exist_ok=True)
     chei = sys.argv[1:] or list(LICITATII)

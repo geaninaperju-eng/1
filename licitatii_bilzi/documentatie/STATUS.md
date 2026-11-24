@@ -83,3 +83,8 @@ Niciun fișier nu depășește 50 MB (cel mai mare: Călărași „1. CAIET DE S
 
 ## Descărcate pe 23.11.2026 (ofertă făcută – vezi licitatii_bilzi/oferte/ADV1558636)
 - `ADV1558636_Parc_Dofteana_III` – Romsilva DS Bacău, „Înlocuire acoperiș clădire Parc Dofteana – DSBC 2026 III” (republicarea ADV1549806), 252.389,69 lei, termen 26.11.2026 08:00, e-mail anunturi.seap@bacau.rosilva.ro + preț în catalogul SICAP. PDF scanat 57 pag., caiet nr. 11858/16.11.2026, același Deviz 8076/1/22.07.2026 și același F3 (verificat devizul 02). Contract: 2 luni de la ordinul de începere, fără limita 31.12; GBE 5%. Ofertă 243.749,78 lei fără TVA (96,6%, adaos 12%).
+
+## Descărcate pe 24.11.2026 (ofertă făcută – vezi licitatii_bilzi/oferte/TUIASI_49376)
+- `TUIASI_Cantina_T20_hidroizolatie` – Universitatea Tehnică „Gheorghe Asachi” Iași, invitația nr. 49376/20.11.2026 + caiet de sarcini nr. 49365/20.11.2026 (PDF scanate, 3 + 9 pag.), achiziție directă din catalogul SICAP (prețul cel mai mic), termen 25.11.2026 ora 11:00, oferta detaliată pe e-mail ionela.plescan@staff.tuiasi.ro (tel. 0232 702 437). Fără experiență/CA/ISO. Execuție 30 zile, garanție lucrări 36 luni, GBE 5%.
+  - Lot 1 – căminul T20 (278.943 lei): 1.080 mp hidroizolație bituminoasă în 2 straturi, 177 ml glaf, 36 capace ghene, 18 deflectoare, 6 guri scurgere. Ofertă 186.264,43 lei fără TVA (66,8%, adaos 25%).
+  - Lot 2 – cantina (205.922 lei): membrană EPDM autoadezivă (Resitrix SK W) 560 mp + relocarea chiller-ului cu macaraua și reumplerea cu freon – NEOFERTAT (cere frigotehnist autorizat F-gaz); de decis cu clientul.
