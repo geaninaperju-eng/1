@@ -1054,7 +1054,24 @@ LICITATII.update({
         "garantie": "36",
         "catalog": True,
         "decizie": TUIASI_DECIZIE,
-        "experienta": False, "acces": False, "vizita": False,
+        "experienta": False, "acces": False, "vizita": False, "decl_garantie": True,
+        "personal": [
+            ["Șef de echipă / conducător tehnic al lucrării", "1", "Răspunde de execuție, calitate și SSM"],
+            ["Hidroizolatori (montatori membrane termosudabile)", Y("3"), "Amorsă, membrane în 2 straturi, racorduri, "
+             "guri de scurgere, deflectoare"],
+            ["Tinichigii", Y("1"), "Glafuri la atice, capace ghene din tablă cutată"],
+            ["Zidar / lăcătuș", Y("1"), "Reparații tencuieli, pante, cadre metalice capace ghene"],
+            ["Muncitori necalificați", Y("2"), "Desfaceri, curățare, manipulare materiale, deșeuri"],
+        ],
+        "utilaje": [
+            "autoutilitară pentru transportul echipei, materialelor și deșeurilor; automacara închiriată pentru "
+            "ridicarea materialelor pe terasă (≤ 7,5 t, conform restricției de acces în campus);",
+            "arzătoare cu propan și butelii, role de presare, aparat cu aer cald pentru detalii;",
+            "aspirator industrial, perii, raclete, mașini de găurit și înșurubat, polizor unghiular;",
+            "abkant/foarfeci și clești de fălțuit pentru tablă, aparat de sudură pentru cadrele metalice;",
+            "stingătoare (min. 1 la fiecare punct de lucru cu flacără), echipamente individuale de protecție, "
+            "hamuri și linii de ancorare pentru lucrul lângă marginea terasei.",
+        ],
         "distanta": "cca. 300 km (Buzău – Focșani – Bacău – Iași)",
         "saptamani": 5,
         "durata_scurt": "30 zile calendaristice (5 săptămâni)",
@@ -1319,7 +1336,7 @@ def propunere_tehnica(doc, L):
         bullet(doc, t)
 
     P(doc, B("5. Resurse umane"), before=6)
-    table(doc, ["Funcție / meserie", "Număr", "Observații"], [
+    table(doc, ["Funcție / meserie", "Număr", "Observații"], L.get("personal") or [
         ["Șef de echipă / conducător tehnic al lucrării", "1", "Răspunde de execuție și calitate"],
         ["Dulgheri", Y("3"), "Structură lemn, astereală, rigle"],
         ["Montatori acoperiș / tinichigii", Y("3"), "Învelitoare, tinichigerie, sistem pluvial"],
@@ -1330,7 +1347,7 @@ def propunere_tehnica(doc, L):
       align="j")
 
     P(doc, B("6. Utilaje, echipamente și unelte"), before=6)
-    for t in ["autocamion pentru transportul materialelor și al molozului;",
+    for t in L.get("utilaje") or ["autocamion pentru transportul materialelor și al molozului;",
               "schele metalice și scări, cu sisteme de ancorare;",
               "scule electrice profesionale: fierăstraie circulare, mașini de înșurubat, foarfeci pentru tablă, mașini de găurit;",
               "echipament pentru aplicarea soluției ignifuge;",
@@ -1550,6 +1567,20 @@ def lista_personal(doc, L):
     semnatura(doc)
 
 
+def decl_garantie(doc, L):
+    antet(doc)
+    P(doc, B("DECLARAȚIE"), align="c", after=0)
+    P(doc, "privind perioada de garanție acordată lucrărilor", align="c", after=8)
+    P(doc, f"Titlul contractului: „{L['titlu']}”", after=8)
+    P(doc, f"Subsemnatul {FIRMA['admin']}, reprezentant legal al {FIRMA['denumire']}, declar pe propria răspundere că, "
+           f"în cazul atribuirii contractului, acordăm pentru lucrările executate o perioadă de garanție de "
+           f"{L['garantie']} de luni calendaristice de la data recepției la terminarea lucrărilor. În perioada de "
+           "garanție ne mobilizăm în maximum 5 zile de la solicitarea beneficiarului pentru constatarea defecțiunilor și "
+           "le remediem pe cheltuiala noastră în maximum 7 zile de la constatare. Produsele puse în operă beneficiază de "
+           "garanția producătorului, de minimum 2 ani, distinctă de garanția de bună execuție.", align="j")
+    semnatura(doc)
+
+
 def genereaza_docx(cheie):
     L = LICITATII[cheie]
     doc = new_doc()
@@ -1569,10 +1600,15 @@ def genereaza_docx(cheie):
                  "Lista nominală a personalului și a autovehiculelor pentru acces în cazarmă"]
         sectiuni += [decl_164_165_167, experienta, lista_personal]
     elif cheie in ("romeo", "loto", "cfr_galati", "cfr_mangalia", "cfr_sibiu", "salubris", "bjt_tulcea",
-                   "dgaspc_mangalia"):
+                   "dgaspc_mangalia", "tuiasi_t20"):
         opis += ["Declarație privind neîncadrarea în art. 164, 165 și 167 din Legea nr. 98/2016",
                  "Lista lucrărilor similare executate, cu documente constatatoare (informativ)"]
         sectiuni += [decl_164_165_167, experienta]
+    if L.get("decl_garantie"):
+        opis += ["Declarație privind perioada de garanție acordată lucrărilor (min. 36 de luni)",
+                 "Fișele tehnice și declarațiile de performanță ale materialelor (membrane bituminoase fără ardezie "
+                 "și cu ardezie)"]
+        sectiuni += [decl_garantie]
     if L.get("sectorial"):
         opis.insert(1, "DUAE completat în SEAP (răspuns la DUAE-cererea entității contractante)")
         opis.insert(2, "Dovada constituirii garanției de participare")
