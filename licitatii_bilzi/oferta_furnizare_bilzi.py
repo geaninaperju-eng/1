@@ -68,6 +68,57 @@ FURNIZARI = {
                   "Friulsider / Würth (de confirmat)",
                   "Friulsider / Würth (de confirmat)"],
     },
+    "um01517": {
+        "fisier": "ADV1559285_UM01517_Focsani_materiale_hidroizolatie",
+        "titlu": "Materiale hidroizolație (vopsea hidroizolantă și membrană bituminoasă)",
+        "scurt": "UM 01517",
+        "autoritate": "UNITATEA MILITARĂ 01517 FOCȘANI",
+        "adresa": "Str. Morii nr. 48, Focșani, județul Vrancea, cod 627300",
+        "contact": "Alexandru Caragata, tel. 0237 257 822; livrare: Nițu Ionuț, tel. 0766 668 778",
+        "email_depunere": "achizitii_01517@yahoo.com (subiectul e-mailului: ADV1559285)",
+        "nr_anunt": "ADV1559285",
+        "data_anunt": "24.11.2026",
+        "termen": "27.11.2026",
+        "ora": "14:30",
+        "cpv": "44810000-1 – Vopsele",
+        "valoare": 35000.00,
+        "procedura": "cumpărare directă",
+        "valabilitate": "30 (treizeci)",
+        "valabil_pana": "27.12.2026",
+        "livrare": "în maximum 10 (zece) zile calendaristice de la comanda fermă, la sediul UM 01517, Str. Morii nr. 48, "
+                   "Focșani, cu anunțarea telefonică a persoanei de contact (Nițu Ionuț, 0766 668 778) cu cel puțin 24 "
+                   "de ore înainte, inclusiv descărcarea",
+        "pct4": "4. Prețul ofertat este ferm, în lei, și include transportul până la beneficiar în Focșani și descărcarea. "
+                "Oferta se face pentru toate produsele, în cantitățile solicitate (800 l vopsea hidroizolantă și 500 mp "
+                "membrană bituminoasă). Plata: cu OP prin trezorerie, în maximum 60 de zile de la recepția finală; "
+                "BILZI STEEL PROFILE S.R.L. are/își deschide cont la Trezorerie (cerință a anunțului).",
+        "nota_pret": "Prețurile unitare includ transportul și descărcarea la sediul UM 01517 Focșani. Persoană de contact "
+                     "pentru ofertă: Șerban Marius, 0761 144 238.",
+        "garantie_txt": "Garanție: conform garanției producătorului (vopsea – min. 24 de luni de la livrare în ambalaj "
+                        "original sigilat; membrană – conform declarației de performanță); termen de valabilitate al "
+                        "produselor de min. 12 luni la livrare.",
+        "de_facut": "De făcut înainte de trimitere: confirmați la furnizor produsele exacte (vopseaua acrilico-poliuretanică "
+                    "cu alungire 80–380% și rezistență -30…+100 °C; membrana cu ardezie 4,5 kg/mp, armătură poliester, "
+                    "600/500 N/5 cm, stabilitate la cald min. 130 °C) și atașați POZELE și FIȘELE TEHNICE ale ambelor "
+                    "produse – cerință obligatorie din anunț. Confirmați contul de Trezorerie al firmei. Subiectul "
+                    "e-mailului: ADV1559285.",
+        "profit": 0.15,
+        "transport": "K13",
+        "decizie": Y("persoanele cu funcții de decizie din UM 01517 – se cer telefonic/e-mail la Alexandru Caragata "
+                     "(nu sunt publicate în anunț)"),
+        "produse": [
+            ("1", "Vopsea hidroizolantă pentru acoperiș tip terasă",
+             "bază: rășini 100% acrilice, poliuretanice sau hibrizi acrilico-poliuretanici; elasticitate (alungire la "
+             "rupere) 80% – 380%; rezistență la temperatură între -30 °C și +100 °C", "l", 800,
+             "K11", 1, "Vopsea hidroizolantă elastomerică acrilico-poliuretanică pentru terase, albă/gri, găleți 10–20 l – "),
+            ("2", "Membrană bituminoasă 4,5 kg/mp",
+             "finisaj exterior: ardezie; armătură: poliester; forța de rupere la tracțiune longitudinal 600 N/5 cm, "
+             "transversal 500 N/5 cm; stabilitate la cald min. 130 °C", "mp", 500,
+             "N16", 1, "Membrană bituminoasă termosudabilă cu ardezie 4,5 kg/mp, armătură poliester, role 10 mp – "),
+        ],
+        "marci": ["Kraft Total Proof PU Aqua / Vitex Vitacryl / Sika sau echivalent (de confirmat la furnizor)",
+                  "Sika Ecobit PA4,5 ardezie / Bauder / Icopal sau echivalent (de confirmat fișa tehnică: 600/500 N, 130 °C)"],
+    },
 }
 
 
@@ -137,10 +188,10 @@ def genereaza_docx(cheie):
     P(doc, f"2. Ne angajăm, în cazul în care oferta noastră este stabilită câștigătoare, să livrăm produsele {F['livrare']}.",
       align="j")
     P(doc, f"3. Ne angajăm să menținem această ofertă valabilă pentru o durată de {F['valabilitate']} zile, respectiv "
-           f"până la data de {Y('23.12.2026')}, și ea va rămâne obligatorie pentru noi și poate fi acceptată oricând "
+           f"până la data de {Y(F.get('valabil_pana', '23.12.2026'))}, și ea va rămâne obligatorie pentru noi și poate fi acceptată oricând "
            "înainte de expirarea perioadei de valabilitate.", align="j")
-    P(doc, "4. Prețul ofertat este ferm, în lei, și include toate taxele, transportul la beneficiar în București și "
-           "descărcarea. Oferta se face pentru întreg lotul (toate cele 6 produse).", align="j")
+    P(doc, F.get("pct4", "4. Prețul ofertat este ferm, în lei, și include toate taxele, transportul la beneficiar în "
+                 "București și descărcarea. Oferta se face pentru întreg lotul (toate cele 6 produse)."), align="j")
     P(doc, "5. Precizăm că nu depunem ofertă alternativă. Am înțeles că nu sunteți obligați să acceptați oferta cu cel mai "
            "scăzut preț sau orice altă ofertă pe care o puteți primi.", align="j")
     semnatura(doc)
@@ -156,7 +207,7 @@ def genereaza_docx(cheie):
     tr.append(["", B("TOTAL cu TVA"), "", "", "", B(lei(round(total * 1.21, 2)))])
     table(doc, ["Nr.", "Produs", "UM", "Cantitate", "Preț unitar lei fără TVA", "Valoare lei fără TVA"], tr,
           widths=[1, 7, 1.5, 2, 2.6, 2.9])
-    P(doc, "Prețurile unitare includ transportul și descărcarea la sediul UM 01151 București.", size=10)
+    P(doc, F.get("nota_pret", "Prețurile unitare includ transportul și descărcarea la sediul UM 01151 București."), size=10)
     semnatura(doc)
     page_break(doc)
 
@@ -166,20 +217,20 @@ def genereaza_docx(cheie):
     P(doc, "conformitatea produselor ofertate cu specificațiile tehnice", align="c", after=8)
     pt = [[p[0], f"{p[1]}: {p[2]}", f"{p[4]:g} {p[3]}", [p[7], Y(F["marci"][i])], "DA"]
           for i, (p, *_rest) in enumerate(rows)]
-    table(doc, ["Nr.", "Cerință (specificații tehnice UM 01151)", "Cantitate", "Produs ofertat – marcă / producător",
+    table(doc, ["Nr.", f"Cerință (specificații tehnice {F.get('scurt', 'UM 01151')})", "Cantitate", "Produs ofertat – marcă / producător",
                 "Conform"], pt, widths=[0.8, 6.5, 2, 6, 1.5], size=9)
     for t in [
         "Fiecare produs este însoțit de fotografie, fișă tehnică și certificat de calitate / declarație de conformitate "
         "(anexate la ofertă), conform condițiilor din anunț.",
         f"Livrare {F['livrare']}; recepția cantitativă și calitativă la sediul beneficiarului.",
-        "Garanție: conform garanției producătorului pentru tablă și elementele de fixare; cheresteaua se livrează "
-        "sănătoasă, fără putregai, cu umiditatea specifică lemnului de construcții.",
+        F.get("garantie_txt", "Garanție: conform garanției producătorului pentru tablă și elementele de fixare; cheresteaua "
+              "se livrează sănătoasă, fără putregai, cu umiditatea specifică lemnului de construcții."),
         "Produsele neconforme se înlocuiesc pe cheltuiala noastră în maximum 3 zile lucrătoare.",
     ]:
         bullet(doc, t)
-    P(doc, Y("De făcut înainte de trimitere: verificați la furnizor profilul tablei (cută 10 mm, lățime 910/860 mm) și "
-             "trecem marca exactă; atașați fotografiile, fișele tehnice și certificatele de calitate pentru toate "
-             "cele 6 produse – fără ele oferta nu intră în evaluare."), size=9)
+    P(doc, Y(F.get("de_facut", "De făcut înainte de trimitere: verificați la furnizor profilul tablei (cută 10 mm, "
+             "lățime 910/860 mm) și trecem marca exactă; atașați fotografiile, fișele tehnice și certificatele de "
+             "calitate pentru toate cele 6 produse – fără ele oferta nu intră în evaluare.")), size=9)
     semnatura(doc)
     page_break(doc)
 
@@ -274,7 +325,7 @@ def genereaza_xlsx(cheie):
     wr.column_dimensions["F"].width = 90
 
     wt = wb.create_sheet("Specificatii")
-    wt.append(["Nr.", "Produs", "Cerințe UM 01151", "UM", "Cantitate", "Produs ofertat", "Marcă / producător"])
+    wt.append(["Nr.", "Produs", f"Cerințe {F.get('scurt', 'UM 01151')}", "UM", "Cantitate", "Produs ofertat", "Marcă / producător"])
     for i, p in enumerate(F["produse"]):
         wt.append([p[0], p[1], p[2], p[3], p[4], p[7].rstrip(" –"), F["marci"][i]])
     wt.column_dimensions["C"].width = 70

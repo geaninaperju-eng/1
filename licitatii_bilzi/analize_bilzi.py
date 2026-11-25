@@ -349,3 +349,48 @@ TUIASI_T20.update({(CAP_TU_C, k): v for k, v in {
     "14": [("R15", 4.0), ("O03", 16.0)],
     "15": [("O03", 16.0), ("O02", 4.0), ("N26", 1.0)],
 }.items()})
+
+# ---------------------------------------------------------------- licitații 25.11.2026
+# Școala Gimnazială Centrală Câmpina – hidroizolație acoperiș 30 mp + plafon hol 15 mp (echipă de 2–3, 110 km)
+CAP_CP1 = "1. Reparația hidroizolației acoperișului – 30 mp"
+CAP_CP2 = "2. Reparația plafonului holului – 15 mp"
+CAP_CP3 = "3. Transport, deșeuri, predarea amplasamentului"
+CAMPINA = {(CAP_CP1, k): v for k, v in {
+    "1.1": [("O02", 0.25), ("O03", 0.30)],
+    "1.2": [("N22", 3.0), ("O04", 0.15), ("O03", 0.10)],
+    "1.3": [("N17", 0.30), ("O02", 0.05)],
+    # membrană SBS cu ardezie, suprapuneri 10–15%, termosudare
+    "1.4": [("H13", 1.12), ("N18", 0.30), ("O02", 0.35), ("O03", 0.10)],
+    "1.5": [("K05", 1.0), ("N10", 0.10), ("O02", 0.30)],
+}.items()}
+CAMPINA.update({(CAP_CP2, k): v for k, v in {
+    "2.1": [("H05", 1.20), ("O03", 0.15)],
+    "2.2": [("O03", 0.60), ("O04", 0.20)],
+    "2.3": [("K10", 0.30), ("O04", 0.20), ("O03", 0.10)],
+    # tinci ≤ 1 cm ≈ 13 kg/mp mortar uscat
+    "2.4": [("K06", 13.0), ("O04", 0.70), ("O03", 0.30)],
+    "2.5": [("K07", 1.50), ("O04", 0.45)],
+    "2.6": [("K08", 0.15), ("K09", 0.35), ("O07", 0.35)],
+    "2.7": [("K12", 3.0), ("O03", 1.0)],
+}.items()})
+CAMPINA.update({(CAP_CP3, k): v for k, v in {
+    # 3 drumuri Buzău – Câmpina dus-întors (3 × 220 km)
+    "3.1": [("R11", 660.0)],
+    "3.2": [("R15", 0.5), ("O03", 3.0)],
+}.items()})
+
+# Termocentrale Constanța – 600 mp membrană SBS 3 mm peste hidroizolația existentă, profile Z 150 ml, wassernas 75 ml
+# echipă de 4 la 230 km, cca. 10 zile de lucru: 2 drumuri cu microbuzul și 40 de nopți de cazare (poziția 8)
+CAP_TC = "Refacere hidroizolație – zona vestiare Secția Chimică"
+TERMOCENTRALE = {(CAP_TC, k): v for k, v in {
+    "1": [("O02", 0.04), ("O03", 0.05), ("N18", 0.03), ("N17", 0.05)],
+    # profil Z: 0,65 m × 1,5 mm × 7,85 = 7,65 kg/ml (+1% pierderi), fasonare la abkant, 3 ancore/ml
+    "2": [("K02", 7.73), ("K03", 1.0), ("K04", 3.0), ("O06", 0.15), ("O02", 0.15), ("O03", 0.10), ("U02", 0.10)],
+    # wassernas din tablă prevopsită 0,50 mm, desfășurată cca. 35 cm + suprapuneri; 2 holșuruburi/ml
+    "3": [("M20", 0.40), ("K04", 2.0), ("O02", 0.25), ("O03", 0.10), ("U02", 0.05)],
+    "4": [("K01", 1.12), ("N18", 0.25), ("O02", 0.14), ("O03", 0.06)],
+    "5": [("K05", 1.05), ("N10", 0.05), ("O02", 0.15)],
+    "6": [("U04", 2.0), ("O03", 16.0)],
+    "7": [("R15", 1.0), ("O03", 4.0)],
+    "8": [("T01", 500.0), ("R11", 920.0), ("R10", 40.0)],
+}.items()}

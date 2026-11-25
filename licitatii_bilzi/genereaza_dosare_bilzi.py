@@ -1138,6 +1138,217 @@ LICITATII.update({
                    "cazarea echipei (Buzău – Iași) sunt incluse în poziția 4. Vizită amplasament opțională (L–V "
                    "08:00–15:00). Contact: ing. Ionela Pleșcan, 0232 702 437.",
     },
+    "campina": {
+        "fisier": "ADV1559372_Scoala_Centrala_Campina_hidroizolatie_plafon",
+        "valabilitate": "30 (treizeci)",
+        "titlu": "Lucrări de reparații hidroizolație acoperiș și plafon hol",
+        "autoritate": "ȘCOALA GIMNAZIALĂ CENTRALĂ – MUNICIPIUL CÂMPINA",
+        "autoritate_scurt": "Școala Gimnazială Centrală Câmpina",
+        "email_depunere": "scoalacentralaph@gmail.com",
+        "nr_anunt": "ADV1559372",
+        "data_anunt": "24.11.2026",
+        "termen": "02.12.2026",
+        "ora": "16:00",
+        "cpv": "45261420-4 – Lucrări de impermeabilizare (principal); 45410000-4 – Lucrări de tencuire (secundar)",
+        "valoare": 9917.36,
+        "amplasament": "Școala Gimnazială Centrală, Calea Doftanei nr. 13, municipiul Câmpina, județul Prahova – etajul II "
+                       "(acoperiș deasupra ușii unei săli de clasă și plafonul holului din partea opusă a etajului)",
+        "procedura": "cumpărare directă",
+        "durata": "10 (zece) zile calendaristice de la data emiterii și comunicării ordinului de începere a lucrărilor",
+        "garantie": "24",
+        "catalog": False,
+        "decizie": Y("Prof. Cazacu Gabriela-Elena (director), Ec. Buzățoiu Elena-Simona (administrator financiar), "
+                     "Ing. Popa Eugen (administrator de patrimoniu) – din caietul de sarcini; restul membrilor "
+                     "Consiliului de administrație se cer la scoalacentralaph@gmail.com"),
+        "experienta": False, "acces": False, "vizita": False,
+        "fara_decl_contract": True, "anexa_detaliata": True,
+        "opis_extra": ["Certificat de atestare fiscală ANAF, valabil la data depunerii ofertei"],
+        "anexa_titlu": "ANEXĂ LA FORMULARUL NR. 5 – CENTRALIZATOR DE PREȚURI",
+        "extra": [("decl_asumare_caiet", "Formularul nr. 7 – Declarație privind asumarea cerințelor din caietul de sarcini"),
+                  ("consimtamant", "Formularul nr. 8 – Consimțământ privind prelucrarea datelor cu caracter personal"),
+                  ("info_generale", "Formularul nr. 9 – Informații generale privind ofertantul"),
+                  ("decl_garantie", "Declarație privind perioada de garanție a lucrărilor (24 de luni)")],
+        "personal": [
+            ["Șef de echipă / conducător tehnic al lucrării", "1", "Răspunde de execuție, calitate și SSM"],
+            ["Hidroizolator (montator membrane termosudabile)", "1", "Pregătire suport, amorsă, membrană, racorduri"],
+            ["Zidar-tencuitor / zugrav", "1", "Decopertare, tinci, glet, lavabil la plafon"],
+            ["Muncitor necalificat", "1", "Protecții, curățenie, manipulare materiale, deșeuri"],
+        ],
+        "utilaje": [
+            "autoutilitară pentru transportul echipei, materialelor și deșeurilor;",
+            "arzător cu propan și butelie, rolă de presare, stingător lângă punctul de lucru cu flacără;",
+            "platformă / schelă mobilă de interior pentru lucrul la plafon (h ≈ 3 m), cu balustradă;",
+            "mașină de găurit/șlefuit cu aspirare, gletiere, drișcă, malaxor electric pentru mortar;",
+            "folii și benzi pentru protecția pardoselilor, tâmplăriei și echipamentelor; bandă de delimitare.",
+        ],
+        "distanta": "cca. 110 km (Buzău – Ploiești – Câmpina)",
+        "saptamani": 2,
+        "durata_scurt": "10 zile calendaristice (2 săptămâni)",
+        "lucrari": [
+            "acoperiș (30 mp): delimitarea zonei afectate, verificarea hidroizolației existente și a zonelor de racord, "
+            "îndepărtarea controlată a porțiunilor desprinse/neaderente, curățarea mecanică și repararea locală a "
+            "suportului, până la o suprafață stabilă, curată și complet uscată;",
+            "acoperiș: amorsare cu amorsă bituminoasă și membrană bituminoasă modificată cu polimeri SBS, min. 4 mm, "
+            "armătură poliester, cu ardezie (protecție UV), termosudată cu suprapuneri continue;",
+            "acoperiș: etanșarea completă a îmbinărilor, marginilor și racordurilor la hidroizolația existentă și la "
+            "elementele constructive din perimetru (25 ml) – stratul final uniform, fără cute, perforări sau goluri;",
+            "plafon hol (15 mp): protejarea pardoselilor, tâmplăriei și echipamentelor, îndepărtarea tencuielii și a "
+            "finisajelor neaderente până la betonul stabil, curățarea, desprăfuirea și asperizarea suportului;",
+            "plafon: punte de aderență pentru beton, tinci aplicat în max. 1 cm, glet de finisare șlefuit și racordat la "
+            "finisajele existente, amorsă și vopsea lavabilă albă de interior în două straturi;",
+            "evacuarea tuturor deșeurilor la operatori autorizați, curățenia și predarea amplasamentului fără materiale "
+            "sau deșeuri rămase; lucrul cu delimitarea zonei, fără accesul elevilor.",
+        ],
+        "etape": [
+            "Ziua 1 – Ordinul de începere; delimitarea zonelor, protecții, decopertarea plafonului și a porțiunilor "
+            "desprinse de hidroizolație.",
+            "Zilele 2–3 – Repararea suportului acoperișului, amorsa; punte de aderență și tinci la plafon (uscare).",
+            "Zilele 4–5 – Membrana SBS cu ardezie termosudată, etanșarea racordurilor (doar pe vreme uscată, suport uscat).",
+            "Zilele 6–8 – Glet, șlefuire, amorsă și lavabil în 2 straturi la plafon.",
+            "Zilele 9–10 – Remedieri, evacuarea deșeurilor, curățenia, recepția la terminarea lucrărilor.",
+        ],
+        "materiale": [
+            "membrană bituminoasă ", Y("SBS min. 4 mm, armătură poliester, cu ardezie (Sika / Icopal / Bauder sau "
+            "echivalent)"), "; amorsă bituminoasă cu solvent; bandă bitum-aluminiu și mastic pentru racorduri; punte de "
+            "aderență pentru beton (Ceresit CT 19 sau echivalent); mortar tinci Ceresit CT 29; glet de finisaj; amorsă și "
+            "vopsea lavabilă albă de interior.",
+        ],
+        "f3": [
+            ("1. Reparația hidroizolației acoperișului – 30 mp", [
+                ("1.1", "Delimitarea zonei, verificarea hidroizolației existente, îndepărtarea controlată a porțiunilor "
+                        "desprinse/neaderente și curățarea mecanică a suprafeței", "mp", 30),
+                ("1.2", "Repararea locală a defectelor superficiale ale suportului (mortar de reparații), uscare", "mp", 30),
+                ("1.3", "Amorsarea suportului cu amorsă bituminoasă", "mp", 30),
+                ("1.4", "Membrană bituminoasă SBS min. 4 mm, armătură poliester, cu ardezie (protecție UV), termosudată, "
+                        "cu suprapuneri continue", "mp", 30),
+                ("1.5", "Etanșarea îmbinărilor, marginilor și racordurilor la hidroizolația existentă și la elementele din "
+                        "perimetru (bandă bitum-aluminiu + mastic)", "ml", 25),
+            ]),
+            ("2. Reparația plafonului holului – 15 mp", [
+                ("2.1", "Delimitarea și protejarea perimetrului de lucru (pardoseli, tâmplărie, echipamente)", "mp", 15),
+                ("2.2", "Îndepărtarea controlată a tencuielii și finisajelor neaderente până la suportul din beton, "
+                        "colectarea resturilor", "mp", 15),
+                ("2.3", "Curățarea mecanică și asperizarea betonului, aplicarea punții de aderență", "mp", 15),
+                ("2.4", "Refacerea stratului de tinci pentru interior, grosime max. 1 cm", "mp", 15),
+                ("2.5", "Glet de finisare, șlefuire și racordare la finisajele existente", "mp", 15),
+                ("2.6", "Amorsă pentru zugrăveli și vopsea lavabilă albă de interior în două straturi", "mp", 15),
+                ("2.7", "Platformă / schelă mobilă de interior pentru lucrul la plafon (închiriere 3 zile)", "buc", 1),
+            ]),
+            ("3. Transport, deșeuri, predarea amplasamentului", [
+                ("3.1", "Transportul materialelor și deplasarea echipei Buzău – Câmpina (3 drumuri dus-întors)", "ans.", 1),
+                ("3.2", "Colectarea, încărcarea, transportul și predarea deșeurilor la operatori autorizați; curățenia "
+                        "finală", "ans.", 1),
+            ]),
+        ],
+        "note_f3": "Sursa: Caietul de sarcini nr. 5714/23.11.2026 (Școala Gimnazială Centrală Câmpina) – cantități "
+                   "estimate 30 mp hidroizolație acoperiș și 15 mp reparație plafon; valoare estimată 9.917,36 lei fără "
+                   "TVA. Documentația nu are listă de cantități – articolele de mai sus sunt defalcarea BILZI a "
+                   "operațiilor din caiet. Fără cerințe de experiență, cifră de afaceri sau ISO. Garanție lucrări 24 luni, "
+                   "GBE 5%. Contact: ing. Popa Eugen, 0736 170 588.",
+    },
+    "termocentrale": {
+        "fisier": "ADV1559315_Termocentrale_Constanta_hidroizolatie_vestiare",
+        "valabilitate": "60 (șaizeci)",
+        "lege99": True,
+        "titlu": "Lucrări de refacere izolație hidrofugă la clădiri industriale",
+        "autoritate": "TERMOCENTRALE CONSTANȚA S.R.L.",
+        "autoritate_scurt": "Termocentrale Constanța S.R.L.",
+        "email_depunere": "achizitii@cetpalas.ro (oferta în format PDF)",
+        "nr_anunt": "ADV1559315",
+        "data_anunt": "24.11.2026",
+        "termen": "27.11.2026",
+        "ora": "23:30",
+        "cpv": "45261310-0 – Lucrări de hidroizolare",
+        "valoare": 55000.00,
+        "amplasament": "Termocentrale Constanța S.R.L., B-dul Aurel Vlaicu nr. 123, Constanța – Clădirea Extindere Cameră "
+                       "de Comandă și vestiare personal exploatare, Secția Chimică (planșeu la +5 m, cca. 600 mp)",
+        "procedura": "achiziție directă (sectorială)",
+        "durata": "maximum 15 (cincisprezece) zile lucrătoare, începând cu ziua următoare emiterii ordinului de începere "
+                  "a lucrărilor",
+        "garantie": "60",
+        "catalog": False,
+        "decizie": Y("Costache Laurențiu (Director General) și persoanele din Compartimentul Achiziții (Tatiana Bangal) – "
+                     "lista completă se cere la achizitii@cetpalas.ro"),
+        "experienta": False, "acces": False, "vizita": False,
+        "extra": [("decl_asumare_caiet", "Declarație privind asumarea cerințelor din caietul de sarcini"),
+                  ("decl_garantie", "Declarație privind perioada de garanție a lucrărilor (5 ani)")],
+        "personal": [
+            ["Șef de echipă / conducător tehnic al lucrării", "1", "Execuție, calitate, SSM-SU-PM, convenția cu beneficiarul"],
+            ["Hidroizolatori (montatori membrane termosudabile)", Y("2"), "Resudare zone umflate, membrană SBS 3 mm, "
+             "racorduri, bandă Aluband"],
+            ["Lăcătuș / tinichigiu", Y("1"), "Montaj profile Z din tablă 1,5 mm și pervaze (wassernas)"],
+            ["Muncitor necalificat", Y("1"), "Curățare, ridicarea materialelor la +5 m, deșeuri"],
+        ],
+        "utilaje": [
+            "autoutilitară pentru echipă și scule; camion pentru materiale (Buzău – Constanța);",
+            "arzătoare cu propan și butelii, role de presare, aparat cu aer cald pentru detalii; stingătoare la fiecare "
+            "punct de lucru cu flacără (zona are închideri din fibră de sticlă inflamabilă – se protejează cu plăci/pături "
+            "ignifuge pe durata termosudării);",
+            "rotopercutor, mașini de înșurubat, polizor unghiular, foarfeci pentru tablă; profilele Z se fasonează la "
+            "abkant în atelier;",
+            "scripete / automacara pentru ridicarea materialelor pe acoperiș (+5 m) doar prin locurile indicate de "
+            "beneficiar;",
+            "echipamente individuale de protecție, hamuri și linii de ancorare pentru lucrul la margine.",
+        ],
+        "distanta": "cca. 230 km (Buzău – Slobozia – Constanța)",
+        "saptamani": 3,
+        "durata_scurt": "15 zile lucrătoare (3 săptămâni)",
+        "lucrari": [
+            "inspectarea suprafeței (600 mp), secționarea zonelor umflate și încrețite ale membranei existente și "
+            "resudarea lor cu flacăra pe suport; curățarea suprafeței;",
+            "profile metalice în formă de Z din tablă zincată 1,5 mm (desfășurată 60–70 cm), 150 ml, prinse de "
+            "structura metalică de susținere a închiderii din fibră de sticlă și de placa de bază, pentru etanșarea "
+            "racordului cu suprafața orizontală;",
+            "pervaze (wassernas) din tablă pe conturul clădirii, 75 ml, fixate cu holșuruburi; în total cca. 600 de "
+            "holșuruburi/ancore pentru profile și pervaze;",
+            "hidroizolație nouă peste stratul existent: membrană flexibilă din bitum elastomeric (SBS) armată cu voal "
+            "poliester nețesut, film termofuzibil pe ambele fețe, 3 mm, flexibilitate la rece -16 °C, stabilitate la "
+            "cald 100 °C, aplicată continuu, uniform, aderent, fără bășici sau încrețituri (600 mp), cu întoarceri peste "
+            "profilele Z și pervaze;",
+            "etanșarea racordurilor cu benzi Aluband (bitum-aluminiu), cca. 150 ml;",
+            "ridicarea materialelor pe acoperiș (+5 m) prin locurile indicate de beneficiar, evacuarea și transportul "
+            "reziduurilor și decopertărilor; lucrul doar la temperaturi între 10 și 30 °C.",
+        ],
+        "etape": [
+            "Etapa 1 – Convenția SSM-SU-PM, ordinul de începere, predarea amplasamentului; aprovizionarea, ridicarea "
+            "materialelor la +5 m.",
+            "Etapa 2 – Inspectarea suprafeței, secționarea și resudarea zonelor umflate; curățarea.",
+            "Etapa 3 – Montajul profilelor Z (150 ml) și al pervazelor wassernas (75 ml).",
+            "Etapa 4 – Membrana SBS 3 mm termosudată pe zone (recepție pe faze, la indicația beneficiarului); bandă Aluband "
+            "la racorduri.",
+            "Etapa 5 – Verificarea etanșeității, remedieri, evacuarea deșeurilor, recepția la terminarea lucrărilor.",
+        ],
+        "materiale": [
+            "membrană bituminoasă ", Y("SBS 3 mm, voal poliester nețesut, film termofuzibil pe ambele fețe, "
+            "flexibilitate la rece -16 °C, stabilitate la cald 100 °C (Sika / Icopal / Bauder / General Membrane sau "
+            "echivalent, cu agrement tehnic)"), "; tablă zincată 1,5 mm fasonată în profile Z; tablă prevopsită 0,50 mm "
+            "(BILKA) pentru pervaze; holșuruburi cu dibluri metalice; bandă Aluband (bitum-aluminiu); mastic "
+            "poliuretanic; propan.",
+        ],
+        "f3": [
+            ("Refacere hidroizolație – zona vestiare Secția Chimică", [
+                ("1", "Inspectarea suprafeței, secționarea zonelor umflate/încrețite ale membranei existente și resudarea "
+                      "lor cu flacăra pe suport; curățare și amorsare locală", "mp", 600),
+                ("2", "Profile Z din tablă zincată 1,5 mm, desfășurată 60–70 cm, fasonate la abkant, montate pe "
+                      "structura metalică a închiderii din fibră de sticlă și pe placa de bază", "ml", 150),
+                ("3", "Pervaz (wassernas) din tablă pe conturul clădirii, fixat cu holșuruburi", "ml", 75),
+                ("4", "Hidroizolație cu membrană SBS 3 mm armată cu voal poliester, termosudată peste hidroizolația "
+                      "existentă, inclusiv întoarceri și racorduri", "mp", 600),
+                ("5", "Etanșarea racordurilor cu bandă Aluband (bitum-aluminiu)", "ml", 150),
+                ("6", "Ridicarea materialelor pe acoperiș (+5 m) prin locurile indicate de beneficiar", "ans.", 1),
+                ("7", "Evacuarea și transportul reziduurilor și decopertărilor la depozit autorizat", "ans.", 1),
+                ("8", "Transportul materialelor Buzău – Constanța, deplasarea și cazarea echipei", "ans.", 1),
+            ]),
+        ],
+        "note_f3": "Sursa: Caietul de sarcini nr. 6649/19.11.2026 (Termocentrale Constanța S.R.L.) – 600 mp membrană "
+                   "bituminoasă peste hidroizolația existentă, profile Z 150 ml (cap. III; cap. II indică 145 ml), "
+                   "wassernas 75 ml, cca. 600 holșuruburi, bandă Aluband cca. 150 ml. Achiziție directă sectorială "
+                   "(Legea nr. 99/2016), prețul cel mai scăzut; singura cerință de calificare: certificat ONRC. Oferta "
+                   "financiară = Formularul 1 + deviz cu cantități, consumuri de materiale, manoperă, utilaje, transport, "
+                   "CAM, cheltuieli indirecte și profit (foile F3, Analiza, C6–C9). Garanție lucrări 5 ani, termen 15 "
+                   "zile lucrătoare, plată la 30 de zile. Vizită opțională: cerere la mihai.bucineanu@cetpalas.ro cu "
+                   "min. 1 zi lucrătoare înainte.",
+    },
 })
 
 
@@ -1581,6 +1792,103 @@ def decl_garantie(doc, L):
     semnatura(doc)
 
 
+def preturi_pe_pozitii(L):
+    """Prețuri unitare pe poziții (material / manoperă+utilaj+transport) cu CAM, indirecte și profit repartizate
+    proporțional; diferența de rotunjire se trece la ultima poziție cu cantitatea 1, ca suma să dea exact totalul."""
+    c = L["calc"]
+    k = c["total"] / c["directe"]
+    rows = []
+    for cap, cod, den, um, cant, pu, val in c["linii"]:
+        mat = round(pu["Material"] * k, 2)
+        man = round(sum(v for kk, v in pu.items() if kk != "Material") * k, 2)
+        rows.append([cap, cod, den, um, cant, mat, man, round(cant * (mat + man), 2)])
+    dif = round(c["total"] - sum(r[7] for r in rows), 2)
+    for r in reversed(rows):
+        if r[4] == 1:
+            r[6] = round(r[6] + dif, 2)
+            r[7] = round(r[5] + r[6], 2)
+            break
+    return rows
+
+
+def anexa_detaliata(doc, L):
+    P(doc, B(L.get("anexa_titlu", "ANEXĂ LA FORMULARUL DE OFERTĂ – CENTRALIZATOR DE PREȚURI")), align="c", size=13,
+      after=6)
+    P(doc, f"Titlul contractului: „{L['titlu']}”", after=4)
+    P(doc, "Prețul ofertei cuprinde toată gama de lucrări care fac obiectul achiziției, precum și orice alte cheltuieli "
+           "suplimentare pentru realizarea lucrărilor. Prețurile sunt exprimate în lei, fără TVA.", size=9, align="j")
+    if not L.get("calc"):
+        return
+    rows = preturi_pe_pozitii(L)
+    tr, n = [], 0
+    for cap in [cp for cp, _ in L["f3"]]:
+        tr.append(["", B(cap), "", "", "", "", ""])
+        for r in rows:
+            if r[0] == cap:
+                n += 1
+                tr.append([str(n), r[2], r[3], f"{r[4]:g}", lei(r[5]), lei(r[6]), lei(r[7])])
+    tot = L["calc"]["total"]
+    tr.append(["", B("TOTAL fără TVA"), "", "", "", "", B(lei(tot))])
+    tr.append(["", "TVA 21%", "", "", "", "", lei(L["calc"]["tva"])])
+    tr.append(["", B("TOTAL cu TVA"), "", "", "", "", B(lei(round(tot + L["calc"]["tva"], 2)))])
+    table(doc, ["Nr. crt.", "Denumire lucrare", "UM", "Cantitate", "Preț unitar material", "Preț unitar manoperă*",
+                "Preț total (cant. × (5+6))"], tr, widths=[1, 6.4, 1.1, 1.5, 2.2, 2.2, 2.6], size=9)
+    P(doc, "* Prețul unitar de manoperă include și utilajele, transportul, contribuția asiguratorie pentru muncă, "
+           "cheltuielile indirecte și profitul; detalierea pe resurse este în Excel (foile F3, Analiza, C6–C9).", size=8)
+    semnatura(doc)
+
+
+def decl_asumare_caiet(doc, L):
+    antet(doc)
+    P(doc, B("DECLARAȚIE PE PROPRIA RĂSPUNDERE"), align="c", size=13, after=0)
+    P(doc, "privind asumarea cerințelor din caietul de sarcini", align="c", after=8)
+    P(doc, f"Subsemnatul {FIRMA['admin']}, reprezentant legal al {FIRMA['denumire']}, cu sediul în {FIRMA['sediu']}, în "
+           f"calitate de ofertant la achiziția contractului având ca obiect „{L['titlu']}”, cod CPV {L['cpv']}, organizată "
+           f"de {L['autoritate']}, declar pe propria răspundere că:", align="j")
+    bullet(doc, "la elaborarea ofertei am ținut cont de toate cerințele/obligațiile prevăzute în documentația de "
+                "atribuire și în clarificările publicate la aceasta;")
+    bullet(doc, "ne asumăm toate cerințele/obligațiile prevăzute în caietul de sarcini.")
+    semnatura(doc)
+
+
+def consimtamant(doc, L):
+    antet(doc)
+    P(doc, B("CONSIMȚĂMÂNT PENTRU PRELUCRAREA DATELOR CU CARACTER PERSONAL"), align="c", size=13, after=8)
+    P(doc, f"Subsemnatul {FIRMA['admin']}, posesor al CI seria ", None, " nr. ", None, ", în calitate de administrator al "
+           f"{FIRMA['denumire']}, declar prin prezenta că sunt de acord ca {L['autoritate']} să fie autorizată, prin "
+           "compartimentul de specialitate responsabil cu evaluarea/selecția și contractarea, să proceseze datele mele "
+           f"personale/ale entității juridice pe care o reprezint în cadrul procedurii „{L['titlu']}”, în baza "
+           "Regulamentului (UE) 2016/679, precum și prelucrarea, stocarea/arhivarea datelor conform normelor legale "
+           "incidente, în scopurile:", align="j")
+    for t in ["[X] Participarea la procedura de achiziție publică",
+              "[X] Totalitatea demersurilor pentru atribuirea contractului de achiziție publică",
+              "[X] Executarea contractului de achiziție publică"]:
+        P(doc, t, after=0)
+    P(doc, "la care sunt parte în calitate de ofertant.", before=4)
+    semnatura(doc)
+
+
+def info_generale(doc, L):
+    antet(doc)
+    P(doc, B("INFORMAȚII GENERALE PRIVIND OPERATORUL ECONOMIC"), align="c", size=13, after=8)
+    table(doc, ["", "Informație"], [
+        ["1. Denumirea", FIRMA["denumire"]],
+        ["2. Codul fiscal", FIRMA["cui"]],
+        ["3. Adresa sediului central", FIRMA["sediu"]],
+        ["4. Reprezentant legal / administrator", FIRMA["admin"]],
+        ["5. Telefon", FIRMA["tel"]],
+        ["6. Fax", "–"],
+        ["7. E-mail", FIRMA["email"]],
+        ["8. Cont bancar (IBAN) / banca", None],
+        ["9. Certificatul de înregistrare", [f"{FIRMA['rc']}, ", Y("CUI 39666285, emis de ONRC Buzău în 2018 – data exactă din certificat")]],
+        ["10. Obiectul principal de activitate (CAEN)", Y("4391 – Lucrări de învelitori, șarpante și terase la construcții (de verificat în certificatul constatator)")],
+        ["11. Puncte de lucru", Y("– (dacă este cazul)")],
+        ["12. Piața principală a afacerilor", "Lucrări de învelitori, tinichigerie și hidroizolații, județul Buzău și județele limitrofe"],
+        ["Cifra de afaceri pe ultimul an financiar (31.12.2025)", ["3.214.066 lei (", Y("echivalent euro la cursul mediu BNR 2025"), ")"]],
+    ], widths=[6, 11])
+    semnatura(doc)
+
+
 def genereaza_docx(cheie):
     L = LICITATII[cheie]
     doc = new_doc()
@@ -1594,16 +1902,26 @@ def genereaza_docx(cheie):
             "Declarație privind respectarea art. 51 din Legea nr. 98/2016 (mediu, social, relații de muncă)",
             "Declarație privind evitarea conflictului de interese (art. 59–60 din Legea nr. 98/2016)"]
     sectiuni = [propunere_tehnica, formular_oferta, anexa_oferta, decl_contract, decl_art51, decl_art60]
+    if L.get("anexa_detaliata"):
+        sectiuni[2] = anexa_detaliata
+        opis[4] = "Anexa la formularul de ofertă – centralizator de prețuri (material / manoperă pe poziții)"
+    if L.get("fara_decl_contract"):
+        sectiuni.remove(decl_contract)
+        opis.remove("Declarație privind însușirea modelului de contract")
     if cheie == "c4":
         opis += ["Declarație privind neîncadrarea în art. 164, 165 și 167 din Legea nr. 98/2016",
                  "Lista lucrărilor similare executate, cu documente constatatoare",
                  "Lista nominală a personalului și a autovehiculelor pentru acces în cazarmă"]
         sectiuni += [decl_164_165_167, experienta, lista_personal]
     elif cheie in ("romeo", "loto", "cfr_galati", "cfr_mangalia", "cfr_sibiu", "salubris", "bjt_tulcea",
-                   "dgaspc_mangalia", "tuiasi_t20"):
+                   "dgaspc_mangalia", "tuiasi_t20", "campina", "termocentrale"):
         opis += ["Declarație privind neîncadrarea în art. 164, 165 și 167 din Legea nr. 98/2016",
                  "Lista lucrărilor similare executate, cu documente constatatoare (informativ)"]
         sectiuni += [decl_164_165_167, experienta]
+    opis += L.get("opis_extra", [])
+    for nume, titlu in L.get("extra", []):
+        opis.append(titlu)
+        sectiuni.append(globals()[nume])
     if L.get("decl_garantie"):
         opis += ["Declarație privind perioada de garanție acordată lucrărilor (min. 36 de luni)",
                  "Fișele tehnice și declarațiile de performanță ale materialelor (membrane bituminoase fără ardezie "
@@ -1618,7 +1936,7 @@ def genereaza_docx(cheie):
     for s in sectiuni:
         page_break(doc)
         s(doc, L)
-    if L.get("sectorial"):
+    if L.get("sectorial") or L.get("lege99"):
         lege_sectoriala(doc, L)
     footer(doc, f"{FIRMA['denumire']} – Ofertă „{L['titlu']}”")
     OUT.mkdir(exist_ok=True)
@@ -1659,6 +1977,8 @@ def lege_sectoriala(doc, L=None):
         for run in par.runs:
             x = run.text
             for a, b in SECTORIAL:
+                if L and L.get("lege99") and a == "anunțului de cumpărare directă":
+                    continue
                 x = x.replace(a, b)
             if L and "licitație deschisă" in L.get("procedura", ""):
                 x = x.replace("anunțului de participare simplificat", "anunțului de participare")
@@ -1882,6 +2202,15 @@ if __name__ == "__main__":
     LICITATII["tuiasi_t20"]["depunere"] = ("e-mail ionela.plescan@staff.tuiasi.ro (oferta tehnico-economică detaliată) + "
                                            "prețul Lotului 1 publicat în catalogul SICAP, până la 25.11.2026 ora 11:00")
     LICITATII["tuiasi_t20"]["grafic"] = [[0.6, 0.4, 0, 0, 0], [0, 0.15, 0.35, 0.35, 0.15]]
+    LICITATII["campina"]["analize"] = analize_bilzi.CAMPINA
+    LICITATII["campina"]["depunere"] = ("e-mail scoalacentralaph@gmail.com (formularele 1–9, propunerea tehnică, oferta "
+                                        "financiară, certificat ONRC și certificat de atestare fiscală ANAF), până la "
+                                        "02.12.2026 ora 16:00")
+    LICITATII["campina"]["grafic"] = [[0.7, 0.3], [0.5, 0.5], [0.4, 0.6]]
+    LICITATII["termocentrale"]["analize"] = analize_bilzi.TERMOCENTRALE
+    LICITATII["termocentrale"]["depunere"] = ("e-mail achizitii@cetpalas.ro, oferta în format PDF (Formularele 1, 2, 3, 4, T + "
+                                              "deviz), până la 27.11.2026 ora 23:30")
+    LICITATII["termocentrale"]["grafic"] = [[0.30, 0.45, 0.25]]
     resurse = ofin.citeste_resurse()
     OUT.mkdir(exist_ok=True)
     chei = sys.argv[1:] or list(LICITATII)

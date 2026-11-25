@@ -159,3 +159,16 @@ F07;Transport la beneficiar București (camion 10–12 t, Buzău–București du
 H27;Deflector (aerator) de terasă din PP, cu flanșă de racord termosudabilă la membrane bituminoase și capac;buc;Material;115;Estimare (aeratoare terasă PP cu flanșă bituminoasă ≈ 95–140 lei fără TVA) – de verificat
 H28;Manșon/gură de aerisire pentru străpungere existentă (țeavă), cu flanșă bituminoasă și colier;buc;Material;75;Estimare (manșoane de etanșare străpungeri cu flanșă ≈ 60–90 lei fără TVA) – de verificat
 H29;Mortar de reparații ciment-var pentru tencuieli exterioare (uscat, sac);kg;Material;0.6;Ca M33 (mortar M100 uscat, sac) – de verificat
+K01;Membrană bituminoasă SBS 3 mm, voal poliester nețesut, film termofuzibil pe ambele fețe, flexibilitate la rece -16 °C, stabilitate la cald 100 °C;mp;Material;19.26;Hornbach.ro 25.11.2026 (căutare membrane bituminoase 10 mp: 233 lei/rolă cu TVA → 19,26 lei/mp fără TVA) – produsul exact (SBS -16 °C) de confirmat la furnizor
+K02;Tablă zincată 1,5 mm (foi 1000×2000 mm) pentru profile Z de racord;kg;Material;5.6;Drive F3 2026 (preturi_drive.csv): tablă zincată 1×1000×2000 OL32 5,42 lei/kg → 5,60 lei/kg pentru 1,5 mm – de verificat
+K03;Fasonare profile din tablă groasă la abkant (3 îndoiri, debitare), la atelier;ml;Material;9;Estimare (servicii de îndoire tablă 1,5–2 mm ≈ 2,5–3,5 lei/îndoire·ml) – de verificat
+K04;Holșurub zincat 8×80 mm cu diblu metalic (ancoră) pentru prinderea profilelor;buc;Material;1.1;Estimare (diblu metalic + holșurub 8×80 ≈ 1,0–1,3 lei/buc fără TVA) – de verificat
+K05;Bandă autoadezivă bitum-aluminiu 10 cm (tip Aluband / Ekobit alu);ml;Material;8.86;Dedeman (preturi_online.csv): Ekobit bandă alu 10 cm × 5 m 53,59 lei cu TVA → 8,86 lei/ml fără TVA
+K06;Mortar tinci pentru tencuieli fine (Ceresit CT 29, sac 25 kg);kg;Material;0.96;Dedeman (preturi_online.csv): Ceresit CT 29 25 kg 23,97 lei fără TVA → 0,96 lei/kg
+K07;Glet de finisaj pe bază de ipsos (sac 20 kg);kg;Material;1.6;Estimare (glet ipsos sac 20 kg ≈ 38 lei cu TVA) – de verificat
+K08;Amorsă (grund) pentru zugrăveli interioare;l;Material;7;Estimare (amorsă acrilică 10 l ≈ 85 lei cu TVA) – de verificat
+K09;Vopsea lavabilă albă pentru interior (găleată 15 l);l;Material;9;Estimare (lavabilă albă interior 15 l ≈ 160 lei cu TVA) – de verificat
+K10;Punte de aderență pentru suport din beton (tip Ceresit CT 19 / Baumit Betonkontakt);kg;Material;9;Estimare (găleată 15 kg ≈ 160 lei cu TVA) – de verificat
+K11;Vopsea hidroizolantă elastomerică acrilico-poliuretanică pentru terase (găleți 10–20 l);l;Material;23;Hornbach.ro 25.11.2026: Vitex Vitacryl 750 ml 26,90 lei cu TVA (35,87 lei/l la ambalaj mic); la găleți de 10–20 l și 800 l comandă ≈ 23 lei/l fără TVA – ESTIMARE, de cerut ofertă furnizorului
+K12;Platformă / schelă mobilă de interior (închiriere, pe zi);zi;Utilaj;60;Estimare – de verificat
+K13;Transport la beneficiar Focșani (autoutilitară 3,5–7,5 t, Buzău–Focșani dus-întors ~180 km, cu descărcare);cursă;Transport;750;T01 3 lei/t·km × ~3,5 t × 90 km ≈ 950 → tarif cursă BILZI estimat 750 lei – de verificat
