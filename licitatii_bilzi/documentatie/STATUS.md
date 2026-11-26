@@ -94,3 +94,9 @@ Niciun fișier nu depășește 50 MB (cel mai mare: Călărași „1. CAIET DE S
 - `ADV1559315_Termocentrale_Constanta` – Termocentrale Constanța S.R.L. (sectorial), „Lucrări de refacere izolație hidrofugă la clădiri industriale”, 55.000 lei, termen 27.11.2026 23:30, e-mail achizitii@cetpalas.ro (PDF). Documentație scanată 27 pag. (caiet de sarcini nr. 6649/19.11.2026 la pag. 7–9; Formular 1 ofertă, 2 clauze contractuale, 3 mediu, 4 social, T propunere tehnică). Doar ONRC; vizită opțională. 600 mp SBS 3 mm, profile Z tablă 1,5 mm 150 ml, wassernas 75 ml, Aluband 150 ml. Ofertă 53.321,91 lei fără TVA (96,9%, adaos 15,5%).
 - `ADV1559285_UM01517_Focsani_materiale` – UM 01517 Focșani, FURNIZARE 800 l vopsea hidroizolantă + 500 mp membrană 4,5 kg ardezie, 35.000 lei, termen 27.11.2026 14:30, e-mail achizitii_01517@yahoo.com (subiect ADV1559285), cont la Trezorerie, poze + fișe tehnice obligatorii. Ofertă 31.572,00 lei fără TVA (90,2%, profit 15%).
 - `ADV1559387_Energonuclear_Cernavoda` – demontare panouri sandwich la 132–138 m în CNE Cernavodă, 38.500 lei, termen 26.11.2026 14:00 – NEOFERTAT (lucru la mare înălțime pe sit nuclear, termen prea scurt pentru acces).
+
+## 26.11.2026 – raport zilnic (250 anunțuri, 38 noi) – nicio licitație nouă potrivită pentru ofertă
+- ATENȚIE: ADV1558035 (Biblioteca Județeană Tulcea, acoperiș, ofertă BILZI 26.923,38 lei din 20.11) a fost ANULAT pe 25.11 („omiterea unor specificații tehnice esențiale”) – de urmărit republicarea.
+- 🟡 SNR Radiocom – Stația Ortișoara (Timiș, ~560 km): hidroizolație terase ~300 mp, 102.850 lei, termen 23.12.2026, SEAP – în afara razei, de decis cu clientul.
+- 🟡 AJOFM Buzău – amenajări interioare str. Păcii 29, 103.305,80 lei, termen 02.12.2026 – nu e acoperiș.
+- ⚪ Municipiul Alexandria ADV1559515 – adăpost ALA (uși etanșe, tencuieli), verificat F3 – nu e acoperiș.
